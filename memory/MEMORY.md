@@ -1,2 +1,4 @@
-- [FP Collective Scraper](project_fpcollective.md) — Fishing Planet loadout analyzer with React HTML reports via fp-collective.com API
-- [User plays Fishing Planet](user_gamer.md) — PC gamer, currently at Rocky Lake level range, iPhone screenshots
+- [FP Collective Scraper](project_fpcollective.md) — Fishing Planet loadout analyzer with React HTML reports, hosted at fpreports.click
+- [User plays Fishing Planet](user_gamer.md) — PC gamer magicat777, level 27, extensive DLC inventory, progressing through locations
+- [Workflow preferences](feedback_workflow.md) — Manual screenshot analysis, imperial units, deploy after each report, check inventory before recommending gear
+- [API and data references](reference_apis.md) — fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
