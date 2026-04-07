@@ -1,0 +1,2 @@
+- [FP Collective Scraper](project_fpcollective.md) — Fishing Planet loadout analyzer with React HTML reports via fp-collective.com API
+- [User plays Fishing Planet](user_gamer.md) — PC gamer, currently at Rocky Lake level range, iPhone screenshots

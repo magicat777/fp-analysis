@@ -1,0 +1,314 @@
+{
+  "player": {
+    "name": "magicat777",
+    "level": 25,
+    "baitcoins": 301,
+    "credits": 600070,
+    "last_updated": "2026-04-03"
+  },
+  "rods": {
+    "telescopic": [
+      {"name": "Troy 23 SE", "type": "Telescopic", "length": "23'", "line_weight": "3-13 Lb", "action": "Mod Fast", "pieces": 7},
+      {"name": "TeleFloat 21'3\"", "type": "Telescopic", "length": "21'3\"", "line_weight": "2-6 Lb", "action": "Mod Fast", "pieces": 7},
+      {"name": "Purple Bat 23'", "type": "Telescopic", "length": "23'", "line_weight": "3-13 Lb", "action": "Mod Fast", "pieces": 7},
+      {"name": "TeleDragon 23'", "type": "Telescopic", "length": "23'", "line_weight": "3-13 Lb", "action": "Mod Fast", "pieces": 7},
+      {"name": "TeleFloat 14'9\"", "type": "Telescopic", "length": "14'9\"", "line_weight": "2-4 Lb", "action": "Mod Fast", "pieces": 5},
+      {"name": "TeleValentine 23'", "type": "Telescopic", "length": "23'", "line_weight": "2-11 Lb", "action": "Mod Fast", "pieces": 7},
+      {"name": "TeleValentine 16'4\"", "type": "Telescopic", "length": "16'4\"", "line_weight": "3-13 Lb", "action": "Mod Fast", "pieces": 5}
+    ],
+    "match": [
+      {"name": "Nero 12'10\" Sport", "type": "Match", "length": "12'10\"", "line_weight": "5-12 Lb", "action": "Moderate", "pieces": 3},
+      {"name": "OmniFloat 14'10\" SE", "type": "Match", "length": "14'10\"", "line_weight": "5-7.3 Lb", "action": "Moderate", "pieces": 3},
+      {"name": "Brutus 10'10\" SE", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "SkeleHand 11'5\"", "type": "Match", "length": "11'5\"", "line_weight": "10-27.6 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "MCT McCarp 11'2\"", "type": "Match", "length": "11'2\"", "line_weight": "11-30.1 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "Nero 12'10\"", "type": "Match", "length": "12'10\"", "line_weight": "5-12 Lb", "action": "Moderate", "pieces": 3},
+      {"name": "Nero 10'10\"", "type": "Match", "length": "10'10\"", "line_weight": "5-11 Lb", "action": "Moderate", "pieces": 3},
+      {"name": "IrishClover 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-35 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "GoldPot 10'10\"", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "GreenBeer 11'10\"", "type": "Match", "length": "11'10\"", "line_weight": "11-33 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "SCT DeepCrawler 11'2\"", "type": "Match", "length": "11'2\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "SCT DeepCrawler 12'2\"", "type": "Match", "length": "12'2\"", "line_weight": "11-33 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "GGC MatchMonster 10'10\"", "type": "Match", "length": "10'10\"", "line_weight": "11-30.5 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "GGC MatchMonster 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-35 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "CGT FinGiant 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-25 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "EquatorMatch 8'6\" SE", "type": "Match", "length": "8'6\"", "line_weight": "28.6-83.8 Lb", "action": "Moderate", "pieces": 3, "note": "VERY HIGH line weight — saltwater class"},
+      {"name": "Fenix 14'10\" SE", "type": "Match", "length": "14'10\"", "line_weight": "5-22 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "Brutus 10'10\" SE", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3}
+    ],
+    "spinning": [
+      {"name": "FeatherLight 6'3\" Sport", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/32-1/4 Oz", "power": "Ultralight"},
+      {"name": "RIVERTEX DracoSpin 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "note": "STRONG"},
+      {"name": "UncleSam 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/2-1 3/4 Oz", "power": "Heavy"},
+      {"name": "JigWinner 8'10\" SE", "type": "Spinning", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
+      {"name": "Thora 9'6\" SE", "type": "Spinning", "length": "9'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy"},
+      {"name": "Rivertex Zeus 8'10\" SE", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "note": "TOP TIER — best for monsters"},
+      {"name": "Elemental 6'1\"", "type": "Spinning", "length": "6'1\"", "lure_weight": "1/16-1/2 Oz", "power": "Ultralight"},
+      {"name": "FeatherLight 6'6\" NE", "type": "Spinning", "length": "6'6\"", "lure_weight": "1/28-1/3 Oz", "power": "Ultralight"},
+      {"name": "ValueSpin 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
+      {"name": "FeatherLight 7'", "type": "Spinning", "length": "7'", "lure_weight": "1/16-2/5 Oz", "power": "Ultralight"},
+      {"name": "ValueSpin 8'6\"", "type": "Spinning", "length": "8'6\"", "lure_weight": "1/4-3/4 Oz", "power": "Light"},
+      {"name": "Aurora 7'6\"", "type": "Spinning", "length": "7'6\"", "lure_weight": "3/8-3/4 Oz", "power": "Light"},
+      {"name": "Aurora 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/4-1 1/2 Oz", "power": "Light"},
+      {"name": "Rivertex Saltmaster 7'7\" SE", "type": "Spinning", "length": "7'7\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "note": "SALTWATER — strong"},
+      {"name": "CGT MonSpin 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy"},
+      {"name": "Aurora 8'2\"", "type": "Spinning", "length": "8'2\"", "lure_weight": "3/8-3/4 Oz", "power": "Light"},
+      {"name": "JigWinner 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
+      {"name": "FeatherLight 6'6\" NE", "type": "Spinning", "length": "6'6\"", "lure_weight": "1/28-1/3 Oz", "power": "Ultralight"},
+      {"name": "Zeus 8'2\" NE", "type": "Spinning", "length": "8'2\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy"}
+    ],
+    "casting": [
+      {"name": "FarCaster 8'6\" Sport", "type": "Casting", "length": "8'6\"", "lure_weight": "1/2-1 1/2 Oz", "power": "Medium"},
+      {"name": "CosmoCast 6'3\" Sport", "type": "Casting", "length": "6'3\"", "lure_weight": "1-3 Oz", "power": "X-Heavy", "line_weight": "12-50.5 Lb"},
+      {"name": "BassCaster 7'3\" Sport NE", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
+      {"name": "DragonCast 7'3\" NE", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
+      {"name": "LibertyCast 8'10\"", "type": "Casting", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Med Light"},
+      {"name": "VBO Caster 7'10\"", "type": "Casting", "length": "7'10\"", "lure_weight": "1/2-5/8 Oz", "power": "Heavy"},
+      {"name": "VBO Caster 7'3\"", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
+      {"name": "ValueCast 6'6\" SE", "type": "Casting", "length": "6'6\"", "lure_weight": "1/4-6/7 Oz", "power": "Med Light"},
+      {"name": "BassCaster 7'10\"", "type": "Casting", "length": "7'10\"", "lure_weight": "1/2-1 5/9 Oz", "power": "Heavy"},
+      {"name": "CosmoCast 7'3\" SE", "type": "Casting", "length": "7'3\"", "lure_weight": "1-3 Oz", "power": "X-Heavy", "line_weight": "12-55 Lb", "note": "STRONG"},
+      {"name": "BassCaster 7'3\" NE", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
+      {"name": "CosmoCast 7'3\" SE", "type": "Casting", "length": "7'3\"", "lure_weight": "1-3 Oz", "power": "X-Heavy", "line_weight": "12-55 Lb"},
+      {"name": "WBT BassStriker 7'10\" SE", "type": "Casting", "length": "7'10\"", "lure_weight": "1/2-1 5/8 Oz", "power": "Heavy"},
+      {"name": "WBT BassEnchanter 7'3\" NE", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
+      {"name": "FarCaster 8'6\" SE", "type": "Casting", "length": "8'6\"", "lure_weight": "1/2-1 1/2 Oz", "power": "Medium"},
+      {"name": "CGT HugeCaster 6'3\"", "type": "Casting", "length": "6'3\"", "lure_weight": "1-3 Oz", "power": "X-Heavy", "line_weight": "12-50.5 Lb", "note": "STRONG"},
+      {"name": "ValueCast 6'6\"", "type": "Casting", "length": "6'6\"", "lure_weight": "1/4-6/7 Oz", "power": "Med Light"}
+    ],
+    "feeder": [
+      {"name": "Big Ali 13'10\" SE", "type": "Feeder", "length": "13'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy"},
+      {"name": "AllRound 11'10\" SE", "type": "Feeder", "length": "11'10\"", "casting_weight": "1 1/6-3 1/5 Oz", "power": "Med-Heavy"},
+      {"name": "Big Ali 13'10\" SE", "type": "Feeder", "length": "13'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy"}
+    ],
+    "bottom": [
+      {"name": "Mokona 12'10\" SE", "type": "Bottom", "length": "12'10\"", "casting_weight": "6-8 7/8 Oz", "power": "X-Heavy", "note": "MONSTER FISH ROD"},
+      {"name": "Heavy Chaser 9'10\" SE", "type": "Bottom", "length": "9'10\"", "casting_weight": "6-8.5 Oz", "power": "X-Heavy", "note": "MONSTER FISH ROD"}
+    ]
+  },
+  "reels": {
+    "spinning": [
+      {"name": "MiniSpin 800", "max_drag": "2.75 Lb", "ratio": "5.8:1", "recovery": "19.6\""},
+      {"name": "Prima 2500 Sport", "max_drag": "9.8 Lb", "ratio": "5.2:1", "recovery": "31.5\""},
+      {"name": "RIVERTEX Dragonus 5500", "max_drag": "43 Lb", "ratio": "4.4:1", "recovery": "31.5\"", "note": "VERY STRONG"},
+      {"name": "Hydra 3000", "max_drag": "12.1 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
+      {"name": "Patriot'sDream 4000", "max_drag": "19.8 Lb", "ratio": "5:1", "recovery": "35.5\""},
+      {"name": "InspireCast 3000 SE", "max_drag": "6.4 Lb", "ratio": "5.1:1", "recovery": "27.5\""},
+      {"name": "EspiraDoublePunch 5500 SE", "max_drag": "26.4 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
+      {"name": "EspiraML 3000 SE", "max_drag": "12.1 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
+      {"name": "EspiraML 3000 SE", "max_drag": "12.1 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
+      {"name": "Hornet Swarm 5000 SE", "max_drag": "30.9 Lb", "ratio": "5.1:1", "recovery": "35.5\""},
+      {"name": "Prima 3500 SE", "max_drag": "11 Lb", "ratio": "5.2:1", "recovery": "31.5\""},
+      {"name": "FatBoySpin 6000 SE", "max_drag": "19.8 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
+      {"name": "ThunderSpin 5500 SE", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "note": "TOP TIER"},
+      {"name": "HeartSpinner 2500", "max_drag": "10.2 Lb", "ratio": "5.7:1", "recovery": "31.8\""},
+      {"name": "Ghost Reel 4000", "max_drag": "19.8 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
+      {"name": "Ghost Reel 5000", "max_drag": "25.3 Lb", "ratio": "4.6:1", "recovery": "31.8\""},
+      {"name": "MiniSpin 1200", "max_drag": "3.4 Lb", "ratio": "5.5:1", "recovery": "23.5\""},
+      {"name": "InspireCast 2000", "max_drag": "5.6 Lb", "ratio": "5.1:1", "recovery": "27.5\""},
+      {"name": "WinCast 1500", "max_drag": "4.9 Lb", "ratio": "4.0:1", "recovery": "23.5\""},
+      {"name": "CallistoXS 1400", "max_drag": "5.75 Lb", "ratio": "5.3:1", "recovery": "23.5\""},
+      {"name": "MCT CarpAxel 6000", "max_drag": "26.5 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
+      {"name": "InspireCast 3000", "max_drag": "6.4 Lb", "ratio": "5.1:1", "recovery": "27.5\""},
+      {"name": "LuckyShamrock 5500", "max_drag": "26.4 Lb", "ratio": "4.5:1", "recovery": "27.5\""},
+      {"name": "LuckyShamrock 6500", "max_drag": "28.6 Lb", "ratio": "4.5:1", "recovery": "27.5\""},
+      {"name": "LuckyShamrock 4500", "max_drag": "24.2 Lb", "ratio": "4.5:1", "recovery": "27.5\""},
+      {"name": "RedFish 4500", "max_drag": "30 Lb", "ratio": "5.4:1", "recovery": "31.5\""},
+      {"name": "RedFish 5500", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "note": "TOP TIER"},
+      {"name": "SCT Pouncer 6000", "max_drag": "28.6 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
+      {"name": "SCT Pouncer 5000", "max_drag": "26.4 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
+      {"name": "GGC Garn'nGloReel 4500", "max_drag": "39 Lb", "ratio": "5.4:1", "recovery": "31.5\""},
+      {"name": "GGC Garn'nGloReel 4500", "max_drag": "38.9 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
+      {"name": "CGT SpinTitan 5500", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "note": "TOP TIER"},
+      {"name": "CGT SpinTitan 4500", "max_drag": "34.2 Lb", "ratio": "5.4:1", "recovery": "31.8\""},
+      {"name": "Fileur 11000 SE", "max_drag": "79.4 Lb", "ratio": "5.2:1", "recovery": "43.3\"", "note": "MONSTER — 2nd strongest"},
+      {"name": "L'Impulsion 12000 SE", "max_drag": "81.5 Lb", "ratio": "5.6:1", "recovery": "47.2\"", "note": "MONSTER — STRONGEST REEL"},
+      {"name": "LineGlider 4000 SE", "max_drag": "22 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
+      {"name": "Big River 6000 SE", "max_drag": "18 Lb", "ratio": "6:1", "recovery": "47.2\""},
+      {"name": "FatBoySpin 6000 SE", "max_drag": "19.8 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
+      {"name": "FeederForcer 5000 SE", "max_drag": "9.6 Lb", "ratio": "4.8:1", "recovery": "30.5\""},
+      {"name": "Big River 6000 SE", "max_drag": "18 Lb", "ratio": "6:1", "recovery": "47.2\""},
+      {"name": "EspiraDoublePunch 6500 SE", "max_drag": "28.6 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
+      {"name": "EspiraDoublePunch 4500 SE", "max_drag": "24.2 Lb", "ratio": "4.5:1", "recovery": "27.5\""},
+      {"name": "Callisto MG 2500 SE", "max_drag": "7.7 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
+      {"name": "EspiraML 3000 SE", "max_drag": "12.1 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
+      {"name": "Ambusher 9000 SE", "max_drag": "49.6 Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "VERY STRONG"},
+      {"name": "ThunderSpin 5500 SE", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\""},
+      {"name": "Prima 3500", "max_drag": "9.9 Lb", "ratio": "5.2:1", "recovery": "31.5\""}
+    ],
+    "casting": [
+      {"name": "Helios 2000S", "max_drag": "15.4 Lb", "ratio": "5.8:1", "recovery": "21.6\""},
+      {"name": "Cyclone 6500 Sport", "max_drag": "48.5 Lb", "ratio": "6.5:1", "recovery": "31.5\"", "note": "TOP TIER CASTING"},
+      {"name": "Counsellor 3500 P Sport", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
+      {"name": "Basilisk 3500 P", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
+      {"name": "AmericanEagle 2000", "max_drag": "9.9 Lb", "ratio": "7.4:1", "recovery": "37.8\""},
+      {"name": "VBO Reel 3500 P", "max_drag": "22 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
+      {"name": "VBO Reel 3500 S", "max_drag": "22 Lb", "ratio": "7.2:1", "recovery": "33.5\""},
+      {"name": "LowDex 1500 P SE", "max_drag": "7.7 Lb", "ratio": "6.6:1", "recovery": "19.5\""},
+      {"name": "Counsellor 3500 P SE", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
+      {"name": "Cyclone 6500 SE", "max_drag": "48.5 Lb", "ratio": "6.5:1", "recovery": "31.5\"", "note": "TOP TIER CASTING"},
+      {"name": "Attorney 2000 S", "max_drag": "7.7 Lb", "ratio": "7.3:1", "recovery": "31.5\""},
+      {"name": "CGT BBgun 4500", "max_drag": "44 Lb", "ratio": "6.5:1", "recovery": "31.5\"", "note": "STRONG"},
+      {"name": "VorteX 7000 SE", "max_drag": "33 Lb", "ratio": "6.3:1", "recovery": "31.5\""},
+      {"name": "Counsellor 3500 P SE", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
+      {"name": "Cyclone 6500 SE", "max_drag": "48.5 Lb", "ratio": "6.5:1", "recovery": "31.5\""},
+      {"name": "WBT Maelstrom 4500", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "59.8\""},
+      {"name": "WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.4:1", "recovery": "31.5\""}
+    ]
+  },
+  "lines": {
+    "mono": [
+      {"name": "Mono .005\"", "test": "2 Lb", "diameter": ".005\"", "length": "500 yd", "qty": 1640},
+      {"name": "Mono .008\"", "test": "4 Lb", "diameter": ".008\"", "length": "500 yd", "qty": 1640},
+      {"name": "Mono .009\"", "test": "6 Lb", "diameter": ".009\"", "length": "1000 yd", "qty": 2924},
+      {"name": "Mono .010\"", "test": "8 Lb", "diameter": ".010\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .012\"", "test": "12 Lb", "diameter": ".012\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .014\"", "test": "16 Lb", "diameter": ".014\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .016\"", "test": "20 Lb", "diameter": ".016\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .018\"", "test": "25 Lb", "diameter": ".018\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .02\"", "test": "30 Lb", "diameter": ".02\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .024\"", "test": "41.8 Lb", "diameter": ".024\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Mono .033\"", "test": "83.7 Lb", "diameter": ".033\"", "length": "1000 yd", "qty": 3280, "note": "HEAVIEST MONO"}
+    ],
+    "braid": [
+      {"name": "Braid .003\"", "test": "4 Lb", "diameter": ".003\"", "length": "500 yd", "qty": 1640},
+      {"name": "Braid .004\"", "test": "5.5 Lb", "diameter": ".004\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .005\"", "test": "4 Lb", "diameter": ".005\"", "length": "500 yd", "qty": 1250},
+      {"name": "Braid .005\"", "test": "4 Lb", "diameter": ".005\"", "length": "500 yd", "qty": 1250},
+      {"name": "Braid .0055\"", "test": "7.5 Lb", "diameter": ".0055\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .006\"", "test": "6 Lb", "diameter": ".006\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .007\"", "test": "8 Lb", "diameter": ".007\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .008\"", "test": "23 Lb", "diameter": ".008\"", "length": "1000 yd", "qty": 328},
+      {"name": "Braid .008\"", "test": "20 Lb", "diameter": ".008\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .008\"", "test": "10 Lb", "diameter": ".008\"", "length": "1000 yd", "qty": 1725},
+      {"name": "Braid .0085\"", "test": "17 Lb", "diameter": ".0085\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .0085\"", "test": "17 Lb", "diameter": ".0085\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .009\"", "test": "20 Lb", "diameter": ".009\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Braid .011\"", "test": "30 Lb", "diameter": ".011\"", "length": "1000 yd", "qty": 3280, "note": "HEAVY BRAID"},
+      {"name": "Braid .012\"", "test": "41.2 Lb", "diameter": ".012\"", "length": "1000 yd", "qty": 3280, "note": "HEAVIEST BRAID"}
+    ],
+    "fluoro": [
+      {"name": "Fluoro .008\"", "test": "6 Lb", "diameter": ".008\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .009\"", "test": "8 Lb", "diameter": ".009\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .011\"", "test": "10 Lb", "diameter": ".011\"", "length": "1000 yd", "qty": 2870},
+      {"name": "Fluoro .011\"", "test": "10 Lb", "diameter": ".011\"", "length": "1000 yd", "qty": 410},
+      {"name": "Fluoro .012\"", "test": "12 Lb", "diameter": ".012\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .012\"", "test": "13 Lb", "diameter": ".012\"", "length": "1000 yd", "qty": 426},
+      {"name": "Fluoro .012\"", "test": "12 Lb", "diameter": ".012\"", "length": "1000 yd", "qty": 328},
+      {"name": "Fluoro .014\"", "test": "15 Lb", "diameter": ".014\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .016\"", "test": "20 Lb", "diameter": ".016\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .018\"", "test": "26 Lb", "diameter": ".018\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .02\"", "test": "28 Lb", "diameter": ".02\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .022\"", "test": "36 Lb", "diameter": ".022\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .024\"", "test": "40 Lb", "diameter": ".024\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .025\"", "test": "44 Lb", "diameter": ".025\"", "length": "1000 yd", "qty": 3280},
+      {"name": "Fluoro .033\"", "test": "79 Lb", "diameter": ".033\"", "length": "1000 yd", "qty": 3280, "note": "HEAVIEST FLUORO"},
+      {"name": "Fluoro .034\"", "test": "83.8 Lb", "diameter": ".034\"", "length": "1000 yd", "qty": 3280, "note": "HEAVIEST FLUORO"}
+    ]
+  },
+  "leaders": {
+    "mono": [
+      {"name": "Mono Leader .004\"", "test": "1 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .005\"", "test": "1.5 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .006\"", "test": "2 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .008\"", "test": "3 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .009\"", "test": "3.5 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .010\"", "test": "5 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .012\"", "test": "6.2 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .014\"", "test": "8 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .016\"", "test": "10 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .018\"", "test": "13 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .020\"", "test": "18 Lb", "length": "0.82'"},
+      {"name": "Mono Leader .028\"", "test": "30 Lb", "length": "0.82'"}
+    ],
+    "fluoro": [
+      {"name": "Fluorocarbon Leader .008\"", "test": "4.4 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .009\"", "test": "7.9 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .009\"", "test": "7.5 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .014\"", "test": "15 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .015\"", "test": "18 Lb", "length": "1.64'"},
+      {"name": "Fluorocarbon Leader .016\"", "test": "20 Lb", "length": "1.64'"},
+      {"name": "Fluorocarbon Leader .016\"", "test": "20 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .024\"", "test": "36.9 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .033\"", "test": "79.3 Lb", "length": "1.64'"},
+      {"name": "Fluorocarbon Leader .033\"", "test": "79.9 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .034\"", "test": "83.8 Lb", "length": "0.82'"},
+      {"name": "Fluorocarbon Leader .034\"", "test": "83.8 Lb", "length": "1.64'"}
+    ],
+    "titanium": [
+      {"name": "Titanium Leader .004\"", "test": "7 Lb", "length": "1.64'"},
+      {"name": "Titanium Leader .005\"", "test": "11 Lb", "length": "1.64'"}
+    ]
+  },
+  "tackle_summary": {
+    "hooks": {"simple": 16, "barbless": 18, "offset": 6, "total": 38},
+    "bobbers": {"floats": 37, "wagglers": 2, "sliders": 1, "total": 40},
+    "sinkers": {"regular": 22, "bullet": 5, "total": 27},
+    "feeders": {"cage": 9, "total": 9},
+    "bells": {"common": 5, "total": 5},
+    "rigs": 2
+  },
+  "lures_summary": {
+    "spoons": {"regular": 62, "barbless": 13, "total": 75},
+    "spinners": {"regular": 23, "barbless": 8, "total": 31},
+    "spinnerbaits": 6,
+    "buzzbaits": 2,
+    "bass_jigs": 30,
+    "soft_baits": {"worms": 12, "grubs": 9, "shads": 24, "tubes": 4, "craws_creatures": 29, "total": 78},
+    "jigheads": {"barbless": 29, "common": 14, "total": 43},
+    "wobblers": {"crankbaits": 46, "minnows": 8, "jerkbaits": 2, "total": 56},
+    "topwater": {"walkers": 13, "poppers": 11, "frogs": 5, "total": 29}
+  },
+  "baits_summary": {
+    "fresh": 22,
+    "common": 10,
+    "insect_worm": 8,
+    "saltwater": 1,
+    "total": 47
+  },
+  "groundbaits": {
+    "feeder_bases": ["Active Feeder", "Big Browne Bream Soaker", "Black Poacher", "Black Phantom", "Carp Meal Golden", "Catfish Destroyer", "Crimson Cold", "Grand Fish Feeder", "Guard Fish Feeder", "Universal Mixture"],
+    "aromas": ["BigBeam Spicy", "CSL Cyclo Shrimp", "Caramelized", "Molasses", "Spicy Roach (x2)", "Sweet Cracker"],
+    "particles": ["Hemp-Corn", "Oilcake Pele"]
+  },
+  "equipment": {
+    "rod_cases": ["CGT TitanTower", "CupidCove", "FPA Cup Rod Case", "GGC Armature", "JolyForce Rod Case", "MagFin GoldenDragon", "MCT FishBelly", "SCT MarchBox", "Sport Rod Case", "VBO Rod Case", "WBT RIVERTEX RedSheath Rod Case", "Coffin Rod Case", "Patrick's Rod Case", "Four&One", "Triple Case (x2)", "Lucky Seven", "V-Case", "Pentax"],
+    "tackle_boxes": ["GGC TackleShell", "LoveBox (x2)", "MagFin EasyFish", "RIVERTEX GoldenDragon", "Sport Lure Box", "Easy Go Belt Pocket", "ChumChest XL", "BigBox L"],
+    "vests": ["BornAmerican Fishing Jacket", "CGT Goliath", "FPA Cup Jacket", "GarryScott DragonSkin F", "GGC BomberJaws", "MCT Carpster", "PassionBomber", "SCT FatCat (x2)", "Sport Shirt", "VBO Fishing Jacket", "WBT Bass Winner Jacket", "Travel Pro II", "Grizzly Vest", "Pro Angler", "Wild Element Deluxe Angler Vest"],
+    "hats": ["Bass Boss Cap", "Catfish Combat Cap", "Fishing Planet Cap", "GarryScott DragonMaster Cap", "Predator Hunter Cap", "Salmon Star Cap", "Trout Triumph Cap"],
+    "keepnets": ["FishHut L", "FishCabin XS Plus", "FishCabin S", "FishCabin M Plus", "FishFort XS", "FishFort M", "FishFort XL Plus (x2)", "FishCastle L (x2)", "Iron Maiden Fish Stringer"],
+    "rod_stands": ["TripleFeeder Rod Stand", "GreenPod Rod Stand"],
+    "boats": {
+      "kayaks": [{"name": "GoldenAlbatros Adventure Kayak", "speed": "5.5 mph", "weight": "77 Lb"}],
+      "bass_boats": [{"name": "Garry Scott Draco Boat", "length": "24.4 ft", "width": "7 ft", "weight": "2976 Lb", "material": "Aluminium"}]
+    }
+  },
+  "best_combos_for_big_fish": {
+    "spinning_monster": {
+      "rod": "Rivertex Zeus 8'10\" SE (X-Heavy)",
+      "reel": "L'Impulsion 12000 SE (81.5 Lb drag)",
+      "line": "Braid .012\" (41.2 Lb) or Fluoro .024\" (40 Lb)",
+      "leader": "Fluorocarbon Leader .033\" (79 Lb) or Titanium Leader .005\" (11 Lb)",
+      "capacity": "Handles 50+ Lb fish comfortably"
+    },
+    "spinning_heavy": {
+      "rod": "RIVERTEX DracoSpin 8'10\" (X-Heavy) or CGT MonSpin 8'10\" (X-Heavy)",
+      "reel": "Ambusher 9000 SE (49.6 Lb drag) or ThunderSpin 5500 SE (42 Lb drag)",
+      "line": "Braid .011\" (30 Lb) or Fluoro .020\" (28 Lb)",
+      "capacity": "Handles 30-40 Lb fish"
+    },
+    "casting_monster": {
+      "rod": "CosmoCast 7'3\" SE (X-Heavy, 12-55 Lb line)",
+      "reel": "Cyclone 6500 SE (48.5 Lb drag)",
+      "line": "Braid .011\" (30 Lb) or Fluoro .022\" (36 Lb)",
+      "capacity": "Handles 40+ Lb fish"
+    },
+    "bottom_monster": {
+      "rod": "Heavy Chaser 9'10\" SE (X-Heavy) or Mokona 12'10\" SE (X-Heavy)",
+      "reel": "Fileur 11000 SE (79.4 Lb drag) or L'Impulsion 12000 SE (81.5 Lb drag)",
+      "line": "Mono .033\" (83.7 Lb) or Fluoro .034\" (83.8 Lb)",
+      "leader": "Fluorocarbon Leader .034\" (83.8 Lb)",
+      "capacity": "Handles ANY fish in the game"
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "slots": [
+    {
+      "slot_number": 1,
+      "screenshot": "IMG_1717.jpg",
+      "rod": "RIVERTEX Fenix 11'5\" (Match Rod, 6.5-17.5 Lb, Mod Fast)",
+      "reel": "MagFin EspiraMLR 3500",
+      "line": "Fluoro .009\"",
+      "leader": "Fluorocarbon Leader .009\"",
+      "terminal_tackle": "Chubby Float, Hook #4/0",
+      "bait": "Small Minnows",
+      "setup_type": "Float",
+      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Longnose Gar", "Flathead Catfish", "Black Crappie", "White Crappie"],
+      "effectiveness_rating": 8,
+      "leader_recommendation": {
+        "material": "Fluorocarbon (already equipped)",
+        "test_weight": "6-10 Lb",
+        "length": "12-18 in",
+        "why": "Fluoro leader is already equipped — great choice. Small Minnows are a live bait that attracts predators. The #4/0 hook is properly sized for Smallmouth Bass, Largemouth Bass, and even Longnose Gar. In river current, the fluoro leader helps the bait presentation look natural.",
+        "depth_setting": "Set float depth to 4-8 ft. Neherrin River has varying depth — start at 5-6 ft in the main channel. At Into the Rocky Blue, try 6-8 ft in deeper pools where bass hold. Adjust shallower (3-4 ft) near bank structure at Woody Enchantment."
+      },
+      "issues": [
+        "Hook #4/0 is too large for crappie and panfish — limits species coverage to predators only",
+        "Small Minnows are excellent for bass but won't attract Redear Sunfish, Pumpkinseed, or Bluegill"
+      ],
+      "improvements": [
+        "Small Minnows + #4/0 is a solid predator float rig — well-matched for Neherrin River's bass and gar",
+        "Fluoro leader is a great addition — previous setups had no leader on float rigs",
+        "This setup can catch Longnose Gar (24.3 lb!) and even Flathead Catfish if they're cruising",
+        "For deeper river pools, increase float depth to 8-10 ft to reach Flathead Catfish near the bottom",
+        "Consider carrying Leeches as backup — covers Flathead Catfish (#1 bait) which isn't attracted to Small Minnows as strongly"
+      ]
+    },
+    {
+      "slot_number": 2,
+      "screenshot": "IMG_1718.jpg",
+      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast)",
+      "reel": "Breamer 4500 SE",
+      "line": "Fluoro .012\"",
+      "leader": "Titanium Leader .005\"",
+      "terminal_tackle": "Turtle Spoon 1/4 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spoon)",
+      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "American Shad", "Redfin Pickerel", "Black Crappie", "White Crappie"],
+      "effectiveness_rating": 9,
+      "issues": [
+        "Minor: Light rod may struggle with large Longnose Gar if one strikes (up to 24.3 lb)"
+      ],
+      "improvements": [
+        "EXCELLENT setup — Titanium leader protects against Redfin Pickerel and Gar teeth",
+        "Turtle Spoon covers the most valuable fish: Smallmouth Bass ($160/kg) and Largemouth Bass ($152/kg)",
+        "Also catches American Shad, crappie species, and Redfin Pickerel ($150/kg)",
+        "Cast upstream and retrieve with the current for natural presentation in river flow",
+        "This is your best income-generating slot — actively cast near structure in the main channel"
+      ]
+    },
+    {
+      "slot_number": 3,
+      "screenshot": "IMG_1719.jpg",
+      "rod": "Loki 7'6\" SE (Spinning Rod, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate)",
+      "reel": "Ghost Reel 3000",
+      "line": "Fluoro .011\"",
+      "leader": "Titanium Leader .004\"",
+      "terminal_tackle": "Jighead 1/2 Oz. #2/0 with Worm 3\" soft plastic",
+      "bait": "Worm 3\" (soft plastic)",
+      "setup_type": "Spinning (Jig)",
+      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Flathead Catfish"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "Heavy rod is overpowered for most Neherrin fish but provides backbone for Longnose Gar (24.3 lb) and Flathead Catfish (36.4 lb) if hooked",
+        "1/2 Oz jig may get caught in rocky river bottom at Into the Rocky Blue"
+      ],
+      "improvements": [
+        "GREAT improvements — downsized from 3/4 Oz #3/0 to 1/2 Oz #2/0, much better for river bass",
+        "Titanium leader added — essential protection against gar teeth",
+        "Worm 3\" is specifically effective for Smallmouth and Largemouth Bass",
+        "The Heavy rod actually earns its place here — if a Longnose Gar or Flathead Catfish hits, you'll need the power",
+        "Work the jig in deeper pools — let it sink to bottom, hop 2-3 times, pause. Bass and catfish strike on the drop",
+        "At Into the Rocky Blue, cast into eddies behind rocks where bass ambush prey in current breaks"
+      ]
+    },
+    {
+      "slot_number": 4,
+      "screenshot": "IMG_1720.jpg",
+      "rod": "OmniFloat 11'5\" (Match Rod, 3-6.5 Lb, Moderate)",
+      "reel": "EspiraSlim 2500 Sport",
+      "line": "Fluoro .008\"",
+      "leader": "Fluorocarbon Leader .008\"",
+      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #6",
+      "bait": "Semolina Balls",
+      "setup_type": "Float",
+      "target_fish": ["Pumpkinseed", "Bluegill", "Golden Shiner", "Common Carp"],
+      "effectiveness_rating": 7,
+      "leader_recommendation": {
+        "material": "Fluorocarbon (already equipped)",
+        "test_weight": "2-4 Lb",
+        "length": "8-12 in",
+        "why": "Fluoro leader already equipped — good stealth in clear river water. Semolina Balls target panfish and carp. In river current, the leader helps the bait drift naturally.",
+        "depth_setting": "Set float depth to 3-5 ft. Panfish in rivers hold in slower water near bank structure and eddies. At Great Parking Job, try 3-4 ft near the bank. At Woody Enchantment, 4-5 ft in the slack water behind logs."
+      },
+      "issues": [
+        "Durability very low (15446/18000) — this rod is wearing out fast",
+        "Semolina Balls covers Pumpkinseed, Bluegill, Golden Shiner, and Common Carp but NOT crappie or Redear Sunfish",
+        "Hook #6 is slightly large for Golden Shiner (tiny fish, 0.7 lb max)"
+      ],
+      "improvements": [
+        "Fluoro leader is a great addition for river panfishing",
+        "Semolina Balls is a solid choice for Neherrin — covers 4 species including Common Carp (up to 4.8 lb bonus catches)",
+        "URGENT: Repair or replace this rod — durability at 85% and dropping. A break mid-fight loses both fish and rod",
+        "Consider carrying Maggots or Bloodworms as backup bait to cover Redear Sunfish (not attracted to Semolina Balls)",
+        "Deploy on RodPod Trio in slack water for passive panfish + carp catches"
+      ]
+    },
+    {
+      "slot_number": 5,
+      "screenshot": "IMG_1721.jpg",
+      "rod": "Aurora 8'2\" Sport (Spinning Rod, Light, 1/6-1/2 Oz, 3-10 Lb, Fast)",
+      "reel": "Callisto MG 3000 Sport",
+      "line": "Fluoro .009\"",
+      "leader": "Titanium Leader .005\"",
+      "terminal_tackle": "Narrow Spoon 1/4 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spoon)",
+      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "American Shad", "Redfin Pickerel"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "Overlaps with slot 2's coverage — both are light spinning spoon setups",
+        "Narrow Spoon may work slightly differently than Turtle Spoon in current"
+      ],
+      "improvements": [
+        "Titanium leader added — excellent protection for river predators",
+        "Narrow Spoon has a tighter wobble than Turtle Spoon — gives fish a different look if they refuse slot 2",
+        "Consider swapping to a different lure type (crankbait, spinnerbait) to diversify predator presentations",
+        "In river current, cast across and let the spoon swing downstream — triggers reactive strikes from bass",
+        "Good backup predator rod if slot 2 needs re-tying after a leader bite-off"
+      ]
+    },
+    {
+      "slot_number": 6,
+      "screenshot": "IMG_1722.jpg",
+      "rod": "ValueSpin 6'3\" (Spinning Rod, Light, 1/6-5/8 Oz, 3-6.5 Lb, Fast)",
+      "reel": "HeartSpinner 3500",
+      "line": "Fluoro .008\"",
+      "leader": "Titanium Leader .005\"",
+      "terminal_tackle": "Nano Spinner 1/5 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spinner)",
+      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Redfin Pickerel", "Black Crappie", "White Crappie", "Bluegill", "Pumpkinseed"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "3-6.5 Lb line weight is light for unexpected Longnose Gar or Flathead Catfish hookups",
+        "Short 6'3\" rod limits casting distance in a river — may need to wade closer"
+      ],
+      "improvements": [
+        "Titanium leader added — great protection even on this light setup",
+        "Nano Spinner is excellent in river current — the blade creates vibration that attracts bass and crappie",
+        "The spinner's flash and vibration works well in Neherrin's stained river water",
+        "Short rod is actually good for fishing tight spots under overhanging trees at Woody Enchantment",
+        "Steady retrieve across current — let the river do the work animating the spinner blade"
+      ]
+    },
+    {
+      "slot_number": 7,
+      "screenshot": "IMG_1723.jpg",
+      "rod": "MCT McCarp 13'2\" (Match Rod, 9-25.5 Lb, Mod Fast)",
+      "reel": "MCT CarpAxel 4000",
+      "line": "Fluoro .012\"",
+      "leader": "Fluorocarbon Leader .008\"",
+      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #6",
+      "bait": "Red Worms",
+      "setup_type": "Float",
+      "target_fish": ["Redear Sunfish", "Bluegill", "Pumpkinseed", "Black Crappie", "White Crappie"],
+      "effectiveness_rating": 7,
+      "leader_recommendation": {
+        "material": "Fluorocarbon (already equipped)",
+        "test_weight": "4-6 Lb",
+        "length": "12-16 in",
+        "why": "Fluoro leader already equipped. Red Worms are versatile and attract multiple panfish species including Redear Sunfish which isn't covered by slot 4's Semolina Balls. The longer McCarp rod helps manage float rigs in river current.",
+        "depth_setting": "Set float depth to 4-7 ft. In the river, panfish hold in eddies and slack water. At Rubble of Old Times, try 5-6 ft near submerged rubble. Glowing float is good for dawn/dusk/night visibility."
+      },
+      "issues": [
+        "Red Worms cover Bluegill and Pumpkinseed but are not listed for Black Crappie, White Crappie, or Redear Sunfish at Neherrin",
+        "Hook #6 is good for panfish but too small if a bass or catfish takes the bait",
+        "13'2\" rod is very long but actually useful in a river for managing float drift at distance"
+      ],
+      "improvements": [
+        "Fluoro leader is a good addition for river float fishing",
+        "Red Worms cover Bluegill and Pumpkinseed well — for broader coverage, switch to Maggots (covers crappie + panfish) or Bloodworms (covers crappie + Redear Sunfish)",
+        "The long McCarp rod is actually an advantage on the river — controls float drift in current from shore",
+        "Deploy on RodPod Trio alongside slot 4 for double passive panfish/sunfish coverage",
+        "Glowing float is excellent for night sessions — Flathead Catfish become active after dark"
+      ]
+    }
+  ],
+  "gear": {
+    "screenshot": "IMG_1716.jpg",
+    "hat": "Sport Cap",
+    "glasses": "Glasses Classic",
+    "vest": "Outlander Pro Vest",
+    "tackle_box": "Vault 7",
+    "keepnet": "FishStronghold M Plus Keepnet",
+    "keepnet2": "ChurnChest Lux",
+    "rod_stand": "RodPod Trio Rod Stand",
+    "boat": "Garry Scott Lupus Motor Boat (NOT USABLE — no boat fishing at Neherrin River)",
+    "headlamp": "Luminox Headlamp",
+    "notes": [
+      "Lupus Motor Boat is equipped but Neherrin River does NOT allow boat fishing — shore fishing only",
+      "Luminox Headlamp — essential for night fishing. Flathead Catfish and Longnose Gar are most active after dark",
+      "RodPod Trio — deploy in slack water areas for passive panfish while actively casting for bass",
+      "FishStronghold M Plus Keepnet — fill with bass and pickerel for maximum income per trip"
+    ]
+  },
+  "groundbait": {
+    "screenshot": "IMG_1724.jpg",
+    "status": "Empty recipes — not yet configured",
+    "notes": [
+      "Groundbait could help concentrate Common Carp in slower river sections",
+      "A corn/bread-based groundbait near Woody Enchantment would attract carp to your float rigs",
+      "Not essential for predator fishing — bass and catfish respond to lures and live bait"
+    ]
+  },
+  "passive_fishing": {
+    "best_stand_spot": "Great Parking Job or Woody Enchantment",
+    "stand_spot_why": "Both spots have slack water areas near the bank where panfish hold out of the main current. The RodPod Trio can be set up on stable ground with clear sightlines to floats. Woody Enchantment has log structure that concentrates panfish, while Great Parking Job has easier bank access.",
+    "active_fishing_zone": "Cast spinning rods into the main river channel and along current breaks near rocks/logs. Stay within 50 ft of your rod stand. Into the Rocky Blue has the best structure for active bass fishing while still being within range of a stand at the nearby bank.",
+    "strategy": [
+      "Set RodPod Trio at Woody Enchantment — slack water behind logs concentrates panfish",
+      "Slot 1 (Fenix + Small Minnows + #4/0): Cast to mid-channel at 5-7 ft for bass and gar — your heavy-hitter passive rod",
+      "Slot 4 (OmniFloat + Semolina Balls + #6): Cast to slack water at 3-4 ft for panfish and carp",
+      "Slot 7 (McCarp + Red Worms + #6): Cast to eddy at 4-6 ft for sunfish and panfish",
+      "Actively fish slots 2, 5, 6 — cast upstream and retrieve with current along structure",
+      "RIVER TIP: Floats drift in current — cast upstream of your target zone so the bait drifts into it naturally",
+      "Re-check float positions every 2-3 minutes — current will move your float downstream requiring re-casts more often than in lakes",
+      "Night sessions: Switch slot 1 to Leeches/Large Minnows for Flathead Catfish. They feed actively after dark in deep pools.",
+      "Watch for Longnose Gar surfacing — they roll at the surface and can be sight-cast with slot 2 or 5"
+    ],
+    "income_estimate": [
+      "Passive float rods: Slot 1 catches bass ($152-160/kg), slots 4 & 7 catch panfish ($70-120/kg) + carp ($100/kg)",
+      "Active spinning: Smallmouth Bass ($160/kg, up to 8.2 lb = $592 per trophy!) is the money target",
+      "Largemouth Bass ($152/kg, up to 6.4 lb) is the second-best earner",
+      "Redfin Pickerel ($150/kg) adds solid income from spinning slots",
+      "Estimated passive income: $400-$800/hr from stand rods (bass on slot 1 drive the value)",
+      "Estimated active income: $600-$1,200/hr from spinning bass and pickerel",
+      "Combined: $1,000-$2,000 per in-game hour",
+      "Night bonus: Flathead Catfish (36.4 lb max!) are low $/kg but massive XP from trophy catches"
+    ]
+  },
+  "overall_analysis": {
+    "fish_coverage": {
+      "Smallmouth Bass": true,
+      "Largemouth Bass": true,
+      "Black Crappie": true,
+      "White Crappie": true,
+      "Bluegill": true,
+      "Pumpkinseed": true,
+      "Redear Sunfish": false,
+      "Redfin Pickerel": true,
+      "American Shad": true,
+      "Golden Shiner": true,
+      "Common Carp": true,
+      "Longnose Gar": true,
+      "Flathead Catfish": false
+    },
+    "missing_setups": [
+      "Redear Sunfish needs Blood, Maggots, Crickets, Wax Worms, or Bloodworms — none currently equipped on an appropriate hook. Switch slot 7 to Maggots or Bloodworms to cover this species.",
+      "Flathead Catfish needs Leeches, Large Cutbait, Shiners, Large Minnows, or Crawfish — slot 1's Small Minnows can attract them but dedicated heavy bait (Leeches/Crawfish) is better. Consider a night-fishing bait swap."
+    ],
+    "xp_optimization": [
+      "Catch ALL 13 species for first-catch XP bonuses — currently missing Redear Sunfish and Flathead Catfish coverage",
+      "Unique Smallmouth Bass (8.2 lb), Black Crappie, Redear Sunfish, Longnose Gar, and White Crappie give huge first-catch bonuses",
+      "Trophy Longnose Gar (24.3 lb!) and Flathead Catfish (36.4 lb!) give massive XP even at low $/kg",
+      "Fish all 4 spots for location discovery XP — Great Parking Job, Into the Rocky Blue, Rubble of Old Times, Woody Enchantment",
+      "Night fishing with headlamp unlocks Flathead Catfish activity — huge XP from trophy catches",
+      "Use light tackle (slots 5, 6) for challenge catch XP bonuses on bass"
+    ],
+    "income_optimization": [
+      "Smallmouth Bass at $160/kg (max 8.2 lb) is the top earner — up to $592 per trophy! Target with slots 2, 3, 5, 6",
+      "Largemouth Bass at $152/kg (max 6.4 lb) — up to $441 per trophy. Same slots cover this.",
+      "Redfin Pickerel at $150/kg — solid bonus income from spinning slots",
+      "Black Crappie at $120/kg (max 3.5 lb, unique available) — can catch passively on float rigs",
+      "Redear Sunfish at $120/kg (max 4.9 lb, unique!) — fix bait coverage to unlock this income stream",
+      "Fill keepnet with bass before selling — they're the highest value per fish",
+      "Neherrin River costs $2,800 travel + $500/day — bass income easily covers this"
+    ],
+    "priority_changes": [
+      "Switch slot 7 bait from Red Worms to Maggots or Bloodworms — unlocks Redear Sunfish ($120/kg, unique available, max 4.9 lb)",
+      "Bring Leeches for night session bait swap on slot 1 — Flathead Catfish are the biggest fish here (36.4 lb!) and most active at night",
+      "Repair OmniFloat (slot 4) — durability at 85% and dropping. Consider buying a backup rod.",
+      "Slots 2 and 5 overlap significantly (both light spoon setups) — consider swapping slot 5's Narrow Spoon to a crankbait for variety",
+      "All leaders properly equipped — huge improvement from earlier loadouts. No changes needed there."
+    ],
+    "spot_recommendations": {
+      "Into the Rocky Blue": [2, 3, 5],
+      "Woody Enchantment": [1, 4, 7, 6],
+      "Great Parking Job": [4, 7, 6],
+      "Rubble of Old Times": [1, 3, 2]
+    }
+  }
+}

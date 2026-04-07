@@ -1,0 +1,23 @@
+# Screenshots (large binary files — transfer separately)
+current_loadout/
+home-inventory/
+past_loadouts/
+
+# Generated reports (regenerate with fp_analyzer.py)
+reports/*.html
+reports/_index_deploy.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code local settings (may contain API keys in permission history)
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (transfer securely, never commit)
+# Note: secrets are stored outside this directory

@@ -1,0 +1,326 @@
+{
+  "slots": [
+    {
+      "slot_number": 1,
+      "screenshot": "20260404094602_1.jpg",
+      "rod": "RIVERTEX Fenix 11'5\" (Match Rod, 6.5-17.5 Lb, Mod Fast)",
+      "reel": "MagFin EspiraMLR 3500",
+      "line": "Fluoro .011\" (10 Lb)",
+      "leader": "Titanium Leader .004\" (7 Lb)",
+      "terminal_tackle": "Sport Float, Hook #4 (downsize from #1/0)",
+      "bait": "Bloodworms (switch from Flies)",
+      "setup_type": "Float",
+      "target_fish": ["Warmouth", "Bluegill", "Black Crappie", "White Crappie", "Redear Sunfish", "Smallmouth Buffalo"],
+      "effectiveness_rating": 9,
+      "leader_recommendation": {
+        "material": "Titanium (already equipped)",
+        "test_weight": "7 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium protects against Chain Pickerel if one takes the bait. Bloodworms cover 6 species including Warmouth ($170/kg!) — the highest $/kg fish at Quanchkin.",
+        "depth_setting": "Set float depth to 3-7 ft in shallow swamp areas near cypress trees. Warmouth hold near thick vegetation and structure. At Cypress Dreams, try 3-4 ft near cypress knees."
+      },
+      "issues": [
+        "Minor: Titanium .004\" (7 Lb) is light — upgrade to .005\" (11 Lb) for better pickerel protection"
+      ],
+      "improvements": [
+        "CRITICAL FIX: Bloodworms replaces Flies — now covers Warmouth ($170/kg!), Bluegill, Black Crappie, White Crappie, Redear Sunfish, AND Smallmouth Buffalo (6 species vs 1!)",
+        "Hook downsized from #1/0 to #4 — properly sized for panfish mouths",
+        "WARMOUTH is your missing expedition fish — this bait change should catch it immediately",
+        "Warmouth at $170/kg is tied with Spotted Bass for highest $/kg at Quanchkin — passive gold mine",
+        "Deploy on RodPod Trio at Cypress Dreams or Pelican Hut for passive panfish/Warmouth income",
+        "Bloodworms also attracts Smallmouth Buffalo ($50/kg, up to 24.3 lb) — surprise bonus catches"
+      ]
+    },
+    {
+      "slot_number": 2,
+      "screenshot": "20260404094604_1.jpg",
+      "rod": "SpookySpin 8'6\" (Spinning Rod, Heavy, 5/7-1 3/4 Oz, 6.6-19.8 Lb, Mod Fast)",
+      "reel": "Breamer 4500 SE",
+      "line": "Fluoro .012\" (12 Lb)",
+      "leader": "Titanium Leader .006\" (approx 15 Lb)",
+      "terminal_tackle": "Bullet Spinner 24g #2/0",
+      "bait": null,
+      "setup_type": "Spinning (Bullet Spinner)",
+      "target_fish": ["Spotted Bass", "Largemouth Bass", "Chain Pickerel", "White Bass", "Freshwater Drum"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "Heavy rod is well-matched for Quanchkin's mid-size predators",
+        "Bullet Spinner attracts aggressive predators — flash and vibration in swamp water",
+        "19.8 Lb max line is borderline if Bowfin (19.8 lb) or Alligator Gar hits"
+      ],
+      "improvements": [
+        "Bullet Spinner is excellent for Spotted Bass ($170/kg, max 9.9 lb) — top income target for lure fishing",
+        "Also catches Largemouth Bass ($152/kg) and Chain Pickerel ($150/kg) — great income rod",
+        "Titanium leader protects against Chain Pickerel and Bowfin teeth",
+        "Cast near fallen trees, lily pads, and cypress knees — bass ambush from these structures",
+        "Steady retrieve with occasional rod twitches — triggers reactive strikes in murky swamp water"
+      ]
+    },
+    {
+      "slot_number": 3,
+      "screenshot": "20260404094607_1.jpg",
+      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast) — from home inventory",
+      "reel": "Ghost Reel 3000",
+      "line": "Fluoro .011\" (10 Lb)",
+      "leader": "Titanium Leader .005\" (11 Lb) — upgrade from .004\"",
+      "terminal_tackle": "JigHead 9g (1/3 Oz) #2/0 with Worm 3\" or Shad 3\"",
+      "bait": "Worm 3\" or Shad 3\" (soft plastic)",
+      "setup_type": "Spinning (Light Jig)",
+      "target_fish": ["Spotted Bass", "Largemouth Bass", "Chain Pickerel", "Freshwater Drum", "White Bass", "Black Crappie"],
+      "effectiveness_rating": 9,
+      "issues": [
+        "Light power rod (3-13 Lb) means big surprise hookups (Bowfin 19.8 lb, catfish) will test the setup",
+        "Titanium leader .005\" (11 Lb) provides adequate pike/pickerel protection"
+      ],
+      "improvements": [
+        "MAJOR UPGRADE — downsized from Loki Heavy (5/7 Oz min) to JigWinner Light (1/6 Oz min)",
+        "9g (1/3 Oz) jighead with #2/0 hook stays in the strike zone at 2-4 ft instead of dragging bottom",
+        "Fast action gives excellent jig sensitivity — feel every tap from Spotted Bass ($170/kg) in shallow swamp",
+        "Smaller Worm 3\" or Shad 3\" matches the forage size in shallow cypress swamp water",
+        "JigWinner's 1/6-5/8 Oz range accepts jigs from ultralight to medium — versatile for all depths at Quanchkin",
+        "Hop the jig gently near cypress knees and lily pads — let it sink slowly on slack line, bass strike on the fall",
+        "This rod targets Spotted Bass ($170/kg) more effectively than the heavy Loki — finesse over power in shallow water",
+        "Titanium .005\" upgraded from .004\" for better Chain Pickerel bite protection"
+      ]
+    },
+    {
+      "slot_number": 4,
+      "screenshot": "20260404094609_1.jpg",
+      "rod": "Heavy Chaser 9'10\" SE (Bottom Rod, X-Heavy, Casting 6-8.5 Oz, up to 81 Lb) — from home inventory",
+      "reel": "Fileur 11000 SE (79.4 Lb max drag)",
+      "line": "Fluoro .033\" (79 Lb) or Mono .033\" (83.7 Lb)",
+      "leader": "Titanium Leader .012\"",
+      "terminal_tackle": "Sinker 7-8 Oz (from inventory), Catfish Hook #6/0, Simple Bell",
+      "bait": "Shiners",
+      "setup_type": "Bottom Rig (Monster Fish)",
+      "target_fish": ["Alligator Gar", "Flathead Catfish", "Blue Catfish", "Channel Catfish", "Bowfin", "Freshwater Drum"],
+      "effectiveness_rating": 10,
+      "issues": [
+        "Sinker must be 6-8.5 Oz to match rod's casting weight — use your 7 Oz or 8 Oz sinkers from inventory",
+        "79 Lb line + 79.4 Lb drag is perfectly balanced — well-matched system"
+      ],
+      "improvements": [
+        "MASSIVE UPGRADE — from Big Ali feeder (16 Lb line) to Heavy Chaser bottom rod (79 Lb line)",
+        "79 Lb fluoro + 79.4 Lb drag means Flathead Catfish (77.2 lb) is at comfortable tension",
+        "Alligator Gar (109.1 lb) at ~75% tension — a tough fight but survivable",
+        "Purpose-built bottom rod designed for monster catfish and sturgeon — exactly what Quanchkin needs",
+        "Bait sits directly on the bottom where catfish and gar feed — the most natural presentation",
+        "Titanium .012\" leader handles gar teeth and catfish whisker abrasion",
+        "Deploy on RodPod Trio at Down South or Swampy Open Space — cast to deepest channel (10-15+ ft)",
+        "PAIR WITH SLOT 7: Two monster-class passive rods — slot 4 on bottom, slot 7 at mid-depth float. Covers the entire water column for gar and catfish.",
+        "Night sessions: Both slots 4 and 7 soaking simultaneously = maximum monster fish exposure"
+      ]
+    },
+    {
+      "slot_number": 5,
+      "screenshot": "20260404094611_1.jpg",
+      "rod": "Rivertex Zeus 8'10\" SE (Spinning Rod, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
+      "reel": "L'Impulsion 12000 SE (81.5 Lb max drag)",
+      "line": "Braid .012\" (41.2 Lb)",
+      "leader": "Titanium Leader .012\"",
+      "terminal_tackle": "Thorn Jighead 18g #4/0 with Bony Shad 16cm",
+      "bait": "Bony Shad 16cm (soft plastic)",
+      "setup_type": "Spinning (Heavy Jig)",
+      "target_fish": ["Alligator Gar", "Flathead Catfish", "Blue Catfish", "Largemouth Bass", "Spotted Bass", "Bowfin", "Chain Pickerel"],
+      "effectiveness_rating": 9,
+      "issues": [
+        "41.2 Lb braid will be SEVERELY tested by Alligator Gar (109.1 lb) — expect very long fights at high tension",
+        "This is still your best shot at landing the monsters — no other rod comes close",
+        "Jig with Bony Shad is effective for all predators here"
+      ],
+      "improvements": [
+        "MONSTER FISH SETUP — the only rod capable of fighting Alligator Gar (109.1 lb!) and Flathead Catfish (77.2 lb)",
+        "81.5 Lb drag gives headroom — set to 25-30 Lb and let big fish run",
+        "Bony Shad 16cm on heavy jig targets all predators — bass, catfish, pickerel, gar, bowfin",
+        "Thick titanium .012\" leader handles gar teeth — essential for Alligator Gar's saw-like mouth",
+        "Work the jig along deep channels and near submerged timber — Alligator Gar lurk near structure",
+        "If an Alligator Gar takes the jig, it will make long powerful runs — keep rod tip up, let drag work",
+        "Also use for Blue Catfish ($70/kg, 58.4 lb) — better line capacity than the feeder rod"
+      ]
+    },
+    {
+      "slot_number": 6,
+      "screenshot": "20260404094613_1.jpg",
+      "rod": "OmniFloat 14'10\" SE (Match Rod, 5-22 Lb, Moderate)",
+      "reel": "EspiraSlim 2500 Sport",
+      "line": "Fluoro .008\" (6 Lb)",
+      "leader": "Fluorocarbon Leader .008\" (4.4 Lb)",
+      "terminal_tackle": "X-Series Slim Float, Hook #1/0",
+      "bait": "Flies",
+      "setup_type": "Float",
+      "target_fish": ["Bluegill"],
+      "effectiveness_rating": 4,
+      "leader_recommendation": {
+        "material": "Fluorocarbon (already equipped)",
+        "test_weight": "4.4 Lb",
+        "length": "0.82 ft",
+        "why": "Fluoro leader for panfish stealth. However, Flies only targets Bluegill at Quanchkin — very narrow coverage. This slot is underperforming at a 17-species location.",
+        "depth_setting": "Set float depth to 3-5 ft near cypress knees and vegetation."
+      },
+      "issues": [
+        "Flies ONLY covers Bluegill ($70/kg) at Quanchkin Lake — wastes a slot at a 17-species location",
+        "Hook #1/0 is way too large for Bluegill (max 3.5 lb) and panfish",
+        "No titanium leader — if a Chain Pickerel takes this, fluoro .008\" will snap",
+        "X-Series Slim Float is elegant but this slot needs a complete bait overhaul"
+      ],
+      "improvements": [
+        "CRITICAL: Switch bait to Bloodworms — covers Bluegill, Black Crappie, White Crappie, Redear Sunfish, Warmouth, AND Smallmouth Buffalo",
+        "Downsize hook to #4 or #6 — panfish at Quanchkin have small mouths",
+        "Warmouth ($170/kg) and Spotted Bass ($170/kg) are the top earners — don't miss Warmouth with wrong bait",
+        "Alternatively use Red Worms — covers Bluegill and Warmouth",
+        "Deploy on RodPod Trio for passive panfish income while actively jig fishing with slots 3 and 5"
+      ]
+    },
+    {
+      "slot_number": 7,
+      "screenshot": "20260404094615_1.jpg",
+      "rod": "EquatorMatch 8'6\" SE (Match Rod, 28.6-83.8 Lb, Moderate) — from home inventory",
+      "reel": "L'Impulsion 12000 SE (81.5 Lb max drag)",
+      "line": "Fluoro .034\" (83.8 Lb)",
+      "leader": "Fluorocarbon Leader .034\" (83.8 Lb) — swap to Titanium .012\" for gar teeth",
+      "terminal_tackle": "X-Series Pear-Shaped Float, Catfish Hook #6/0",
+      "bait": "Shiners",
+      "setup_type": "Float (Alligator Gar Specialist)",
+      "target_fish": ["Alligator Gar", "Flathead Catfish", "Blue Catfish", "Bowfin", "Freshwater Drum", "Largemouth Bass"],
+      "effectiveness_rating": 10,
+      "leader_recommendation": {
+        "material": "Fluorocarbon .034\" (83.8 Lb) for general use, swap to Titanium .012\" for Alligator Gar",
+        "test_weight": "83.8 Lb",
+        "length": "1.64 ft",
+        "why": "The EquatorMatch SE is a saltwater-class match rod that accepts line up to 83.8 Lb — nearly triple the MatchMonster's 30 Lb limit. Paired with the L'Impulsion (81.5 Lb drag) and 83.8 Lb fluoro, a 109 lb Alligator Gar drops from 100%+ tension to ~75% — a survivable fight. The Fluoro .034\" leader provides massive abrasion resistance; swap to titanium when specifically targeting gar since their armored mouths can abrade even heavy fluoro.",
+        "depth_setting": "Set float depth to 8-15 ft. Alligator Gar cruise at mid-depth near structure in deep swamp channels. At Down South or Swampy Open Space, try 10-12 ft near submerged timber. Gar often surface to gulp air — watch for rolling fish and cast near them."
+      },
+      "issues": [
+        "83.8 Lb line on 81.5 Lb drag means the drag is now the bottleneck, not the line — much better balance",
+        "A 109 lb gar at ~75% tension is a long fight but landable with patience",
+        "The EquatorMatch's Moderate action absorbs head-shakes better than Fast action rods"
+      ],
+      "improvements": [
+        "DEDICATED ALLIGATOR GAR SETUP — 83.8 Lb line + 81.5 Lb drag is the strongest float rig possible from your inventory",
+        "EquatorMatch SE (28.6-83.8 Lb line weight) is the ONLY rod in your inventory that accepts line heavy enough for 109 lb fish on a float rig",
+        "Fluoro .034\" (83.8 Lb) is nearly triple the old MatchMonster's 30 Lb mono — massive upgrade",
+        "L'Impulsion 12000 SE provides 81.5 Lb drag — set to 50-60 Lb and let gar run when they need to",
+        "Shiners on Catfish #6/0 is wiki-recommended for Alligator Gar — keep this bait/hook combo",
+        "Also handles Flathead Catfish (77.2 lb) and Blue Catfish (58.4 lb) with ease on this line",
+        "Deploy on RodPod Trio at Down South or Swampy Open Space — cast to deep channel (10-12 ft) and wait",
+        "GAR FIGHTING TIPS: When a gar takes the float under, count to 3 before setting hook — they hold prey sideways first then turn to swallow. Set drag to 50-60 Lb. Let them run on the initial surge. Keep rod tip high. Expect 10-20 minute fights on trophy fish.",
+        "Note: L'Impulsion is shared with slot 5 (Zeus) — equip on whichever slot you're actively targeting. Use Zeus for active jigging, EquatorMatch for passive float soaking."
+      ]
+    }
+  ],
+  "gear": {
+    "hat": "Sport Cap",
+    "glasses": "Glasses Classic",
+    "vest": "Outlander Pro Vest",
+    "tackle_box": "Sport Lure Box",
+    "keepnet": "FishStronghold M Plus Keepnet",
+    "keepnet2": "ChumChest Lux",
+    "rod_case": "Sport Rod Case",
+    "rod_stand": "RodPod Trio Rod Stand",
+    "boat": "Garry Scott Draco Bass Boat (NOT USABLE — no boat fishing at Quanchkin Lake)",
+    "headlamp": "Luminox Headlamp",
+    "notes": [
+      "Draco Bass Boat equipped but Quanchkin Lake does NOT allow boat fishing — shore only",
+      "Luminox Headlamp — CRITICAL for night sessions. Catfish, gar, and bowfin are most active after dark.",
+      "RodPod Trio — deploy with slots 1 (panfish), 4 (feeder/catfish), and 7 (heavy predator float) for triple passive income",
+      "FishStronghold M Plus — fill with Spotted Bass ($170/kg) and Largemouth Bass ($152/kg) before selling"
+    ]
+  },
+  "groundbait": {
+    "status": "MyFeeder recipe — Catfish Destroyer + BigBeam Spicy + Oilcake-Pele",
+    "notes": [
+      "Catfish Destroyer base is PERFECT for Quanchkin — targets bottom fish including catfish, gar, and drum",
+      "BigBeam Spicy aroma adds scent in murky swamp water where catfish hunt by smell",
+      "Deploy with Big Ali feeder (slot 4) in deep water for maximum catfish attraction"
+    ]
+  },
+  "passive_fishing": {
+    "best_stand_spot": "Down South or Swampy Open Space",
+    "stand_spot_why": "Deep swamp channels where Alligator Gar, catfish, and bass hold. The open areas allow good rod stand placement with clear sightlines to all 3 floats. Deep water access from shore is essential for monster fish targeting.",
+    "active_fishing_zone": "Cast spinning rods (slots 2, 3, 5) along cypress trees, fallen logs, and lily pad edges near your rod stand. Stay within 50 ft to react to float bites — Alligator Gar strikes are violent and need immediate response.",
+    "strategy": [
+      "Deploy RodPod Trio with slots 1, 4, and 7 — panfish, feeder, and heavy predator float covering all sizes",
+      "Slot 4 (Big Ali feeder + Shiners + #6/0): Cast to deepest water — catfish and gar magnet with groundbait",
+      "Slot 7 (EquatorMatch SE + Shiners + #6/0 + 83.8 Lb fluoro): Cast to deep channel at 10-12 ft — DEDICATED ALLIGATOR GAR float rig",
+      "Slot 1 (Fenix + Flies): Near vegetation at 3-5 ft — SWITCH TO BLOODWORMS for broader panfish coverage",
+      "Actively fish slot 5 (Zeus + heavy jig) for Alligator Gar and Flathead Catfish near structure",
+      "Alternate with slot 2 (Bullet Spinner) for Spotted Bass ($170/kg) and Largemouth Bass ($152/kg) income",
+      "Slot 3 (Loki + jig) as backup active rod — different action than the Bullet Spinner",
+      "ALLIGATOR GAR ALERT: When slot 7's float goes under, count to 3 (gar hold prey sideways first), then SET HOOK HARD. Drag at 50-60 Lb. Let the gar run. Expect 10-20 min fights on trophy fish.",
+      "NIGHT STRATEGY: Focus ALL rods on big fish. Deploy slots 4 and 7 on stand — slot 7 (EquatorMatch 83.8 Lb) is your best chance at a trophy Alligator Gar after dark. Actively jig slot 5 (Zeus) in deep channels. Catfish and gar activity peaks 2x after dark.",
+      "NOTE: L'Impulsion 12000 SE reel is shared between slot 5 (Zeus jig) and slot 7 (EquatorMatch float). Equip on slot 7 for passive gar hunting, or slot 5 for active jigging. Swap as needed between sessions."
+    ],
+    "income_estimate": [
+      "Spotted Bass ($170/kg, max 9.9 lb) — top $/kg predator. $762 per trophy. Active Bullet Spinner.",
+      "Warmouth ($170/kg, max 1.8 lb) — same $/kg, small fish. $139 per fish. Passive float with Bloodworms.",
+      "Largemouth Bass ($152/kg, max 12.1 lb) — up to $833 per trophy. Active jig/spinner.",
+      "Chain Pickerel ($150/kg, max 8.4 lb) — up to $571 per trophy. Active spinner/jig.",
+      "Alligator Gar ($40/kg but 109.1 lb max!) — up to $1,980 per trophy + MASSIVE XP! EquatorMatch float rig (slot 7) with 83.8 Lb line is your best shot.",
+      "Flathead Catfish ($40/kg, max 77.2 lb) — up to $1,400 per trophy. Feeder + Shiners at night.",
+      "Blue Catfish ($70/kg, max 58.4 lb) — up to $1,855 per trophy. Feeder + Shiners at night.",
+      "Passive income: $500-$1,500/hr from stand rods (panfish + catfish + gar hits)",
+      "Active income: $800-$2,000/hr from spinning bass and pickerel",
+      "Night catfish sessions: $1,000-$3,000/hr from big catfish and gar",
+      "Combined day: $1,300-$3,500/hr. Night: $2,000-$5,000/hr. Best income potential yet."
+    ]
+  },
+  "overall_analysis": {
+    "fish_coverage": {
+      "Spotted Bass": true,
+      "Largemouth Bass": true,
+      "Chain Pickerel": true,
+      "Alligator Gar": true,
+      "Flathead Catfish": true,
+      "Blue Catfish": true,
+      "Channel Catfish": true,
+      "Bowfin": true,
+      "Freshwater Drum": true,
+      "Black Crappie": true,
+      "White Crappie": true,
+      "Bluegill": true,
+      "Redear Sunfish": true,
+      "Warmouth": true,
+      "White Bass": false,
+      "Smallmouth Buffalo": true,
+      "Golden Shiner": false
+    },
+    "missing_setups": [
+      "Slot 1 Bloodworms now covers Warmouth, Redear Sunfish, Black/White Crappie, Smallmouth Buffalo — 15/17 species covered!",
+      "Golden Shiner needs Dough Balls or Semolina Balls — swap onto slot 6 briefly for species completion",
+      "White Bass needs Night Crawlers or Small Minnows — bring Night Crawlers as backup bait"
+    ],
+    "xp_optimization": [
+      "17 species available — most species-rich location yet! Catch ALL for massive first-catch XP bonuses.",
+      "Unique Alligator Gar (109.1 lb!), Flathead Catfish, Blue Catfish, Spotted Bass, and 8 more uniques available",
+      "Trophy Alligator Gar gives ENORMOUS XP — the biggest freshwater fish you've encountered at 109.1 lb",
+      "Fish all 6 spots for location discovery XP — Cypress Dreams, Down South, Good Ol' Tobacco, Pelican Hut, Swampy Open Space, Upside Down",
+      "Night fishing unlocks peak catfish and gar activity — huge XP potential from trophy catches",
+      "Switch one float rod to Bloodworms to quickly complete 5+ additional species for first-catch bonuses"
+    ],
+    "income_optimization": [
+      "Spotted Bass at $170/kg (max 9.9 lb) and Warmouth at $170/kg — tied for top earner $/kg",
+      "Largemouth Bass at $152/kg (max 12.1 lb) — up to $833 per trophy",
+      "Chain Pickerel at $150/kg (max 8.4 lb) — strong bonus income from spinning",
+      "Blue Catfish at $70/kg (max 58.4 lb) — up to $1,855 per trophy! Best total $/fish for catfish",
+      "Fill keepnet with Spotted Bass + Largemouth Bass for highest $/kg average",
+      "Night sessions targeting Blue Catfish and Flathead Catfish are extremely profitable",
+      "Quanchkin costs $6,800 travel + $1,500/day extend — high-value species easily cover this"
+    ],
+    "priority_changes": [
+      "DONE: Slot 1 switched to Bloodworms + Hook #4 — unlocks Warmouth ($170/kg!), Redear Sunfish, Black/White Crappie, Smallmouth Buffalo (6 species!)",
+      "DONE: Slot 3 swapped to JigWinner 8'10\" SE with 9g #2/0 jighead + Worm 3\" — light jig stays in strike zone in shallow swamp",
+      "DONE: Slot 4 upgraded to Heavy Chaser 9'10\" SE + Fileur 11000 SE (79 Lb line) — proper monster fish bottom rig",
+      "Bring Semolina Balls or Dough Balls for Golden Shiner species completion (swap onto slot 6 briefly)",
+      "Consider adding Night Crawlers to cover White Bass and Freshwater Drum on a float rig",
+      "Night fishing is essential at Quanchkin — deploy slots 4 (bottom) and 7 (heavy float) for catfish and gar"
+    ],
+    "spot_recommendations": {
+      "Down South": [4, 5, 7],
+      "Swampy Open Space": [4, 5, 7],
+      "Cypress Dreams": [1, 6, 2],
+      "Pelican Hut": [2, 3, 6],
+      "Good Ol' Tobacco": [2, 3, 5],
+      "Upside Down": [5, 7, 4]
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "slots": [
+    {
+      "slot_number": 1,
+      "screenshot": "IMG_1696.jpg",
+      "rod": "GGC MatchMonster 9'10\" (Match Rod, 11-35 Lb, Mod Fast)",
+      "reel": "GGC Cary'nGloReel 4500",
+      "line": "Braid .009\"",
+      "leader": null,
+      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #4/0",
+      "bait": "Bloodworms",
+      "setup_type": "Float",
+      "target_fish": ["Black Crappie", "Bluegill", "Golden Shiner"],
+      "effectiveness_rating": 6,
+      "leader_recommendation": {
+        "material": "Fluorocarbon",
+        "test_weight": "3-5 Lb",
+        "length": "6-10 in",
+        "why": "Short leader for panfish — Bluegill and Crappie feed at shallow to mid-depths. Fluorocarbon is less visible than your current braid mainline and provides the stealth needed in Rocky Lake's clear water. Keep it short since panfish strike close to the float.",
+        "depth_setting": "Set float depth to 3-7 ft. Panfish cruise in the shallows near structure and weed edges."
+      },
+      "issues": [
+        "Hook #4/0 is still too large for Rocky Lake panfish — Bluegill and Crappie have small mouths",
+        "No leader attached — braid mainline running directly to hook spooks fish in clear water",
+        "Braid line on a float setup can spook trout in clear lake water",
+        "Match rod's 11-35 Lb line weight is overkill for the small panfish this bait targets"
+      ],
+      "improvements": [
+        "Add a fluorocarbon leader (3-5 Lb, 6-10 in) between mainline and hook — critical for clear water float fishing",
+        "Downsize hook to #6 or #8 to match slot 4's improvement — you already did this on slot 4, apply it here too",
+        "Switch to mono or fluoro line for less line visibility on float rigs",
+        "Consider switching bait to Crickets (like slot 4) for broader species coverage including trout",
+        "Alternatively, switch bait to Maggots for better cost efficiency while keeping same panfish coverage"
+      ]
+    },
+    {
+      "slot_number": 2,
+      "screenshot": "IMG_1697.jpg",
+      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast)",
+      "reel": "Prima 3500 SE",
+      "line": "Fluoro .011\"",
+      "leader": null,
+      "terminal_tackle": "Nano Spoon 1/6 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spoon)",
+      "target_fish": ["Rainbow Trout", "Cutthroat Trout", "Colorado Golden Trout", "White Bass"],
+      "effectiveness_rating": 9,
+      "issues": [
+        "Very minor: #1/0 hook is slightly large for smaller trout, but still effective"
+      ],
+      "improvements": [
+        "Excellent setup — the Nano Spoon 1/6 Oz is a great downsized choice from the previous 1/4 Oz Casting Spoon",
+        "Light rod + fluoro line + small spoon is the ideal trout combo for Rocky Lake",
+        "Try slow, erratic retrieves with occasional pauses — triggers reaction strikes from trout",
+        "This is your best slot — no changes needed"
+      ]
+    },
+    {
+      "slot_number": 3,
+      "screenshot": "IMG_1698.jpg",
+      "rod": "Loki 7'6\" SE (Spinning Rod, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate)",
+      "reel": "Ghost Reel 5000",
+      "line": "Braid .009\"",
+      "leader": null,
+      "terminal_tackle": "Thorn Jighead 5/8 Oz. #3/0 with Shad 3\" soft bait",
+      "bait": "Shad 3\" (soft plastic)",
+      "setup_type": "Spinning (Jig)",
+      "target_fish": ["Cutthroat Trout", "Rainbow Trout", "White Bass"],
+      "effectiveness_rating": 5,
+      "issues": [
+        "Heavy power rod is still significantly overpowered for Rocky Lake — max fish is ~4.9 lb",
+        "5/8 Oz Thorn Jighead is a small improvement over the old 3/4 Oz but still too heavy for this shallow lake",
+        "Braid .009\" with no leader is visible to trout in clear water",
+        "#3/0 hook on the jighead is oversized for Rocky Lake fish"
+      ],
+      "improvements": [
+        "Switch to a medium or medium-light rod — the Heavy rod wastes sensitivity on small fish",
+        "Downsize to 1/4 Oz or 3/8 Oz jighead for better action in shallow water",
+        "Add a fluorocarbon leader (4-8 Lb) between braid and jighead to reduce visibility",
+        "Try a 2\" soft plastic for better match to forage size at Rocky Lake",
+        "Consider swapping to a setup more like slot 5 or 6 — those light rods are much better matched to this lake"
+      ]
+    },
+    {
+      "slot_number": 4,
+      "screenshot": "IMG_1699.jpg",
+      "rod": "OmniFloat 11'5\" (Match Rod, 3-6.5 Lb, Moderate)",
+      "reel": "EspiraSlim 2500 Sport",
+      "line": "Mono .009\"",
+      "leader": null,
+      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #6",
+      "bait": "Crickets",
+      "setup_type": "Float",
+      "target_fish": ["Black Crappie", "Bluegill", "Colorado Golden Trout", "Cutthroat Trout", "Rainbow Trout"],
+      "effectiveness_rating": 9,
+      "leader_recommendation": {
+        "material": "Fluorocarbon",
+        "test_weight": "2-4 Lb",
+        "length": "10-16 in",
+        "why": "Medium leader length for versatile panfish/trout targeting. Crickets attract both shallow-feeding panfish and mid-depth trout, so a 10-16 in leader lets the bait sit in the active zone for both. Fluorocarbon is nearly invisible in water and has the right sink rate for natural bait presentation. The lighter 2-4 Lb test matches the OmniFloat's 3-6.5 Lb line weight for a balanced setup.",
+        "depth_setting": "Set float depth to 5-10 ft. Start at 7 ft and adjust — if catching mostly panfish, go shallower; if targeting trout, go deeper. At Ferntastic Fishing, try 7-8 ft near the weed line."
+      },
+      "issues": [
+        "Durability is getting low (16385/18000) — keep an eye on rod condition",
+        "Very minor: mono line is slightly more visible than fluoro, but acceptable for float fishing",
+        "No leader attached — adding a fluorocarbon leader would improve bite rate especially for wary trout"
+      ],
+      "improvements": [
+        "HUGE improvement from last loadout — Hook #6 and Crickets is exactly right for Rocky Lake",
+        "Add a fluorocarbon leader (2-4 Lb, 10-16 in) for better stealth — especially helps with trout",
+        "Crickets cover both panfish (Bluegill, Crappie) AND trout species — excellent versatility",
+        "Light match rod with mono line and proper hook size is textbook float fishing for this lake",
+        "Consider repairing the rod before durability drops further",
+        "This is now one of your best setups — model slot 1 after this configuration"
+      ]
+    },
+    {
+      "slot_number": 5,
+      "screenshot": "IMG_1700.jpg",
+      "rod": "Aurora 8'2\" Sport (Spinning Rod, Light, 1/6-1/2 Oz, 3-10 Lb, Fast)",
+      "reel": "Callisto MG 3000 Sport",
+      "line": "Fluoro .009\"",
+      "leader": null,
+      "terminal_tackle": "Baitless Narrow Spoon 1/4 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spoon)",
+      "target_fish": ["Rainbow Trout", "Cutthroat Trout", "Colorado Golden Trout", "White Bass", "Black Crappie"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "Minor: 1/4 Oz is at the higher end for this lake — could go lighter for finicky fish",
+        "#1/0 hook is adequate but a #1 would be slightly better for the smaller species"
+      ],
+      "improvements": [
+        "EXCELLENT replacement for the old CGT MonSpin X-Heavy — night and day difference",
+        "Light rod + fluoro .009\" + 1/4 Oz spoon is well-matched for Rocky Lake trout",
+        "The Baitless Narrow Spoon has a tight wobble action that trout love",
+        "Try varying retrieve depth — Colorado Golden Trout often hold at mid-depth",
+        "Good complement to slot 2's Nano Spoon — gives you two different spoon profiles to try"
+      ]
+    },
+    {
+      "slot_number": 6,
+      "screenshot": "IMG_1701.jpg",
+      "rod": "ValueSpin 6'3\" (Spinning Rod, Light, 1/6-5/8 Oz, 3-6.5 Lb, Fast)",
+      "reel": "HeartSpinner 3500",
+      "line": "Mono .010\"",
+      "leader": null,
+      "terminal_tackle": "Nano Spinner 1/5 Oz. #1/0",
+      "bait": null,
+      "setup_type": "Spinning (Spinner)",
+      "target_fish": ["Rainbow Trout", "Cutthroat Trout", "Colorado Golden Trout", "White Bass", "Black Crappie"],
+      "effectiveness_rating": 8,
+      "issues": [
+        "Mono .010\" is slightly more visible than fluoro — could reduce bites from wary trout",
+        "Durability is moderate (17648/18000) — relatively new rod",
+        "6'3\" is on the shorter side — less casting distance but good for accuracy"
+      ],
+      "improvements": [
+        "GREAT replacement for the old CosmoCast X-Heavy — perfectly suited for Rocky Lake",
+        "Nano Spinner 1/5 Oz produces vibration and flash that attracts trout and bass",
+        "Inline spinners are excellent for covering water quickly to find active fish",
+        "Consider upgrading to fluoro line when possible — trout in clear water respond better to invisible line",
+        "The short rod makes this ideal for fishing tight spots near shore at Ferntastic Fishing"
+      ]
+    },
+    {
+      "slot_number": 7,
+      "screenshot": "IMG_1702.jpg",
+      "rod": "MCT McCarp 13'2\" (Match Rod, 9-25.5 Lb, Mod Fast)",
+      "reel": "MCT CarpAxel 4000",
+      "line": "Fluoro .012\"",
+      "leader": null,
+      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #1/0",
+      "bait": "Flies",
+      "setup_type": "Float",
+      "target_fish": ["Colorado Golden Trout", "Cutthroat Trout", "Rainbow Trout"],
+      "effectiveness_rating": 8,
+      "leader_recommendation": {
+        "material": "Fluorocarbon",
+        "test_weight": "4-8 Lb",
+        "length": "14-20 in",
+        "why": "Longer leader for dedicated trout targeting. Trout at Rocky Lake tend to hold deeper and are more line-shy than panfish. The longer 14-20 in leader keeps the Flies bait further from the float and mainline, giving a more natural presentation. Since the McCarp's mainline is already fluoro .012\", the leader provides an extra stealth zone with thinner diameter near the hook. The 4-8 Lb test weight handles trophy Cutthroat Trout (up to 4.9 lb) and Colorado Golden Trout (up to 3.3 lb) while staying light enough for good bite detection.",
+        "depth_setting": "Set float depth to 7-13 ft. Colorado Golden Trout and larger Cutthroat often hold in deeper water. At Trout Galore, start at 10 ft and work your way up. During peak bite times (check bite charts), trout may come shallower — adjust to 7 ft."
+      },
+      "issues": [
+        "13'2\" carp rod is very long for a small lake — harder to manage at close range",
+        "Hook #1/0 is improved from #6/0 but still a bit large for trout — #2 or #4 would be ideal",
+        "No leader attached — the long rod can cast further but trout at distance are even more line-shy",
+        "Rod's 9-25.5 Lb line weight is overpowered for trout up to 4.9 lb"
+      ],
+      "improvements": [
+        "BIG improvement — Flies are a top bait for all three trout species at Rocky Lake including Colorado Golden Trout ($201/kg)",
+        "Add a fluorocarbon leader (4-8 Lb, 14-20 in) — the longer leader gives Flies a natural drift below the float",
+        "Hook #1/0 is functional but downsizing to #2 or #4 would increase bite rate for trout",
+        "Fluoro .012\" mainline is a good choice for trout — low visibility",
+        "This is now a solid trout-targeting float rig — the main weakness is the oversized rod",
+        "When budget allows, a 9-11' match rod would be more appropriate for this lake"
+      ]
+    }
+  ],
+  "passive_fishing": {
+    "best_stand_spot": "Trout Galore",
+    "stand_spot_why": "Deeper water access with trout holding at mid-depth. The open bank allows good rod stand placement with clear sightlines to all 3 floats. Colorado Golden Trout ($200/kg) and Cutthroat Trout ($165/kg) are the primary passive targets here.",
+    "active_fishing_zone": "Cast spinning rods along the shore near your rod stand. Stay within 30-40 ft. Target trout with spoons (slots 2, 5) and spinner (slot 6) while float rods soak. Alternate between Trout Galore's deeper water and the shallower weed edges for panfish.",
+    "strategy": [
+      "Set TripleFeeder Rod Stand at Trout Galore — deploy 3 float rods at staggered depths",
+      "Slot 1 (MatchMonster + Bloodworms + #4/0): Target deeper trout at 8-10 ft — DOWNSIZE HOOK TO #6 FIRST",
+      "Slot 4 (OmniFloat + Crickets + #6): Cast to 5-7 ft for mixed panfish and trout — versatile depth",
+      "Slot 7 (McCarp + Flies + #1/0): Cast to 7-10 ft targeting Colorado Golden Trout ($200/kg) — DOWNSIZE HOOK TO #2-#4",
+      "Actively fish with slot 2 (Nano Spoon) casting to deeper water for Rainbow and Cutthroat Trout",
+      "When a float goes under, switch rods immediately — trout bites are steady pulls, panfish are quick dips",
+      "Colorado Golden Trout on slot 7 is your highest-value passive catch — prioritize re-baiting this rod",
+      "Cycle between active casting and checking floats every 30-60 seconds"
+    ],
+    "income_estimate": [
+      "Passive stand rods: Primarily trout ($165-200/kg) with occasional panfish",
+      "Active spinning: Rainbow Trout ($170/kg, up to 4.9 lb) and Cutthroat ($165/kg, up to 4.9 lb)",
+      "Colorado Golden Trout from passive rod: ~$200/kg x 1.5kg avg = $300 per catch",
+      "Estimated passive income: $400-$800/hr from stand rods",
+      "Estimated active income: $400-$800/hr from spinning",
+      "Combined: $800-$1,600 per in-game hour"
+    ]
+  },
+  "gear": {
+    "screenshot": "IMG_1704.jpg",
+    "hat": "Sport Cap",
+    "vest": "Wild Element Deluxe Angler Vest",
+    "tackle_box": "Vault 7",
+    "rod_case": "BigBox L",
+    "keepnet": "FishCastle L",
+    "rod_stand": "TripleFeeder Rod Stand",
+    "notes": [
+      "FishCastle L keepnet is good for storing catches — make sure to fill it with high-value trout before selling",
+      "TripleFeeder Rod Stand allows 3 rods deployed simultaneously — ideal for float fishing multiple spots",
+      "BigBox L rod case supports your 7 rod loadout",
+      "Vault 7 tackle box provides adequate storage for current gear",
+      "Consider upgrading vest for additional carry capacity as your tackle collection grows"
+    ]
+  },
+  "groundbait": {
+    "screenshot": "IMG_1703.jpg",
+    "status": "Empty recipes — not yet configured",
+    "notes": [
+      "Groundbait mixing is available but no recipes are set up yet",
+      "For Rocky Lake, groundbait is not essential — float and spinning setups work well without it",
+      "Groundbait becomes more important at higher-level locations with feeder fishing",
+      "If you want to experiment, a simple bread-based groundbait can attract panfish to your float spot"
+    ]
+  },
+  "overall_analysis": {
+    "fish_coverage": {
+      "Colorado Golden Trout": true,
+      "Cutthroat Trout": true,
+      "Rainbow Trout": true,
+      "Black Crappie": true,
+      "Bluegill": true,
+      "Golden Shiner": true,
+      "White Bass": true,
+      "White Sucker": false
+    },
+    "missing_setups": [
+      "Bottom fishing rig for White Sucker — use Marshmallows or Semolina Balls on a bottom/ledger setup to complete species coverage"
+    ],
+    "xp_optimization": [
+      "Catch ALL 8 species for first-catch XP bonuses — you're still missing White Sucker coverage",
+      "Target trophy Cutthroat Trout (4.9 lb max) and Colorado Golden Trout (3.3 lb max) — trophies give 2-3x XP",
+      "Your new light spinning setups (slots 5 & 6) qualify for 'challenge catch' XP bonuses on bigger fish",
+      "Fish both spots (Ferntastic Fishing and Trout Galore) for location discovery XP",
+      "Unique Colorado Golden Trout gives a significant first-catch bonus — your slot 7 with Flies is ideal for this",
+      "Vary your techniques between float (slots 1,4,7), spoon (slots 2,5), spinner (slot 6), and jig (slot 3) for technique variety XP bonuses",
+      "Deploy all 3 float rods on the TripleFeeder Rod Stand for passive XP while you actively cast with spinning setups"
+    ],
+    "income_optimization": [
+      "Colorado Golden Trout at $201/kg is the top earner — slot 7 with Flies is perfectly set up for this",
+      "Rainbow Trout ($170/kg, up to 4.9 lb = $374 max per fish) is your best total income per catch — target with slots 2, 5, 6",
+      "Cutthroat Trout ($165/kg, up to 4.9 lb = $363 max per fish) — slots 2, 4, 5, 6, 7 all cover this",
+      "Your loadout now has 5 slots capable of catching the top 3 money fish — huge improvement",
+      "Fill FishCastle L keepnet with trout before selling — maximizes silver per trip",
+      "Flies (slot 7) and Crickets (slot 4) are cheap baits that target high-value fish — great profit margin",
+      "Use spinning setups (slots 2, 5, 6) for active fishing between float rod bites for maximum catch rate",
+      "Get the unlimited Basic license ($5 BC) if you plan to fish here repeatedly"
+    ],
+    "priority_changes": [
+      "Fix slot 1: Downsize hook from #4/0 to #6 (like you already did on slot 4) and switch bait to Crickets — this one fix would make slot 1 as good as slot 4",
+      "Fix slot 3: This Heavy rod + 5/8 Oz jighead is still overpowered — swap to a medium-light rod if you have one, and use a 1/4 Oz jighead",
+      "Fine-tune slot 7: Downsize hook from #1/0 to #2 or #4 for better trout bite rate",
+      "Add a bottom rig slot for White Sucker using Marshmallows to complete species coverage (8/8 species)",
+      "Consider swapping slot 6's mono line to fluoro for better trout stealth",
+      "Add a fluorocarbon leader to slot 3 between the braid mainline and jighead"
+    ],
+    "spot_recommendations": {
+      "Trout Galore": [2, 5, 7],
+      "Ferntastic Fishing": [4, 6, 1]
+    },
+    "loadout_progress": {
+      "previous_average_rating": 5.0,
+      "current_average_rating": 7.6,
+      "improvement_summary": "Massive improvement across the board. Slots 4, 5, and 6 went from ratings of 5, 2, and 3 to 9, 8, and 8 respectively. Hook sizes fixed on slots 4 and 7. Two X-Heavy rods replaced with proper light spinning setups. Bait choices significantly improved with Crickets and Flies replacing Semolina Balls and Dried Locusts. Only slot 1 and slot 3 still need attention."
+    }
+  }
+}
