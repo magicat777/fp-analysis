@@ -364,13 +364,27 @@ class WikiScraper:
 
 # ── HEIC Conversion ───────────────────────────────────────────────────────────
 def convert_heic_to_jpg(source_dir, dest_dir):
-    """Convert all HEIC files in source_dir to JPG in dest_dir using macOS sips."""
+    """Convert all HEIC files in source_dir to JPG in dest_dir. Cross-platform."""
+    import platform
     dest_dir.mkdir(parents=True, exist_ok=True)
     heic_files = list(source_dir.glob("*.heic")) + list(source_dir.glob("*.HEIC"))
 
     if not heic_files:
         print("  No HEIC files found to convert.")
         return []
+
+    is_mac = platform.system() == "Darwin"
+
+    # On Windows/Linux, try pillow-heif for HEIC support
+    if not is_mac:
+        try:
+            from pillow_heif import register_heif_opener
+            register_heif_opener()
+            print("  Using pillow-heif for HEIC conversion.")
+        except ImportError:
+            print("  WARNING: pillow-heif not installed. Install with: pip install pillow-heif")
+            print("  HEIC files will be skipped. Convert manually or install pillow-heif.")
+            return []
 
     converted = []
     for heic in heic_files:
@@ -381,15 +395,26 @@ def convert_heic_to_jpg(source_dir, dest_dir):
             converted.append(jpg_path)
             continue
         print(f"  Converting {heic.name} -> {jpg_name}...")
-        # sips can convert directly from source to dest
-        result = subprocess.run(
-            ["sips", "-s", "format", "jpeg", str(heic), "--out", str(jpg_path)],
-            capture_output=True, text=True,
-        )
-        if result.returncode == 0:
-            converted.append(jpg_path)
+
+        if is_mac:
+            # macOS: use native sips command
+            result = subprocess.run(
+                ["sips", "-s", "format", "jpeg", str(heic), "--out", str(jpg_path)],
+                capture_output=True, text=True,
+            )
+            if result.returncode == 0:
+                converted.append(jpg_path)
+            else:
+                print(f"  ERROR converting {heic.name}: {result.stderr}")
         else:
-            print(f"  ERROR converting {heic.name}: {result.stderr}")
+            # Windows/Linux: use Pillow with pillow-heif
+            try:
+                from PIL import Image
+                img = Image.open(str(heic))
+                img.save(str(jpg_path), "JPEG", quality=95)
+                converted.append(jpg_path)
+            except Exception as e:
+                print(f"  ERROR converting {heic.name}: {e}")
 
     return converted
 
@@ -2424,7 +2449,12 @@ Examples:
     output_path = OUTPUT_DIR / output_name
     result = generate_react_html(location_data, analysis, list(all_jpgs), output_path, wiki_images)
     print(f"\n  Report saved to: {result}")
-    print(f"  Open in browser: file://{result}")
+    # Cross-platform file URL
+    import platform as _platform
+    if _platform.system() == "Windows":
+        print(f"  Open in browser: file:///{str(result).replace(os.sep, '/')}")
+    else:
+        print(f"  Open in browser: file://{result}")
 
 
 if __name__ == "__main__":
