@@ -1,11 +1,37 @@
 {
   "player": {
     "name": "magicat777",
-    "level": 25,
-    "baitcoins": 301,
-    "credits": 600070,
-    "last_updated": "2026-04-03"
+    "level": 30,
+    "baitcoins": 455,
+    "credits": 583409,
+    "last_updated": "2026-04-07"
   },
+  "dlc_packs": [
+    "Fishing Planet: World Bass Tour Pack",
+    "Fishing Planet: Congo Discovery Pack",
+    "Fishing Planet: Anniversary Pack",
+    "Fishing Planet: Christmas Giant's Pack",
+    "Fishing Planet: Gain&Glory Pack",
+    "Fishing Planet: Spring Cats Pack",
+    "Fishing Planet: St.Patrick's Pack",
+    "Fishing Planet: Mighty Carp Pack",
+    "Fishing Planet: Bass Boss Pack",
+    "Fishing Planet: Catfish Combat Pack",
+    "Fishing Planet: Crappie Valentine Pack",
+    "Fishing Planet: Lucky Start Pack",
+    "Fishing Planet: Salmon Star Pack",
+    "Fishing Planet: Spooky Fishing Pack",
+    "Fishing Planet: Trout Triumph Pack",
+    "Happy 4th of July Pack",
+    "Virtual Bass Open Pack",
+    "Fishing Planet: Golden Dragon Pack",
+    "Sport Casting Bass Pack",
+    "Sport Float Pack",
+    "Sport Heavy Casting Pack",
+    "Sport Outfit DLC",
+    "Sport Spinning Trout Pack",
+    "Sport Topwater Night Pack"
+  ],
   "rods": {
     "telescopic": [
       {"name": "Troy 23 SE", "type": "Telescopic", "length": "23'", "line_weight": "3-13 Lb", "action": "Mod Fast", "pieces": 7},
@@ -34,7 +60,9 @@
       {"name": "CGT FinGiant 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-25 Lb", "action": "Mod Fast", "pieces": 3},
       {"name": "EquatorMatch 8'6\" SE", "type": "Match", "length": "8'6\"", "line_weight": "28.6-83.8 Lb", "action": "Moderate", "pieces": 3, "note": "VERY HIGH line weight — saltwater class"},
       {"name": "Fenix 14'10\" SE", "type": "Match", "length": "14'10\"", "line_weight": "5-22 Lb", "action": "Mod Fast", "pieces": 3},
-      {"name": "Brutus 10'10\" SE", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3}
+      {"name": "Fenix 11'5\"", "type": "Match", "length": "11'5\"", "line_weight": "4.5-17.5 Lb", "action": "Mod Fast", "pieces": 3, "source": "Salmon Star Pack or in-game"},
+      {"name": "Brutus 10'10\" SE", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3},
+      {"name": "MCT McCarp 13'2\"", "type": "Match", "length": "13'2\"", "line_weight": "9-25.5 Lb", "action": "Mod Fast", "pieces": 3, "source": "Mighty Carp Pack"}
     ],
     "spinning": [
       {"name": "FeatherLight 6'3\" Sport", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/32-1/4 Oz", "power": "Ultralight"},
@@ -55,7 +83,11 @@
       {"name": "Aurora 8'2\"", "type": "Spinning", "length": "8'2\"", "lure_weight": "3/8-3/4 Oz", "power": "Light"},
       {"name": "JigWinner 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
       {"name": "FeatherLight 6'6\" NE", "type": "Spinning", "length": "6'6\"", "lure_weight": "1/28-1/3 Oz", "power": "Ultralight"},
-      {"name": "Zeus 8'2\" NE", "type": "Spinning", "length": "8'2\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy"}
+      {"name": "Zeus 8'2\" NE", "type": "Spinning", "length": "8'2\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy"},
+      {"name": "Rivertex Salmonster 8'2\"", "type": "Spinning", "length": "8'2\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "line_weight": "15-42 Lb", "action": "Mod Fast", "source": "Anniversary Pack"},
+      {"name": "Rivertex Salmonster 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "line_weight": "18-46 Lb", "action": "Mod Fast", "source": "Anniversary Pack", "note": "Currently equipped slot 6"},
+      {"name": "Loki 7'7\" SE", "type": "Spinning", "length": "7'7\"", "lure_weight": "5/7-2 1/3 Oz", "power": "Heavy", "line_weight": "6-24 Lb", "action": "Moderate", "source": "Trout Triumph Pack"},
+      {"name": "SpookySpin 8'6\"", "type": "Spinning", "length": "8'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy", "line_weight": "6.6-19.8 Lb", "action": "Mod Fast", "source": "Spooky Fishing Pack"}
     ],
     "casting": [
       {"name": "FarCaster 8'6\" Sport", "type": "Casting", "length": "8'6\"", "lure_weight": "1/2-1 1/2 Oz", "power": "Medium"},
@@ -134,7 +166,15 @@
       {"name": "EspiraML 3000 SE", "max_drag": "12.1 Lb", "ratio": "4.7:1", "recovery": "27.5\""},
       {"name": "Ambusher 9000 SE", "max_drag": "49.6 Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "VERY STRONG"},
       {"name": "ThunderSpin 5500 SE", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\""},
-      {"name": "Prima 3500", "max_drag": "9.9 Lb", "ratio": "5.2:1", "recovery": "31.5\""}
+      {"name": "Prima 3500", "max_drag": "9.9 Lb", "ratio": "5.2:1", "recovery": "31.5\""},
+      {"name": "Kraken 8000 SE", "max_drag": "49+ Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "Currently equipped slot 6 — STRONG", "source": "Salmon Star Pack or in-game"},
+      {"name": "EspiraMLR 3600", "max_drag": "~15 Lb", "ratio": "5.1:1", "recovery": "29.5\"", "note": "Currently equipped slot 4", "source": "In-game purchase"},
+      {"name": "EspiraSlim 2500 Sport", "max_drag": "6.4 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "source": "In backpack"},
+      {"name": "HeartSpinner 3500", "max_drag": "12.5 Lb", "ratio": "5.2:1", "recovery": "31.5\"", "source": "Crappie Valentine Pack"},
+      {"name": "Ghost Reel 3000", "max_drag": "11 Lb", "ratio": "4.6:1", "recovery": "27.5\"", "source": "Spooky Fishing Pack"},
+      {"name": "MCT CarpAxel 4000", "max_drag": "22 Lb", "ratio": "4.6:1", "recovery": "29.5\"", "source": "Mighty Carp Pack"},
+      {"name": "Callisto MG 3000 Sport", "max_drag": "8.8 Lb", "ratio": "4.7:1", "recovery": "27.5\"", "source": "Sport Float Pack"},
+      {"name": "MagFin WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.3:1", "recovery": "31.5\"", "source": "World Bass Tour Pack"}
     ],
     "casting": [
       {"name": "Helios 2000S", "max_drag": "15.4 Lb", "ratio": "5.8:1", "recovery": "21.6\""},
@@ -237,7 +277,10 @@
     ],
     "titanium": [
       {"name": "Titanium Leader .004\"", "test": "7 Lb", "length": "1.64'"},
-      {"name": "Titanium Leader .005\"", "test": "11 Lb", "length": "1.64'"}
+      {"name": "Titanium Leader .005\"", "test": "11 Lb", "length": "1.64'"},
+      {"name": "Titanium Leader .006\"", "test": "~13 Lb", "length": "1.64'"},
+      {"name": "Titanium Leader .012\"", "test": "~24 Lb", "length": "1.64'"},
+      {"name": "Titanium Leader .014\"", "test": "~28 Lb", "length": "1.64'"}
     ]
   },
   "tackle_summary": {
@@ -277,10 +320,19 @@
     "vests": ["BornAmerican Fishing Jacket", "CGT Goliath", "FPA Cup Jacket", "GarryScott DragonSkin F", "GGC BomberJaws", "MCT Carpster", "PassionBomber", "SCT FatCat (x2)", "Sport Shirt", "VBO Fishing Jacket", "WBT Bass Winner Jacket", "Travel Pro II", "Grizzly Vest", "Pro Angler", "Wild Element Deluxe Angler Vest"],
     "hats": ["Bass Boss Cap", "Catfish Combat Cap", "Fishing Planet Cap", "GarryScott DragonMaster Cap", "Predator Hunter Cap", "Salmon Star Cap", "Trout Triumph Cap"],
     "keepnets": ["FishHut L", "FishCabin XS Plus", "FishCabin S", "FishCabin M Plus", "FishFort XS", "FishFort M", "FishFort XL Plus (x2)", "FishCastle L (x2)", "Iron Maiden Fish Stringer"],
-    "rod_stands": ["TripleFeeder Rod Stand", "GreenPod Rod Stand"],
+    "rod_stands": ["TripleFeeder Rod Stand", "GreenPod Rod Stand", "RodPod Trio Rod Stand"],
+    "headlamps": ["Luminos Headlamp"],
+    "markers": ["Magic RedRiverDragon Marker"],
+    "chum_containers": ["ChumChest Lux", "ChumChest XL"],
     "boats": {
-      "kayaks": [{"name": "GoldenAlbatros Adventure Kayak", "speed": "5.5 mph", "weight": "77 Lb"}],
-      "bass_boats": [{"name": "Garry Scott Draco Boat", "length": "24.4 ft", "width": "7 ft", "weight": "2976 Lb", "material": "Aluminium"}]
+      "kayaks": [
+        {"name": "GoldenAlbatros Adventure Kayak", "speed": "5.5 mph", "weight": "77 Lb"},
+        {"name": "MagFin RedRiverDragon Kayak", "length": "10'4\"", "weight": "66 Lb", "speed": "5 mph", "source": "Golden Dragon Pack"}
+      ],
+      "bass_boats": [
+        {"name": "Garry Scott Draco Bass Boat", "length": "24.4 ft", "width": "7 ft", "weight": "2976 Lb", "material": "Aluminium", "source": "Congo Discovery Pack"},
+        {"name": "Garry Scott Lupus Motor Boat", "source": "In-game or DLC"}
+      ]
     }
   },
   "best_combos_for_big_fish": {

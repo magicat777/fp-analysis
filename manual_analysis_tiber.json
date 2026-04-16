@@ -1,0 +1,59 @@
+{
+  "slots": [],
+  "gear": {},
+  "groundbait": {},
+  "boat": {
+    "owned": "Garry Scott Draco Bass Boat / Lupus Motor Boat",
+    "use": "Recommended for covering the river - trout mission completed via boat trolling"
+  },
+  "passive_fishing": {
+    "rod_stand": "Club-Series Rod Oasis (4-Rod Stand)",
+    "recommended_spots": ["Shore bottom rigs for perch/barbel/carp", "4-rod spread with diverse baits"]
+  },
+  "overall_analysis": {
+    "loadout_progress": {
+      "previous_average_rating": null,
+      "current_average_rating": 7.0,
+      "improvement_summary": "First Tiber trip 4/12. Used Saint-Croix-style loadout adapted for smaller Euro species. Active lures on Salmonster (Barbless Nano Spinner, Narrow Spoon, Spinner 1/8 Oz) worked well. Bottom rods downsized to #4-#6 hooks."
+    },
+    "density_warning": "Tiber has LOW FISH DENSITY compared to Saint-Croix. Expect 1 hit per 4-10 casts on active lures and long waits between bottom rod hits. 17 in-game hours yielded only 21k credits - approximately 1/3 of Saint-Croix income rate.",
+    "travel_cost_note": "Travel is ~7,500 credits. At Tiber's density, you need 30+k in fish to break even after supplies. MISSION COMPLETION IS THE ONLY REASON TO VISIT.",
+    "mvp_active_lures": [
+      "Barbless Nano Spinner 1/8 Oz #1/0 - produced Unique European Chub, Unique European Perch, multiple trophies",
+      "Spinner 1/8 Oz #1/0 - Trophy European Chub 4.28 lb in evening window",
+      "Narrow Spoon 3/4 Oz #3/0 - Trophy European Brown Trout 3.83 lb via drop-and-pause technique"
+    ],
+    "mvp_baits": [
+      "Medium Cutbait (night) - Unique European Eel 7.088 lb on Tribal Totem bottom",
+      "Semolina Balls - Trophy Common Barbel 4.18 lb",
+      "Pinkies - panfish completion (crucian, perch, roach) on Troy 23' telescopic",
+      "Leeches - perch and wels catfish bycatch",
+      "Red Worms - Trophy Crucian Carp",
+      "Night Crawlers - Trophy Common Carp 9.56 lb",
+      "Bloodworms - European Perch, Common Barbel",
+      "Bread with Honey - Young Common Carp, European Bitterling",
+      "Mayflies - Marble Trout",
+      "Worm 2\" - Marble Trout night"
+    ],
+    "technique_notes": [
+      "Drop-and-pause technique (same cadence as Saint-Croix) works on trout - completed Tiber Trout I mission via boat trolling",
+      "Reel speed Med-Fast (not Full) preserves rod/reel wear on larger fish",
+      "Small spinners (1/8 Oz #1/0) outperform larger lures for Euro river predators"
+    ],
+    "unique_catches_session_1": [
+      "Unique European Eel 7.088 lb (Medium Cutbait, night)",
+      "Unique European Perch 3.007 lb (Barbless Nano Spinner)",
+      "Unique European Chub 4.034 lb (Barbless Nano Spinner)"
+    ],
+    "user_verdict": "LOW PRIORITY RETURN. User explicitly disliked this location - sparse fish density + high travel cost = poor $/hour. Finish Exploration II (2 fish remaining) then leave. Not a destination for income farming."
+  },
+  "mission": {
+    "completed": [
+      "Tiber Exploration I (4/12)",
+      "Tiber Trout Mission I (4/12) - completed via boat + drop-and-pause"
+    ],
+    "in_progress": [
+      "Tiber Exploration II - 4/6 (2 fish remaining)"
+    ]
+  }
+}

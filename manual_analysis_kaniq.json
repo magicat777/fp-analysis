@@ -1,0 +1,239 @@
+{
+  "location": {
+    "name": "Kaniq Creek",
+    "region": "Alaska",
+    "type": "River",
+    "continent": "North America",
+    "base_level": 38,
+    "travel_cost": 8000,
+    "extend_cost": 1000,
+    "level_note": "Just unlocked at Level 38 (2026-04-13). Next progression destination after Saint-Croix and SJD."
+  },
+  "fish_summary": {
+    "primary_targets": [
+      "Chinook Salmon (highest value salmon, trophy class)",
+      "Coho Salmon (Silver Salmon)",
+      "Sockeye Salmon (Red Salmon)",
+      "Pink Salmon",
+      "Chum Salmon",
+      "Bull Trout (char family, trophy class)",
+      "Dolly Varden (char family)",
+      "Northern Pike (TITANIUM LEADER REQUIRED for bite-off protection)"
+    ],
+    "secondary_targets": [
+      "Longnose Sucker (bottom feeder, bait fishing)",
+      "Alaska Blackfish (small/panfish-class)"
+    ],
+    "fish_count": 10
+  },
+  "spots": [
+    {
+      "name": "Angling the Middle-Earth",
+      "type": "Shore - River bend",
+      "best_for": ["Salmon species", "Bull Trout", "Dolly Varden"]
+    },
+    {
+      "name": "Hunter's Cabin",
+      "type": "Shore - Cabin overlook",
+      "best_for": ["Northern Pike", "Salmon", "Char"]
+    },
+    {
+      "name": "Taming the Kaniq",
+      "type": "Shore - Fast water",
+      "best_for": ["Active salmon casting", "Pacific salmon runs"]
+    }
+  ],
+  "loadout_strategy": {
+    "philosophy": "Adapted from current SJD loadout. Kaniq Creek is a SALMON RIVER - active spoon/spinner fishing dominates. NOT a heavy-bottom location like Saint-Croix or SJD. Pike presence REQUIRES Titanium leaders on all active rods (cannot use Fluoro). Reduce bottom rods from 4 (sturgeon) to 1-2 (sucker/bull trout); convert remaining bottom slots to active salmon rods.",
+    "key_changes_from_sjd_loadout": [
+      "CRITICAL: Swap Fluorocarbon leaders to TITANIUM on slots 1, 2, 3 (Northern Pike present - bite-off risk)",
+      "Slots 4-7: REDUCE bottom rods from 4 to 1-2; convert others to active salmon casting/spinning",
+      "Bait change: Salmon Eggs / Roe replace Large Cutbait on the remaining bottom rods",
+      "Lure focus: Spoons (Single Spoon 1.5 Oz, Narrow Spoon 3/4 Oz, Salmon-color spoons) and Spinners",
+      "Skip the 4-Rod Stand setup - not appropriate for salmon river fishing style"
+    ]
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "GalaxyCast 8'6\" (Casting Rod, X-Heavy, 3/4-2 1/8 Oz, 7-28.6 Lb, Mod Fast)",
+      "reel": "VorteX 7000 SE",
+      "line": "Braid .0076\"",
+      "leader": "Titanium Leader .011\" (KEEP - works for pike)",
+      "terminal_tackle": "JigHead 3/4 Oz #3/0",
+      "bait": "Shad 4\" or Salmon Egg Cluster",
+      "setup_type": "Casting Jig + Soft Plastic / Egg Cluster",
+      "target_fish": ["Chinook Salmon", "Bull Trout", "Northern Pike"],
+      "effectiveness_rating": 7,
+      "notes": "Long-range casting for salmon runs. Titanium leader handles pike bite-off. Try Salmon Egg Cluster on jighead for spawning salmon."
+    },
+    {
+      "slot_number": 2,
+      "rod": "Silverthorn Stake 7'6\" (Casting Rod, X-Heavy, 7/8-3 1/6 Oz, 35.3-88 Lb)",
+      "reel": "Vampire's Bane 7500",
+      "line": "Fluoro .034\"",
+      "leader": "Titanium Leader .025\" (NEW - swap from direct fluoro for pike protection)",
+      "terminal_tackle": "Single Spoon 1 1/2 Oz #4/0",
+      "bait": "Single Spoon 1 1/2 Oz #4/0 (lure)",
+      "setup_type": "Casting Spoon - Salmon Hunt",
+      "target_fish": ["Chinook Salmon (33+ lb mission target)", "Coho Salmon", "Northern Pike bycatch"],
+      "effectiveness_rating": 8,
+      "notes": "PRIMARY SALMON HUNT MISSION ROD continues at Kaniq Creek. Same setup that Day 1 SJD couldn't find a 33+ lb chinook - try Alaska river runs which may produce bigger fish. CRITICAL: Add Titanium leader for pike bite-off."
+    },
+    {
+      "slot_number": 3,
+      "rod": "Rivertex Salmonster 8'10\" (Spinning, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
+      "reel": "Kraken 8000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Titanium Leader .012\" (KEEP - pike protection)",
+      "terminal_tackle": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0",
+      "bait": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0 (lure)",
+      "setup_type": "Spinning Spoon - Salmon Active",
+      "target_fish": ["Coho Salmon", "Sockeye Salmon", "Chinook Salmon", "Pink Salmon"],
+      "effectiveness_rating": 9,
+      "notes": "Salmonster + spoon = proven cross-location salmon producer. Glow&Holo spoon works in low-light Alaska conditions. Drop-and-pause technique transfers well to salmon."
+    },
+    {
+      "slot_number": 4,
+      "rod": "GalaxyCast 5'11\" SE (Casting, X-Heavy, 7/8-2.5 Oz) - Supernatural Pack",
+      "reel": "WBT DragAssistant 3500 P",
+      "line": "Mono .02\"",
+      "leader": "Titanium Leader .011\"",
+      "terminal_tackle": "Spinnerbait 3/4 Oz #4/0",
+      "bait": "Spinnerbait 3/4 Oz #4/0 (lure)",
+      "setup_type": "Casting Spinnerbait - Pike + Salmon",
+      "target_fish": ["Northern Pike (TROPHY target)", "Chinook Salmon", "Coho Salmon"],
+      "effectiveness_rating": 8,
+      "notes": "REPURPOSED FROM SJD: previously Heavy Chaser bottom (Crawfish/sturgeon). At Kaniq, swap to short casting rod + Spinnerbait for active pike fishing along weed edges and slow pools. Spinnerbait + Titanium = standard pike/salmon combo."
+    },
+    {
+      "slot_number": 5,
+      "rod": "Salmonster 8'2\" (Spinning, X-Heavy, 5/8-2 Oz, 15-42 Lb, Mod Fast)",
+      "reel": "ThunderSpin 5500 SE",
+      "line": "Fluoro .024\"",
+      "leader": "Titanium Leader .012\"",
+      "terminal_tackle": "Narrow Spoon 3/4 Oz #5/0",
+      "bait": "Narrow Spoon 3/4 Oz #5/0 (lure)",
+      "setup_type": "Spinning Spoon - Char + Sockeye",
+      "target_fish": ["Bull Trout (Trophy)", "Dolly Varden", "Sockeye Salmon"],
+      "effectiveness_rating": 8,
+      "notes": "REPURPOSED FROM SJD: previously Humenus bottom (Large Cutbait/sturgeon). At Kaniq, swap to lighter spinning + Narrow Spoon for char and smaller salmon. Drop-pause technique works for Bull Trout and Dolly Varden in deep pools."
+    },
+    {
+      "slot_number": 6,
+      "rod": "Mokonzi 12'10\" SE (Feeder, X-Heavy, 6-9 7/8 Oz, 39.7-81.6 Lb, Moderate)",
+      "reel": "Ambusher 9000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Fluorocarbon Leader .020\"",
+      "terminal_tackle": "Open Feeder 4 1/2 Oz + Mix Grand Fish Feeder, Hook #2",
+      "bait": "Salmon Eggs / Roe / Salmon Egg Cluster",
+      "setup_type": "Feeder Rig - Spawning Salmon Drift",
+      "target_fish": ["Sockeye Salmon", "Pink Salmon", "Chum Salmon", "Chinook Salmon"],
+      "effectiveness_rating": 8,
+      "notes": "REPURPOSED FROM SJD: previously sturgeon feeder (Large Cutbait). At Kaniq, swap to Salmon Eggs / Roe under feeder for spawning runs - this is the STANDARD Alaska salmon drift technique. No Titanium leader needed (no pike on bottom drift). Smaller hook (#2) for delicate salmon mouths."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Tribal Totem 12'10\" (Bottom, X-Heavy, casting 6-9 7/8 Oz)",
+      "reel": "Savana Spirit 11000",
+      "line": "Catfish Moustache Line",
+      "leader": "Horsehair Leader",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Hook #2/0",
+      "bait": "Night Crawlers / Worm",
+      "setup_type": "Bottom Rig - Sucker / Char",
+      "target_fish": ["Longnose Sucker", "Bull Trout", "Dolly Varden"],
+      "effectiveness_rating": 6,
+      "notes": "REPURPOSED FROM SJD: previously sturgeon bottom (Large Cutbait). At Kaniq, single bottom rod with Night Crawlers for Longnose Sucker (panfish completion) and Bull Trout/Dolly Varden bycatch. Heaviest bottom rod kept for any large char that hit. Could swap to Roe if salmon are running through the deep pools."
+    }
+  ],
+  "shopping_list": {
+    "baits_to_buy": [
+      "Salmon Eggs - PRIMARY salmon spawning bait",
+      "Roe (Salmon Roe) - alternative salmon bait",
+      "Salmon Egg Cluster - tournament-grade salmon bait",
+      "Night Crawlers (already have) - sucker, char",
+      "Shrimp - bull trout, dolly varden alternative",
+      "Small Minnows - pike, large char"
+    ],
+    "lures_to_consider": [
+      "Salmon-color Single Spoon 1 1/2 Oz #4/0 (mission)",
+      "Pink/Orange Salmon spoons - Coho/Sockeye matching colors",
+      "Glow&Holo Medium Spoon 1 Oz #4/0 (already have - low-light champion)",
+      "Spinnerbait 3/4-1 Oz - pike + salmon combo lure",
+      "Bullet Spinner 1-1.25 Oz - confirmed at SJD for chinook",
+      "Crankbait 6 ft - pike + bull trout"
+    ]
+  },
+  "strategy": {
+    "first_trip": [
+      "Buy unlimited Alaska License (cost TBD - check at travel)",
+      "Travel to Kaniq Creek - 8,000 cost",
+      "Visit Angling the Middle-Earth first - shore river bend with salmon traffic",
+      "Deploy active rods (slots 1, 2, 3) with spoons for incoming salmon runs",
+      "Slot 6 (Mokonzi feeder + Salmon Eggs) anchors a passive drift line",
+      "Rotate to Hunter's Cabin for pike + char variety",
+      "Try Taming the Kaniq for fast-water salmon",
+      "Goal Day 1: catch one of each of the 5 salmon species + Bull Trout + Dolly Varden + Northern Pike"
+    ],
+    "income_priorities": [
+      "Chinook Salmon = highest individual value among salmon",
+      "Bull Trout = char family trophy income (similar to lake trout pricing)",
+      "Coho Salmon = volume Pacific salmon income",
+      "Sockeye Salmon = mid-range Pacific salmon",
+      "Pink/Chum Salmon = lower individual value but volume runs",
+      "Northern Pike = bonus predator income"
+    ],
+    "missions_to_check": [
+      "Salmon Hunt (Spoon Lure) - if cross-location, Kaniq Chinook may be easier than SJD",
+      "Pacific Salmon collection missions (Coho, Sockeye, Pink, Chum trophies)",
+      "Bull Trout / Dolly Varden mastering missions",
+      "Kaniq Creek Exploration I (10 species - knock out on first trip)",
+      "Northern Pike trophy mission (if active)",
+      "Look for a Kaniq-specific Fish Monster mission"
+    ]
+  },
+  "critical_warnings": [
+    "NORTHERN PIKE PRESENT - all active lure rods MUST use Titanium leader (Fluoro will be bitten off)",
+    "Salmon Hunt mission MAY transfer here - 33+ lb Chinook potentially easier in Alaska river vs SJD California",
+    "Cold-weather location - check if license type affects gear durability differently",
+    "Spawning runs are seasonal in-game weather/time-dependent - plan around weather window for best salmon density"
+  ],
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 8.0,
+      "improvement_summary": "Field-tested 2026-04-13. Medium Spoon 6/7 Oz #6/0 on Silverthorn Stake = MVP (8+ salmon, Unique Chum 30.78 lb, Unique Sockeye 15.5 lb). Finesse retrieve technique critical."
+    },
+    "kaniq_retrieve_technique": {
+      "summary": "Multi-stage zig-zag retrieve for Pacific salmon — SMOOTH movement, not jerky. Salmon hit almost exclusively on the DROP phase.",
+      "sequence": [
+        "1. Cast to target zone",
+        "2. Let drop SLOWLY to bottom (6/7 Oz spoon weight is correct drop rate)",
+        "3. Reel + raise slowly until lure reaches ~50% depth from bottom",
+        "4. Let drop slowly again",
+        "5. Raise just before bottom (~80-90% deep)",
+        "6. Raise to ~40% depth",
+        "7. Drop slowly again",
+        "8. Repeat cycle until lure approaches surface",
+        "9. Final drop to ~70-80% depth, then retrieve"
+      ],
+      "key_principles": [
+        "Salmon hit on the DROP phase, rarely on the raise",
+        "SMOOTH movement - twitches and jerks shut down the bite",
+        "Lure weight (6/7 Oz) controls drop speed - lighter/heavier breaks the cadence",
+        "Shallow + rocky waterways = high snag risk on bottom proximity stages"
+      ]
+    },
+    "session_1_results_4_13": {
+      "fish_caught": 12,
+      "total_weight_lb": 197,
+      "reward_credits": 13418,
+      "xp_premium": 3315,
+      "uniques": ["Unique Chum Salmon 30.788 lb", "Unique Sockeye Salmon 15.507 lb"],
+      "trophies": ["Trophy Chinook Salmon 22.84 lb", "Trophy Sockeye Salmon 13.07 lb"],
+      "mvp_lure": "Medium Spoon 6/7 Oz #6/0",
+      "confirmed_working_rods": ["Silverthorn Stake 7'6\"", "Salmonster 8'10\""],
+      "challenges_completed": ["Kaniq Creek Sanitizer I", "Unique Gainer II", "Salmon Master II", "Kaniq Creek Voyager I"]
+    },
+    "user_verdict": "MIXED FEELINGS. Technical finesse fishing is fun but XP/income underwhelming vs Saint-Croix and SJD. Tabled for later date - not returning immediately. Good for mission completion but not income farming."
+  }
+}

@@ -17,7 +17,7 @@ type: feedback
 
 ## Report Preferences
 - Imperial units throughout (feet, lbs, inches) — user explicitly requested this
-- Fish prices stay as $/kg (that's what the game uses internally)
+- Fish prices converted to $/lb for consistency (game uses $/kg internally but we convert for imperial display)
 - Include recommended hook sizes per fish (from howToCatch API data)
 - Include fish activity times and preferred depths
 - Include ubersheet (community-tested) recommended tackle

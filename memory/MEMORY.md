@@ -1,4 +1,6 @@
 - [FP Collective Scraper](project_fpcollective.md) — Fishing Planet loadout analyzer with React HTML reports, hosted at fpreports.click
-- [User plays Fishing Planet](user_gamer.md) — PC gamer magicat777, level 27, extensive DLC inventory, progressing through locations
+- [User plays Fishing Planet](user_gamer.md) — PC gamer magicat777, level 34, extensive DLC inventory, progressing through locations
+- [Location preferences](user_location_preferences.md) — Strong preference for deep water lakes (Saint-Croix, White Moose); dislikes shallow rivers like SJD
 - [Workflow preferences](feedback_workflow.md) — Manual screenshot analysis, imperial units, deploy after each report, check inventory before recommending gear
 - [API and data references](reference_apis.md) — fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
+- [Congo tackle ceiling](project_congo_tackle_ceiling.md) — Market tops at 97 lb; fish >180 lb unlandable; open research on endgame unlocks

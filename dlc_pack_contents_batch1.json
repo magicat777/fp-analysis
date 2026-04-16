@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "description": "Fishing Planet DLC Pack Equipment Contents - Batch 1",
+    "date_researched": "2026-04-07",
+    "sources": [
+      "Steam Store Pages",
+      "Fishing Planet Wiki (wiki.fishingplanet.com)",
+      "Community Resources"
+    ]
+  },
+  "packs": {
+    "world_bass_tour_pack": {
+      "name": "Fishing Planet: World Bass Tour Pack",
+      "steam_app_id": 1804843,
+      "steam_url": "https://store.steampowered.com/app/1804843/Fishing_Planet_World_Bass_Tour_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 50,
+        "tackle_setup_slots": 2
+      },
+      "rods": [
+        {
+          "name": "MagFin WBT BassStriker 7'10\" (240) SE",
+          "length": "7'10\" (2.4m)",
+          "power": "Heavy",
+          "action": "Fast",
+          "lure_weight": "1/2-1 5/8 oz (14-45g)",
+          "line_weight": "9-24 lb (4-11 kg)",
+          "guides": 10,
+          "pieces": 2
+        },
+        {
+          "name": "MagFin WBT BassEnchanter 7'3\" (220) NE",
+          "length": "7'3\" (2.2m)",
+          "power": "Heavy",
+          "action": "Fast",
+          "lure_weight": "3/8-1 3/7 oz (10-40g)",
+          "line_weight": "7.5-23 lb (3.5-10.5 kg)",
+          "guides": 10,
+          "pieces": 2
+        }
+      ],
+      "reels": [
+        {
+          "name": "RIVERTEX WBT Maelstrom 4000",
+          "type": "Casting",
+          "ratio": "6.2:1",
+          "recovery": "29.5\" (75cm)",
+          "max_drag": "23 lb (10.5 kg)",
+          "capacity": "Mono 12/120, Braid 20/160",
+          "brake": "Magnetic & Centrifugal"
+        },
+        {
+          "name": "MagFin WBT DragAssistant 3500 S",
+          "type": "Spinning",
+          "ratio": "6.3:1",
+          "recovery": "31.5\" (80cm)",
+          "max_drag": "33 lb (15 kg)",
+          "capacity": "Mono 32/140, Braid 30/240",
+          "brake": "Centrifugal"
+        }
+      ],
+      "lines": [
+        {"type": "Braid", "diameter": ".008\" (0.19mm)", "test": "23 lb (10.4 kg)", "length": "1000 yd"},
+        {"type": "Braid", "diameter": ".009\" (0.23mm)", "test": "20 lb (9.1 kg)", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".016\" (0.4mm)", "test": "20 lb (9.1 kg)", "length": "1000 yd"}
+      ],
+      "leaders_and_rigs": [
+        {"name": "Fluorocarbon Leader .016\"", "quantity": 20},
+        {"name": "Carolina Rig .016\"", "quantity": 10},
+        {"name": "Texas Rig .016\"", "quantity": 10}
+      ],
+      "hooks": [
+        {"name": "Offset Hook #1/0", "quantity": 5},
+        {"name": "Offset Hook #2/0", "quantity": 5},
+        {"name": "Offset Hook #3/0", "quantity": 5},
+        {"name": "Offset Hook #4/0", "quantity": 5},
+        {"name": "Offset Hook #5/0", "quantity": 5},
+        {"name": "Offset Hook #6/0", "quantity": 5}
+      ],
+      "sinkers": [
+        {"name": "Bullet Sinker 3/8 oz", "quantity": 4},
+        {"name": "Bullet Sinker 5/8 oz", "quantity": 4},
+        {"name": "Bullet Sinker 6/7 oz", "quantity": 3},
+        {"name": "Bullet Sinker 1 1/4 oz", "quantity": 2},
+        {"name": "Bullet Sinker 1 1/2 oz", "quantity": 2}
+      ],
+      "lures": [
+        {"name": "Bass Jig 1 oz #2/0", "quantity": 10},
+        {"name": "Bass Jig 1 oz #4/0", "quantity": 10},
+        {"name": "Spinnerbait 3/4 oz #3/0", "quantity": 10},
+        {"name": "Spinnerbait 1 oz #4/0", "quantity": 10},
+        {"name": "Buzzbait 6/7 oz #4/0", "quantity": 5},
+        {"name": "Buzzbait 1 oz #5/0", "quantity": 5},
+        {"name": "Shad 4\"", "quantity": 20},
+        {"name": "Shad 6\"", "quantity": 20},
+        {"name": "Ribbed Shad 4\"", "quantity": 10},
+        {"name": "Ribbed Shad 6\"", "quantity": 15},
+        {"name": "Worm 3\"", "quantity": 20},
+        {"name": "Worm 5\"", "quantity": 20}
+      ],
+      "equipment": {
+        "rod_case": {"name": "RIVERTEX WBT RodSheath Rod Case", "capacity": "2 rods, 4 reels, 2 lines"},
+        "jacket": {"name": "Garry Scott WBT Bass Winner Jacket", "capacity": "15 tackles, 2 lines"},
+        "keepnet": {"name": "Garry Scott FishFort XS Net", "max_single_fish": "22 lb (10 kg)", "total_capacity": "154 lb (70 kg)"}
+      },
+      "licenses_7day": ["Florida", "Louisiana", "Mississippi", "Bolivia", "Brazil"]
+    },
+
+    "congo_discovery_pack": {
+      "name": "Fishing Planet: Congo Discovery Pack",
+      "steam_app_id": 1200349,
+      "steam_url": "https://store.steampowered.com/app/1200349/Fishing_Planet_Congo_Discovery_Pack/",
+      "currency_and_bonuses": {
+        "credits": 100000,
+        "baitcoins": 20,
+        "premium_days": 30,
+        "storage_slots": 35,
+        "tackle_setup_slots": 2,
+        "marker_buoys": 25
+      },
+      "boat": {
+        "name": "Garry Scott Draco",
+        "length": "24.4 ft (745 cm)",
+        "width": "7 ft (215 cm)",
+        "weight": "2976 lb (1350 kg)",
+        "engine_hp": 300,
+        "echo_sounder": "OEM ElitePro",
+        "rod_holders": 2
+      },
+      "rods": [
+        {
+          "name": "UL-CHUBER Mokonzi 12'10\" (390) SE",
+          "length": "12'10\" (3.9m)",
+          "power": "X Heavy",
+          "action": "Moderate",
+          "casting_weight": "6-9 7/8 oz (170-280g)",
+          "line_weight": "39.7-81.6 lb (18-37 kg)"
+        },
+        {
+          "name": "Garry Scott EquatorMatch 8'6\" SE (260)",
+          "length": "8'6\" (2.6m)",
+          "action": "Moderate",
+          "line_weight": "28.6-83.8 lb (13-38 kg)"
+        }
+      ],
+      "reels": [
+        {
+          "name": "UL-CHUBER Fileur 11000 SE",
+          "ratio": "5.2:1",
+          "recovery": "43.5\"",
+          "max_drag": "79.4 lb (36 kg)",
+          "drag_type": "Front"
+        },
+        {
+          "name": "Garry Scott L'impulsion 12000 SE",
+          "ratio": "5.6:1",
+          "recovery": "47\"",
+          "max_drag": "81.5 lb (37 kg)",
+          "drag_type": "Front"
+        }
+      ],
+      "lines": [
+        {"type": "Monofilament", "diameter": ".033\" (0.85mm)", "test": "83.7 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".033\"-.034\"", "test": "79-83.8 lb", "length": "1000 yd"}
+      ],
+      "leaders": "Mono and fluorocarbon variants in multiple lengths/strengths (45 pieces total)",
+      "hooks": [
+        {"name": "Hook #2/0"},
+        {"name": "Hook #4/0"},
+        {"name": "Cap'n Hook #7/0 through #14/0", "note": "40 pieces total across all sizes"}
+      ],
+      "bobbers": ["Slider Heavy", "Waggler Heavy"],
+      "sinkers": ["6 oz variants", "8 oz variants"],
+      "baits": [
+        {"name": "Large Cutbait", "quantity": 20},
+        {"name": "Meat Chunk", "quantity": 20},
+        {"name": "Chicken Liver", "quantity": 20},
+        {"name": "Huge Cutbait", "quantity": 20},
+        {"name": "Large Liver", "quantity": 20},
+        {"name": "Canned Meat", "quantity": 20},
+        {"name": "Buffalo Kidneys", "quantity": 20},
+        {"name": "Small Tilapia", "quantity": 20},
+        {"name": "Caddis Larvae", "quantity": 50},
+        {"name": "African Water Bugs", "quantity": 50},
+        {"name": "Banana Bread", "quantity": 100}
+      ],
+      "equipment": {
+        "keepnet": {"name": "Garry Scott FishStronghold M Plus", "max_single_fish": "308 lb", "total_capacity": "925 lb"}
+      },
+      "licenses": {
+        "congo_river_pass": "30 days",
+        "advanced_congo_license": "30 days"
+      }
+    },
+
+    "anniversary_pack": {
+      "name": "Fishing Planet: Anniversary Pack",
+      "steam_app_id": 496431,
+      "steam_url": "https://store.steampowered.com/app/496431/Fishing_Planet_Anniversary_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 40,
+        "tackle_setup_slots": 2
+      },
+      "rods": [
+        {
+          "name": "Rivertex Salmonster 8'2\" (220)",
+          "length": "8'2\" (2.2m)",
+          "power": "X-Heavy",
+          "action": "Mod Fast",
+          "lure_weight": "5/8-2 oz (18-56g)",
+          "line_weight": "15-42 lb (7-19.5 kg)",
+          "pieces": 2,
+          "guides": 10
+        },
+        {
+          "name": "Rivertex Salmonster 8'10\" (270)",
+          "length": "8'10\" (2.7m)",
+          "power": "X-Heavy",
+          "action": "Mod Fast",
+          "lure_weight": "3/4-2 1/8 oz (21-60g)",
+          "line_weight": "18-46 lb (8.5-21 kg)",
+          "pieces": 2,
+          "guides": 11
+        }
+      ],
+      "reels": [
+        {
+          "name": "Rivertex RedFish 4500",
+          "ratio": "5.4:1",
+          "recovery": "27.5\" (80cm)",
+          "max_drag": "35 lb (16 kg)",
+          "capacity": "Mono 20/110, Braid 30/145"
+        },
+        {
+          "name": "Rivertex RedFish 5500",
+          "ratio": "5.4:1",
+          "recovery": "31.5\" (80cm)",
+          "max_drag": "42 lb (19 kg)",
+          "capacity": "Mono 32/110, Braid 30/180"
+        }
+      ],
+      "lines": [
+        {"type": "Fluorocarbon", "diameter": ".022\" (0.55mm)", "test": "35 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".024\" (0.6mm)", "test": "40 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".025\" (0.65mm)", "test": "44 lb", "length": "1000 yd"}
+      ],
+      "lures": [
+        {"name": "Jighead 3/4 oz #3/0"},
+        {"name": "Jighead 7/8 oz #4/0"},
+        {"name": "Jighead 1 oz #6/0"},
+        {"name": "Jighead 1 1/2 oz #4/0"},
+        {"name": "Jighead 1 5/8 oz #6/0"},
+        {"name": "Jighead 2 oz #4/0"},
+        {"name": "Jighead 2 oz #6/0"},
+        {"name": "Softbait Nymphes 3\"", "quantity": 2},
+        {"name": "Softbait Nymphes 4\"", "quantity": 2},
+        {"name": "Single Spoon 1 oz #2/0", "quantity": 3},
+        {"name": "Single Spoon 1 1/2 oz #4/0", "quantity": 3},
+        {"name": "Bullet Spinner 6/7 oz #2/0", "quantity": 4},
+        {"name": "Bullet Spinner 1 1/4 oz #4/0", "quantity": 4},
+        {"name": "Crankbait 3 ft depth"},
+        {"name": "Crankbait 6 ft depth"},
+        {"name": "Crankbait 8 ft depth"},
+        {"name": "Crankbait 12 ft depth"},
+        {"name": "Crankbait 16 ft depth"},
+        {"name": "Mouse Lure (Walker) 1 1/4 oz #5/0", "quantity": 2},
+        {"name": "Mouse Lure (Walker) 1 5/8 oz #7/0", "quantity": 2}
+      ],
+      "equipment": {
+        "jacket": {"name": "FPA Cup Jacket", "capacity": "15 tackles, 2 lines"},
+        "rod_case": {"name": "FPA Cup Rod Case", "capacity": "2 rods, 2 reels"},
+        "keepnet": {"name": "FishCastle L Fishnet", "max_single_fish": "110 lb (50 kg)", "total_capacity": "440 lb (200 kg)", "fish_friendly": true}
+      },
+      "licenses_7day": ["Alaska", "Alberta", "Michigan", "California", "Mongolia"]
+    },
+
+    "christmas_giants_pack": {
+      "name": "Fishing Planet: Christmas Giant's Pack",
+      "steam_app_id": 730611,
+      "steam_url": "https://store.steampowered.com/app/730611/Fishing_Planet_Christmas_Giants_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 60,
+        "tackle_setup_slots": 3
+      },
+      "rods": [
+        {
+          "name": "CGT MonSpin 8'10\"",
+          "length": "8'10\"",
+          "power": "X-Heavy",
+          "action": "Mod Fast",
+          "lure_weight": "3/4-2 1/8 oz",
+          "line_weight": "18-46 lb",
+          "guides": 11,
+          "pieces": 2
+        },
+        {
+          "name": "CGT FinGiant 9'10\"",
+          "length": "9'10\"",
+          "action": "Mod Fast",
+          "line_weight": "11-35 lb",
+          "guides": 13,
+          "pieces": 3
+        },
+        {
+          "name": "CGT HugeCaster 6'3\"",
+          "length": "6'3\"",
+          "power": "X-Heavy",
+          "action": "Slow",
+          "lure_weight": "1-3 oz",
+          "line_weight": "12-50.5 lb",
+          "guides": 7,
+          "pieces": 2
+        }
+      ],
+      "reels": [
+        {
+          "name": "CGT BBgun 4500",
+          "type": "Casting",
+          "ratio": "6.5:1",
+          "recovery": "31.5\"",
+          "max_drag": "44 lb"
+        },
+        {
+          "name": "CGT SpinTitan 4500",
+          "type": "Spinning",
+          "ratio": "5.4:1",
+          "recovery": "31.5\"",
+          "max_drag": "34.2 lb"
+        },
+        {
+          "name": "CGT SpinTitan 5500",
+          "type": "Spinning",
+          "ratio": "5.4:1",
+          "recovery": "31.5\"",
+          "max_drag": "42 lb"
+        }
+      ],
+      "lines": [
+        {"type": "Braid", "diameter": ".011\"", "test": "30 lb", "length": "1000 yd"},
+        {"type": "Monofilament", "diameter": ".02\"", "test": "32 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".024\"", "test": "40 lb", "length": "1000 yd"}
+      ],
+      "bobbers": [
+        {"name": "Pear Shaped Float", "quantity": 2}
+      ],
+      "hooks": ["#3/0", "#5/0", "#6/0", "#7/0", "#8/0", "#9/0", "#10/0"],
+      "baits": ["Medium Cutbait", "Large Cutbait", "Large Minnows", "Crawfish", "Corn", "Peas", "Small Minnows", "Spawn Sack", "Shiners"],
+      "lures": [
+        {"name": "Single Spoon 1.5 oz #4/0", "quantity": 3},
+        {"name": "Medium Spoon 2 oz #6/0"},
+        {"name": "Medium Spoon 0.5 oz #4/0"},
+        {"name": "Jighead 1 oz #4/0"},
+        {"name": "Jighead 1 oz #6/0"},
+        {"name": "Jighead 1.5 oz #4/0"},
+        {"name": "Jighead 2 oz #4/0"},
+        {"name": "Jighead 2 oz #6/0"},
+        {"name": "Bullet Spinner 1.25 oz #4/0", "quantity": 4},
+        {"name": "Spinner 0.75 oz #6/0"},
+        {"name": "Worm 5\"", "quantity": 2},
+        {"name": "Nymphes 4\"", "quantity": 2},
+        {"name": "Shad 4\"", "quantity": 2},
+        {"name": "Crankbait 6 ft depth"},
+        {"name": "Crankbait 12 ft depth"},
+        {"name": "Crankbait 20 ft depth"},
+        {"name": "Crankbait 30 ft depth"}
+      ],
+      "equipment": {
+        "rod_case": {"name": "CGT TitanTower Rod Case", "capacity": "3 rods, 3 reels"},
+        "jacket": {"name": "CGT Goliath Waist Coat", "capacity": "15 tackles, 2 lines"},
+        "keepnet": {"name": "FishCastle L Keepnet", "max_single_fish": "110 lb (50 kg)", "total_capacity": "440 lb (200 kg)", "fish_friendly": true}
+      },
+      "licenses_7day": ["Alberta", "California", "Alaska", "Michigan", "Florida"]
+    },
+
+    "gars_and_glory_pack": {
+      "name": "Fishing Planet: Gars&Glory Pack",
+      "note": "User requested as 'Gain&Glory Pack' - correct name is 'Gars&Glory Pack'",
+      "steam_app_id": 591984,
+      "steam_url": "https://store.steampowered.com/app/591984/Fishing_Planet_GarsGlory_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 25,
+        "tackle_setup_slots": 2
+      },
+      "rods": [
+        {
+          "name": "GGC MatchMonster 10'10\"",
+          "length": "10'10\" (3.3m)",
+          "action": "Mod Fast",
+          "line_weight": "11-34 lb (5-15.5 kg)",
+          "pieces": 3,
+          "guides": 14
+        },
+        {
+          "name": "GGC MatchMonster 9'10\"",
+          "length": "9'10\" (3.0m)",
+          "action": "Mod Fast",
+          "line_weight": "11-35 lb (5-16 kg)",
+          "pieces": 3,
+          "guides": 13
+        }
+      ],
+      "reels": [
+        {
+          "name": "GGC Gars'n'GloReel 4500",
+          "ratio": "5.4:1",
+          "recovery": "27.5\" (80cm)",
+          "max_drag": "35 lb (16 kg)",
+          "capacity": "Mono 20/110, Braid 30/145"
+        },
+        {
+          "name": "GGC Gars'n'GloReel 6500",
+          "ratio": "4.5:1",
+          "recovery": "27.5\" (70cm)",
+          "max_drag": "28.6 lb (13 kg)",
+          "capacity": "Mono 32/130, Braid 30/215"
+        }
+      ],
+      "lines": [
+        {"type": "Fluorocarbon", "diameter": ".022\" (0.55mm)", "test": "35 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".02\" (0.5mm)", "test": "28 lb", "length": "1000 yd"}
+      ],
+      "bobbers": ["Pear Shaped Float", "Glowing Pear-Shaped Float"],
+      "hooks": ["#1/0", "#2/0", "#3/0", "#4/0", "#5/0", "#6/0", "#7/0"],
+      "baits": ["Large Cutbait", "Large Minnows", "Shiners", "Crawfish", "Medium Cutbait", "Small Minnows"],
+      "equipment": {
+        "keepnet": {"name": "FishCastle L Keepnet", "max_single_fish": "110 lb (50 kg)", "total_capacity": "440 lb (200 kg)", "fish_friendly": true},
+        "rod_case": {"name": "GGC Armature Rod Case", "capacity": "2 rods, 2 reels"},
+        "lure_box": {"name": "GGC TackleShell Lure Box", "capacity": "20 tackles, 2 lines"},
+        "jacket": {"name": "GGC BomberJaws Fishing Jacket", "capacity": "15 tackles, 2 lines"}
+      },
+      "licenses_7day": ["North Carolina", "Florida", "Louisiana"]
+    },
+
+    "spring_cats_pack": {
+      "name": "Fishing Planet: Spring Cats Pack",
+      "steam_app_id": 591970,
+      "steam_url": "https://store.steampowered.com/app/591970/Fishing_Planet_Spring_Cats_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 30,
+        "tackle_setup_slots": 2
+      },
+      "rods": [
+        {
+          "name": "SCT DeepCrawler 11'2\" (340)",
+          "length": "11'2\" (3.4m)",
+          "action": "Mod Fast",
+          "line_weight": "11-34 lb (5-15.5 kg)",
+          "pieces": 3,
+          "guides": 14
+        },
+        {
+          "name": "SCT DeepCrawler 12'2\" (370)",
+          "length": "12'2\" (3.7m)",
+          "action": "Mod Fast",
+          "line_weight": "11-33 lb (5-15 kg)",
+          "pieces": 3,
+          "guides": 14
+        }
+      ],
+      "reels": [
+        {
+          "name": "SCT Pouncer 5000",
+          "ratio": "4.5:1",
+          "recovery": "27.5\" (70cm)",
+          "max_drag": "26.4 lb (12 kg)",
+          "capacity": "Mono 32/100, Braid 30/170"
+        },
+        {
+          "name": "SCT Pouncer 6000",
+          "ratio": "4.5:1",
+          "recovery": "27.5\" (70cm)",
+          "max_drag": "28.6 lb (13 kg)",
+          "capacity": "Mono 32/120, Braid 30/205"
+        }
+      ],
+      "lines": [
+        {"type": "Monofilament", "diameter": ".018\" (0.45mm)", "test": "25 lb (11.3 kg)", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".02\" (0.5mm)", "test": "28 lb (12.7 kg)", "length": "1000 yd"}
+      ],
+      "bobbers": [
+        {"name": "Pear Shaped Float", "quantity": 2}
+      ],
+      "hooks": ["#6/0", "#5/0", "#4/0", "#3/0", "#2/0", "#1/0"],
+      "baits": ["Leeches", "Pet Food", "Small Cutbait", "Medium Cutbait", "Large Cutbait", "Large Minnows", "Crawfish", "Blood", "Frog"],
+      "equipment": {
+        "jacket": {"name": "SCT FatCat Fishing Jacket", "capacity": "15 tackles, 2 lines"},
+        "keepnet": {"name": "FishCastle L Keepnet", "max_single_fish": "110 lb (50 kg)", "total_capacity": "440 lb (200 kg)", "fish_friendly": true},
+        "rod_case": {"name": "SCT MarchBox Rod Case", "capacity": "2 rods, 2 reels"}
+      },
+      "licenses_7day": ["Missouri", "North Carolina", "Louisiana", "Michigan"]
+    },
+
+    "st_patricks_pack": {
+      "name": "Fishing Planet: St.Patrick's Pack",
+      "steam_app_id": 422473,
+      "steam_url": "https://store.steampowered.com/app/422473/Fishing_Planet_StPatricks_Pack/",
+      "currency_and_bonuses": {
+        "credits": 2000,
+        "baitcoins": 13,
+        "premium_days": 7,
+        "storage_slots": 30,
+        "tackle_setup_slots": 3
+      },
+      "rods": [
+        {
+          "name": "IrishClover 9'10\" (300)",
+          "length": "9'10\" (3.0m)",
+          "action": "Mod Fast",
+          "line_weight": "11-35 lb (5-16 kg)",
+          "pieces": 3,
+          "guides": 13
+        },
+        {
+          "name": "GoldPot 10'10\" (330)",
+          "length": "10'10\" (3.3m)",
+          "action": "Mod Fast",
+          "line_weight": "11-34 lb (5-15.5 kg)",
+          "pieces": 3,
+          "guides": 14
+        },
+        {
+          "name": "GreenBeer 11'10\" (360)",
+          "length": "11'10\" (3.6m)",
+          "action": "Mod Fast",
+          "line_weight": "11-33 lb (5-15 kg)",
+          "pieces": 3,
+          "guides": 14
+        }
+      ],
+      "reels": [
+        {
+          "name": "LuckyShamrock 4500",
+          "ratio": "4.5:1",
+          "recovery": "27.5\"",
+          "max_drag": "24.2 lb",
+          "capacity": "Mono 20/110, Braid 30/145"
+        },
+        {
+          "name": "LuckyShamrock 5500",
+          "ratio": "4.5:1",
+          "recovery": "27.5\"",
+          "max_drag": "26.4 lb",
+          "capacity": "Mono 32/110, Braid 30/180"
+        },
+        {
+          "name": "LuckyShamrock 6500",
+          "ratio": "4.5:1",
+          "recovery": "27.5\"",
+          "max_drag": "28.6 lb",
+          "capacity": "Mono 32/130, Braid 30/215"
+        }
+      ],
+      "lines": {
+        "monofilament_300yd": [
+          {"diameter": ".014\" (0.35mm)", "test": "16 lb"},
+          {"diameter": ".016\" (0.4mm)", "test": "20 lb"},
+          {"diameter": ".018\" (0.45mm)", "test": "25 lb"},
+          {"diameter": ".020\" (0.5mm)", "test": "32 lb"}
+        ],
+        "fluorocarbon_300yd": [
+          {"diameter": ".014\" (0.35mm)", "test": "15 lb"},
+          {"diameter": ".016\" (0.4mm)", "test": "20 lb"},
+          {"diameter": ".018\" (0.45mm)", "test": "25 lb"},
+          {"diameter": ".020\" (0.5mm)", "test": "28 lb"}
+        ]
+      },
+      "bobbers": [
+        {"name": "Pear Shaped Float", "quantity": 3}
+      ],
+      "hooks": ["#4/0", "#5/0", "#6/0", "#7/0", "#8/0", "#9/0", "#10/0"],
+      "baits": ["Drunken Worm", "Bully Grasshopper"],
+      "equipment": {
+        "rod_case": {"name": "Patrick's Rod Case", "capacity": "3 rods"},
+        "keepnet": {"name": "FishFort M Keepnet", "max_single_fish": "44 lb", "total_capacity": "220 lb", "fish_friendly": true}
+      },
+      "licenses_7day": ["Missouri", "Michigan"],
+      "pond_passes_7day": ["Mudwater River", "Saint-Croix Lake"]
+    },
+
+    "mighty_carp_pack": {
+      "name": "Fishing Planet: Mighty Carp Pack",
+      "note": "This is the original Mighty Carp Pack (app 591980), NOT the later Mighty Carp Tournament Pack (app 1000715)",
+      "steam_app_id": 591980,
+      "steam_url": "https://store.steampowered.com/app/591980/Fishing_Planet_Mighty_Carp_Pack/",
+      "currency_and_bonuses": {
+        "credits": 40000,
+        "baitcoins": 20,
+        "premium_days": 7,
+        "storage_slots": 30,
+        "tackle_setup_slots": 2
+      },
+      "rods": [
+        {
+          "name": "MCT McCarp 13'2\"",
+          "length": "13'2\" (4.0m)",
+          "action": "Moderate Fast",
+          "line_weight": "9-25.5 lb (4-11.5 kg)",
+          "pieces": 3,
+          "guides": 15
+        },
+        {
+          "name": "MCT McCarp 11'2\"",
+          "length": "11'2\" (3.4m)",
+          "action": "Moderate Fast",
+          "line_weight": "11-30 lb (5-13.5 kg)",
+          "pieces": 3,
+          "guides": 12
+        }
+      ],
+      "reels": [
+        {
+          "name": "MCT CarpAxel 6000",
+          "ratio": "4.6:1",
+          "recovery": "29.5\" (75cm)",
+          "max_drag": "26.5 lb (12 kg)",
+          "capacity": "Mono 20/100, Braid 30/135"
+        },
+        {
+          "name": "MCT CarpAxel 4000",
+          "ratio": "4.6:1",
+          "recovery": "29.5\" (75cm)",
+          "max_drag": "22 lb (10 kg)",
+          "capacity": "Mono 20/100, Braid 30/135"
+        }
+      ],
+      "lines": [
+        {"type": "Monofilament", "diameter": ".018\"", "test": "25 lb", "length": "1000 yd"},
+        {"type": "Fluorocarbon", "diameter": ".016\"", "test": "20 lb", "length": "1000 yd"}
+      ],
+      "bobbers": ["Oval Float", "Glow Bobber (Orange/Black)"],
+      "hooks": ["#6", "#4", "#2", "#1/0", "#2/0", "#3/0", "#4/0", "#5/0", "#6/0"],
+      "baits": ["Dough Balls", "Corn", "Peas", "Semolina Balls", "Marshmallows"],
+      "equipment": {
+        "keepnet": {"name": "FishCastle L Keepnet", "max_single_fish": "110 lb (50 kg)", "total_capacity": "440 lb (200 kg)", "fish_friendly": true},
+        "rod_case": {"name": "MCT FishBelly Rod Case", "capacity": "2 rods, 2 reels"},
+        "jacket": {"name": "MCT Carpster Jacket", "capacity": "15 tackles, 2 lines"}
+      },
+      "licenses_7day": ["North Carolina", "California", "Louisiana"]
+    }
+  }
+}

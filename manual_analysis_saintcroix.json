@@ -2,187 +2,286 @@
   "slots": [
     {
       "slot_number": 1,
-      "screenshot": "20260404094602_1.jpg",
-      "rod": "RIVERTEX Fenix 11'5\" (Match Rod, 6.5-17.5 Lb, Mod Fast)",
-      "reel": "MagFin EspiraMLR 3500",
-      "line": "Fluoro .011\" (10 Lb)",
-      "leader": "Titanium Leader .004\" (7 Lb)",
-      "terminal_tackle": "Sport Float, Hook #4",
-      "bait": "Bloodworms",
-      "setup_type": "Float",
-      "target_fish": ["Yellow Perch", "Bluntnose Minnow", "Green Sunfish", "Brown Bullhead", "Rock Bass"],
-      "effectiveness_rating": 7,
+      "screenshot": "20260407120554_1.jpg",
+      "rod": "Rivertex Zeus 8'10\" SE (Spinning Rod, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
+      "reel": "Ghost Reel 4000 / EspiraSlim 2500 Sport (in backpack)",
+      "line": "Mono .024\" (41.8 Lb)",
+      "leader": "Titanium Leader (not visible  -  check equipped)",
+      "terminal_tackle": "Casting Spoon 3/4 Oz #2/0",
+      "bait": null,
+      "setup_type": "Spinning (Casting Spoon)",
+      "target_fish": [
+        "Smallmouth Bass",
+        "Yellow Perch",
+        "Walleye",
+        "Northern Pike",
+        "Tiger Trout",
+        "Brown Trout"
+      ],
+      "effectiveness_rating": 8,
       "leader_recommendation": {
-        "material": "Titanium (already equipped)",
-        "test_weight": "7 Lb",
+        "material": "Titanium",
+        "test_weight": "12+ Lb",
         "length": "1.64 ft",
-        "why": "Titanium protects against Northern Pike if one strikes. Bloodworms covers several panfish and small species. Hook #4 is properly sized for panfish.",
-        "depth_setting": "Set float depth to 3-7 ft near shore structure. At Woods of the Eastern Bank, try 4-5 ft near weed edges."
+        "why": "Essential for Northern Pike and Muskie bite-off protection. Casting Spoon 21g #3/0 is ubersheet-recommended for Smallmouth Bass and Yellow Perch.",
+        "depth_setting": "Cast along weed edges and rocky points. Vary retrieve speed  -  slow for Walleye, medium for bass, fast for pike."
       },
       "issues": [
-        "Bloodworms only covers Yellow Perch, Bluntnose Minnow, and Green Sunfish at Saint-Croix — limited species coverage",
-        "Missing Pumpkinseed (needs Semolina Balls/Dough Balls/Red Worms/Maggots), Rock Bass (needs Night Crawlers/Leeches)",
-        "Titanium .004\" (7 Lb) is light — upgrade to .005\" for pike protection"
+        "Casting Spoon 3/4 Oz #2/0 is close to ubersheet-recommended Casting Spoon 21g #3/0 for Smallmouth Bass  -  effective",
+        "41.8 Lb mono handles all spinning targets comfortably (Northern Pike max 48.5 lb at ~87% tension)",
+        "Zeus is X-Heavy power  -  ideal for the larger predators at Saint-Croix"
       ],
       "improvements": [
-        "Switch to Red Worms or Maggots for broader coverage — Maggots covers Pumpkinseed + Yellow Perch + panfish",
-        "Or switch to Night Crawlers to cover Rock Bass ($120/kg) + Yellow Perch + White Bass + Lake Sturgeon + Freshwater Drum",
-        "Deploy on RodPod Trio at shore for passive panfish while boating with active rods"
+        "Excellent active predator rod  -  cast along structure for Smallmouth Bass ($73/lb) and Walleye ($86/lb)",
+        "Northern Pike ($77/lb, max 48.5 lb) will hit this spoon aggressively  -  best income per cast",
+        "Tiger Trout ($70/lb) also responds to Bullet Spinner 24g #2/0 per ubersheet  -  consider swapping if targeting trout",
+        "Troll from the Draco along deep weed edges for Northern Pike and Smallmouth Bass",
+        "Dawn/dusk casting near rocky points is prime Walleye time"
       ]
     },
     {
       "slot_number": 2,
-      "screenshot": "20260404094604_1.jpg",
-      "rod": "SpookySpin 8'6\" (Spinning Rod, Heavy, 5/7-1 3/4 Oz, 6.6-19.8 Lb, Mod Fast)",
-      "reel": "Breamer 4500 SE",
-      "line": "Fluoro .012\" (12 Lb)",
-      "leader": "Titanium Leader .006\"",
-      "terminal_tackle": "Bullet Spinner 24g #2/0",
-      "bait": null,
-      "setup_type": "Spinning (Bullet Spinner)",
-      "target_fish": ["Northern Pike", "Smallmouth Bass", "Muskie", "Clear Muskie", "Tiger Muskie", "Walleye"],
-      "effectiveness_rating": 8,
+      "screenshot": "20260407120558_1.jpg",
+      "rod": "Heavy Chaser 9'10\" SE (Bottom Rod, X-Heavy, Casting 6-8 4/5 Oz, 22-56.2 Lb)",
+      "reel": "Ambusher 9000 SE",
+      "line": "X-Series Fluoro .025\" (~50 Lb)",
+      "leader": "Titanium Leader .014\"",
+      "terminal_tackle": "Open Feeder 4 1/2 Oz, Simple Bell, Hook #10/0",
+      "bait": "Medium Cutbait (confirmed 2026-04-08 - consistent Blue Catfish catches)",
+      "setup_type": "Bottom Rig (Feeder + Cutbait)",
+      "target_fish": [
+        "Blue Catfish",
+        "Lake Sturgeon"
+      ],
+      "effectiveness_rating": 9,
+      "leader_recommendation": {
+        "material": "Titanium .014\"",
+        "test_weight": "~28 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium protects against catfish whisker abrasion and occasional pike strikes on bottom bait. The .014\" test is appropriate for the 50 Lb main line."
+      },
       "issues": [
-        "Heavy rod handles Northern Pike (48.5 lb) but Muskie (65 lb) and Clear Muskie (69.5 lb) will severely test 19.8 Lb max line",
-        "Bullet Spinner's flash and vibration is excellent for pike and muskie in clear lake water",
-        "Titanium leader essential — ALL three muskie species and pike have razor teeth"
+        "CONFIRMED (4/8): Medium Cutbait + #6/0 hook = consistent Blue Catfish catches. Bait swap validated!",
+        "Hook downsized from #10/0 to #6/0  -  improved hookup rate confirmed in 4/8 afternoon session",
+        "The feeder with groundbait outperforms sinker-only rods  -  scent attraction draws fish in",
+        "50 Lb line handles Blue Catfish (91.5 lb max) at high tension  -  manageable with patience and loose drag",
+        "10 catfish caught in afternoon session including Trophy Blue Catfish 42.5 lb"
       ],
       "improvements": [
-        "Excellent predator rod for trolling from the Draco Bass Boat",
-        "Northern Pike ($170/kg, max 48.5 lb) is the TOP earner — up to $3,738 per trophy!",
-        "Walleye ($190/kg, max 23.2 lb) is highest $/kg — Bullet Spinner can trigger strikes near structure",
-        "If a Muskie (65-69.5 lb) hits, set drag very loose — the 12 Lb fluoro is your limit",
-        "Troll at moderate speed along weed edges and rocky points from the boat"
+        "Medium Cutbait + #6/0 hook is the CONFIRMED catfish combo  -  do not change",
+        "Medium Cutbait also catches Lake Sturgeon  -  dual-purpose bait",
+        "Keep feeder setup  -  outperforms sinker-only rods consistently",
+        "Deploy on RodPod Trio at Fairytale Docks  -  feeder scent draws fish to the entire rod pod area",
+        "NIGHT SESSIONS: Blue Catfish become very active  -  this rod should be soaking all night",
+        "Alternate with active Triple Runner lure fishing for 10x XP bonus on lure catches"
       ]
     },
     {
       "slot_number": 3,
-      "screenshot": "20260404094607_1.jpg",
-      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast)",
-      "reel": "Ghost Reel 3000",
-      "line": "Fluoro .011\" (10 Lb)",
-      "leader": "Titanium Leader .005\" (11 Lb)",
-      "terminal_tackle": "JigHead 9g (1/3 Oz) #2/0 with Worm 3\"",
-      "bait": "Worm 3\" (soft plastic)",
-      "setup_type": "Spinning (Light Jig)",
-      "target_fish": ["Smallmouth Bass", "Walleye", "Yellow Perch", "Brown Trout", "Tiger Trout", "Brook Trout"],
-      "effectiveness_rating": 8,
+      "screenshot": "20260407120601_1.jpg",
+      "rod": "EquatorMatch 8'6\" SE (Match Rod, 28.6-83.8 Lb, Moderate)",
+      "reel": "L'Impulsion 12000 SE (81.5 Lb max drag)",
+      "line": "Fluoro .033\" (~79 Lb)",
+      "leader": "Fluorocarbon Leader .033\"",
+      "terminal_tackle": "X-Series Pear Shaped Float, Hook #8/0",
+      "bait": "Shiners",
+      "setup_type": "Float (Monster Fish Specialist)",
+      "target_fish": [
+        "Blue Catfish",
+        "Clear Muskie",
+        "Muskie",
+        "Tiger Muskie",
+        "Northern Pike",
+        "Smallmouth Bass"
+      ],
+      "effectiveness_rating": 9,
+      "leader_recommendation": {
+        "material": "Fluorocarbon .033\" (currently equipped)  -  consider upgrading to Titanium",
+        "test_weight": "~55 Lb",
+        "length": "1.64 ft",
+        "why": "Fluoro leader is invisible underwater which helps with wary fish, but Northern Pike and Muskie have razor teeth  -  a titanium leader would prevent bite-offs on these predators.",
+        "depth_setting": "Set float depth to 8-15 ft for muskie/pike cruising mid-depth. At Fairytale Docks, try 10-12 ft near the boat structures."
+      },
       "issues": [
-        "Light rod is perfect for Walleye ($190/kg), Smallmouth Bass ($160/kg), and trout species",
-        "If a pike or muskie hits this light setup, it will be a very challenging fight",
-        "Titanium .005\" protects against bite-offs"
+        "Fluorocarbon leader instead of titanium  -  risk of bite-off from Northern Pike, Muskie, Clear Muskie, and Tiger Muskie",
+        "Shiners covers Blue Catfish, all 3 Muskie species, Northern Pike, and Smallmouth Bass  -  excellent bait choice",
+        "79 Lb line on L'Impulsion handles everything including Blue Catfish (91.5 lb) at ~86% tension",
+        "Hook #8/0 is appropriate for large predators"
       ],
       "improvements": [
-        "Light jig is excellent for Walleye — they prefer slow, subtle presentations near bottom",
-        "Walleye at $190/kg (max 23.2 lb = up to $1,998 per trophy!) is the highest $/kg fish at Saint-Croix",
-        "Also targets Smallmouth Bass ($160/kg), Tiger Trout ($155/kg), Brown Trout ($150/kg), Brook Trout ($150/kg)",
-        "Cast from the Draco near rocky points and drop-offs — let jig sink and hop along bottom",
-        "Dawn and dusk are peak Walleye feeding times — focus this rod during those windows"
+        "MONSTER FLOAT RIG  -  your heaviest passive setup, proven at this location",
+        "STRONGLY recommend swapping fluoro leader to titanium  -  pike/muskie will bite through fluoro",
+        "Shiners is the ideal bait here  -  covers 6 high-value species simultaneously",
+        "Deploy on RodPod at Fairytale Docks  -  your journal notes the area near the boats is productive",
+        "Blue Catfish (91.5 lb) is the biggest target  -  tight fight on 79 Lb line but landable with patience",
+        "Clear Muskie ($45/lb, max 69.5 lb) at ~88% tension  -  exciting but risky without titanium leader"
       ]
     },
     {
       "slot_number": 4,
-      "screenshot": "20260404094609_1.jpg",
-      "rod": "Heavy Chaser 9'10\" SE (Bottom Rod, X-Heavy, Casting 6-8.5 Oz, up to 81 Lb)",
-      "reel": "Fileur 11000 SE (79.4 Lb max drag)",
-      "line": "Fluoro .033\" (79 Lb) or Mono .033\" (83.7 Lb)",
-      "leader": "Titanium Leader .012\"",
-      "terminal_tackle": "Sinker 7-8 Oz, Catfish Hook #6/0, Simple Bell",
-      "bait": "Shiners",
-      "setup_type": "Bottom Rig (Monster Fish)",
-      "target_fish": ["Blue Catfish", "Lake Sturgeon", "Muskie", "Clear Muskie", "Northern Pike"],
-      "effectiveness_rating": 10,
+      "screenshot": "20260407120608_1.jpg",
+      "rod": "Fenix 11'5\" (Match Rod, 4.5-17.5 Lb, Mod Fast)",
+      "reel": "EspiraMLR 3600",
+      "line": "Fluoro .011\" (10 Lb)",
+      "leader": "Titanium Leader .004\" (7 Lb)",
+      "terminal_tackle": "Chubby Float, Hook #1/0",
+      "bait": "Small Minnows",
+      "setup_type": "Float (Multi-Species)",
+      "target_fish": [
+        "American Shad",
+        "Atlantic Salmon",
+        "Brown Trout",
+        "Freshwater Drum",
+        "Northern Pike",
+        "Smallmouth Bass",
+        "Tiger Trout",
+        "Walleye",
+        "White Bass"
+      ],
+      "effectiveness_rating": 8,
+      "leader_recommendation": {
+        "material": "Titanium .004\" (already equipped)",
+        "test_weight": "7 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium protects against pike. Small Minnows is one of the most versatile baits at Saint-Croix  -  covers 9 species!",
+        "depth_setting": "Set float to 4-8 ft near shore structure. For Atlantic Salmon try deeper (8-12 ft)."
+      },
       "issues": [
-        "None for this location — 79 Lb line handles Blue Catfish (91.5 lb) at manageable tension",
-        "Lake Sturgeon (48.5 lb) is well within range",
-        "Shiners cover Blue Catfish, Muskie/Clear Muskie/Tiger Muskie, and Northern Pike"
+        "Small Minnows covers 9 species  -  BEST species coverage of any single bait at Saint-Croix!",
+        "Hook #1/0 is appropriate for the mid-size species targeted",
+        "10 Lb line limits what you can land  -  Northern Pike (48.5 lb max) will break this easily",
+        "Titanium .004\" (7 Lb) is the weakest link  -  pike will pull against this",
+        "Chubby float is good for the smaller to medium species"
       ],
       "improvements": [
-        "MONSTER BOTTOM RIG — perfectly matched for Saint-Croix's biggest fish",
-        "Blue Catfish (91.5 lb!) at ~86% tension on 79 Lb line — tough but landable with patience",
-        "Lake Sturgeon (48.5 lb) at comfortable 61% tension — needs Small Cutbait, Medium Cutbait, Shrimp, Crawfish Cut, or Night Crawlers for best results",
-        "Shiners also attracts all 3 Muskie species and Northern Pike if they're near bottom",
-        "Deploy on RodPod Trio at Sandy Cape or King of the Green Bay — deepest water access",
-        "NIGHT SESSIONS: Blue Catfish and Brown Bullhead become very active. Keep this soaking overnight.",
-        "Consider swapping bait to Large Cutbait or Night Crawlers to add Lake Sturgeon coverage — Shiners doesn't target Sturgeon"
+        "EXCELLENT SPECIES COVERAGE  -  Small Minnows targets: American Shad, Atlantic Salmon, Brown Trout, Freshwater Drum, Northern Pike, Smallmouth Bass, Tiger Trout, Walleye, White Bass",
+        "Major upgrade from the old Bloodworms setup  -  went from 3 species to 9 species!",
+        "Walleye ($86/lb) and Smallmouth Bass ($73/lb) on a float with Small Minnows is a proven technique",
+        "Atlantic Salmon ($45/lb, max 13.4 lb) is within the rod's capability  -  nice bonus catches",
+        "Deploy on RodPod for passive fishing at shore  -  let the float soak and collect species",
+        "If a pike hits, loosen drag immediately  -  you won't land a big one but might save the leader"
       ]
     },
     {
       "slot_number": 5,
-      "screenshot": "20260404094611_1.jpg",
-      "rod": "Rivertex Zeus 8'10\" SE (Spinning Rod, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
-      "reel": "L'Impulsion 12000 SE (81.5 Lb max drag)",
-      "line": "Braid .012\" (41.2 Lb)",
-      "leader": "Titanium Leader .012\"",
-      "terminal_tackle": "Thorn Jighead 18g #4/0 with Bony Shad 16cm",
-      "bait": "Bony Shad 16cm (soft plastic)",
-      "setup_type": "Spinning (Heavy Jig)",
-      "target_fish": ["Muskie", "Clear Muskie", "Tiger Muskie", "Northern Pike", "Blue Catfish", "Smallmouth Bass"],
-      "effectiveness_rating": 9,
+      "screenshot": "20260407120610_1.jpg",
+      "rod": "Rivertex DracoSpin 8' (Spinning Rod, X-Heavy, 18-40 Lb, Fast)",
+      "reel": "Rivertex Dragonus 5500",
+      "line": "Fluoro .024\" (~41 Lb)",
+      "leader": "Titanium Leader .014\"",
+      "terminal_tackle": "Jighead 5/8 Oz (18g) #6/0",
+      "bait": "Crayfish 4\" (soft plastic)",
+      "setup_type": "Spinning (Heavy Jig + Crayfish)",
+      "target_fish": [
+        "Blue Catfish",
+        "Brown Bullhead",
+        "Smallmouth Bass",
+        "Walleye"
+      ],
+      "effectiveness_rating": 8,
+      "leader_recommendation": {
+        "material": "Titanium .014\" (already equipped)",
+        "test_weight": "~28 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium is essential  -  pike and muskie can hit crayfish jigs. The .014\" handles the heavy jig action well."
+      },
       "issues": [
-        "Clear Muskie at 69.5 lb will push the 41.2 Lb braid hard — ~70% tension",
-        "Blue Catfish at 91.5 lb exceeds line capacity — break-off risk on trophy blues",
-        "Heavy jig is good for deep structure where big predators hold"
+        "Crayfish 7.5-10cm is ubersheet-recommended for Blue Catfish and Brown Bullhead  -  your 4\" Crayfish should trigger similar strikes",
+        "Jighead 18g #6/0 matches the ubersheet JigHead 18g #6/0 for Blue Catfish  -  PERFECT MATCH",
+        "41 Lb fluoro is well-suited for the targets  -  Blue Catfish (91.5 lb max) will be a challenge but manageable on smaller specimens",
+        "DracoSpin's X-Heavy power handles the heavy jig presentations well"
       ],
       "improvements": [
-        "YOUR ACTIVE MUSKIE HUNTER — Zeus is the strongest spinning rod for targeting the 3 muskie species",
-        "Muskie ($100/kg, max 65 lb) and Clear Muskie ($100/kg, max 69.5 lb) are iconic catches",
-        "Northern Pike ($170/kg, max 48.5 lb = up to $3,738 per trophy!) — Zeus handles this comfortably",
-        "Troll heavy jig from the Draco along deep weed edges and rocky humps",
-        "Muskie are the 'fish of 10,000 casts' — be patient, they're rare but massive",
-        "Tiger Muskie ($120/kg, max 33.1 lb) is the most common of the three — good warm-up target"
+        "ACTIVE CATFISH/BASS HUNTER  -  Crayfish jig is the ubersheet-recommended approach for Blue Catfish",
+        "Your journal confirms: moderate success casting crayfish around the dock/boat area for bass, walleye, and trout",
+        "Hop the crayfish jig along the bottom near structure  -  Blue Catfish and Smallmouth Bass both respond",
+        "Dawn/dusk: focus on rocky points for Walleye using slow jig hops",
+        "Night: Blue Catfish become very active  -  this jig in deep water near bottom is deadly",
+        "Consider carrying a Bony Shad or Worm 3\" as backup soft plastic for different species"
       ]
     },
     {
       "slot_number": 6,
-      "screenshot": "20260404094613_1.jpg",
-      "rod": "OmniFloat 14'10\" SE (Match Rod, 5-22 Lb, Moderate)",
-      "reel": "EspiraSlim 2500 Sport",
-      "line": "Fluoro .008\" (6 Lb)",
-      "leader": "Fluorocarbon Leader .008\" (4.4 Lb)",
-      "terminal_tackle": "X-Series Slim Float, Hook #1/0",
-      "bait": "Flies",
-      "setup_type": "Float",
-      "target_fish": ["Brook Trout"],
-      "effectiveness_rating": 4,
+      "screenshot": "20260407120612_1.jpg",
+      "rod": "Rivertex Salmonster 8' (Spinning Rod, X-Heavy, 18-40 Lb, Mod Fast)",
+      "reel": "Kraken 8000 SE",
+      "line": "Fluoro .024\" (~41 Lb)",
+      "leader": "Titanium Leader .012\"",
+      "terminal_tackle": "Triple Runner 8 ft #5/0",
+      "bait": null,
+      "setup_type": "Spinning (Crankbait  -  Triple Runner)",
+      "target_fish": [
+        "Smallmouth Bass",
+        "Blue Catfish",
+        "Brown Trout",
+        "Northern Pike",
+        "Tiger Muskie",
+        "Walleye",
+        "Tiger Trout",
+        "Brook Trout",
+        "Atlantic Salmon"
+      ],
+      "effectiveness_rating": 10,
+      "leader_recommendation": {
+        "material": "Titanium .012\" (already equipped)",
+        "test_weight": "~24 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium essential for crankbait fishing  -  pike and muskie strike crankbaits aggressively and will bite through non-metal leaders instantly."
+      },
       "issues": [
-        "Flies only covers Brook Trout at Saint-Croix — extremely limited at a 22-species location",
-        "Hook #1/0 is oversized for Brook Trout (max 4.0 lb) and panfish",
-        "No titanium leader — pike will snap this instantly",
-        "This slot is wasted potential at Saint-Croix"
+        "Triple Runner 8 ft #5/0 is the CONFIRMED #1 lure at Saint-Croix  -  ~80% hit rate across multiple sessions",
+        "LURE COMPARISON (4/8): Triple Runner (~80%) vs Hunched 8' (~40-50%) vs Tweaker 16' (~40-50%)  -  Triple Runner wins decisively",
+        "Do NOT swap to other lures  -  Hunched and Tweaker tested and rejected",
+        "Catches Smallmouth Bass, Blue Catfish (including trophies!), trout, and Trophy Northern Pike (21.8 lb)",
+        "41 Lb fluoro on Kraken 8000 SE handles all crankbait targets comfortably",
+        "Salmonster + Kraken is a strong combination for sustained cranking and the drop-jig technique"
       ],
       "improvements": [
-        "Switch bait to Semolina Balls — covers Pumpkinseed, Golden Shiner, and Green Sunfish for species completion",
-        "Or switch to Night Crawlers — covers Rock Bass ($120/kg), Yellow Perch, White Bass, Lake Sturgeon, and Freshwater Drum (5 species!)",
-        "Downsize hook to #4-#6 for panfish",
-        "Add titanium leader for pike protection",
-        "Deploy on RodPod Trio alongside slots 1 and 4 for passive shore fishing"
+        "YOUR #1 ACTIVE ROD  -  Triple Runner with drop-jig technique is the highest-producing setup at Saint-Croix",
+        "TECHNIQUE: Drop to bottom \u00e2\u2020\u2019 rest 3s \u00e2\u2020\u2019 reel level 3s \u00e2\u2020\u2019 drop/jig to bottom \u00e2\u2020\u2019 rest 3s \u00e2\u2020\u2019 smooth reel. Hits come on the draw-up.",
+        "XP BONUS: Lure catches give ~10x XP vs bait (1,382 XP vs ~100-150 XP per fish)  -  confirmed 4/8",
+        "Targets fish 3-5 ft from bottom in 20-40 ft water  -  where most fish hold at Fairytale Docks",
+        "Cast toward the central dock with two player markers (~328 ft) for best results",
+        "Outperforms 3 passive bottom rods combined (40+ active catches vs ~10 passive per session)",
+        "Alternate between passive bait rods and active Triple Runner for maximum XP/hour"
       ]
     },
     {
       "slot_number": 7,
-      "screenshot": "20260404094615_1.jpg",
-      "rod": "EquatorMatch 8'6\" SE (Match Rod, 28.6-83.8 Lb, Moderate)",
-      "reel": "L'Impulsion 12000 SE (81.5 Lb max drag)",
-      "line": "Fluoro .034\" (83.8 Lb)",
-      "leader": "Titanium Leader .012\"",
-      "terminal_tackle": "X-Series Pear-Shaped Float, Catfish Hook #6/0",
-      "bait": "Shiners",
-      "setup_type": "Float (Monster Fish Specialist)",
-      "target_fish": ["Clear Muskie", "Muskie", "Tiger Muskie", "Northern Pike", "Blue Catfish", "Lake Sturgeon"],
-      "effectiveness_rating": 10,
+      "screenshot": "20260407120614_1.jpg",
+      "rod": "Mokonzi 12'10\" SE (Bottom Rod, X-Heavy, Casting 6-9 7/8 Oz, 39.7-81.6 Lb)",
+      "reel": "Fileur 11000 SE (79.4 Lb max drag)",
+      "line": "Fluoro .033\" (~79 Lb)",
+      "leader": "Titanium Leader .014\"",
+      "terminal_tackle": "Sinker 8 Oz, Simple Bell, Hook #8/0",
+      "bait": "Medium Cutbait (confirmed 2026-04-08 - consistent Blue Catfish catches)",
+      "setup_type": "Bottom Rig (Heavy Sinker)",
+      "target_fish": [
+        "Blue Catfish",
+        "Lake Sturgeon"
+      ],
+      "effectiveness_rating": 9,
+      "leader_recommendation": {
+        "material": "Titanium .014\" (already equipped)",
+        "test_weight": "~28 Lb",
+        "length": "1.64 ft",
+        "why": "Titanium withstands catfish whiskers and bottom abrasion. Heavy sinker holds bottom in current."
+      },
       "issues": [
-        "L'Impulsion reel is shared with slot 5 — can only use one at a time",
-        "83.8 Lb line handles everything at Saint-Croix including Blue Catfish (91.5 lb) at ~92% tension"
+        "CONFIRMED (4/8): Medium Cutbait swap validated  -  consistent catches alongside slot 2",
+        "79 Lb line on Fileur 11000 SE handles Blue Catfish (91.5 lb) at ~86% tension  -  tough but proven",
+        "8 Oz sinker holds bottom well in deeper water  -  good for 150 ft+ casts from the dock",
+        "Keep #8/0 hook on this rod  -  good balance between hookup rate and trophy capability",
+        "Sinker-only rod still underperforms feeder rod (slot 2)  -  no scent attraction, but still catches well with correct bait"
       ],
       "improvements": [
-        "ULTIMATE MONSTER FLOAT RIG — 83.8 Lb line on a float is the heaviest passive setup possible",
-        "Blue Catfish (91.5 lb) is your biggest target here — this is the only float rig that has a chance",
-        "Clear Muskie (69.5 lb) at ~83% tension — a real fight but landable",
-        "Northern Pike (48.5 lb) at comfortable ~58% tension",
-        "Lake Sturgeon (48.5 lb) — Shiners isn't the wiki bait but sturgeon are opportunistic",
-        "Deploy at Sandy Cape or King of the Green Bay — deep water with access to the biggest fish",
-        "Note: Swap L'Impulsion between slot 5 (active Zeus jig) and slot 7 (passive float) between sessions"
+        "CONFIRMED (4/8): Medium Cutbait swap working  -  consistent catfish catches alongside slot 2",
+        "Medium Cutbait + #8/0 hook is the confirmed combo for this rod  -  do not change",
+        "Cast toward sturgeon marker [299.82, -161.17] during 7-8 AM and 5-9 PM feed windows",
+        "Your journal confirms: 42.8 lb sturgeon caught on Duck Mussel Meat at this marker location on 4/8",
+        "Consider alternating: Medium Cutbait for general fishing, Duck Mussel Meat during sturgeon windows",
+        "Deploy on RodPod Trio at Fairytale Docks alongside the feeder rod for maximum passive coverage",
+        "STURGEON TIMING: 7-8 AM and 5-9 PM ONLY  -  plan your dock sessions around these windows"
       ]
     }
   ],
@@ -190,31 +289,33 @@
     "hat": "Sport Cap",
     "glasses": "Glasses Classic",
     "vest": "Outlander Pro Vest",
-    "tackle_box": "Sport Lure Box",
+    "tackle_box": "Lucky Seven",
     "keepnet": "FishStronghold M Plus Keepnet",
     "keepnet2": "ChumChest Lux",
-    "rod_case": "Sport Rod Case",
     "rod_stand": "RodPod Trio Rod Stand",
-    "boat": "Garry Scott Draco Bass Boat — USABLE! Boat fishing allowed at Saint-Croix",
-    "headlamp": "Luminox Headlamp",
+    "marker": "Magic RedRiverDragon",
+    "boat": "Garry Scott Draco Bass Boat  -  USABLE! Boat fishing allowed at Saint-Croix",
+    "headlamp": "Luminos Headlamp",
     "notes": [
-      "Draco Bass Boat is your biggest advantage — use sonar to find muskie, pike, and walleye structure",
-      "Luminox Headlamp for night Blue Catfish sessions — they're most active after dark",
-      "RodPod Trio — deploy shore rods (slots 1, 4, 7) then head out on the Draco with slots 2, 3, 5",
-      "FishStronghold M Plus — fill with Northern Pike ($170/kg) and Walleye ($190/kg) for maximum income"
+      "Draco Bass Boat for reaching mid-lake structure  -  sonar for muskie, pike, and walleye",
+      "Luminos Headlamp for night Blue Catfish sessions",
+      "RodPod Trio  -  deploy bottom rods (slots 2 & 7) at Fairytale Docks, then fish actively with slots 1, 5, 6",
+      "FishStronghold M Plus  -  fill with Northern Pike ($77/lb) and Walleye ($86/lb) for maximum income",
+      "ChumChest Lux for groundbait deployment near bottom rigs",
+      "Lucky Seven tackle box for lure/bait variety in the field"
     ]
   },
   "groundbait": {
-    "status": "MyFeeder recipe — Catfish Destroyer + BigBeam Spicy + Oilcake-Pele",
+    "status": "MyFeeder recipe  -  Catfish Destroyer (Bigstream Spicy Golden aroma, Citrake-Pea Golden particles)",
     "notes": [
-      "Catfish Destroyer works for Blue Catfish bottom rig (slot 4)",
-      "Not used with the Heavy Chaser (bottom rod uses sinker, not feeder), but could attract catfish via scent if deployed nearby",
-      "Consider switching to a generic fish feeder base for broader species attraction at shore spots"
+      "Catfish Destroyer deployed via Closed Feeder on slot 2  -  attracts Blue Catfish to the bottom rig zone",
+      "Great synergy: Feeder on slot 2 draws catfish, sinker on slot 7 holds bait in the same area",
+      "Consider switching to generic fish feeder base if targeting non-catfish species from shore"
     ]
   },
   "boat": {
     "location_allows_boats": true,
-    "license_required": "Advanced Michigan License ($8,000/day, $22,800/3 days, $50,400/week, 600 BC unlimited) — required for boat + night fishing",
+    "license_required": "Advanced Michigan License ($8,000/day, $22,800/3 days, $50,400/week, 600 BC unlimited)  -  required for boat + night fishing",
     "recommendation": {
       "best_option": "Garry Scott Draco Bass Boat (EQUIPPED)",
       "level": 1,
@@ -222,51 +323,56 @@
       "speed": "Bass boat with motor and sonar",
       "weight": "2976 Lb",
       "features": "24.4 ft aluminium bass boat with advanced sonar, rod holders, and trolling motor. Essential for reaching mid-lake muskie and pike structure.",
-      "why": "Saint-Croix Lake is large and deep — muskie, pike, and walleye hold on mid-lake structure that's inaccessible from shore. The Draco's sonar lets you find the underwater humps, weed edges, and rocky points where trophy fish lurk."
+      "why": "Saint-Croix Lake is large and deep  -  muskie, pike, and walleye hold on mid-lake structure that's inaccessible from shore. The Draco's sonar lets you find the underwater humps, weed edges, and rocky points where trophy fish lurk."
     },
     "fishing_tips": [
-      "Use sonar to locate deep structure — muskie and pike hold near underwater humps and weed edges",
-      "Troll slot 5 (Zeus + heavy jig) and slot 2 (SpookySpin + Bullet Spinner) along structure at slow speed",
-      "Cast slot 3 (JigWinner + light jig) toward rocky points for Walleye ($190/kg) at dawn/dusk",
-      "Muskie are rare — 'fish of 10,000 casts' — but three species (Muskie, Clear Muskie, Tiger Muskie) increases your odds",
-      "Northern Pike ($170/kg) are more common and nearly as valuable — target weed edges from the boat",
-      "Set up RodPod Trio at shore before heading out — slots 1 (panfish), 4 (Heavy Chaser bottom rig), and 7 (EquatorMatch heavy float)",
+      "Use sonar to locate deep structure  -  muskie and pike hold near underwater humps, weed edges, and lily pad borders",
+      "PIKE ALLEY: Position Draco off lily pads at King of Green Bay. Cast NNW with slot 3 (Triple Runner) and slot 5 (Crankbait 8ft). This is the #1 muskie zone.",
+      "Troll slot 3 (Salmonster + Triple Runner) and slot 5 (Zeus + Crankbait) along weed edges for pike and muskie",
+      "Cast slot 2 (DracoSpin + Crayfish jig) toward rocky bottoms for Smallmouth Bass and Blue Catfish",
+      "Muskie are rare  -  'fish of 10,000 casts'  -  but three species increases your odds",
+      "Northern Pike ($77/lb) are more common and nearly as valuable  -  target weed edges",
+      "Set up RodPod Trio at docks with slots 1, 4, 6 (bottom rods + Medium Cutbait) for passive catfish income while boating",
       "Return to shore every 20-30 min to check passive rods and sell keepnet",
-      "Night from the boat: Drift over deep structure with slot 3 (light jig) for night-feeding Walleye"
+      "For Muskie Golem fight: return to SHORE at Pike Alley east end  -  do NOT fight from kayak/boat"
     ],
-    "cost_analysis": "Advanced License $8,000/day for boat + night. Travel $7,800 + $2,000/day extend. Total 3-day trip: ~$30,400. One trophy Northern Pike ($170/kg x 48.5 lb = $3,738) + one trophy Walleye ($190/kg x 23.2 lb = $1,998) pays for the trip."
+    "cost_analysis": "Advanced License $8,000/day for boat + night. Travel $7,800 + $2,000/day extend. Total 3-day trip: ~$30,400. One trophy Northern Pike ($77/lb x 48.5 lb = $3,738) + one trophy Walleye ($86/lb x 23.2 lb = $1,998) pays for the trip."
   },
   "passive_fishing": {
-    "best_stand_spot": "Sandy Cape or King of the Green Bay",
-    "stand_spot_why": "Deep water access from shore for monster bottom rig (slot 4). Sandy bottom at Sandy Cape is ideal for Blue Catfish and Lake Sturgeon. King of the Green Bay has rocky structure nearby for muskie/pike on the float rig (slot 7).",
-    "active_fishing_zone": "Use the Draco to cover mid-lake structure. Troll deep weed edges with slots 2 and 5. Cast slot 3 at rocky points and humps for Walleye. Cover all 6 spots for discovery XP.",
+    "best_stand_spot": "Fairytale Docks for catfish income, King of the Green Bay docks for muskie targeting",
+    "stand_spot_why": "Fairytale Docks is the proven catfish zone (50 fish/903 lb in one afternoon trip on 4/8). King of the Green Bay has Trophy Pike and Muskellunge from old wooden docks, with Pike Alley accessible by boat for premium muskie action.",
+    "active_fishing_zone": "At Fairytale: Triple Runner drop-jig technique. At King of Green Bay: cast along lily pad edges for muskie. From Draco: troll crankbaits along weed edges and lily pads at Pike Alley.",
     "strategy": [
-      "Deploy RodPod Trio at Sandy Cape or King of the Green Bay with slots 1, 4, and 7",
-      "Slot 4 (Heavy Chaser + 79 Lb + Shiners + sinker): Cast to deepest water — Blue Catfish (91.5 lb!) and bottom predators",
-      "Slot 7 (EquatorMatch + 83.8 Lb + Shiners + float): Cast to 8-12 ft — muskie and pike cruising mid-depth",
-      "Slot 1 (Fenix + Bloodworms + #4): Near shore at 3-5 ft — panfish species completion",
-      "Head out on Draco with slots 2, 3, and 5 — three active rods covering all predator depths",
-      "Troll slot 5 (Zeus + heavy jig) over deep structure for Muskie and Clear Muskie",
-      "Troll slot 2 (SpookySpin + Bullet Spinner) along weed edges for Northern Pike ($170/kg)",
-      "Cast slot 3 (JigWinner + light jig) at rocky points — WALLEYE ($190/kg) at dawn and dusk",
-      "Visit all 6 spots for location discovery XP: Fairytale Fishing, From Dawn Till Dusk, King of the Green Bay, Sandy Cape, Vanishing Rock Light, Woods of the Eastern Bank",
-      "NIGHT STRATEGY: Blue Catfish become very active. Return to shore, deploy all rods at the stand, and focus on the deep water with slots 4 and 7. Walleye also feeds actively at night — jig slot 3 from the boat."
+      "CATFISH MODE (Fairytale Docks): Deploy RodPod with slots 1, 4, 6 (three bottom/feeder rods + Medium Cutbait #6/0). Active fish with slot 3 (Triple Runner). Fill keeper in ~1.5 hrs.",
+      "Slot 1 (Cat Boxer + Sinker 5.5 Oz + Medium Cutbait + Hook #6/0): Cast 100-150 ft  -  Blue Catfish",
+      "Slot 4 (Mokonzi + Sinker 8 Oz + Medium Cutbait + Hook #6/0): Cast 150 ft toward deeper water  -  Blue Catfish",
+      "Slot 6 (Heavy Chaser + Feeder + Medium Cutbait + Hook #6/0): Cast 100-150 ft  -  feeder scent attracts fish to the rod pod zone",
+      "Slot 3 (Salmonster + Triple Runner 8ft #5/0): Active fishing  -  drop-jig technique (~80% hit rate, 10x XP bonus)",
+      "MUSKIE MODE (King of Green Bay): Deploy RodPod with bottom rods for catfish income. Active cast slots 3 and 5 (crankbaits) along lily pad edges. Float rod slot 7 at ~5 ft depth with Shiners/Large Minnows near structure.",
+      "PIKE ALLEY (Boat): Take Draco, position off lily pads, cast NNW with crankbaits. Best muskie concentration on the lake.",
+      "STURGEON WINDOWS: 7-8 AM and 5-9 PM  -  be at the docks with bottom rods during these times",
+      "NIGHT STRATEGY: Blue Catfish peak activity. Deploy all bottom rods at dock. Walleye also feeds at night."
     ],
     "income_estimate": [
-      "Northern Pike ($170/kg, max 48.5 lb) — up to $3,738 per trophy! Best total income per fish.",
-      "Walleye ($190/kg, max 23.2 lb) — up to $1,998 per trophy. Highest $/kg at Saint-Croix.",
-      "Smallmouth Bass ($160/kg, max 11.9 lb) — up to $862 per trophy. Good active fishing target.",
-      "Tiger Trout ($155/kg, max 6.6 lb) — up to $463 per trophy. Nice bonus catches.",
-      "Brown Trout ($150/kg, max 15.7 lb) — up to $1,067 per trophy. Trolling target.",
-      "Tiger Muskie ($120/kg, max 33.1 lb) — up to $1,800 per trophy. Most common muskie.",
-      "Muskie/Clear Muskie ($100/kg, max 65-69.5 lb) — up to $3,150 per trophy! Rare but massive.",
-      "Blue Catfish ($70/kg, max 91.5 lb) — up to $2,903 per trophy. Night bottom rig.",
-      "Passive income: $500-$2,000/hr from shore rods (catfish + muskie/pike hits)",
-      "Active trolling: $2,000-$5,000/hr targeting pike + walleye + muskie from the Draco",
+      "Northern Pike ($77/lb, max 48.5 lb)  -  up to $3,738 per trophy! Best total income per fish.",
+      "Walleye ($86/lb, max 23.2 lb)  -  up to $1,998 per trophy. Highest $/lb at Saint-Croix.",
+      "Smallmouth Bass ($73/lb, max 11.9 lb)  -  up to $862 per trophy. Good active fishing target.",
+      "Tiger Trout ($70/lb, max 6.6 lb)  -  up to $463 per trophy. Nice bonus catches.",
+      "Brown Trout ($68/lb, max 15.7 lb)  -  up to $1,067 per trophy. Trolling target.",
+      "Tiger Muskie ($54/lb, max 33.1 lb)  -  up to $1,800 per trophy. Most common muskie.",
+      "Muskie/Clear Muskie ($45/lb, max 65-69.5 lb)  -  up to $3,150 per trophy! Rare but massive.",
+      "Blue Catfish ($32/lb, max 91.5 lb)  -  up to $2,903 per trophy. Night bottom rig  -  your most CONSISTENT earner.",
+      "Passive income: $500-$2,000/hr from dock rods (catfish + muskie/pike hits)",
+      "Active trolling: $2,000-$5,000/hr targeting pike + walleye + salmon with spoon and crankbait from the Draco",
       "Combined: $2,500-$7,000 per in-game hour. HIGHEST INCOME POTENTIAL OF ANY LOCATION."
     ]
   },
   "overall_analysis": {
+    "loadout_progress": {
+      "previous_average_rating": 8.0,
+      "current_average_rating": 8.6,
+      "improvement_summary": "Significant loadout improvement! Replaced the weak OmniFloat/Flies setup (4/10) with Salmonster/Crankbait (9/10). Added Mokonzi as a second heavy bottom rod. Fenix upgraded from Bloodworms (3 species) to Small Minnows (9 species). Added DracoSpin with ubersheet-matched Crayfish jig for active catfish hunting. Now have 3 active spinning rods for boat trolling instead of 2."
+    },
     "fish_coverage": {
       "Walleye": true,
       "Northern Pike": true,
@@ -275,7 +381,7 @@
       "Clear Muskie": true,
       "Tiger Muskie": true,
       "Blue Catfish": true,
-      "Lake Sturgeon": false,
+      "Lake Sturgeon": "partial  -  Duck Mussel Meat confirmed (42.8 lb caught 4/8). Medium Cutbait also on bait list.",
       "Brown Trout": true,
       "Tiger Trout": true,
       "Brook Trout": true,
@@ -283,52 +389,210 @@
       "Freshwater Drum": true,
       "American Shad": true,
       "Atlantic Salmon": true,
-      "White Bass": false,
+      "White Bass": true,
       "Yellow Perch": true,
       "Rock Bass": false,
       "Pumpkinseed": false,
-      "Green Sunfish": true,
+      "Green Sunfish": false,
       "Golden Shiner": false,
-      "Bluntnose Minnow": true
+      "Bluntnose Minnow": false
     },
     "missing_setups": [
-      "Lake Sturgeon needs Small Cutbait, Medium Cutbait, Shrimp, Crawfish Cut, or Night Crawlers — swap slot 4 bait to Night Crawlers or bring Crawfish Cut",
-      "Rock Bass ($120/kg) needs Night Crawlers or Leeches — bring Night Crawlers on a float rod",
-      "Pumpkinseed needs Dough Balls, Semolina Balls, Red Worms, or Maggots — swap slot 1 or 6 bait",
-      "Golden Shiner needs Dough Balls or Semolina Balls — brief bait swap for completion",
-      "White Bass needs Night Crawlers or Small Minnows — covered if you bring Night Crawlers"
+      "Rock Bass ($54/lb) needs Night Crawlers or Leeches  -  or Nano Spinner/Craw jig on a light rod",
+      "Pumpkinseed needs Dough Balls, Semolina Balls, Red Worms, or Maggots  -  brief bait swap on slot 4",
+      "Green Sunfish needs Semolina Balls, Marshmallows, Wax Worms, or Bloodworms  -  brief bait swap on slot 4",
+      "Golden Shiner needs Dough Balls or Semolina Balls  -  brief bait swap",
+      "Bluntnose Minnow needs Bloodworms or Red Worms  -  brief bait swap on slot 4",
+      "NOTE: These are all low-value panfish  -  prioritize catching them once for first-catch XP bonus, then return to high-value targets"
     ],
     "xp_optimization": [
-      "22 species available — the most species-rich lake! Catch ALL for massive first-catch XP bonuses.",
-      "Unique Walleye, Northern Pike, Smallmouth Bass, Muskie, Clear Muskie, Tiger Muskie, Blue Catfish, and 5 more — 12 unique species!",
-      "Three types of Muskie at one location is RARE — catch all three for bragging rights + huge XP",
+      "22 species available  -  catch ALL for massive first-catch XP bonuses",
+      "Current loadout covers 17/22 species  -  up from 16/22! Small Minnows on slot 4 added White Bass, Freshwater Drum, American Shad",
+      "Three types of Muskie at one location is RARE  -  catch all three for bragging rights + huge XP",
       "Fish all 6 spots for location discovery XP",
-      "Night fishing unlocks Blue Catfish and Walleye peak activity — massive XP from trophies",
-      "Use the Draco boat to access mid-lake muskie structure — they rarely come close to shore"
+      "Night fishing unlocks Blue Catfish peak activity  -  massive XP from trophies",
+      "For remaining 5 species: bring Semolina Balls and Bloodworms/Red Worms for a panfish completion session"
     ],
     "income_optimization": [
-      "Walleye at $190/kg is the highest $/kg — target with light jig (slot 3) at dawn/dusk near rocky points",
-      "Northern Pike at $170/kg (max 48.5 lb = $3,738 per trophy!) — best total $/fish. Troll with Bullet Spinner.",
-      "Smallmouth Bass at $160/kg — solid income between muskie casts",
-      "Tiger Trout at $155/kg and Brown Trout at $150/kg — bonus income while trolling",
-      "Fill keepnet with Walleye + Northern Pike for highest average $/kg",
-      "Saint-Croix is expensive ($7,800 travel + $2,000/day + $8,000/day advanced license) but the income potential is the highest of any location you've visited"
+      "Walleye at $86/lb is the highest $/lb  -  target with Crankbait (slot 6) and Casting Spoon (slot 1) at dawn/dusk",
+      "Northern Pike at $77/lb (max 48.5 lb = $3,738 per trophy!)  -  troll with Casting Spoon and Crankbait from the Draco",
+      "Smallmouth Bass at $73/lb  -  solid income while trolling spoons",
+      "Tiger Trout at $70/lb and Brown Trout at $68/lb  -  crankbait trolling bonus catches",
+      "Blue Catfish at $32/lb but massive size (91.5 lb max = $2,903)  -  your most consistent earner from dock bottom rigs",
+      "Fill keepnet with Walleye + Northern Pike for highest average $/lb",
+      "Saint-Croix is expensive ($7,800 travel + $2,000/day + $8,000/day advanced license) but income potential is the highest of any location"
     ],
     "priority_changes": [
-      "Switch slot 1 bait to Night Crawlers — covers Rock Bass ($120/kg), Yellow Perch, White Bass, Lake Sturgeon, and Freshwater Drum (5 species!)",
-      "Switch slot 6 bait from Flies to Semolina Balls — covers Pumpkinseed and Golden Shiner for species completion",
-      "Consider swapping slot 4 bait from Shiners to Night Crawlers or Crawfish Cut to add Lake Sturgeon coverage",
-      "Downsize slot 6 hook from #1/0 to #4-#6 and add titanium leader for pike protection",
-      "Focus on Walleye ($190/kg) at dawn/dusk and Northern Pike ($170/kg) during the day for maximum income",
-      "Night sessions: Blue Catfish with Heavy Chaser (slot 4) + Walleye with light jig from the boat (slot 3)"
+      "DONE (4/8): Medium Cutbait swap CONFIRMED  -  consistent Blue Catfish catches on both bottom rods. Trophy 42.5 lb caught!",
+      "DONE (4/8): Hook #6/0 on slot 2  -  improved hookup rate confirmed",
+      "DONE (4/8): Lure tested  -  Triple Runner 8ft #5/0 (~80%) beats Hunched 8' and Tweaker 16' (~40-50%). Stick with Triple Runner.",
+      "CRITICAL: Swap slot 3 leader from Fluorocarbon to Titanium  -  pike and muskie WILL bite through fluoro",
+      "Keep Duck Mussel Meat on Cat Boxer  -  confirmed sturgeon catcher at marker [299.82, -161.17]",
+      "XP STRATEGY: Alternate passive bait rods + active Triple Runner  -  lure catches give ~10x XP (1,382 vs ~100-150 per fish)",
+      "Glow soft baits replace standard variants  -  same effectiveness, saves inventory space",
+      "For species completion: bring Semolina Balls (Pumpkinseed + Golden Shiner + Green Sunfish) and Bloodworms/Red Worms (Bluntnose Minnow + Yellow Perch)",
+      "Rock Bass ($54/lb) is the highest-value missing species  -  Night Crawlers or Leeches on a float rod would cover it"
     ],
     "spot_recommendations": {
-      "Sandy Cape (Shore/Stand)": [1, 4, 7],
-      "King of the Green Bay (Shore/Stand)": [1, 4, 7],
-      "Fairytale Fishing (Boat)": [2, 5, 3],
-      "From Dawn Till Dusk (Boat)": [3, 2, 5],
-      "Vanishing Rock Light (Boat)": [5, 2, 3],
-      "Woods of the Eastern Bank (Shore)": [1, 6, 3]
+      "Fairytale Docks (Shore/Stand  -  CATFISH PRIMARY)": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "Sandy Cape (Shore/Stand  -  ALT)": [
+        1,
+        4,
+        6
+      ],
+      "King of the Green Bay (Shore  -  MUSKIE PRIMARY)": [
+        3,
+        5,
+        7
+      ],
+      "Pike Alley (Boat  -  MUSKIE HOTSPOT)": [
+        3,
+        5,
+        2
+      ],
+      "Mid-Lake Structure (Boat  -  Trolling)": [
+        3,
+        5,
+        2
+      ],
+      "Rocky Points (Boat  -  Casting)": [
+        2,
+        3
+      ],
+      "Weed Edges (Boat  -  Trolling)": [
+        3,
+        5
+      ],
+      "Floating Dock (Shore/Stand - NEW PRIMARY BASE)": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "fight_techniques": [
+      "UNIVERSAL TECHNIQUE - Slow Drop + Fast Raise: Drop lure to bottom, pause 4 sec, raise to level and swim 4 sec, repeat. Aggressive bottom fish (bass, walleye) ambush on the popup from rest. Works on all spinning and casting rods.",
+      "HEAVY FISH ON LIGHT ROD TECHNIQUE (GalaxyCast 8'6\" vs 20+ lb Blue Catfish): Set line tension to 90% (one notch before break limit). Reel at Med-Fast speed (NOT full speed - full speed triggers max fish resistance). Pull back on rod then reel during the pull-forward. Retrieval rate ~1 ft per 2 sec (100-120 ft cast = 1-2 min fight). The GalaxyCast 8'6\" is the longest X-Heavy casting rod in the game - no upgrade exists.",
+      "REEL SPEED vs FISH AGGRESSION: Fish fight intensity scales with reel speed. Dialing reel speed from Fast to Med-Fast dramatically reduces strain on rod/reel/line. Use this on any rod when fighting fish near the rod power limit.",
+      "SPOT OPTIMIZATION - Floating Dock > Fairytale Docks: Bottom rods at 75-125 ft (vs 150-250 at Fairytale) = faster retrieval, no dual-hookup timeouts. 4-Rod Stand on mid-dock facing shore covers the entire catfish/sturgeon strip. 360-degree lure fishing possible."
+    ]
+  },
+  "muskie_strategy": {
+    "overview": "Saint-Croix has 3 muskie species plus the Muskie Golem (monster fish). Muskie are ambush predators - expect long waits (1.5+ in-game hours between bites). Keep bottom rods soaking for catfish income between muskie hits.",
+    "species": {
+      "Muskie": {
+        "max_weight_lb": 65.0,
+        "price_per_lb": 45,
+        "max_value": 2925,
+        "baits": [
+          "Shiners",
+          "Large Minnows"
+        ],
+        "best_hook": "#7/0",
+        "best_lure": "Golem Lure 2m #8/0 (mission reward) or Triple Runner 8ft #5/0",
+        "activity": {
+          "sunny": "6-7 AM, 7-8 PM",
+          "cloudy": "8-9 AM, 5-6 PM"
+        }
+      },
+      "Clear Muskie": {
+        "max_weight_lb": 69.4,
+        "price_per_lb": 45,
+        "max_value": 3123,
+        "baits": [
+          "Shiners",
+          "Large Minnows"
+        ],
+        "best_hook": "#7/0",
+        "best_lure": "Golem Lure 2m #8/0 or Triple Runner 8ft #5/0",
+        "activity": {
+          "sunny": "6-7 AM, 7-8 PM",
+          "cloudy": "8-9 AM, 5-6 PM"
+        },
+        "notes": "Found near Tiger Muskie zones - try areas adjacent to Sandy Cape and Pike Alley"
+      },
+      "Tiger Muskie": {
+        "max_weight_lb": 33.1,
+        "price_per_lb": 54,
+        "max_value": 1788,
+        "baits": [
+          "Large Minnows",
+          "Shiners"
+        ],
+        "best_hook": "#6/0",
+        "best_lure": "Triple Runner 8ft #5/0 or 8ft Green Crank #6/0",
+        "activity": {
+          "sunny": "6-7 AM, 7-8 PM",
+          "cloudy": "8-9 AM, 5-6 PM"
+        },
+        "coordinates": "-60.91, -208.67 (Unique Tiger Muskie)",
+        "notes": "Sandy Cape 'little rock' spot and Pike Alley corner - cast 30-38m toward right-hand reeds"
+      }
+    },
+    "king_of_the_green_bay": {
+      "description": "South-east bank, Greenpoint Bay. Remote spot with old wooden docks. Trophy Northern Pike and Muskellunge territory.",
+      "pike_alley": "Best muskie zone - at the far end of Green Bay along lily pad edges. Best accessed by boat/kayak, position just off the lily pads. Cast north-northwest toward fish activity.",
+      "shore_vs_boat": "Shore fishing works from the docks - good for passive bottom rods + active casting. For Pike Alley specifically, use the Draco to position off lily pads. For the Muskie Golem fight, fish from SHORE (not kayak) - the Golem runs along shore to snag your line.",
+      "technique_lure": "4/0 jighead + 10cm grass green shad, Stop-and-Go or Twitching at speed 2-3. Triple Runner also works - cast along lily pad edges. Poppers effective for muskie too.",
+      "technique_float": "#6/0 or #7/0 hook, Shiners or Large Minnows, float depth ~5 ft. Cast toward shore features (houses, docks, lily pads).",
+      "strategy": [
+        "Deploy RodPod at docks with bottom rods (slots 1, 4, 6) soaking Medium Cutbait for catfish income",
+        "Active fish with slot 3 (Salmonster + Triple Runner) and slot 5 (Zeus + Crankbait) along lily pad edges",
+        "Float rod slot 7 (EquatorMatch + Shiners/Large Minnows) set at ~5 ft depth near structure",
+        "TITANIUM LEADER REQUIRED on all rods targeting muskie - they WILL bite through fluorocarbon",
+        "Morning windows (6-9 AM) and evening windows (5-8 PM) are prime muskie time",
+        "Between muskie windows, focus on catfish income from bottom rods",
+        "When ready for Pike Alley: take Draco, position off lily pads, cast NNW with crankbaits and jigs"
+      ]
+    },
+    "golem_lure": {
+      "name": "Golem Lure 2m #8/0 (Pike color)",
+      "type": "Crankbait / Monster Lure",
+      "specs": "28g, 14cm, 2m depth, Floating, Hook #8/0",
+      "how_to_get": [
+        "Open Missions menu - find Muskie Golem / Fish Monsters mission chain",
+        "Track the monster mission, then travel to Saint-Croix",
+        "A lure sub-mission appears: catch 5 Backlash fish (all from Saint-Croix)",
+        "Ensure 5+ free inventory slots before completing",
+        "Receive Golem Lure 2m #8/0 as reward"
+      ],
+      "warnings": [
+        "ALWAYS use Titanium leader with Golem Lure - bite-off = lure lost",
+        "If lost BEFORE catching Golem: redo backlash mission for another lure",
+        "If lost AFTER catching Golem: GONE PERMANENTLY - no recovery"
+      ]
+    },
+    "golem_fight": {
+      "location": "Pike Alley (east end, shore fishing recommended)",
+      "weight": "Up to ~77 lb",
+      "fight_duration": "20-30 in-game minutes with runs to 400 ft",
+      "tips": [
+        "Fish from SHORE, not kayak - Golem charges at you and runs along shore to snag line",
+        "Manage rod angle carefully for constant line tension",
+        "Golem is 'smart' - charges straight at you to create slack, uses twists/turns",
+        "Use your strongest reel (L'Impulsion 12000 SE at 81.5 Lb drag or Fileur 11000 SE at 79.4 Lb)",
+        "Kraken 8000 SE on Salmonster should handle it but will be a tough fight"
+      ]
+    }
+  },
+  "mission": {
+    "muskie_golem": {
+      "status": "Not started",
+      "steps": [
+        "Track Fish Monsters / Muskie Golem mission in Missions menu",
+        "Complete lure sub-mission: catch 5 Backlash fish at Saint-Croix",
+        "Receive Golem Lure 2m #8/0",
+        "Fish Pike Alley from shore with Golem Lure on titanium leader",
+        "Land the Muskie Golem (~77 lb, 20-30 min fight)"
+      ]
     }
   }
 }

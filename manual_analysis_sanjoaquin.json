@@ -1,0 +1,735 @@
+{
+  "location": {
+    "name": "San Joaquin Delta",
+    "region": "California",
+    "type": "River",
+    "continent": "North America",
+    "base_level": 34,
+    "travel_cost": 7800,
+    "extend_cost": 2000,
+    "monster_fish": "Gourmet Bass (Morone Gurmanius, max 66 lb)",
+    "level_note": "Base level 34 required, but UNLOCKED via DLC at level 33"
+  },
+  "license": {
+    "basic": {
+      "name": "Basic California License",
+      "cost_1_day": 4000,
+      "cost_3_day": 11400,
+      "cost_week": 25200,
+      "cost_unlimited": 550,
+      "night_fishing": false,
+      "boat_fishing": false,
+      "release_required": [
+        "Trophy Chinook Salmon",
+        "Trophy/Unique Striped Bass",
+        "Trophy/Unique Steelhead",
+        "Trophy/Unique Common Carp"
+      ]
+    },
+    "advanced": {
+      "name": "Advanced California License",
+      "cost_1_day": 8000,
+      "cost_3_day": 22800,
+      "cost_week": 50400,
+      "cost_unlimited": 800,
+      "night_fishing": true,
+      "boat_fishing": true,
+      "recommendation": "REQUIRED for White Sturgeon (best at night) and Striped Bass boat fishing"
+    }
+  },
+  "spots": [
+    {
+      "name": "The Foggy Sanctuary",
+      "type": "Shore - Old Wooden Docks",
+      "description": "Mouth of San Joaquin River at Saint-Anne Bay. Old wooden docks on a channel. Often dense fog.",
+      "best_for": [
+        "Striped Bass",
+        "White Crappie",
+        "Redear Sunfish"
+      ],
+      "wiki_note": "Recommended starting point for new visitors",
+      "coordinates": "lat -0.800, lng -28.400"
+    },
+    {
+      "name": "Below the Cryton Dam",
+      "type": "Shore - Wader Spot (Whitewater)",
+      "description": "Whitewater tributary with riffles, shallows, weeds, and rocky constructions. Wading required.",
+      "best_for": [
+        "Steelhead Trout",
+        "Chinook Salmon"
+      ],
+      "coordinates": "lat -31.193, lng -27.729"
+    },
+    {
+      "name": "Fishing the Beaver",
+      "type": "Shore - Beaver Island",
+      "description": "Beaver Island in the San Joaquin River, overlooking Cryton Dam and stilt-house settlement.",
+      "best_for": [
+        "Common Carp",
+        "Striped Bass",
+        "Bluegill",
+        "Redear Sunfish"
+      ],
+      "coordinates": "lat -0.800, lng 4.384"
+    },
+    {
+      "name": "Southern Docks",
+      "type": "Shore - Wooden Docks",
+      "description": "Southwestern SJD with wooden docks facing Beaver Island.",
+      "best_for": [
+        "Common Carp",
+        "Striped Bass",
+        "Bluegill",
+        "Redear Sunfish"
+      ],
+      "coordinates": "lat -6.963, lng 17.886"
+    }
+  ],
+  "fish_inventory": {
+    "trophy_targets": [
+      {
+        "name": "Striped Bass",
+        "max_weight_lb": 52.9,
+        "max_weight_kg": 24.0,
+        "price_per_lb": 36,
+        "price_per_kg": 80,
+        "max_value": 1904,
+        "types": [
+          "common",
+          "trophy",
+          "unique"
+        ],
+        "best_bait": "Large Cutbait #6/0",
+        "best_lure": "Brown Gourmet Spoon 28g #5/0 (Crankbait)",
+        "ubersheet_baits": [
+          "Large Cutbait",
+          "Shiners"
+        ],
+        "notes": "MARQUEE TROPHY SPECIES. Active around docks and weedy waters. Both bait and lure approaches work."
+      },
+      {
+        "name": "Steelhead Trout",
+        "max_weight_lb": 38.6,
+        "max_weight_kg": 17.5,
+        "price_per_lb": 54,
+        "price_per_kg": 120,
+        "max_value": 2084,
+        "types": [
+          "common",
+          "trophy",
+          "unique"
+        ],
+        "best_bait": "Shiners #4/0",
+        "best_lure": "Rainbow Holographic Medium Spoon 28g #4/0",
+        "ubersheet_baits": [
+          "Salmon Eggs",
+          "Roe",
+          "Shiners"
+        ],
+        "notes": "Best targeted Below the Cryton Dam in whitewater. Wader spot. Topwater Steelhead competition active."
+      },
+      {
+        "name": "Common Carp",
+        "max_weight_lb": 54.0,
+        "max_weight_kg": 24.5,
+        "price_per_lb": 45,
+        "price_per_kg": 100,
+        "max_value": 2430,
+        "types": [
+          "young",
+          "common",
+          "trophy",
+          "unique"
+        ],
+        "best_bait": "Corn #6/0 (float/feeder/bottom)",
+        "ubersheet_baits": [
+          "Corn",
+          "Bread",
+          "Boilies"
+        ],
+        "notes": "Best at Fishing the Beaver and Southern Docks. Use feeder rod with sweet corn. C'mon Carp! competition runs here."
+      },
+      {
+        "name": "Chinook Salmon",
+        "max_weight_lb": 43.0,
+        "max_weight_kg": 19.5,
+        "price_per_lb": 45,
+        "price_per_kg": 100,
+        "max_value": 1935,
+        "types": [
+          "common",
+          "trophy"
+        ],
+        "best_bait": "Shiners #4/0",
+        "best_lure": "Green and Black Single Spoon 42g #4/0",
+        "ubersheet_baits": [
+          "Shiners",
+          "Large Minnows"
+        ],
+        "notes": "Best Below the Cryton Dam during spawning runs. Fishing Planet Anniversary Cup destination."
+      },
+      {
+        "name": "Redear Sunfish",
+        "max_weight_lb": 4.85,
+        "max_weight_kg": 2.2,
+        "price_per_lb": 54,
+        "price_per_kg": 120,
+        "max_value": 262,
+        "types": [
+          "common",
+          "trophy",
+          "unique"
+        ],
+        "best_bait": "Bloodworms #1",
+        "ubersheet_baits": [
+          "Wax Worms",
+          "Maggots",
+          "Bloodworms"
+        ],
+        "notes": "Panfish trophy species. Float rod with light bait at all dock spots."
+      }
+    ],
+    "monster": {
+      "name": "Gourmet Bass",
+      "latin": "Morone Gurmanius",
+      "max_weight_lb": 66.0,
+      "max_weight_kg": 30.0,
+      "best_lure": "Brown Gourmet Spoon 28g #5/0 (Monster Lure - mission reward)",
+      "notes": "Monster fish - obtained through Fish Monsters mission chain. No natural bait option."
+    },
+    "common_only": [
+      {
+        "name": "Largemouth Bass",
+        "max_weight_lb": 3.3,
+        "price_per_lb": 69,
+        "best_bait": "Shiners #4/0",
+        "best_lure": "Acid Green and Orange Buzzbait 24g #4/0",
+        "notes": "COMMON ONLY at SJD - no trophy/unique. Small fish, finesse approach."
+      },
+      {
+        "name": "Smallmouth Bass",
+        "max_weight_lb": 3.3,
+        "price_per_lb": 73,
+        "best_bait": "Crawfish #1/0",
+        "best_lure": "Yellow/Black X-Series Casting Spoon 21g #3/0",
+        "notes": "COMMON ONLY at SJD. Finesse spinning gear."
+      },
+      {
+        "name": "White Catfish",
+        "max_weight_lb": 1.9,
+        "price_per_lb": 27,
+        "best_bait": "Blood #1/0",
+        "notes": "TINY catfish - max 1.9 lb. Don't waste rod slots on it."
+      },
+      {
+        "name": "California Roach",
+        "max_weight_lb": 0.26,
+        "price_per_lb": 59,
+        "best_bait": "Semolina Balls #6",
+        "notes": "Tiny endemic species. First-catch XP only."
+      }
+    ],
+    "sturgeon_UPDATED": {
+      "name": "White Sturgeon",
+      "max_weight_lb": 220,
+      "max_weight_unique_lb": 286,
+      "price_per_lb": 45,
+      "types": [
+        "common",
+        "trophy",
+        "unique"
+      ],
+      "best_bait": "Large Cutbait #4/0",
+      "ubersheet_baits": [
+        "Large Cutbait",
+        "Medium Cutbait",
+        "Duck Mussel Meat",
+        "Crawfish (confirmed 4/13 - 42.88 lb midday)"
+      ],
+      "best_spot": "Fishing the Beaver (CONFIRMED hotspot 4/10 - 5 sturgeon 39-54 lb in single session)",
+      "session_record": "User caught 54.302 lb on 4/10 (Large Cutbait, midday) - supersedes stale 44.1 lb cap",
+      "notes": "PRIMARY INCOME TARGET at SJD. Trophy class exists. Best at NIGHT with Advanced License - 'Sturgeon in the Dark' competition active. Use 3 X-Heavy bottom rods with Large Cutbait + #4/0 at Fishing the Beaver for volume fishing. Mokonzi solo gets heavily taxed - diversify across Heavy Chaser + Humenus + Tribal Totem + Mokonzi."
+    },
+    "panfish": [
+      {
+        "name": "Bluegill",
+        "max_weight_lb": 1.92,
+        "price_per_lb": 34,
+        "best_bait": "Crickets #1",
+        "best_lure": "Silver Casting Spoon 5g #2",
+        "types": [
+          "common",
+          "trophy"
+        ]
+      },
+      {
+        "name": "White Crappie",
+        "max_weight_lb": 1.92,
+        "price_per_lb": 45,
+        "best_bait": "Leeches #1/0",
+        "best_lure": "Gold/Black Trout Barbless Nano Spinner 6g #1/0",
+        "types": [
+          "common",
+          "trophy"
+        ]
+      }
+    ]
+  },
+  "loadout_assessment": {
+    "current_state": "REVISED 2026-04-10: Current X-Heavy loadout is actually well-suited for SJD. Field test confirmed: Steelhead on Medium FarCaster halved reel durability (100% -> 50%) - LIGHT/MEDIUM RODS ARE NOT VIABLE at SJD. Fish are big and aggressive enough to damage finesse gear.",
+    "key_finding": "SJD trophy fish (Striped Bass 53 lb, Common Carp 54 lb, Steelhead 38.6 lb, Chinook 43 lb, Sturgeon 44 lb) all require X-Heavy gear despite the location's reputation for finesse bass fishing. The Largemouth/Smallmouth Bass (max 3.3 lb common only) are not worth dedicated finesse tackle - skip them or catch incidentally.",
+    "problems_with_original_loadout": [
+      "Duck Mussel Meat doesn't work at SJD - sturgeon takes Large Cutbait #4/0",
+      "Hook sizes too large in some places (#8/0 too big for SJD - #4/0 to #6/0 better)",
+      "Missing key baits: Large Cutbait (sturgeon/striped bass), Corn (carp), Shiners (bass/salmon/steelhead)"
+    ],
+    "what_NOT_to_do": [
+      "Do NOT swap to medium/light rods - durability damage on big fish hits will be significant",
+      "Do NOT bring a finesse panfish rod - any light line will get broken by carp omnipresent at all dock spots",
+      "Do NOT skip Advanced License - night sturgeon fishing is the highest-value session"
+    ]
+  },
+  "recommended_loadout": {
+    "philosophy_v2_return_trip": "REVISED 2026-04-12 for return trip: FOCUS ON STURGEON FARMING + SALMON MISSION. Deploy 4-Rod Stand at Fishing the Beaver with 4x X-Heavy bottom rods all rigged identically for Large Cutbait sturgeon volume. One active spinning rod for Striped Bass bycatch + Triple Runner. One dedicated casting rod with Green and Black Single Spoon 42g #4/0 for Salmon Hunt mission (wade at Cryton Dam). Skip the finesse/panfish diversification from 4/10 — Ichthyologist challenge already complete.",
+    "philosophy": "REVISED 2026-04-10: Use existing X-Heavy loadout. SJD fish are big enough to damage Medium/Light gear (steelhead halved FarCaster reel durability in one fight). Keep heavy rods, just change baits and hooks to match SJD species. NO PIKE/MUSKIE at SJD - fluoro leaders preferred except on sturgeon rods (titanium for scute abrasion).",
+    "slots": [
+      {
+        "slot": 1,
+        "purpose": "STURGEON / STRIPED BASS BOTTOM (lighter sinker)",
+        "rod": "Heavy Chaser 9'10\" SE (X-Heavy Bottom, line 22-56.2 Lb)",
+        "reel": "RedFish 5500 (42 Lb drag)",
+        "line": "Fluoro .024\" (~50 Lb) - already equipped",
+        "leader": "Titanium .012\" (~24 Lb) - already equipped, good for sturgeon scutes",
+        "tackle": "Sinker 5 1/2 Oz, Hook #4/0",
+        "bait": "Large Cutbait (CHANGED from Duck Mussel Meat)",
+        "targets": "White Sturgeon (44 lb), Striped Bass (52 lb)"
+      },
+      {
+        "slot": 2,
+        "purpose": "ACTIVE STRIPED BASS CASTING (heavy spoons)",
+        "rod": "GalaxyCast 5'11\" SE (Casting, X-Heavy, 7/8-2.5 Oz, line 8-33 Lb)",
+        "reel": "VorteX 7000 SE",
+        "line": "Fluoro .020\" (~30 Lb) - matches rod max",
+        "leader": "Fluorocarbon .018\" (~25 Lb) - swap from .0085\" titanium to thicker fluoro for striped bass abrasion + stealth",
+        "lure": "Brown Gourmet Spoon 28g #5/0 (if obtainable) or Medium Spoon 1 Oz #4/0",
+        "targets": "Striped Bass (52 lb), Largemouth Bass incidental"
+      },
+      {
+        "slot": 3,
+        "purpose": "STRIPED BASS / SALMON CRANKBAIT",
+        "rod": "Salmonster 8'10\" (Spinning, X-Heavy, line 18-46 Lb) - already equipped",
+        "reel": "Kraken 8000 SE (49+ Lb drag)",
+        "line": "X-Series Fluoro .025\" (~50 Lb) - already equipped",
+        "leader": "Fluorocarbon .020\" (~30 Lb) - swap from titanium to fluoro for stealth",
+        "lure": "Triple Runner 8ft #5/0 (works for Striped Bass per ubersheet)",
+        "targets": "Striped Bass (52 lb), Chinook Salmon, Steelhead"
+      },
+      {
+        "slot": 4,
+        "purpose": "STRIPED BASS / STURGEON FEEDER (heavy bottom)",
+        "rod": "Tribal Totem 12'10\" (X-Heavy Bottom, line 39.7-81.6 Lb) - already equipped",
+        "reel": "Savana Spirit 11000",
+        "line": "Fluoro .033\" (~79 Lb) - already equipped, max strength for big sturgeon",
+        "leader": "Titanium .018\" (~50 Lb) - KEEP titanium for sturgeon scute abrasion",
+        "tackle": "Closed Feeder 6 Oz, Hook #6/0",
+        "groundbait": "Mix Grand Fish Feeder",
+        "bait": "Large Cutbait (CHANGED from Medium Cutbait - per ubersheet)",
+        "targets": "Striped Bass (52 lb), White Sturgeon (44 lb)"
+      },
+      {
+        "slot": 5,
+        "purpose": "ACTIVE SALMON / STEELHEAD CASTING",
+        "rod": "Silverthorn Stake 7'6\" (X-Heavy Casting, 7/8-3.16 Oz, line 35.3-88 Lb) - already equipped",
+        "reel": "Vampire's Bane 7500",
+        "line": "Mono .033\" (~50 Lb) - already equipped",
+        "leader": "Fluorocarbon .025\" (~40 Lb) - swap from titanium .018 for stealth on line-wary salmon/steelhead",
+        "lure": "Green and Black Single Spoon 42g #4/0 (Chinook Salmon) or Rainbow Holographic Medium Spoon 28g #4/0 (Steelhead)",
+        "targets": "Chinook Salmon (43 lb), Steelhead Trout (38.6 lb)"
+      },
+      {
+        "slot": 6,
+        "purpose": "NIGHT STURGEON BOTTOM",
+        "rod": "Mokonzi 12'10\" SE (X-Heavy Bottom, line 39.7-81.6 Lb) - already equipped",
+        "reel": "Ambusher 9000 SE (49.6 Lb drag)",
+        "line": "X-Series Fluoro .025\" (~50 Lb) - already equipped",
+        "leader": "Titanium .014\" (~28 Lb) - KEEP titanium for sturgeon scutes",
+        "tackle": "Open Feeder 4 1/2 Oz, Hook #4/0",
+        "groundbait": "Mix Grand Riverine Breamer Golden",
+        "bait": "Large Cutbait (CHANGED from Duck Mussel Meat)",
+        "targets": "White Sturgeon at NIGHT (44 lb)"
+      },
+      {
+        "slot": 7,
+        "purpose": "COMMON CARP MATCH ROD",
+        "rod": "Wicked Viking 8'6\" (Match, line 28.6-83.8 Lb) - already equipped",
+        "reel": "Nordic Beast 12000",
+        "line": "Fluoro .033\" (~79 Lb) - already equipped, can handle 54 lb carp easily",
+        "leader": "Fluorocarbon .025\" (~40 Lb) - swap from titanium .018 for stealth (carp are very line-shy)",
+        "tackle": "Armored Slider, Hook #6/0",
+        "bait": "Corn (CHANGED from Duck Mussel Meat)",
+        "targets": "Common Carp (54 lb max), bonus Redear Sunfish",
+        "notes": "Wicked Viking handles big carp easily. Use Corn on smaller hook (#4/0 or #6/0) for both Carp and incidental panfish (Bluegill, Redear)."
+      }
+    ],
+    "leader_summary": {
+      "fluorocarbon": "Slots 2, 3, 5, 7 - SJD has no pike/muskie. Fluoro provides stealth for line-shy bass, salmon, steelhead, and carp.",
+      "titanium": "Slots 1, 4, 6 - Sturgeon-targeting rods only. Titanium resists abrasion from sturgeon scutes (bony armor plates) during long fights."
+    },
+    "what_was_dropped": [
+      "Dedicated finesse panfish rod - carp omnipresence at all dock spots makes light line non-viable",
+      "Medium/Light bass spinning rods - SJD bass species are common-only and low value, not worth durability damage",
+      "Trout-specific finesse spinning - X-Heavy salmon rods (slots 3, 5) can handle steelhead with proper drag management"
+    ],
+    "current_deployed_loadout_2026_04_13": {
+      "description": "ACTUAL loadout in use on Day 1 of 2026-04-13 return trip. 4-Rod Stand at Fishing the Beaver + 3 active rods (2 casting spoons for salmon mission, 1 GalaxyCast jig-and-shad for bass).",
+      "slots": [
+        {
+          "slot": 1,
+          "purpose": "GALAXYCAST ACTIVE JIG (soft plastic casting)",
+          "rod": "GalaxyCast 8'6\"",
+          "rod_specs": "X-Heavy Casting, 3/4-2 1/8 Oz, 7-28.6 Lb, Mod Fast",
+          "reel": "VorteX 7000 SE",
+          "line": "Braid .0076\"",
+          "leader": "Titanium Leader .011\"",
+          "terminal": "JigHead 3/4 Oz #3/0",
+          "lure": "Shad 4\"",
+          "targets": "Striped Bass, Largemouth Bass, trout bycatch",
+          "notes": "Soft plastic jig-and-shad for active bass/trout coverage. Replaces the Triple Runner Narrow Spoon combo — goes deeper to work bottom-structure bass."
+        },
+        {
+          "slot": 2,
+          "purpose": "SALMON HUNT MISSION ROD (primary)",
+          "rod": "Silverthorn Stake 7'6\"",
+          "rod_specs": "X-Heavy Casting, 7/8-3 1/6 Oz, 35.3-88 Lb",
+          "reel": "Vampire's Bane 7500",
+          "line": "Fluoro .034\"",
+          "leader": "",
+          "lure": "Single Spoon 1 1/2 Oz #4/0",
+          "targets": "Trophy Chinook Salmon 33+ lb (SALMON HUNT MISSION)",
+          "notes": "Matches the Lemon Tiger Medium Spoon 1 1/2 Oz #4/0 Steam guide recommendation. Used Day 1 at Cryton Dam and boat south of Southern Docks. Trophies caught only ~20 lb so far — 33+ lb likely Unique class (RNG)."
+        },
+        {
+          "slot": 3,
+          "purpose": "SALMONSTER SALMON/STRIPED BASS SPOON",
+          "rod": "Rivertex Salmonster 8'10\"",
+          "rod_specs": "X-Heavy Spinning, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast",
+          "reel": "Kraken 8000 SE",
+          "line": "X-Series Fluoro .025\"",
+          "leader": "Titanium Leader .012\"",
+          "lure": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0",
+          "targets": "Striped Bass, Chinook Salmon, Steelhead",
+          "notes": "Club-Series Glow&Holo spoon has produced mixed-species at St-Croix (brown trout, smallmouth bass). At SJD this is the lighter spoon option for chinook work."
+        },
+        {
+          "slot": 4,
+          "purpose": "STURGEON BOTTOM (4-Rod Stand position 1)",
+          "rod": "Heavy Chaser 9'10\" SE",
+          "reel": "RedFish 5500",
+          "line": "X-Series Fluoro .025\"",
+          "leader": "Titanium Leader .012\"",
+          "terminal": "Monkey Skull Sinker 7 Oz",
+          "bait": "Crawfish",
+          "hook": "#4/0",
+          "targets": "White Sturgeon, Striped Bass",
+          "spot": "Fishing the Beaver (Rod Stand)",
+          "notes": "UNEXPECTED FINDING 4/13: Crawfish on Heavy Chaser caught White Sturgeon 42.880 lb at midday. Crawfish works as a sturgeon alt-bait — not just a bass bait. Keep it as a diversifier on one rod to catch any sturgeon that ignore cutbait."
+        },
+        {
+          "slot": 5,
+          "purpose": "STURGEON BOTTOM (4-Rod Stand position 2)",
+          "rod": "Humenus 11'1\"",
+          "reel": "Ossibus Blue 11000",
+          "line": "Braid .013\"",
+          "leader": "Mono Leader .025\"",
+          "terminal": "Sinker 6 Oz",
+          "bait": "Large Cutbait",
+          "hook": "#4/0",
+          "targets": "White Sturgeon",
+          "spot": "Fishing the Beaver (Rod Stand)",
+          "notes": "Proven 4/13 — multiple sturgeon caught on this rod Day 1."
+        },
+        {
+          "slot": 6,
+          "purpose": "STURGEON FEEDER (4-Rod Stand position 3 - groundbait attractor)",
+          "rod": "Mokonzi 12'10\" SE",
+          "reel": "Ambusher 9000 SE",
+          "line": "X-Series Fluoro .025\"",
+          "leader": "Titanium Leader .018\"",
+          "terminal": "Rusty Cage Feeder 5 2/3 Oz",
+          "groundbait": "Mix Grand Fish Feeder",
+          "bait": "Large Cutbait",
+          "hook": "#4/0",
+          "targets": "White Sturgeon (groundbait attractor pulls fish to all 4 rods)",
+          "spot": "Fishing the Beaver (Rod Stand)",
+          "notes": "Groundbait-armed feeder concentrates sturgeon near the 4-rod spread. Working as designed."
+        },
+        {
+          "slot": 7,
+          "purpose": "STURGEON BOTTOM (4-Rod Stand position 4)",
+          "rod": "Tribal Totem 12'10\"",
+          "reel": "Savana Spirit 11000",
+          "line": "Catfish Moustache Line",
+          "leader": "Horsehair Leader",
+          "terminal": "Monkey Skull Sinker 7 Oz",
+          "bait": "Large Cutbait",
+          "hook": "#4/0",
+          "targets": "White Sturgeon",
+          "spot": "Fishing the Beaver (Rod Stand)",
+          "notes": "Proven 4/13 — consistent sturgeon producer."
+        }
+      ],
+      "day_1_results": {
+        "fish_keeper": "33 fish / 639.8 lb, Reward 46,469 credits",
+        "biggest_sturgeon": "54.84 lb on Large Cutbait (early morning)",
+        "sturgeon_range_caught": "34.3 - 54.8 lb (9 sturgeon visible in keeper)",
+        "chinook_caught": "17.315 lb (Trophy) on Bullet Spinner 1 1/4 Oz #4/0 - NOT mission qualifying (needs 33+ lb)",
+        "crawfish_sturgeon_proof": "42.880 lb White Sturgeon on Crawfish (midday) - new bait validation",
+        "level_up": "Reached Level 38 during Day 1"
+      },
+      "key_findings_to_add_to_analysis": [
+        "Crawfish is a viable sturgeon bait at SJD (not just Large Cutbait)",
+        "Bullet Spinner 1 1/4 Oz #4/0 catches Chinook but under mission size",
+        "Single Spoon 1 1/2 Oz #4/0 on Silverthorn is the Day 1 primary salmon mission attempt lure",
+        "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0 is Salmonster's SJD lure variant",
+        "GalaxyCast JigHead 3/4 Oz #3/0 + Shad 4\" replaces the Triple Runner for bass work",
+        "33+ lb Chinook appears to require Unique class - multi-session attempt expected"
+      ],
+      "deployment_sequence_day_2": [
+        "Continue sturgeon farming at Fishing the Beaver - 4-Rod Stand already deployed",
+        "Expect fresh sturgeon activity Day 2 morning after in-game rest",
+        "Check fish finder for early-morning salmon spawn pass at Cryton Dam",
+        "Wade Cryton Dam dawn with slot 2 (Silverthorn + Single Spoon 1 1/2 Oz)",
+        "If no 33+ lb chinook by mid-morning Day 2, accept as multi-session goal and prioritize sturgeon sell-through",
+        "Sell fish before keeper over-cap (currently 639/925 lb)"
+      ]
+    }
+  },
+  "shopping_list": {
+    "baits_to_buy": [
+      "Shiners (level 19) - bass, salmon, steelhead",
+      "Large Cutbait (level 26) - striped bass, sturgeon",
+      "Corn (level 1) - carp",
+      "Bloodworms (level 1) - redear sunfish, crappie",
+      "Crickets (level 1) - bluegill",
+      "Crawfish (level ?) - smallmouth bass",
+      "Leeches (level ?) - crappie",
+      "Semolina Balls (level 1) - california roach"
+    ],
+    "lures_to_consider": [
+      "Rainbow Holographic Medium Spoon 28g #4/0 - steelhead",
+      "Green and Black Single Spoon 42g #4/0 - chinook",
+      "Acid Green and Orange Buzzbait 24g #4/0 - largemouth bass",
+      "Yellow/Black X-Series Casting Spoon 21g #3/0 - smallmouth bass",
+      "Silver Casting Spoon 5g #2 - bluegill",
+      "Gold/Black Nano Spinner 6g #1/0 - white crappie"
+    ]
+  },
+  "strategy": {
+    "first_trip": [
+      "Buy Advanced License (550 BC unlimited or 8000 credits/day) - night fishing for sturgeon",
+      "Visit The Foggy Sanctuary first (wiki-recommended starting point)",
+      "Deploy bottom rods with Large Cutbait for Striped Bass",
+      "Active cast Triple Runner along docks for bass",
+      "Float rod with Bloodworms for panfish coverage (first-catch XP)",
+      "Move to Below the Cryton Dam for steelhead/salmon",
+      "Visit Fishing the Beaver and Southern Docks for carp"
+    ],
+    "return_trip_strategy_2026_04_12": {
+      "primary_goal": "White Sturgeon income farming + Salmon Hunt (Spoon Lure) mission completion",
+      "session_plan": [
+        "1. Buy Advanced License (unlimited 550 BC) - night sturgeon + boat fishing unlocked",
+        "2. Travel to SJD. Head directly to Fishing the Beaver (confirmed sturgeon hotspot from 4/10)",
+        "3. Deploy 4-Rod Stand (Club-Series Rod Oasis) with Heavy Chaser + Humenus + Tribal Totem + Mokonzi — ALL WITH LARGE CUTBAIT + #4/0 HOOK",
+        "4. Active rod (Salmonster 8'10\" + Kraken 8000 SE) with Triple Runner 8 ft #5/0 for Striped Bass bycatch",
+        "5. Fish through the day at Fishing the Beaver - expect 5-10 sturgeon per session (39-54 lb range based on 4/10 data)",
+        "6. Night: sturgeon activity peaks — stay through to catch Sturgeon in the Dark competition slot",
+        "7. Travel to Below the Cryton Dam for Salmon Hunt mission — wade out, cast Green and Black Single Spoon 42g #4/0 mid-channel",
+        "8. Trophy Chinook target: Buzzbait 1 Oz #4/0 also proven (38.55 lb on 4/10) - keep as backup",
+        "9. Trophy Steelhead (if bycatch): Spinnerbait 1 Oz #4/0 + Spinner Tail 2\" confirmed (18.7 lb 4/10) or Lemon Tiger Medium Spoon 1 1/2 oz #4/0",
+        "10. Sell and return - skip the carp/panfish diversification from 4/10 trip (Ichthyologist challenge already complete)"
+      ],
+      "expected_income": {
+        "sturgeon_volume": "If 6-8 sturgeon @ avg 45 lb = 270-360 lb @ $45/lb = $12,150-$16,200",
+        "striped_bass_bonus": "1-2 trophy stripers = $2,000-$3,800",
+        "chinook_mission_reward": "Salmon Hunt mission bonus (credits + BC + XP) on completion",
+        "target_net": "50,000-70,000 credits net (vs 32,948 on diversified 4/10 trip)"
+      },
+      "key_lessons_from_4_10": [
+        "Mokonzi SOLO got heavily taxed by 40-60 lb sturgeon - need 3-4 rods in rotation",
+        "Large Cutbait + #4/0 is the proven sturgeon combo (superior to Medium Cutbait)",
+        "Fishing the Beaver = sturgeon hotspot - no need to rotate spots",
+        "Skip the finesse/diversification trap - X-Heavy bottom focus is right",
+        "Buzzbait 1 Oz #4/0 = proven Trophy Chinook lure (38.55 lb catch) - viable alternative to Spoon",
+        "Sturgeon have TROPHY CLASS - stale JSON said common-only, proven wrong by 54.3 lb catch"
+      ]
+    },
+    "income_priorities": [
+      "White Sturgeon = BEST VOLUME INCOME ($45/lb, 40-55 lb common per fight = $1,800-$2,500 each, multiple per session)",
+      "Striped Bass = top trophy income ($1,904 max per fish, $36/lb)",
+      "Steelhead Trout = best $/lb at $54/lb (max $2,084 per trophy)",
+      "Common Carp = easy passive income ($45/lb, max $2,430 per trophy)",
+      "Chinook Salmon = $45/lb seasonal target, mission-valuable",
+      "Redear Sunfish = surprisingly valuable at $54/lb (small but quick)"
+    ],
+    "missions": {
+      "salmon_hunt_spoon_lure": {
+        "type": "Mastering",
+        "requirement": "Catch Chinook Salmon 33 lb+ using a Spoon lure",
+        "critical_note": "MUST be a Spoon - non-spoon catches (bait, crankbait, etc.) do NOT count toward mission",
+        "recommended_lure": "Green and Black Single Spoon 42g #4/0",
+        "recommended_setup": "Silverthorn Stake 7'6\" + Vampire's Bane 7500 + Mono .033\" + Fluoro Leader .025\" + Spoon 42g #4/0",
+        "best_spot": "Below the Cryton Dam - wade to mid-channel rocks, cast away from dam face",
+        "retrieve": "Medium-fast retrieve with occasional pauses (drop-and-pause cadence)"
+      },
+      "trophy_steelhead_mission": {
+        "type": "Mastering (associated with Steelhead Showdown)",
+        "requirement": "Catch Trophy Steelhead (38+ lb at SJD)",
+        "recommended_lure": "Lemon Tiger Medium Spoon 1 1/2 oz #4/0 (per Steam guide) or Spinnerbait 1 Oz #4/0 + Spinner Tail 2\"",
+        "best_spot": "Below the Cryton Dam / mid-channel wading"
+      }
+    },
+    "competitions": [
+      {
+        "name": "Sturgeon in the Dark",
+        "target": "White Sturgeon",
+        "rules": "Night only, Advanced License required",
+        "notes": "Perfect match for your return trip strategy - the sturgeon farming session will qualify you. Stay through to nightfall."
+      },
+      {
+        "name": "Steelhead Showdown",
+        "target": "Biggest 5 Steelhead total weight",
+        "rules": "TOPWATER GEAR ONLY, shore-only scoring, rod stands PROHIBITED, boats allowed for travel only",
+        "notes": "Topwater constraint means no bottom rigs - must use spoons/crankbaits/surface lures"
+      },
+      {
+        "name": "San Joaquin Extravaganza",
+        "target": "All species over 11 lb",
+        "notes": "General eligibility - any trophy-class fish 11+ lb"
+      },
+      {
+        "name": "C'mon, Carp!",
+        "target": "Carp family (Common Carp, etc.)",
+        "notes": "Max-min weight differential scoring"
+      }
+    ]
+  },
+  "weather_tips": {
+    "sunny": "Late summer/early fall - late morning and early evening when sun is high",
+    "cloudy": "Fish active all morning from very early hours, productivity drops as sun rises",
+    "partly_cloudy": "Late evening is best - twilight is prime for Crappie, Catfish, Walleye"
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "GalaxyCast 8'6\" (Casting Rod, X-Heavy, 3/4-2 1/8 Oz, 7-28.6 Lb, Mod Fast)",
+      "reel": "VorteX 7000 SE",
+      "line": "Braid .0076\"",
+      "leader": "Titanium Leader .011\"",
+      "terminal_tackle": "JigHead 3/4 Oz #3/0",
+      "bait": "Shad 4\"",
+      "setup_type": "Casting (Jig + Soft Plastic)",
+      "target_fish": [
+        "Striped Bass",
+        "Largemouth Bass",
+        "Smallmouth Bass"
+      ],
+      "effectiveness_rating": 7,
+      "notes": "Active jig-and-shad for structure bass. Deeper presentation than topwater lures. GalaxyCast 8'6\" is longest X-Heavy casting rod in game (confirmed no upgrade exists). Braid + Titanium leader for max range and abrasion. 90% tension + Med-Fast reel speed needed if hooking 20+ lb bycatch."
+    },
+    {
+      "slot_number": 2,
+      "rod": "Silverthorn Stake 7'6\" (Casting Rod, X-Heavy, 7/8-3 1/6 Oz, 35.3-88 Lb) - Supernatural Pack",
+      "reel": "Vampire's Bane 7500",
+      "line": "Fluoro .034\"",
+      "leader": "(none - direct fluoro)",
+      "terminal_tackle": "Single Spoon 1 1/2 Oz #4/0",
+      "bait": "Single Spoon 1 1/2 Oz #4/0 (lure)",
+      "setup_type": "Casting Spoon - SALMON HUNT MISSION ROD",
+      "target_fish": [
+        "Chinook Salmon (33+ lb mission target)",
+        "Steelhead Trout"
+      ],
+      "effectiveness_rating": 8,
+      "notes": "PRIMARY SALMON HUNT MISSION ROD. Single Spoon 1 1/2 Oz #4/0 matches Steam guide recommendation (Lemon Tiger Medium Spoon 1 1/2 Oz #4/0 class). MUST be a Spoon - other lures don't count for mission. Day 1: trophies caught only ~20 lb - 33+ lb likely requires Unique class spawn. Expect multi-session attempts."
+    },
+    {
+      "slot_number": 3,
+      "rod": "Rivertex Salmonster 8'10\" (Spinning, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
+      "reel": "Kraken 8000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Titanium Leader .012\"",
+      "terminal_tackle": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0",
+      "bait": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0 (lure)",
+      "setup_type": "Spinning Spoon - Salmon/Striped Bass",
+      "target_fish": [
+        "Chinook Salmon",
+        "Striped Bass",
+        "Steelhead Trout"
+      ],
+      "effectiveness_rating": 7,
+      "notes": "Club-Series Glow&Holo spoon - lighter spoon option for Chinook mission attempts. Salmonster 8'10\" + Kraken 8000 SE is the proven cross-location big-fish active combo (Saint-Croix catfish bycatch, SJD salmon). Titanium leader for sturgeon bycatch abrasion."
+    },
+    {
+      "slot_number": 4,
+      "rod": "Heavy Chaser 9'10\" SE (Bottom, X-Heavy, casting 6-8.5 Oz, 22-56.2 Lb, Fast)",
+      "reel": "RedFish 5500",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Titanium Leader .012\" (scute abrasion)",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Hook #4/0",
+      "bait": "Crawfish",
+      "setup_type": "Bottom Rig (Sturgeon - 4-Rod Stand position 1)",
+      "target_fish": [
+        "White Sturgeon",
+        "Striped Bass"
+      ],
+      "effectiveness_rating": 8,
+      "notes": "NEW FINDING 4/13: Crawfish caught White Sturgeon 42.88 lb at midday - validates Crawfish as sturgeon bait at SJD. Alt-bait diversifier on the 4-Rod Stand alongside Large Cutbait rods. Keep Crawfish on this rod as the anti-cutbait-saturation variant."
+    },
+    {
+      "slot_number": 5,
+      "rod": "Humenus 11'1\" (Bottom, X-Heavy, 6 1/3-10 1/5 Oz, 14.3-72.7 Lb, Moderate) - Hellish Fighter Pack",
+      "reel": "Ossibus Blue 11000",
+      "line": "Braid .013\"",
+      "leader": "Mono Leader .025\"",
+      "terminal_tackle": "Sinker 6 Oz, Hook #4/0",
+      "bait": "Large Cutbait",
+      "setup_type": "Bottom Rig (Sturgeon - 4-Rod Stand position 2)",
+      "target_fish": [
+        "White Sturgeon",
+        "Striped Bass"
+      ],
+      "effectiveness_rating": 9,
+      "notes": "Proven 4/13 - multiple sturgeon Day 1 on Large Cutbait + #4/0. Braid + Mono leader = long range + abrasion. Core sturgeon farming rod."
+    },
+    {
+      "slot_number": 6,
+      "rod": "Mokonzi 12'10\" SE (Feeder, X-Heavy, 6-9 7/8 Oz, 39.7-81.6 Lb, Moderate)",
+      "reel": "Ambusher 9000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Titanium Leader .018\" (scute abrasion)",
+      "terminal_tackle": "Rusty Cage Feeder 5 2/3 Oz + Mix Grand Fish Feeder groundbait, Hook #4/0",
+      "bait": "Large Cutbait",
+      "setup_type": "Feeder Rig (Sturgeon Attractor - 4-Rod Stand position 3)",
+      "target_fish": [
+        "White Sturgeon"
+      ],
+      "effectiveness_rating": 9,
+      "notes": "GROUNDBAIT ATTRACTOR - the Mix Grand Fish Feeder concentrates sturgeon around the 4-Rod Stand spread. Deploy this rod first so groundbait saturates the zone before slots 4, 5, 7 start fishing. Working as designed on Day 1."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Tribal Totem 12'10\" (Bottom, X-Heavy, 6-9 7/8 Oz, 39.7-81.6 Lb, Moderate) - Supernatural Pack",
+      "reel": "Savana Spirit 11000",
+      "line": "Catfish Moustache Line",
+      "leader": "Horsehair Leader",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Hook #4/0",
+      "bait": "Large Cutbait",
+      "setup_type": "Bottom Rig (Sturgeon - 4-Rod Stand position 4)",
+      "target_fish": [
+        "White Sturgeon"
+      ],
+      "effectiveness_rating": 9,
+      "notes": "Supernatural Pack theme rig (Catfish Moustache Line + Horsehair Leader + Monkey Skull Sinker). Consistent sturgeon producer Day 1. 4th rod in the 4-Rod Stand fan pattern."
+    }
+  ]
+}

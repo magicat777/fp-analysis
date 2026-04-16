@@ -1,0 +1,255 @@
+{
+  "location": {
+    "name": "Congo River",
+    "region": "Congo",
+    "type": "River",
+    "continent": "Africa",
+    "base_level": 75,
+    "travel_cost": 20000,
+    "travel_cost_discounted": 10000,
+    "extend_cost": 2000,
+    "level_note": "DLC location. Travel cost 50% off (10k) via DLC purchase promo. First visit 2026-04-15 AM; 5 successful PM sessions confirmed highest income in-game to date."
+  },
+  "fish_summary": {
+    "primary_targets": [
+      "Trophy Kamba Catfish (189 lb PB / 172 lb PM session PB - highest single-fish reward in game)",
+      "Nile Perch (up to 127 lb confirmed; marked for 50-100 lb volume)",
+      "Goliath Tigerfish (Trophy 70 lb confirmed; legend says 2x these sizes)",
+      "Young Nile Perch (40-86 lb class)",
+      "Trophy Vundu Catfish",
+      "Trophy African Sharptooth Catfish",
+      "Kamba Catfish (100+ lb volume class)"
+    ],
+    "secondary_targets": [
+      "African Tigerfish (Trophy class 39 lb)",
+      "Cornish Jack (Trophy 24 lb)",
+      "Nile Tilapia",
+      "Banded Tilapia",
+      "Bulldog Fish",
+      "Elephant Fish (Trophy class)",
+      "Rednose Labeo",
+      "Purple Labeo",
+      "Congo Yellowfish",
+      "Giraffe Catfish",
+      "African Big Eye Catfish",
+      "African Pike"
+    ],
+    "fish_count_observed": 25
+  },
+  "spots": [
+    {"name": "Local School Boat Dock", "type": "Shore dock", "best_for": ["Panfish (tilapia, labeo, elephant fish)", "Moderate catfish on quadpod"]},
+    {"name": "Cable Ferry", "type": "Shore - near ferry crossing", "best_for": ["Panfish completion", "Moderate catfish reach with heavier casting"]},
+    {"name": "Mid-River (across Cable Ferry)", "type": "Boat - deep channel", "best_for": ["Trophy Kamba / Vundu catfish", "Heavy bottom rigs", "Active jig-and-craw for monster cats"]},
+    {"name": "Marked Nile Perch / Goliath Tigerfish spots", "type": "Boat - marked locations", "best_for": ["Nile Perch 50-100+ lb", "Goliath Tigerfish trophy class", "Flat Spoon active casting"]}
+  ],
+  "loadout_strategy": {
+    "philosophy": "Congo is a HEAVY CATFISH + APEX PREDATOR destination. The game's highest-line tackle (97 lb spinning / 93 lb casting / 88 lb X-Heavy casting) caps out here — fish that exceed ~2x the rod rating (180+ lb) effectively cannot be landed with current gear. Strategy: target volume 50-180 lb catfish + Nile Perch + Tigerfish on the strongest active rod (Nile Chasseur), while two heavy bottom anchors (Mokonzi + Tribal Totem) on the boat run baits for mid-class Kamba. Expect reel breakage even at 97 lb class — bring backup reels.",
+    "key_changes_from_am_session": [
+      "Dropped Rivertex Salmonster slot from AM - low effectiveness vs big Congo cats",
+      "Added Wicked Viking 8'6\" Match rod (slot 3) - heavier match power for labeo/pan volume with larger hooks",
+      "Moved Silverthorn to Flat Spoon 1 1/2 Oz #6/0 - confirmed Nile Perch + Goliath Tigerfish MVP lure this session",
+      "Moved Nile Chasseur to Flat Spoon 1 1/2 Oz #6/0 as well - same MVP pattern for apex predators",
+      "Switched Tribal Totem bait to Small Tilapia (live bait) - produced 172 lb Trophy Kamba; also swapped hook to Barbless #7/0",
+      "Switched Mokonzi bait to Crawfish + Hook #6/0 - pulled 100+ lb Kamba trophies reliably",
+      "Humenus (quadpod) shifted to Medium Cutbait + Monkey Skull 7 Oz + Hook #3/0 - upgraded weight for mid-river reach"
+    ]
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "Brutus 10'10\" SE (Match, Heavy, 11-34 Lb, Mod Fast)",
+      "reel": "EspiraDoublePunch 6500 SE",
+      "line": "Braid .0076\"",
+      "leader": "Titanium Leader .011\"",
+      "terminal_tackle": "Club-Series Glowing Pear-Shaped Float, Hook #6/0",
+      "bait": "Shiners",
+      "setup_type": "Float rig - tigerfish / pike / mid-class predator",
+      "target_fish": ["African Tigerfish", "African Pike", "Cornish Jack", "Rednose Labeo trophies"],
+      "effectiveness_rating": 8,
+      "notes": "Shiners on #6/0 hook under float = productive shore rig. Cornish Jack + Trophy Cornish Jack + Trophy African Tigerfish all caught on this combo. Titanium leader protects from pike bite-off."
+    },
+    {
+      "slot_number": 2,
+      "rod": "Silverthorn Stake 7'6\" (Casting, X-Heavy, 7/8-3 1/6 Oz, 35.3-88 Lb, Fast)",
+      "reel": "Vampire's Bane 7500",
+      "line": "Fluoro .034\"",
+      "leader": "Titanium Leader .0193\"",
+      "terminal_tackle": "Flat Spoon 1 1/2 Oz #6/0",
+      "bait": "Flat Spoon 1 1/2 Oz #6/0 (lure)",
+      "setup_type": "Casting spoon - Nile Perch / Goliath Tigerfish MVP",
+      "target_fish": ["Nile Perch (50-127 lb)", "Young Nile Perch (40-86 lb)", "Goliath Tigerfish (40-70+ lb)", "Trophy Goliath Tigerfish"],
+      "effectiveness_rating": 9,
+      "notes": "PM SESSION MVP LURE. Flat Spoon 1 1/2 Oz #6/0 produced 9+ Nile Perch (biggest 127.194 lb!) + 2 Goliath Tigerfish (Trophy 64.9 lb). Reel breakage risk on fish >150 lb — 88 lb line is the effective ceiling here. Swapped from AM Craw 6\" jig to Flat Spoon after discovering the pelagic apex-predator pattern."
+    },
+    {
+      "slot_number": 3,
+      "rod": "Wicked Viking 8'6\" (Match, Heavy, 28.6-83.8 Lb, Moderate) — Hellish Fighter Pack",
+      "reel": "Nordic Beast 12000",
+      "line": "Fluoro .033\"",
+      "leader": "Steel Leader",
+      "terminal_tackle": "Waggler Heavy float, Hook #6/0",
+      "bait": "Large Minnows",
+      "setup_type": "Match waggler - trophy predator float",
+      "target_fish": ["Trophy Vundu Catfish (79.1 lb)", "Trophy African Sharptooth", "Young Nile Perch"],
+      "effectiveness_rating": 8,
+      "notes": "Heavy match waggler rig for suspended predator fishing. Trophy Vundu 79.159 lb caught on Large Minnows under the Waggler. 83.8 lb line is above Silverthorn - useful as a second pelagic option."
+    },
+    {
+      "slot_number": 4,
+      "rod": "Nile Chasseur 6'3\" SE (Spinning, X-Heavy, 1/2-2 3/5 Oz, 46-97 Lb, Mod Fast) — CONGO DLC",
+      "reel": "GiantSpin 9000 SE",
+      "line": "Braid .0146\"",
+      "leader": "Titanium Leader .0193\"",
+      "terminal_tackle": "Flat Spoon 1 1/2 Oz #6/0",
+      "bait": "Flat Spoon 1 1/2 Oz #6/0 (lure)",
+      "setup_type": "Spinning spoon - apex predator trophy engine",
+      "target_fish": ["Nile Perch (100+ lb)", "Goliath Tigerfish", "Trophy Kamba bycatch"],
+      "effectiveness_rating": 10,
+      "notes": "HIGHEST-SPEC ACTIVE ROD IN GAME (97 lb class). Moved off Craw 6\" jig to Flat Spoon to match the pelagic apex-predator pattern Silverthorn discovered. Even this rod will break reels on fish >180 lb — the ceiling for current tackle."
+    },
+    {
+      "slot_number": 5,
+      "rod": "Humenus 11'1\" (Hell's Bell, Bottom, X-Heavy, 37.5-72.7 Lb, Moderate)",
+      "reel": "Ossibus Blue 11000",
+      "line": "Braid .013\"",
+      "leader": "Titanium Leader .018\"",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Hook #3/0",
+      "bait": "Medium Cutbait",
+      "setup_type": "Bottom rig - quadpod mid-class cat anchor",
+      "target_fish": ["African Big Eye Catfish", "Kamba Catfish (mid-class)", "Sharptooth Catfish"],
+      "effectiveness_rating": 8,
+      "notes": "Quadpod anchor. Weight upgraded from 6 Oz Sinker to Monkey Skull 7 Oz for farther mid-river reach. Hook #3/0 downsized for faster bite on Big Eye Catfish volume."
+    },
+    {
+      "slot_number": 6,
+      "rod": "Mokonzi 12'10\" SE (Feeder, X-Heavy, 6-9 7/8 Oz, 39.7-81.6 Lb, Moderate) — Club-Series Simple Bell",
+      "reel": "L'impulsion 12000 SE",
+      "line": "Fluoro .033\"",
+      "leader": "Titanium Leader .018\"",
+      "terminal_tackle": "Rusty Cage Feeder 5 2/3 Oz + Mix Grand Fish Feeder, Hook #6/0",
+      "bait": "Crawfish",
+      "setup_type": "Feeder rig - mid-river heavy bottom",
+      "target_fish": ["Kamba Catfish (100+ lb)", "Trophy Kamba", "Vundu Catfish"],
+      "effectiveness_rating": 9,
+      "notes": "Crawfish swapped in from Cheese — reliable 100+ lb Kamba producer. Hook #6/0 for firmer trophy-cat hook-ups. Feeder still delivers groundbait attractor for sustained bite."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Tribal Totem 12'10\" (Hell's Bell, Bottom, X-Heavy, 39.7-81.6 Lb, Moderate)",
+      "reel": "Savana Spirit 11000",
+      "line": "Fluoro .033\"",
+      "leader": "Steel Leader",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Barbless Hook #7/0",
+      "bait": "Small Tilapia (live bait)",
+      "setup_type": "Bottom rig - trophy anchor (live bait)",
+      "target_fish": ["Trophy Kamba Catfish (172.3 lb PM / 189 lb AM)", "Trophy Vundu", "Monster Kamba"],
+      "effectiveness_rating": 10,
+      "notes": "TROPHY ENGINE — unchanged role from AM but swapped to live-bait Small Tilapia + Barbless Hook #7/0. Produced Trophy Kamba 172.324 lb this session. Barbless chosen for game/species conservation or release mechanics. Small Tilapia is the PM meta — use any moderate-size tilapia caught in the keeper if Small Tilapia runs out."
+    }
+  ],
+  "shopping_list": {
+    "baits_to_buy": [
+      "Buffalo Kidneys - Trophy Sharptooth/Vundu/Kamba bait (CAUTION: x20 DLC qty runs out fast)",
+      "Small Tilapia - Trophy Kamba live bait (catch extras and hold in keeper)",
+      "Shiners - Tigerfish / Cornish Jack float rig",
+      "Crawfish - 100+ lb Kamba on Mokonzi feeder",
+      "African Giant Water Bug - Trophy Kamba producer (189 lb fish AM, x20 DLC qty)",
+      "Chicken Liver - 126 lb Trophy Kamba confirmed",
+      "Large Cutbait / Medium Cutbait - mid-class Kamba volume",
+      "Large Minnows - Trophy Vundu on match waggler",
+      "Canned Meat - mid-class Kamba",
+      "Leeches - Vundu / Big Eye Catfish evening bite",
+      "Wax Worms / Bloodworms / Red Worms / Maggots - panfish volume"
+    ],
+    "lures_to_consider": [
+      "Flat Spoon 1 1/2 Oz #6/0 — MVP for Nile Perch + Goliath Tigerfish on casting/spinning (stock multiple)",
+      "Craw 6\" (already have) - still useful for Nile Chasseur big-cat jigging",
+      "Bionic Slug 4.7\" - Salmonster bycatch if needed"
+    ],
+    "tackle_to_buy": [
+      "BACKUP REELS - breakage is constant even at 97 lb class. Extra GiantSpin 9000 SE + Vampire's Bane 7500 reserves essential.",
+      "Extra Monkey Skull Sinkers 7 Oz - three rods now run them",
+      "Spare Titanium Leaders .018\" / .0193\" - line/leader wear accelerated by monster cat fights"
+    ],
+    "bait_management_warning": "DLC-specific baits (Buffalo Kidneys, African Giant Water Bug, etc.) typically ship in x20 packs only. At current catch rate, these burn in 1-2 sessions. Market re-stocks exist at current level. Plan 1-2 shopping stops per PM session to avoid bait outage."
+  },
+  "strategy": {
+    "pm_session_learnings_4_15": [
+      "5 sessions, 5 filled keepnets — highest income rate in game (509k credits / 227k XP / +5 levels in one evening)",
+      "Flat Spoon 1 1/2 Oz #6/0 on Silverthorn + Nile Chasseur = Nile Perch/Goliath Tigerfish MVP",
+      "Small Tilapia live bait on Tribal Totem = 172 lb Trophy Kamba producer",
+      "Buffalo Kidneys = trophy-tier bait for Kamba/Vundu/Sharptooth (stock before trips)",
+      "Reel breakage even at 97 lb spinning / 88 lb casting — keep backup reels in inventory",
+      "Fish >~2x rod rating (180+ lb) cannot be landed — drag pulls 100→0 in ~90 seconds at full tension",
+      "DLC baits ship in x20 quantities → plan market stops"
+    ],
+    "income_priorities": [
+      "Trophy Kamba Catfish = highest single-fish reward in game (172-189 lb class)",
+      "Nile Perch 100+ lb = major XP + credit multipliers (new species unlock this session)",
+      "Goliath Tigerfish Trophy = premium predator reward",
+      "Volume mid-class Kamba (50-100 lb) on live bait / Buffalo Kidneys",
+      "Young Nile Perch (40-86 lb) on Flat Spoon = sustained action volume"
+    ],
+    "missions_completed": [
+      "Trophy Collector I (AM)",
+      "Novice Potamologist of the Congo River (PM trip 4)",
+      "Buoy Boy! III (PM trip 5)"
+    ]
+  },
+  "critical_warnings": [
+    "REEL BREAKAGE RISK HIGH — even Nile Chasseur 97 lb class broke reels on multiple PM catches. Carry backup reels.",
+    "LINE-RATING CEILING ~180 lb fish — anything heavier will spool the reel 100→0 in ~90 sec regardless of tension/technique. No finesse will save it.",
+    "DLC BAIT QTY IS x20 PER PACK — plan market stops; Buffalo Kidneys/African Giant Water Bug deplete fast",
+    "Silverthorn (88 lb) broke reel during PM trophy runs — keep it on Nile Perch / mid-class predators, not monster Kamba",
+    "Travel cost 20k normal / 10k DLC discount — 10 days remaining on discount window"
+  ],
+  "open_research_question": {
+    "question": "How do higher-level players fish the upper-end Congo monsters (Nile Perch 150+ lb, Goliath Tigerfish 150+ lb, Kamba 300 lb) when the game's best market tackle caps at 93 lb casting / 97 lb spinning?",
+    "working_hypotheses": [
+      "Premium competition-only tackle (check Sport/Clubs tabs for unlocks)",
+      "Specific DLC bundles beyond the Nile Chasseur pack (check Shop filters for Expert-tier rods)",
+      "Tournament rewards (some premium rods unlock only after placing in Congo competitions)",
+      "Technique-heavy drag cycling (rest → reel → rest) during fatigue phases — user's attempt failed but may need precise timing",
+      "Line upgrades outside the standard rod/reel market (specialty braid classes)"
+    ],
+    "action_items": [
+      "Check Sport / Club section for premium rod unlocks",
+      "Participate in Congo competitions tomorrow — tournament tier tackle may be rewarded",
+      "Check wiki.fishingplanet.com for Congo Expert-tier equipment pages",
+      "Look for post-Level 50 rod/reel tier if any exists"
+    ]
+  },
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 8.9,
+      "improvement_summary": "Field-tested across 6 sessions 2026-04-15. PM loadout (this version) = 7 slots, all deployed, best income rate in game. Flat Spoon 1 1/2 Oz #6/0 added as the apex-predator MVP lure. Small Tilapia live bait replaces Large Cutbait on Tribal Totem trophy anchor."
+    },
+    "day_totals_4_15": {
+      "sessions": 6,
+      "level_start": 38,
+      "level_end": 45,
+      "levels_gained": 7,
+      "credits_start": 1048122,
+      "credits_end": 1905296,
+      "credits_net": 857174,
+      "xp_premium_total": 252165,
+      "trophies_highlight": [
+        "Trophy Kamba Catfish 189.542 lb (AM session)",
+        "Trophy Kamba Catfish 172.324 lb (PM)",
+        "Trophy Kamba Catfish 126.693 lb (AM)",
+        "Trophy Goliath Tigerfish 70.874 lb (PM)",
+        "Trophy Goliath Tigerfish 64.906 lb (PM)",
+        "Nile Perch 127.194 lb (PM, new species)",
+        "Nile Perch 103.172 lb / 101.095 lb (PM)",
+        "Trophy Vundu Catfish 82.197 lb + 79.159 lb + 69.979 lb",
+        "Trophy African Sharptooth 68.581 lb",
+        "Trophy African Tigerfish 39.390 lb",
+        "Trophy Cornish Jack 24.166 lb",
+        "Trophy Elephant Fish 3.131 lb",
+        "Trophy Rednose Labeo 5.157 lb"
+      ],
+      "challenges_completed": ["Trophy Collector I", "Novice Potamologist of the Congo River", "Buoy Boy! III"]
+    },
+    "user_verdict": "HIGHEST INCOME IN GAME TO DATE. Congo River is the new top income destination, displacing Saint-Croix at this level tier. 6 sessions in one day = 7 levels + 857k credits. Plan: competitions tomorrow, back to Congo afterwards. DLC discount 10 days remaining — amortize hard while active."
+  }
+}

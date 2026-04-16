@@ -1,0 +1,40 @@
+{
+  "slots": [],
+  "gear": {},
+  "groundbait": {},
+  "boat": {
+    "owned": null,
+    "use": "Shore-only pond - no boat needed"
+  },
+  "passive_fishing": {},
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 7.0,
+      "improvement_summary": "Euro panfish fishery. First telescopic rod deployment (Troy 23' with Pinkies under float). Knocked out Exploration I-II missions + Fish Monster qualifying catches."
+    },
+    "location_style": "SHORE-ONLY pond. Cheap travel. Dense Euro panfish targets. Ideal for telescopic + float fishing + single spinning rod for pike bycatch.",
+    "mvp_baits": [
+      "Pinkies - universal panfish (roach, perch, crucian)",
+      "Bloodworms - European Perch, small Prussian Carp",
+      "Maggots - Bleak, small panfish",
+      "Semolina Balls - Tench, Common Carp, Mirror Carp",
+      "Small Minnows - under float for sub-1.1 lb pike (Fish Monster mission)"
+    ],
+    "recommended_loadout": [
+      "Troy 23' / TeleFloat 14'9\" telescopic with Pinkies or Bloodworms under float - primary panfish rod",
+      "Light spinning rod (Zeus 8'2\" NE or JigWinner 8'10\") with Titanium leader + small spinner for Pike bycatch",
+      "Optional: feeder rod for Tench/Carp with groundbait"
+    ],
+    "user_verdict": "ONE-AND-DONE for mission completion. User did not enjoy the location after completing Exploration I-II. Not a return destination for income."
+  },
+  "mission": {
+    "completed": [
+      "Lesní Víla Exploration I (4/12)",
+      "Lesní Víla Exploration II (4/12)"
+    ],
+    "available_but_skipped": [
+      "Lesní Víla - Pike Fins Lure (Fish Monster) - requires 5 Pike <1.1 lb",
+      "Lesní Víla - Perch Bully (Fish Monster) - requires Trophy European Perch"
+    ]
+  }
+}

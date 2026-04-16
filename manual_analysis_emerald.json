@@ -23,12 +23,12 @@
         "Spawn Sack is not listed as effective bait for any Emerald Lake fish in the fp-collective database",
         "Hook #6 is too small for Walleye (#4/0 recommended) and Sauger (#5/0 recommended)",
         "Chubby float works but may not have enough buoyancy for the deeper presentations Walleye need",
-        "Good rod/reel combo — Fenix is well suited for float fishing predators"
+        "Good rod/reel combo  -  Fenix is well suited for float fishing predators"
       ],
       "improvements": [
-        "Switch bait to Leeches — #1 bait for Walleye and effective on Sauger at Emerald Lake",
-        "Upsize hook to #2/0 or #4/0 — Walleye have larger mouths and need bigger hooks",
-        "Alternatively switch to Small Minnows — covers Walleye, Sauger, Chain Pickerel, and Northern Pike",
+        "Switch bait to Leeches  -  #1 bait for Walleye and effective on Sauger at Emerald Lake",
+        "Upsize hook to #2/0 or #4/0  -  Walleye have larger mouths and need bigger hooks",
+        "Alternatively switch to Small Minnows  -  covers Walleye, Sauger, Chain Pickerel, and Northern Pike",
         "Keep the Chubby float for daytime, switch to Glowing Pear-Shaped for dawn/dusk/night sessions",
         "This slot has great potential as your primary Walleye/Sauger float rig with the right bait and hook"
       ]
@@ -49,11 +49,11 @@
         "Very minor: Light rod may struggle with trophy Chain Pickerel (7.7 lb) during aggressive runs"
       ],
       "improvements": [
-        "EXCELLENT setup — the Titanium Leader is a game-changer for Emerald Lake's toothy predators",
-        "Pike and Pickerel will bite through fluoro/mono but NOT titanium — this protects your lure",
-        "Turtle Spoon 1/4 Oz targets Walleye ($190/kg), Sauger ($180/kg), and all pickerel species",
+        "EXCELLENT setup  -  the Titanium Leader is a game-changer for Emerald Lake's toothy predators",
+        "Pike and Pickerel will bite through fluoro/mono but NOT titanium  -  this protects your lure",
+        "Turtle Spoon 1/4 Oz targets Walleye ($86/lb), Sauger ($82/lb), and all pickerel species",
         "Fluoro .012\" mainline provides good abrasion resistance against pike teeth above the leader",
-        "This is your BEST predator hunting setup — actively cast near structure for maximum income"
+        "This is your BEST predator hunting setup  -  actively cast near structure for maximum income"
       ]
     },
     {
@@ -69,16 +69,16 @@
       "target_fish": ["Chain Pickerel", "Northern Pike", "Grass Pickerel", "Redfin Pickerel"],
       "effectiveness_rating": 7,
       "issues": [
-        "Heavy rod is overpowered but acceptable for pike/pickerel — these are aggressive fighters",
-        "3/4 Oz jighead is heavy — will work in deep water but may snag on bottom structure",
-        "No titanium/wire leader — pike and pickerel can bite through mono",
+        "Heavy rod is overpowered but acceptable for pike/pickerel  -  these are aggressive fighters",
+        "3/4 Oz jighead is heavy  -  will work in deep water but may snag on bottom structure",
+        "No titanium/wire leader  -  pike and pickerel can bite through mono",
         "Craw soft plastics work for predators but aren't specifically listed for Emerald Lake species"
       ],
       "improvements": [
-        "Add a titanium or wire leader (like slot 2) — pike WILL bite through mono .010\"",
+        "Add a titanium or wire leader (like slot 2)  -  pike WILL bite through mono .010\"",
         "Downsize to 1/2 Oz jighead for better action and fewer snags",
-        "Craw pattern is a good instinct — crawfish action triggers predator strikes from pike and pickerel",
-        "Work the jig near submerged structure — hop it along bottom with pauses, pike hit on the fall",
+        "Craw pattern is a good instinct  -  crawfish action triggers predator strikes from pike and pickerel",
+        "Work the jig near submerged structure  -  hop it along bottom with pauses, pike hit on the fall",
         "This is a solid backup predator slot to complement slot 2's spoon approach"
       ]
     },
@@ -102,15 +102,15 @@
         "depth_setting": "Set float depth to 3-7 ft. Panfish hold at various depths at Emerald Lake. Start at 4-5 ft near weed edges at The Dock of Peace. Yellow Perch may be deeper at 6-7 ft."
       },
       "issues": [
-        "Durability getting low (15975/18000) — monitor rod condition",
+        "Durability getting low (15975/18000)  -  monitor rod condition",
         "Maggots cover Pumpkinseed and Black Crappie well but don't attract Walleye/Sauger",
         "Glowing float is good for dawn/dusk visibility"
       ],
       "improvements": [
-        "Solid panfish setup — Maggots + #6 hook is well-matched for Emerald Lake panfish",
+        "Solid panfish setup  -  Maggots + #6 hook is well-matched for Emerald Lake panfish",
         "Deploy on RodPod Trio at The Dock of Peace for passive panfish income",
-        "Consider carrying Bloodworms as backup — also covers Bluntnose Minnow and Yellow Perch",
-        "This rod's low durability means it may break during a session — consider repairing soon"
+        "Consider carrying Bloodworms as backup  -  also covers Bluntnose Minnow and Yellow Perch",
+        "This rod's low durability means it may break during a session  -  consider repairing soon"
       ]
     },
     {
@@ -126,15 +126,15 @@
       "target_fish": ["Walleye", "Sauger", "Yellow Perch", "Chain Pickerel"],
       "effectiveness_rating": 7,
       "issues": [
-        "No titanium leader — risky when pike or pickerel strike, they can bite through fluoro",
+        "No titanium leader  -  risky when pike or pickerel strike, they can bite through fluoro",
         "Narrow Spoon is excellent for Walleye/Sauger but you already have slot 2 covering these",
         "Overlaps significantly with slot 2's coverage"
       ],
       "improvements": [
-        "Add a titanium leader like slot 2 — you'll lose spoons to pike without one",
-        "Consider swapping lure to target different species — a Nano Spoon or Casting Spoon would cover Yellow Perch better",
+        "Add a titanium leader like slot 2  -  you'll lose spoons to pike without one",
+        "Consider swapping lure to target different species  -  a Nano Spoon or Casting Spoon would cover Yellow Perch better",
         "Alternatively, switch to a crankbait or jerkbait to diversify your predator approach",
-        "Good rod/reel combo — just needs leader protection and lure differentiation from slot 2"
+        "Good rod/reel combo  -  just needs leader protection and lure differentiation from slot 2"
       ]
     },
     {
@@ -150,15 +150,15 @@
       "target_fish": ["Yellow Perch", "Grass Pickerel", "Redfin Pickerel"],
       "effectiveness_rating": 7,
       "issues": [
-        "No titanium leader — pickerel can cut fluoro .008\"",
+        "No titanium leader  -  pickerel can cut fluoro .008\"",
         "Nano Spinner is great for Yellow Perch but the #1/0 hook may miss smaller panfish",
         "3-6.5 Lb line weight is light if a Northern Pike takes the spinner"
       ],
       "improvements": [
         "Add a short titanium leader for pike/pickerel protection",
-        "Nano Spinner's vibration and flash is excellent for Yellow Perch ($75/kg) and pickerel species",
+        "Nano Spinner's vibration and flash is excellent for Yellow Perch ($34/lb) and pickerel species",
         "The short 6'3\" rod is ideal for fishing from the Lupus boat in tight spots",
-        "Upgraded fluoro .008\" is a big improvement over the old mono — much less visible",
+        "Upgraded fluoro .008\" is a big improvement over the old mono  -  much less visible",
         "Good for actively covering water from the boat to locate fish schools"
       ]
     },
@@ -184,13 +184,13 @@
       "issues": [
         "Crickets are NOT listed as effective bait for any Emerald Lake fish species in the database",
         "Hook #6 is good size for panfish but this rod is overpowered for sub-2 lb fish",
-        "13'2\" rod is very long — harder to use from the boat",
+        "13'2\" rod is very long  -  harder to use from the boat",
         "Fluoro .012\" is thicker than needed for panfish"
       ],
       "improvements": [
-        "CRITICAL: Switch bait from Crickets to Maggots or Red Worms — Crickets don't appear in Emerald Lake's bait lists",
+        "CRITICAL: Switch bait from Crickets to Maggots or Red Worms  -  Crickets don't appear in Emerald Lake's bait lists",
         "Maggots cover Pumpkinseed, Black Crappie, and Bluntnose Minnow",
-        "Alternatively use Bloodworms — covers Black Crappie, Yellow Perch, and Bluntnose Minnow",
+        "Alternatively use Bloodworms  -  covers Black Crappie, Yellow Perch, and Bluntnose Minnow",
         "Consider Marshmallows for Black Crappie + Pumpkinseed coverage",
         "Deploy on RodPod Trio alongside slot 4 for double passive panfish income"
       ]
@@ -198,27 +198,27 @@
   ],
   "passive_fishing": {
     "best_stand_spot": "The Dock of Peace",
-    "stand_spot_why": "The dock provides a stable platform for the RodPod Trio with deep water access directly in front. Panfish hold near the dock pilings, and Walleye/Sauger cruise the deeper water at the dock's edge — your float rods cover both zones without moving.",
+    "stand_spot_why": "The dock provides a stable platform for the RodPod Trio with deep water access directly in front. Panfish hold near the dock pilings, and Walleye/Sauger cruise the deeper water at the dock's edge  -  your float rods cover both zones without moving.",
     "active_fishing_zone": "Cast spinning rods from the dock itself or wade along the shore within 50 ft of your rod stand. Stay close enough to see your floats and hear bite alerts. The deeper water off the dock holds Walleye, Sauger, and Chain Pickerel.",
     "strategy": [
-      "Set RodPod Trio at The Dock of Peace — place all 3 float rods at different depths and angles",
-      "Slot 1 (Fenix + Chubby float): Cast to deep water (10-12 ft) targeting Walleye/Sauger — SWITCH BAIT TO LEECHES",
+      "Set RodPod Trio at The Dock of Peace  -  place all 3 float rods at different depths and angles",
+      "Slot 1 (Fenix + Chubby float): Cast to deep water (10-12 ft) targeting Walleye/Sauger  -  SWITCH BAIT TO LEECHES",
       "Slot 4 (OmniFloat + Maggots): Cast to mid-depth (4-6 ft) near dock pilings for panfish",
-      "Slot 7 (McCarp + Crickets): Cast to shallow-mid (5-8 ft) along weed edge — SWITCH TO MAGGOTS/BLOODWORMS",
+      "Slot 7 (McCarp + Crickets): Cast to shallow-mid (5-8 ft) along weed edge  -  SWITCH TO MAGGOTS/BLOODWORMS",
       "Actively fish with slot 2 (Turtle Spoon + Titanium Leader) casting from the dock for pike/pickerel/walleye",
-      "When a float dips, immediately switch to that rod — panfish bites are quick, Walleye bites are slower but still need response within 5-10 seconds",
-      "After landing a fish, re-bait and re-cast to the same spot — fish congregate in productive areas",
+      "When a float dips, immediately switch to that rod  -  panfish bites are quick, Walleye bites are slower but still need response within 5-10 seconds",
+      "After landing a fish, re-bait and re-cast to the same spot  -  fish congregate in productive areas",
       "Cycle: fish actively for 2-3 casts, check floats, respond to bites, repeat. Sell keepnet when full.",
-      "For NIGHT sessions: Switch to Walleye-focused passive setup — all 3 stand rods with Leeches at deep settings (10-15 ft). Walleye feed aggressively after dark and will hit passive rigs hard."
+      "For NIGHT sessions: Switch to Walleye-focused passive setup  -  all 3 stand rods with Leeches at deep settings (10-15 ft). Walleye feed aggressively after dark and will hit passive rigs hard."
     ],
     "income_estimate": [
       "Passive float rods (3 rods soaking): ~3-5 fish per rod per in-game hour depending on species and bait",
       "Active spinning (1 rod casting): ~5-10 fish per in-game hour with predator lures",
       "Combined output: ~15-25 fish per in-game hour across all 4 active lines",
-      "If focusing on Walleye ($190/kg, avg 1.5 kg): ~$285 per Walleye x 3-5 passive catches/hr = $855-$1,425/hr from stand alone",
+      "If focusing on Walleye ($86/lb, avg 3.3 lb): ~$285 per Walleye x 3-5 passive catches/hr = $855-$1,425/hr from stand alone",
       "Plus active spinning income from pike/pickerel: ~$500-$1,000/hr additional",
       "Estimated total: $1,300-$2,400 per in-game hour with optimized passive + active setup",
-      "Night Walleye sessions can push income even higher — Walleye bite rate doubles after dark"
+      "Night Walleye sessions can push income even higher  -  Walleye bite rate doubles after dark"
     ]
   },
   "gear": {
@@ -233,19 +233,19 @@
     "boat": "Garry Scott Lupus Motor Boat",
     "headlamp": "Luminox Headlamp",
     "notes": [
-      "Garry Scott Lupus Motor Boat — massive advantage at Emerald Lake! Access mid-lake structure for Walleye, Sauger, and Pike",
-      "Luminox Headlamp — enables effective night fishing. Walleye and Sauger are most active at dawn/dusk/night",
-      "RodPod Trio — deploy 3 float rods from shore or dock for passive income while boating",
-      "FishStronghold M Plus Keepnet — upgraded storage for larger catches",
-      "Outlander Pro Vest — improved carry capacity over Wild Element Deluxe",
-      "Glasses Classic — reduces glare on water for spotting fish and structure"
+      "Garry Scott Lupus Motor Boat  -  massive advantage at Emerald Lake! Access mid-lake structure for Walleye, Sauger, and Pike",
+      "Luminox Headlamp  -  enables effective night fishing. Walleye and Sauger are most active at dawn/dusk/night",
+      "RodPod Trio  -  deploy 3 float rods from shore or dock for passive income while boating",
+      "FishStronghold M Plus Keepnet  -  upgraded storage for larger catches",
+      "Outlander Pro Vest  -  improved carry capacity over Wild Element Deluxe",
+      "Glasses Classic  -  reduces glare on water for spotting fish and structure"
     ]
   },
   "groundbait": {
     "screenshot": "IMG_1713.jpg",
-    "status": "Empty recipes — not yet configured",
+    "status": "Empty recipes  -  not yet configured",
     "notes": [
-      "Groundbait is not critical for Emerald Lake — most target fish are predators caught on lures/live bait",
+      "Groundbait is not critical for Emerald Lake  -  most target fish are predators caught on lures/live bait",
       "Could help concentrate panfish at dock spots if pursuing Pumpkinseed or Black Crappie"
     ]
   },
@@ -262,15 +262,15 @@
       "why": "You already have the Lupus equipped! This is a huge advantage at Emerald Lake. Motor to mid-lake structure, use the sonar to find drop-offs and weed edges where Walleye, Sauger, and Pike hold. Cast slots 2, 3, 5, 6 from the boat while float rods soak on shore."
     },
     "fishing_tips": [
-      "Use the Lupus to motor to deep structure — Walleye and Sauger hold at 10-15 ft near drop-offs",
+      "Use the Lupus to motor to deep structure  -  Walleye and Sauger hold at 10-15 ft near drop-offs",
       "Cast slot 2 (Turtle Spoon + Titanium Leader) near submerged points and weed edges from the boat",
-      "Night fishing from the boat with the Luminox Headlamp is devastating for Walleye — they feed aggressively after dark",
+      "Night fishing from the boat with the Luminox Headlamp is devastating for Walleye  -  they feed aggressively after dark",
       "Set up RodPod Trio at The Dock of Peace with slots 1, 4, 7 before heading out on the boat",
       "Return to dock periodically to check float rods and sell accumulated panfish",
-      "Chain Pickerel and Northern Pike ambush near shallow weed lines — motor along edges and cast into pockets",
-      "Use the sonar to locate schools of Yellow Perch in open water — cast Nano Spinner through them"
+      "Chain Pickerel and Northern Pike ambush near shallow weed lines  -  motor along edges and cast into pockets",
+      "Use the sonar to locate schools of Yellow Perch in open water  -  cast Nano Spinner through them"
     ],
-    "cost_analysis": "Advanced NY License needed for boat: 1-day $800, 3-day $2,280, week $5,040, unlimited 30 BC. Travel $2,500 + extend $500/day. The Lupus boat gives access to the highest-value fish (Walleye $190/kg, Sauger $180/kg) in deep water — easily pays for the license cost."
+    "cost_analysis": "Advanced NY License needed for boat: 1-day $800, 3-day $2,280, week $5,040, unlimited 30 BC. Travel $2,500 + extend $500/day. The Lupus boat gives access to the highest-value fish (Walleye $86/lb, Sauger $82/lb) in deep water  -  easily pays for the license cost."
   },
   "overall_analysis": {
     "fish_coverage": {
@@ -288,35 +288,35 @@
       "Golden Shiner": false
     },
     "missing_setups": [
-      "Common Shiner and Golden Shiner need Dough Balls or Semolina Balls — neither bait is currently equipped",
-      "Slot 1's Spawn Sack is not listed for any Emerald Lake fish — needs bait change for effective use",
-      "Slot 7's Crickets are not listed for any Emerald Lake fish — needs bait change",
-      "No titanium leaders on slots 3, 5, 6 — risk of losing gear to pike/pickerel bite-offs"
+      "Common Shiner and Golden Shiner need Dough Balls or Semolina Balls  -  neither bait is currently equipped",
+      "Slot 1's Spawn Sack is not listed for any Emerald Lake fish  -  needs bait change for effective use",
+      "Slot 7's Crickets are not listed for any Emerald Lake fish  -  needs bait change",
+      "No titanium leaders on slots 3, 5, 6  -  risk of losing gear to pike/pickerel bite-offs"
     ],
     "xp_optimization": [
-      "Catch ALL 12 species for first-catch XP bonuses — you're currently missing Common Shiner and Golden Shiner",
+      "Catch ALL 12 species for first-catch XP bonuses  -  you're currently missing Common Shiner and Golden Shiner",
       "Unique Chain Pickerel (7.7 lb max) and Unique Sauger (6.9 lb max) give massive first-catch bonuses",
-      "Trophy Walleye and Chain Pickerel give 2-3x XP — use slot 2 with titanium leader for best trophy chance",
+      "Trophy Walleye and Chain Pickerel give 2-3x XP  -  use slot 2 with titanium leader for best trophy chance",
       "Fish both spots (The Dock of Peace and Midland Charm) for location discovery XP",
-      "Night fishing with headlamp gives access to Walleye's peak activity — huge XP potential",
-      "Use the Lupus boat to reach mid-lake spots that most anglers can't access — less fishing pressure = more bites"
+      "Night fishing with headlamp gives access to Walleye's peak activity  -  huge XP potential",
+      "Use the Lupus boat to reach mid-lake spots that most anglers can't access  -  less fishing pressure = more bites"
     ],
     "income_optimization": [
-      "Walleye at $190/kg (max 5.7 lb) is the top total earner — up to $496 per trophy. Target with slot 2 from the boat",
-      "Sauger at $180/kg (max 6.9 lb) has the best $/fish potential — up to $567 per trophy. Target with slots 2, 5",
-      "Northern Pike at $170/kg (max 4.9 lb) — solid earner, target with slot 3 jig near weed edges",
-      "Chain Pickerel at $150/kg (max 7.7 lb) — heaviest fish here, up to $525 per trophy",
-      "Fill FishStronghold keepnet with Walleye and Sauger before selling — these are the money fish",
+      "Walleye at $86/lb (max 5.7 lb) is the top total earner  -  up to $496 per trophy. Target with slot 2 from the boat",
+      "Sauger at $82/lb (max 6.9 lb) has the best $/fish potential  -  up to $567 per trophy. Target with slots 2, 5",
+      "Northern Pike at $77/lb (max 4.9 lb)  -  solid earner, target with slot 3 jig near weed edges",
+      "Chain Pickerel at $68/lb (max 7.7 lb)  -  heaviest fish here, up to $525 per trophy",
+      "Fill FishStronghold keepnet with Walleye and Sauger before selling  -  these are the money fish",
       "Emerald Lake is cheaper than Falcon Lake ($2,500 travel vs $4,000) with comparable income potential",
-      "Night fishing for Walleye is the most profitable strategy — they're most active and less wary after dark"
+      "Night fishing for Walleye is the most profitable strategy  -  they're most active and less wary after dark"
     ],
     "priority_changes": [
-      "CRITICAL: Slot 1 — switch Spawn Sack to Leeches or Small Minnows and upsize hook to #2/0-#4/0 for Walleye/Sauger",
-      "CRITICAL: Slot 7 — switch Crickets to Maggots or Bloodworms — Crickets don't work at Emerald Lake",
-      "IMPORTANT: Add titanium leaders to slots 3, 5, and 6 — pike and pickerel WILL bite through your line",
-      "Slot 5 overlaps with slot 2 — consider diversifying lure type (crankbait or jerkbait) for different predator approach",
+      "CRITICAL: Slot 1  -  switch Spawn Sack to Leeches or Small Minnows and upsize hook to #2/0-#4/0 for Walleye/Sauger",
+      "CRITICAL: Slot 7  -  switch Crickets to Maggots or Bloodworms  -  Crickets don't work at Emerald Lake",
+      "IMPORTANT: Add titanium leaders to slots 3, 5, and 6  -  pike and pickerel WILL bite through your line",
+      "Slot 5 overlaps with slot 2  -  consider diversifying lure type (crankbait or jerkbait) for different predator approach",
       "Bring Dough Balls or Semolina Balls if you want to complete all 12 species (Common + Golden Shiner)",
-      "Buy an Advanced NY License for boat + night fishing — the combination of Lupus boat and Walleye night fishing is extremely profitable"
+      "Buy an Advanced NY License for boat + night fishing  -  the combination of Lupus boat and Walleye night fishing is extremely profitable"
     ],
     "spot_recommendations": {
       "The Dock of Peace": [1, 4, 7],

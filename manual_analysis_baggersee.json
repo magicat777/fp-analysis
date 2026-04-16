@@ -1,0 +1,317 @@
+{
+  "passive_fishing": {
+    "best_stand_spot": "Stillwater Village (shore-based 4-Rod Stand) — primary base for the Club Rod Oasis",
+    "stand_spot_why": "Calm waters, deep-enough drop-offs for carp and bream, easy walking distance to the active spinning zone. Mid-lake feeder casts (30-50 ft) cover the productive carp shelf without requiring boat. Multiple bait types can be cycled across the 4 rods to target Common/Mirror Carp + Bream + Tench + Wels Cat simultaneously.",
+    "active_fishing_zone": "Cast Pike/Zander spinnerbaits along the dock/structure 50-150 ft to either side of the rod stand. Stay within 100 ft of the rods so you can hear/see strike alerts and reach a bite within 5 seconds. Fan-cast sweeping arcs without crossing your stand rod lines.",
+    "strategy": [
+      "Drop the 4-Rod Stand at Stillwater Village shoreline facing deeper water",
+      "Slot 1 (Mega Chuber + Banana Boilies) cast 50-80 ft to the carp shelf",
+      "Slot 2 (Mokonzi Method Feeder + Corn) cast 30-50 ft for Bream/Tench/mixed Carp attraction",
+      "Slot 3 (Tribal Totem + Large Cutbait) cast 60-100 ft to deeper water for Wels Catfish",
+      "Slot 4 (Heavy Chaser + alt-flavor Boilies/Pellet) cast 40-70 ft as the carp diversifier",
+      "Slot 5 (Salmonster + Spinnerbait) IN HAND — fan-cast Pike/Zander structure 50-150 ft from stand position",
+      "Recast/refresh stand rods every 10-15 min — degraded bait stops attracting carp",
+      "When carp keepnet fills, sell at travel screen and reset all 4 stand rods"
+    ],
+    "income_estimate": [
+      "Common/Mirror Carp passive: 2-3 fish/hour at avg 8-12 lb = ~$3,000-$5,000/hr per active stand rod",
+      "Wels Catfish on Tribal Totem: high-variance — 1 catch can be $2,000-$10,000+ depending on size",
+      "Method Feeder Bream/Tench bonus: $500-$1,500/hr fill-in income",
+      "Spinnerbait Pike/Zander active: $1,000-$3,000/hr bonus while stand soaks",
+      "Total realistic target: $7,000-$15,000/hr combined active+passive at Stillwater Village"
+    ],
+    "boat_trolling": {
+      "recommended": true,
+      "boat_required": "GoldenAlbatross Adventure Kayak or Garry Scott Draco Bass Boat (Advanced License required for boat fishing)",
+      "summary": "Boat trolling at Sander Baggersee is HIGHLY VIABLE for Pike, Zander, and Wels Catfish along submerged structure. Lake-in-a-Lake area is the prime trolling zone — accessible only by boat and holds the largest predators.",
+      "staging_spot": "Lake in a Lake (boat-only inner water body)",
+      "staging_why": "Inner lake structure holds the deepest pools and largest Wels Cats + trophy Pike. No shore competition. Drift along the connecting channels for big predator strikes.",
+      "route": "Launch at Southern Docks → Troll east toward Lake-in-a-Lake → Slow troll (2-3 mph) along the channel and around the inner lake perimeter → Anchor at deeper holes for stationary cat fishing",
+      "target_fish": [
+        "Northern Pike (trophy class)",
+        "Zander (trophy class)",
+        "Wels Catfish (trophy/unique - main reason to troll)",
+        "Grass Carp (deep water roaming)",
+        "European Perch (schoolers along structure)"
+      ],
+      "recommended_lures": [
+        "Spinnerbait 1 Oz #4/0 with Titanium leader — Pike/Zander all-purpose troll",
+        "Jerkbait Medium #2/0 — slow troll for Pike along weed edges",
+        "Crankbait 6-8 ft #4/0 deep diver — covers mid-water column for big Pike + Zander",
+        "Soft Plastic Shad 4-6\" on JigHead 3/4-1 Oz — bottom-bouncing Zander rig",
+        "Live Small Minnows under bobber — dead-drift behind boat for Pike (most natural)"
+      ],
+      "notes": [
+        "Slow troll speed: 2-3 mph — Pike and Zander prefer slower presentations than salmon",
+        "TITANIUM LEADERS MANDATORY — Pike WILL be caught and will bite off Fluoro",
+        "Two-rod troll spread: one shallow (Spinnerbait), one deep (Crankbait) covers the column",
+        "Drop anchor at Lake-in-a-Lake holes for stationary Wels Catfish bottom rigs (Tribal Totem + Cutbait)",
+        "Watch fish finder — Wels Catfish show as massive single returns near bottom in deep holes",
+        "Best trolling windows: dawn (5-8am in-game) and dusk (6-9pm) when predators are most active",
+        "Boat travel from Southern Docks → Lake-in-a-Lake takes ~5-10 min in-game depending on boat speed"
+      ]
+    }
+  },
+  "location": {
+    "name": "Sander Baggersee Lake",
+    "region": "Germany",
+    "type": "Lake",
+    "continent": "Europe",
+    "base_level": 42,
+    "travel_cost": 8000,
+    "extend_cost": 1000,
+    "level_note": "DLC-unlocked early at Level 38. Native level 42. First visit 2026-04-14.",
+    "boats_allowed": "Small boats permitted (Advanced License required)"
+  },
+  "license": {
+    "basic_germany": {
+      "one_day": 4000,
+      "three_days": 11400,
+      "week": 25200,
+      "unlimited": 690,
+      "violation": 25000,
+      "night_fishing": false,
+      "boat_fishing": false
+    },
+    "advanced_germany": {
+      "one_day": 8000,
+      "three_days": 22800,
+      "week": 50400,
+      "unlimited": 1100,
+      "violation": 25000,
+      "night_fishing": true,
+      "boat_fishing": true,
+      "recommendation": "STRONGLY RECOMMENDED. Boat access opens up Lake-in-a-Lake and deeper carp/cat zones. Night fishing for Eel/Wels Cat. 1100 BC unlimited is the best long-term value."
+    }
+  },
+  "fish_summary": {
+    "total_species": 17,
+    "primary_income_targets": [
+      "Bighead Carp - filter feeder, big trophy class",
+      "Silver Carp - filter feeder, similar to Bighead",
+      "Grass Carp - plant-eater, very large class",
+      "Common Carp / Mirror Carp / Leather Carp - traditional carp targets",
+      "Wels Catfish - MASSIVE (potentially 100+ lb)",
+      "Northern Pike - predator income",
+      "Zander - predator income",
+      "European Eel - night specialty, high $/lb"
+    ],
+    "panfish_completion": [
+      "Common Bream", "Tench", "Prussian Carp", "Common Roach",
+      "European Perch", "Eurasian Ruffe", "Round Goby"
+    ],
+    "monster_fish": "Monster ID 10964 (look up in-game - likely a Bighead/Silver Carp variant)"
+  },
+  "spots": [
+    {"name": "Bavarian Woods", "description": "Wooded shoreline - likely shore bottom for carp"},
+    {"name": "Fields of Gold", "description": "Open area - potentially good for boat float fishing"},
+    {"name": "Fishing on Main", "description": "Main channel - mixed species access"},
+    {"name": "Lake in a Lake", "description": "Inner/secondary water body - BOAT REQUIRED, often a hotspot for big carp/cats"},
+    {"name": "Southern Docks", "description": "Dock structure - good for predator casting + carp bottom"},
+    {"name": "Stillwater Village", "description": "Calm village waters - float fishing primary"},
+    {"name": "Sunrise Fishing", "description": "East-facing shoreline - dawn topwater opportunities"}
+  ],
+  "loadout_strategy": {
+    "philosophy": "CARP-FOCUSED REVISION from Kaniq salmon setup. Sander Baggersee is primarily a CARP LAKE with predator bonuses. Convert most active-spoon rods to carp/feeder/match setups. Keep 1-2 active rods for Pike/Zander predator targeting (TITANIUM LEADER REQUIRED for pike). Mega Chuber 12'4\" SE is the carp specialist rod - deploy with confidence here.",
+    "key_changes_from_kaniq": [
+      "Drop Medium Spoon 6/7 Oz salmon rigs - swap to carp boilie/corn/feeder setups",
+      "Deploy Mega Chuber 12'4\" SE as primary carp specialist rod (Banana Boilies on hair rig)",
+      "Convert active rods to spinnerbait/jerkbait for Pike/Zander predator coverage",
+      "Multiple feeder rods with Method Mix groundbait for Bream/Tench/Carp attraction",
+      "Keep Tribal Totem + Mokonzi for Wels Catfish on Cutbait (cross-location proven)",
+      "Add Hair Rig + Boilie #1/0-#2/0 to terminal tackle inventory"
+    ]
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "Mega Chuber 12'4\" SE (Specialist Carp Rod, X-Heavy)",
+      "reel": "Mega Tank 7000 SE",
+      "line": "Braid .0084\"",
+      "leader": "Carp Leader 25 Lb",
+      "terminal_tackle": "Carp Sinker 4 1/16 Oz, Hair Rig + Hook #2/0",
+      "bait": "Banana Sinking Boilies (or Strawberry/Tutti Frutti boilie)",
+      "setup_type": "Specialist Carp Rig (Hair Rig + Boilie)",
+      "target_fish": ["Common Carp", "Mirror Carp", "Leather Carp", "Grass Carp"],
+      "effectiveness_rating": 9,
+      "notes": "PRIMARY CARP ROD - confirmed working at SJD (Common Carp 8.186 lb on Banana Boilies). Sander Baggersee is the natural home for this setup. Hair rig + boilie is the German carp standard. Cast to deeper water 30-50 ft from shore."
+    },
+    {
+      "slot_number": 2,
+      "rod": "Mokonzi 12'10\" SE (Feeder, X-Heavy, 6-9 7/8 Oz)",
+      "reel": "Ambusher 9000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Fluorocarbon Leader .020\"",
+      "terminal_tackle": "Open Method Feeder 4 1/2 Oz + Mix Grand Fish Feeder, Hook #6",
+      "bait": "Corn / Sweet Corn Cluster / Maize",
+      "setup_type": "Method Feeder (Carp + Bream + Tench)",
+      "target_fish": ["Common Carp", "Common Bream", "Tench", "Bighead Carp", "Silver Carp"],
+      "effectiveness_rating": 9,
+      "notes": "Method feeder + groundbait = dynamite for German carp lake. Corn on small hook attracts ALL carp species + Bream + Tench. Mix Grand Fish Feeder concentrates the spread. NO TITANIUM (no pike on bottom drift)."
+    },
+    {
+      "slot_number": 3,
+      "rod": "Tribal Totem 12'10\" (Bottom, X-Heavy)",
+      "reel": "Savana Spirit 11000",
+      "line": "Catfish Moustache Line",
+      "leader": "Horsehair Leader",
+      "terminal_tackle": "Monkey Skull Sinker 7 Oz, Hook #6/0",
+      "bait": "Medium Cutbait or Large Cutbait",
+      "setup_type": "Bottom Rig (Wels Catfish - MONSTER)",
+      "target_fish": ["Wels Catfish (potentially 100+ lb)", "European Eel (night)"],
+      "effectiveness_rating": 9,
+      "notes": "Wels Catfish at Sander Baggersee can grow to 100+ lb. Cross-location proven cat killer. Use Large Cutbait + #6/0 (downsize from #4/0 if too aggressive). Switch to Worm or Eel Cutbait at night for European Eel. CAUTION: Wels Cats here are larger than Saint-Croix Blue Cats."
+    },
+    {
+      "slot_number": 4,
+      "rod": "Heavy Chaser 9'10\" SE (Bottom, X-Heavy)",
+      "reel": "RedFish 5500",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Fluorocarbon Leader .020\"",
+      "terminal_tackle": "Sinker 5 1/2 Oz, Hair Rig + Hook #2/0",
+      "bait": "Boilies (alt flavor) or Halibut Pellets or Tiger Nuts",
+      "setup_type": "Carp Bottom (alt-bait diversifier)",
+      "target_fish": ["Common Carp", "Mirror Carp", "Bighead Carp", "Silver Carp"],
+      "effectiveness_rating": 8,
+      "notes": "Second carp rod with alternate boilie flavor or pellet. Diversifies bait coverage on the 4-rod stand. Useful for Bighead Carp competition - try Method Mix + small pellet hookbait."
+    },
+    {
+      "slot_number": 5,
+      "rod": "Rivertex Salmonster 8'10\" (Spinning, X-Heavy)",
+      "reel": "Kraken 8000 SE",
+      "line": "X-Series Fluoro .025\"",
+      "leader": "Titanium Leader .012\" (PIKE PROTECTION)",
+      "terminal_tackle": "",
+      "lure_or_bait": "Spinnerbait 1 Oz #4/0 or Jerkbait Medium #2/0",
+      "hook": "#2/0 to #4/0",
+      "setup_type": "Active Predator (Pike + Zander)",
+      "target_fish": ["Northern Pike", "Zander", "Wels Catfish (active strike)"],
+      "effectiveness_rating": 8,
+      "notes": "Predator rod with Titanium leader for pike bite-off. Spinnerbait works for both Pike and Zander. Try around dock structure (Southern Docks) and weed edges (Bavarian Woods)."
+    },
+    {
+      "slot_number": 6,
+      "rod": "GalaxyCast 8'6\" (Casting, X-Heavy)",
+      "reel": "VorteX 7000 SE",
+      "line": "Braid .0076\"",
+      "leader": "Titanium Leader .011\" (PIKE PROTECTION)",
+      "terminal_tackle": "JigHead 3/4 Oz #3/0",
+      "bait": "Shad 4\" or Soft Plastic Worm",
+      "setup_type": "Active Predator (Zander Jigging)",
+      "target_fish": ["Zander", "Northern Pike", "European Perch"],
+      "effectiveness_rating": 8,
+      "notes": "Jighead + soft plastic = standard Zander rig. Drop-and-pause technique works. Try drop-offs from dock structure. Long range to reach deeper water."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Troy 23' (Telescopic Float Rod)",
+      "reel": "EspiraML 3000 SE",
+      "line": "Fluoro .012\"",
+      "leader": "",
+      "terminal_tackle": "Glowing Pear Float, Hook #6 to #10",
+      "bait": "Maggots / Pinkies / Bloodworms / Sweet Corn",
+      "setup_type": "Telescopic Float (Panfish completion + Bream)",
+      "target_fish": ["Common Roach", "Common Bream", "Tench", "Prussian Carp", "Eurasian Ruffe", "European Perch", "Round Goby"],
+      "effectiveness_rating": 7,
+      "notes": "Knock out the 7 panfish/Euro species for first-catch XP bonuses. Same telescopic that worked at Tiber and Lesni Vila. Switch baits per target species. Light line is fine - separated from carp/cat zones."
+    }
+  ],
+  "shopping_list": {
+    "baits_to_buy": [
+      "Banana Sinking Boilies (already own - confirmed at SJD)",
+      "Strawberry/Tutti Frutti/Tiger Nut Boilies (alternate flavors)",
+      "Halibut Pellets (Bighead Carp filter-feeder favorite)",
+      "Sweet Corn / Maize (universal carp bait)",
+      "Method Mix Groundbait (concentrate carp/bream activity)",
+      "Maggots / Pinkies / Bloodworms (panfish telescopic)",
+      "Tiger Nuts (alternative carp boilie)",
+      "Worms / Night Crawlers (Tench, Eel, Bream)",
+      "Small Minnows (Pike, Zander livebait option)"
+    ],
+    "terminal_tackle": [
+      "Hair Rigs #1/0 - #2/0 for boilie presentation",
+      "Method Feeders (Open and Closed)",
+      "Carp Hooks #2/0 - #4 for boilies/pellets",
+      "Small Hooks #6 - #10 for panfish/bream",
+      "Heavy Carp Sinkers 3-5 Oz",
+      "Titanium Leaders .012\"-.018\" for pike rods"
+    ],
+    "lures_to_consider": [
+      "Spinnerbait 1 Oz #4/0 (Pike + Zander)",
+      "Jerkbait Medium #2/0 (Pike)",
+      "Soft Plastic Shad 4\" (Zander jigging)",
+      "Spinner 1/8 - 1/4 Oz (Perch from Tiber experience)"
+    ]
+  },
+  "income_strategy": {
+    "highest_value_targets": [
+      "Wels Catfish - massive size potential = highest single-fish payoff",
+      "Bighead Carp - filter feeder, large trophy class, competition target",
+      "Grass Carp - very large size, carp pricing tier",
+      "Common Carp - reliable income, easy to catch with proper setup",
+      "Northern Pike - predator income bonus",
+      "European Eel (night) - high $/lb premium"
+    ],
+    "session_plan": [
+      "1. Buy Advanced Germany License unlimited (1100 BC) for boat + night fishing",
+      "2. Travel to Sander Baggersee (8,000 cost)",
+      "3. Spot 1: Stillwater Village or Bavarian Woods - deploy 4-Rod Stand carp setup (slots 1-4) + active rod 5",
+      "4. Boat to Lake-in-a-Lake mid-day for big carp/cat zones (if Advanced License)",
+      "5. Switch to telescopic (slot 7) at calm panfish spot for species completion",
+      "6. Night session: Tribal Totem with Worm/Eel bait for European Eel + Wels Cat",
+      "7. Return to dock for active Zander/Pike with slots 5+6"
+    ],
+    "expected_income_target": "30,000-60,000 credits / session (depends on Wels Cat hits + Bighead competition success)"
+  },
+  "bighead_carp_competition_strategy": {
+    "overview": "Bighead Carp competition this afternoon. Bighead are FILTER FEEDERS - they suspend in mid-water filtering plankton. Standard bottom carp rigs may not work optimally.",
+    "preparation": [
+      "Stock up on Halibut Pellets and Method Mix (filter-feeder magnets)",
+      "Use Method Feeder (slot 2 or 4) with HEAVY groundbait to create suspended cloud in mid-water",
+      "Try smaller hooks (#6 - #4) with single pellet or fake/buoyant boilie hookbait",
+      "Set hookbait to suspend 6-12 inches off the bottom (PVA bag or pop-up presentation)",
+      "Bighead respond to Pellets, Method Mix, Bread, Tutti Frutti boilies",
+      "Position over deeper water near drop-offs (boat or long-cast from shore)"
+    ],
+    "rig_setup": {
+      "rod": "Slot 2 (Mokonzi feeder) or Slot 4 (Heavy Chaser carp)",
+      "feeder": "Open Method Feeder 4 1/2 Oz packed with Method Mix",
+      "hook": "Carp Hook #4 to #6 with hair rig",
+      "hookbait": "Single Halibut Pellet OR Pop-up Boilie 12-15mm",
+      "presentation": "Hookbait suspended 4-8 inches above feeder via stiff hair rig"
+    },
+    "competition_tips": [
+      "ARRIVE EARLY - reel spots are limited, get a good shoreline position",
+      "PRE-BAIT the spot - cast 3-5 method feeders without hook to build groundbait pile before deploying real rod",
+      "RECAST every 15-20 min to refresh the groundbait",
+      "Bighead are SCHOOL FISH - one catch usually means more nearby, stay put",
+      "Watch for surface bubbles/movements - sign of active feeding school"
+    ],
+    "fallback_if_struggling": "If Bighead aren't responding, switch to slot 1 (Mega Chuber + Banana Boilies) for Common/Mirror Carp - still scores in the carp family if competition allows"
+  },
+  "missions_to_check": [
+    "Sander Baggersee Exploration I (catch listed species - 17 species available)",
+    "Carp Family Trophy Collecting missions",
+    "Wels Catfish Mastering missions",
+    "European Pike trophy missions",
+    "Bighead Carp Master missions (relevant for competition)"
+  ],
+  "critical_warnings": [
+    "NORTHERN PIKE PRESENT - active rods (slots 5, 6) MUST use Titanium leader",
+    "WELS CATFISH potentially MASSIVE (100+ lb) - ensure Tribal Totem + heaviest line/leader on slot 3",
+    "Boat fishing requires Advanced License - budget 1100 BC unlimited or 8000 credits/day",
+    "Sander Baggersee is a CARP-FIRST location - don't bring salmon/sturgeon mindset",
+    "Some carp species (Bighead, Silver) are filter feeders - need pellets/groundbait, NOT just boilies"
+  ],
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 8.3,
+      "improvement_summary": "Carp-focused 7-slot for first Sander Baggersee trip. Mega Chuber + Banana Boilies confirmed cross-location. Mokonzi feeder repurposed for carp/bream. Tribal Totem keeps cat duty (now Wels). Active rods reduced to 2 (Pike/Zander). Telescopic for panfish completion. CRITICAL: Titanium leaders on all active rods for pike bite-off."
+    },
+    "user_goals": [
+      "Maximize income (3x Saint-Croix-style hourly rate target)",
+      "Maximize XP (first-catch bonuses on 17 new species)",
+      "Bighead Carp competition this afternoon (preparation included above)"
+    ]
+  }
+}

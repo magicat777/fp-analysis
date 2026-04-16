@@ -30,6 +30,7 @@ PAST_LOADOUTS_DIR = PROJECT_DIR / "past_loadouts"
 OUTPUT_DIR = PROJECT_DIR / "reports"
 
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
+JOURNAL_DIR = PROJECT_DIR / "fishing-journal"
 
 
 # ── API Fetching ───────────────────────────────────────────────────────────────
@@ -77,6 +78,15 @@ class FPCollectiveAPI:
 
     def get_fish(self, slug):
         return self._get(f"fish/{slug}")
+
+    def get_fish_markers(self, place_id):
+        """Fetch catch-location markers for a place. Returns raw list of marker dicts."""
+        try:
+            res = self._get("fish-markers", {"placeId": place_id})
+            return res.get("data", []) if isinstance(res, dict) else []
+        except Exception as e:
+            print(f"  WARN: fish-markers fetch failed for placeId {place_id}: {e}")
+            return []
 
 
 def fetch_location_data(api, slug):
@@ -126,6 +136,16 @@ def fetch_location_data(api, slug):
             location["fishDetails"] = json.loads(location["fishDetails"])
         except json.JSONDecodeError:
             pass
+
+    # Fetch fish-map markers (crowdsourced catch locations)
+    # Use top-level location id (WP post id is the correct placeId for fish-markers endpoint)
+    place_id = location.get("id")
+    if place_id:
+        print(f"  Fetching fish map markers (placeId={place_id})...")
+        location["fishMarkersRaw"] = api.get_fish_markers(place_id)
+        print(f"    Found {len(location['fishMarkersRaw'])} fish markers.")
+    else:
+        location["fishMarkersRaw"] = []
 
     return {
         "location": location,
@@ -453,7 +473,7 @@ def analyze_loadout_screenshots(jpg_files, location_data):
         if isinstance(fd, dict):
             fish_summary.append(
                 f"- {fd['name']}: max {round(fd.get('max_weight', 0) * 2.205, 1)} lb, "
-                f"${fd.get('price', '?')}/kg, types: {', '.join(fd.get('types', []))}"
+                f"${round(fd.get('price', 0) / 2.205)}/lb, types: {', '.join(fd.get('types', []))}"
             )
 
     fish_tackle = []
@@ -469,7 +489,7 @@ Location: {loc['title']} ({loc['locationName']})
 Type: {loc['type']} | Base Level: {loc['baseLevel']} | Continent: {loc['continent']}
 Travel Cost: ${loc['travelCost']} | Extend Cost: ${loc['extendCost']}
 
-Fish at this location (with $/kg price):
+Fish at this location (with $/lb price):
 {chr(10).join(fish_summary)}
 
 Recommended tackle per fish:
@@ -536,6 +556,69 @@ Return ONLY valid JSON, no markdown fencing or extra text."""
     return analysis
 
 
+# ── Journal Loading ───────────────────────────────────────────────────────────
+def load_journal_entries(location_slug):
+    """Load all journal markdown files matching a location slug."""
+    entries = []
+    if not JOURNAL_DIR.exists():
+        return entries
+    # Match files like 2026-04-07_saint-croix-lake.md
+    for md_file in sorted(JOURNAL_DIR.glob(f"*_{location_slug}.md")):
+        text = md_file.read_text(encoding="utf-8")
+        # Extract date from filename
+        date_str = md_file.stem.split("_")[0]  # e.g. "2026-04-07"
+        entries.append({"date": date_str, "filename": md_file.name, "content": text})
+    return entries
+
+
+def parse_journal_markdown(content):
+    """Parse a journal markdown entry into structured sections."""
+    sections = {}
+    current_section = None
+    current_lines = []
+
+    for line in content.split("\n"):
+        if line.startswith("## "):
+            if current_section:
+                sections[current_section] = "\n".join(current_lines).strip()
+            current_section = line[3:].strip()
+            current_lines = []
+        elif current_section:
+            current_lines.append(line)
+
+    if current_section:
+        sections[current_section] = "\n".join(current_lines).strip()
+
+    # Extract header metadata
+    meta = {}
+    for line in content.split("\n"):
+        if line.startswith("**Date:**"):
+            meta["date"] = line.split("**Date:**")[1].strip()
+        elif line.startswith("**Level:**"):
+            meta["level"] = line.split("**Level:**")[1].strip()
+        elif line.startswith("**Location Level:**"):
+            meta["location_level"] = line.split("**Location Level:**")[1].strip()
+        elif line.startswith("# Session:"):
+            meta["title"] = line.split("# Session:")[1].strip()
+
+    return {"meta": meta, "sections": sections}
+
+
+def build_journal_data(location_slug):
+    """Build journal data structure for embedding in reports."""
+    import datetime
+    entries = load_journal_entries(location_slug)
+    generated_at = datetime.datetime.now().strftime("%B %d, %Y at %I:%M %p")
+    parsed = []
+    for entry in entries:
+        p = parse_journal_markdown(entry["content"])
+        p["date"] = entry["date"]
+        p["filename"] = entry["filename"]
+        p["generated_at"] = generated_at
+        parsed.append(p)
+    return parsed
+
+
 # ── HTML Report Generation ─────────────────────────────────────────────────────
 def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_images=None):
     """Generate a self-contained interactive React SPA as a single HTML file."""
@@ -586,7 +669,7 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
             "preferred_depth": "Mid-water to deep (7-13 ft)",
             "active_times": "Early morning and late evening — peak at dawn and dusk",
             "habitat": "Cold, clear mountain lake water. Holds near rocky bottom structure.",
-            "technique_tip": "Float with Flies at 8-11 ft or slow-retrieve small spoons. Most valuable fish at $200/kg.",
+            "technique_tip": "Float with Flies at 8-11 ft or slow-retrieve small spoons. Most valuable fish at $91/lb.",
             "recommended_hook": "#1/0",
         },
         "Cutthroat Trout": {
@@ -812,6 +895,38 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
         for s in loc.get("spots", [])
     ]
 
+    # Transform fish-map markers already fetched upstream
+    raw_markers = loc.get("fishMarkersRaw", []) or []
+    fish_markers = []
+    if raw_markers:
+        for m in raw_markers:
+            fish_info = m.get("fish") or {}
+            lure_info = m.get("lure") or {}
+            fish_markers.append({
+                "lat": m.get("lat"),
+                "lng": m.get("lng"),
+                "x": m.get("x"),
+                "y": m.get("y"),
+                "fish": fish_info.get("title", ""),
+                "fishImage": fish_info.get("image", ""),
+                "type": m.get("type", ""),
+                "weight": m.get("weight"),
+                "time": m.get("time", ""),
+                "bait": m.get("bait", ""),
+                "hook": m.get("hook", ""),
+                "lure": lure_info.get("title", ""),
+                "lureImage": lure_info.get("image", ""),
+                "lureColor": lure_info.get("color", ""),
+                "jighead": m.get("jighead", ""),
+                "sinker": m.get("sinker", ""),
+                "technique": m.get("technique", ""),
+                "fishingFrom": m.get("fishingFrom", ""),
+                "depth": m.get("depth"),
+                "caughtBy": m.get("caughtBy", ""),
+                "weatherPattern": (m.get("weatherPattern") or {}).get("title", ""),
+            })
+        print(f"    Found {len(fish_markers)} fish markers.")
+
     license_data = {
         "basic": loc.get("basicLicense", {}),
         "advanced": loc.get("advancedLicense", {}),
@@ -830,14 +945,17 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
             "description": loc.get("content", ""),
             "image": loc.get("image", ""),
             "map": loc.get("map", ""),
+            "mapConfig": loc.get("mapConfig") or {},
         },
         "fish": fish_data,
         "spots": spots_data,
+        "fishMarkers": fish_markers,
         "weather": weather_charts,
         "license": license_data,
         "analysis": analysis,
         "loadoutImages": embedded_images,
         "wikiImages": wiki_images or {},
+        "journal": build_journal_data(loc.get("slug", "")),
     }
 
     data_json = json.dumps(app_data, ensure_ascii=False)
@@ -851,6 +969,8 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   :root {{
     --bg: #0f1923;
@@ -1103,11 +1223,13 @@ function App() {{
     {{ id: "priority", label: "Priority Actions" }},
     {{ id: "fish", label: "Fish & Tackle" }},
     {{ id: "spots", label: "Fishing Spots" }},
+    ...(D.fishMarkers && D.fishMarkers.length > 0 ? [{{ id: "fishmap", label: "Fish Map" }}] : []),
     {{ id: "weather", label: "Bite Charts" }},
     {{ id: "license", label: "Licenses & Costs" }},
     {{ id: "passive", label: "Passive Fishing" }},
     {{ id: "gear", label: "Gear & Equipment" }},
     {{ id: "xp", label: "XP & Income Guide" }},
+    ...(D.journal && D.journal.length > 0 ? [{{ id: "journal", label: "Journal" }}] : []),
   ];
 
   return (
@@ -1156,9 +1278,11 @@ function App() {{
       {{tab === "gear" && <GearTab setLightbox={{setLightbox}} />}}
       {{tab === "fish" && <FishTab />}}
       {{tab === "spots" && <SpotsTab />}}
+      {{tab === "fishmap" && <FishMapTab />}}
       {{tab === "weather" && <WeatherTab />}}
       {{tab === "license" && <LicenseTab />}}
       {{tab === "xp" && <XPGuideTab />}}
+      {{tab === "journal" && <JournalTab />}}
     </div>
   );
 }}
@@ -1337,7 +1461,7 @@ function MissionTab() {{
                   {{fishData && (
                     <div className="detail">
                       {{fishData.maxWeight && <span>Max: <strong>{{(fishData.maxWeight * 2.205).toFixed(1)}} lb</strong></span>}}
-                      {{fishData.price && <span style={{{{marginLeft: "12px"}}}}>Value: <strong className="money">${{fishData.price}}/kg</strong></span>}}
+                      {{fishData.price && <span style={{{{marginLeft: "12px"}}}}>Value: <strong className="money">${{(fishData.price / 2.205).toFixed(0)}}/lb</strong></span>}}
                     </div>
                   )}}
                 </div>
@@ -1578,7 +1702,7 @@ function FishTab() {{
                   {{fish.types.map(t => <span key={{t}} className={{"badge " + t}}>{{t}}</span>)}}
                 </div>
                 <div className="detail">Max Weight: <strong>{{(fish.maxWeight * 2.205).toFixed(1)}} lb</strong></div>
-                <div className="detail">Price: <strong className="money">${{fish.price}}/kg</strong></div>
+                <div className="detail">Price: <strong className="money">${{(fish.price / 2.205).toFixed(0)}}/lb</strong></div>
               </div>
             </div>
 
@@ -1767,6 +1891,138 @@ function SpotsTab() {{
           </div>
         ))}}
       </div>
+    </div>
+  );
+}}
+
+function FishMapTab() {{
+  const mapRef = React.useRef(null);
+  const mapInstanceRef = React.useRef(null);
+  const layerRef = React.useRef(null);
+  const [selectedFish, setSelectedFish] = React.useState("ALL");
+  const [selectedType, setSelectedType] = React.useState("ALL");
+
+  const markers = D.fishMarkers || [];
+  const mapUrl = D.location.map;
+  const mapConfig = D.location.mapConfig || {{}};
+  // SVG aspect ratio drives Leaflet bounds so portrait/landscape SVGs render correctly
+  const svgW = mapConfig.mapWidth || 100;
+  const svgH = mapConfig.mapHeight || 100;
+  // Normalize: longest edge = 100, other edge proportional
+  const maxDim = Math.max(svgW, svgH);
+  const boundsW = (svgW / maxDim) * 100;
+  const boundsH = (svgH / maxDim) * 100;
+
+  // Build fish list with counts
+  const fishCounts = {{}};
+  markers.forEach(m => {{
+    if (m.fish) fishCounts[m.fish] = (fishCounts[m.fish] || 0) + 1;
+  }});
+  const fishList = Object.keys(fishCounts).sort((a, b) => fishCounts[b] - fishCounts[a]);
+
+  const typeCounts = {{}};
+  markers.forEach(m => {{
+    const t = m.type || "common";
+    typeCounts[t] = (typeCounts[t] || 0) + 1;
+  }});
+
+  // Color by fish type
+  const typeColors = {{
+    common: "#00bcd4", trophy: "#ffc107", unique: "#ff5252",
+    young: "#90a4ae", "super trophy": "#ff9800",
+  }};
+
+  React.useEffect(() => {{
+    if (typeof L === "undefined") return;
+    if (!mapRef.current) return;
+
+    if (!mapInstanceRef.current) {{
+      const map = L.map(mapRef.current, {{
+        crs: L.CRS.Simple, minZoom: -2, maxZoom: 4, zoomControl: true,
+        attributionControl: false,
+      }});
+      mapInstanceRef.current = map;
+
+      // Bounds match SVG aspect ratio so portrait maps don't stretch
+      const bounds = [[0, 0], [boundsH, boundsW]];
+      if (mapUrl) L.imageOverlay(mapUrl, bounds).addTo(map);
+      map.fitBounds(bounds);
+      map.setMaxBounds([[0 - boundsH * 0.5, 0 - boundsW * 0.5], [boundsH * 1.5, boundsW * 1.5]]);
+    }}
+
+    // Remove previous markers
+    if (layerRef.current) {{
+      mapInstanceRef.current.removeLayer(layerRef.current);
+    }}
+
+    // Filter markers — x/y are 0-100 percentages; reject outliers (bad data with huge negative coords)
+    const filtered = markers.filter(m => {{
+      if (selectedFish !== "ALL" && m.fish !== selectedFish) return false;
+      if (selectedType !== "ALL" && (m.type || "common") !== selectedType) return false;
+      if (m.x == null || m.y == null) return false;
+      if (m.x < -5 || m.x > 105 || m.y < -5 || m.y > 105) return false;
+      return true;
+    }});
+
+    // Add fresh marker layer
+    const group = L.layerGroup();
+    filtered.forEach(m => {{
+      const color = typeColors[m.type] || "#00bcd4";
+      // x/y are 0-100 percentages; scale to SVG aspect-corrected bounds. Flip y for Leaflet's bottom-up axis.
+      const ly = (100 - m.y) * boundsH / 100;
+      const lx = m.x * boundsW / 100;
+      const marker = L.circleMarker([ly, lx], {{
+        radius: m.type === "unique" ? 7 : (m.type === "trophy" ? 6 : 5),
+        color: color, fillColor: color, fillOpacity: 0.7, weight: 1,
+      }});
+      const weightTxt = m.weight != null ? `${{(m.weight * 2.205).toFixed(1)}} lb` : "";
+      const lureTxt = m.lure || m.bait || "-";
+      marker.bindPopup(`
+        <div style="font-family:Segoe UI,sans-serif;color:#1a2634;min-width:200px">
+          <div style="font-weight:700;color:#00bcd4;margin-bottom:4px">${{m.fish}} ${{m.type && m.type !== 'common' ? '<span style=\\'color:'+color+'\\'>('+m.type+')</span>' : ''}}</div>
+          ${{weightTxt ? '<div><strong>Weight:</strong> '+weightTxt+'</div>' : ''}}
+          ${{m.time ? '<div><strong>Time:</strong> '+m.time+'</div>' : ''}}
+          ${{m.weatherPattern ? '<div><strong>Weather:</strong> '+m.weatherPattern+'</div>' : ''}}
+          <div><strong>Lure/Bait:</strong> ${{lureTxt}}</div>
+          ${{m.hook ? '<div><strong>Hook:</strong> '+m.hook+'</div>' : ''}}
+          ${{m.technique ? '<div><strong>Technique:</strong> '+m.technique+'</div>' : ''}}
+          ${{m.fishingFrom ? '<div><strong>From:</strong> '+m.fishingFrom+'</div>' : ''}}
+          ${{m.depth != null ? '<div><strong>Depth:</strong> '+m.depth+' m</div>' : ''}}
+          ${{m.caughtBy ? '<div style="margin-top:4px;color:#666;font-size:0.85em">By: '+m.caughtBy+'</div>' : ''}}
+        </div>
+      `);
+      group.addLayer(marker);
+    }});
+    group.addTo(mapInstanceRef.current);
+    layerRef.current = group;
+  }}, [selectedFish, selectedType, mapUrl]);
+
+  return (
+    <div className="panel">
+      <div className="section-title">Fish Map — Crowdsourced Catch Locations</div>
+      <p className="detail" style={{{{marginBottom:"12px"}}}}>
+        {{markers.length}} catch markers from fp-collective.com. Click a marker to see what was caught — species, bait/lure, technique, weather, and more.
+      </p>
+      <div style={{{{display:"flex", gap:"12px", flexWrap:"wrap", marginBottom:"12px", alignItems:"center"}}}}>
+        <label style={{{{color:"var(--text2)", fontSize:"0.85em"}}}}>Species:</label>
+        <select value={{selectedFish}} onChange={{e => setSelectedFish(e.target.value)}}
+          style={{{{background:"var(--surface2)", color:"var(--text)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"6px", padding:"6px 10px"}}}}>
+          <option value="ALL">All ({{markers.length}})</option>
+          {{fishList.map(f => <option key={{f}} value={{f}}>{{f}} ({{fishCounts[f]}})</option>)}}
+        </select>
+        <label style={{{{color:"var(--text2)", fontSize:"0.85em", marginLeft:"12px"}}}}>Type:</label>
+        <select value={{selectedType}} onChange={{e => setSelectedType(e.target.value)}}
+          style={{{{background:"var(--surface2)", color:"var(--text)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"6px", padding:"6px 10px"}}}}>
+          <option value="ALL">All types</option>
+          {{Object.keys(typeCounts).sort().map(t => <option key={{t}} value={{t}}>{{t}} ({{typeCounts[t]}})</option>)}}
+        </select>
+        <div style={{{{marginLeft:"auto", display:"flex", gap:"10px", fontSize:"0.8em", color:"var(--text2)"}}}}>
+          <span><span style={{{{display:"inline-block",width:"10px",height:"10px",borderRadius:"50%",background:"#00bcd4",marginRight:"4px"}}}}></span>common</span>
+          <span><span style={{{{display:"inline-block",width:"10px",height:"10px",borderRadius:"50%",background:"#ffc107",marginRight:"4px"}}}}></span>trophy</span>
+          <span><span style={{{{display:"inline-block",width:"10px",height:"10px",borderRadius:"50%",background:"#ff5252",marginRight:"4px"}}}}></span>unique</span>
+        </div>
+      </div>
+      <div ref={{mapRef}} style={{{{height:"650px", width:"100%", background:"var(--surface2)", borderRadius:"10px"}}}}></div>
     </div>
   );
 }}
@@ -1970,6 +2226,66 @@ function PassiveFishingTab() {{
           </div>
         </div>
       )}}
+
+      {{/* Boat Trolling Strategy */}}
+      {{pf.boat_trolling && (
+        <div style={{{{marginTop: "24px"}}}}>
+          <div className="section-title">🛥️ Boat Trolling Strategy</div>
+          <div className="card" style={{{{borderLeft: "3px solid " + (pf.boat_trolling.recommended ? "var(--accent2)" : "var(--danger)")}}}}>
+            <div style={{{{display: "flex", gap: "10px", alignItems: "center", marginBottom: "12px"}}}}>
+              <span className={{"badge " + (pf.boat_trolling.recommended ? "trophy" : "common")}} style={{{{fontSize: "0.85em"}}}}>
+                {{pf.boat_trolling.recommended ? "✅ RECOMMENDED" : "❌ NOT RECOMMENDED"}}
+              </span>
+              {{pf.boat_trolling.boat_required && <span className="detail" style={{{{color: "var(--text2)"}}}}>Boat: {{pf.boat_trolling.boat_required}}</span>}}
+            </div>
+            {{pf.boat_trolling.summary && <p style={{{{marginBottom: "12px"}}}}>{{pf.boat_trolling.summary}}</p>}}
+
+            {{pf.boat_trolling.staging_spot && (
+              <div style={{{{marginBottom: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--gold)", marginBottom: "4px"}}}}>STAGING SPOT</div>
+                <div style={{{{fontSize: "1em", fontWeight: 600}}}}>{{pf.boat_trolling.staging_spot}}</div>
+                {{pf.boat_trolling.staging_why && <div className="detail" style={{{{color: "var(--text2)"}}}}>{{pf.boat_trolling.staging_why}}</div>}}
+              </div>
+            )}}
+
+            {{pf.boat_trolling.route && (
+              <div style={{{{marginBottom: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent)", marginBottom: "4px"}}}}>TROLLING ROUTE</div>
+                <div className="detail">{{pf.boat_trolling.route}}</div>
+              </div>
+            )}}
+
+            {{pf.boat_trolling.target_fish && pf.boat_trolling.target_fish.length > 0 && (
+              <div style={{{{marginBottom: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent)", marginBottom: "4px"}}}}>TARGET FISH</div>
+                <div>
+                  {{pf.boat_trolling.target_fish.map((f, i) => (
+                    <span key={{i}} className="badge trophy" style={{{{marginRight: "4px", marginBottom: "4px", display: "inline-block"}}}}>{{f}}</span>
+                  ))}}
+                </div>
+              </div>
+            )}}
+
+            {{pf.boat_trolling.recommended_lures && pf.boat_trolling.recommended_lures.length > 0 && (
+              <div style={{{{marginBottom: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent)", marginBottom: "4px"}}}}>RECOMMENDED LURES / RIGS</div>
+                {{pf.boat_trolling.recommended_lures.map((l, i) => (
+                  <div key={{i}} className="detail">• {{l}}</div>
+                ))}}
+              </div>
+            )}}
+
+            {{pf.boat_trolling.notes && pf.boat_trolling.notes.length > 0 && (
+              <div>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--text2)", marginBottom: "4px"}}}}>NOTES</div>
+                {{pf.boat_trolling.notes.map((n, i) => (
+                  <div key={{i}} className="tip" style={{{{padding: "3px 0"}}}}>{{n}}</div>
+                ))}}
+              </div>
+            )}}
+          </div>
+        </div>
+      )}}
     </div>
   );
 }}
@@ -2119,10 +2435,10 @@ function XPGuideTab() {{
 
         <div className="card">
           <h3 style={{{{color:"var(--accent2)"}}}}> Top Income Fish</h3>
-          <p className="detail" style={{{{marginBottom:"12px"}}}}>Sorted by price per kg (in-game currency). Focus on these for maximum silver earnings.</p>
+          <p className="detail" style={{{{marginBottom:"12px"}}}}>Sorted by price per lb. Focus on these for maximum silver earnings.</p>
           {{moneyFish.slice(0,5).map((f,i) => (
             <div key={{i}} className="detail">
-              <strong>{{i+1}}. {{f.name}}</strong> — <span className="money">${{f.price}}/kg</span> (max {{(f.maxWeight * 2.205).toFixed(1)}} lb)
+              <strong>{{i+1}}. {{f.name}}</strong> — <span className="money">${{(f.price / 2.205).toFixed(0)}}/lb</span> (max {{(f.maxWeight * 2.205).toFixed(1)}} lb)
             </div>
           ))}}
         </div>
@@ -2152,6 +2468,371 @@ function XPGuideTab() {{
         <div className="tip">• Advanced license unlocks night fishing which often has better trophy rates</div>
         <div className="tip">• Use the cheapest effective bait to maximize profit margins</div>
       </div>
+    </div>
+  );
+}}
+
+function JournalTab() {{
+  const entries = D.journal || [];
+  const [openEntries, setOpenEntries] = React.useState({{}});
+  const toggleEntry = (idx) => setOpenEntries(prev => ({{...prev, [idx]: !prev[idx]}}));
+
+  function parseMarkdownTable(text) {{
+    const lines = text.trim().split("\\n").filter(l => l.trim().startsWith("|"));
+    if (lines.length < 2) return null;
+    const headers = lines[0].split("|").map(h => h.trim()).filter(Boolean);
+    const rows = lines.slice(2).map(row =>
+      row.split("|").map(c => c.trim()).filter(Boolean)
+    );
+    return {{ headers, rows }};
+  }}
+
+  function parseList(text) {{
+    return text.split("\\n")
+      .map(l => l.replace(/^[-*\\[\\]x ]+/, "").trim())
+      .filter(Boolean);
+  }}
+
+  function renderInline(str) {{
+    let html = str
+      .replace(/\*\*([^*]+)\*\*/g, '<strong style="color:var(--text)">$1</strong>')
+      .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
+      .replace(/`([^`]+)`/g, '<code style="background:rgba(255,255,255,0.08);padding:2px 6px;border-radius:3px;font-size:0.9em">$1</code>');
+    return <span dangerouslySetInnerHTML={{{{__html: html}}}} />;
+  }}
+
+  function RenderTable({{ tableData }}) {{
+    return (
+      <div style={{{{overflowX: "auto", WebkitOverflowScrolling: "touch", marginBottom: "12px"}}}}>
+        <table style={{{{width: "100%", minWidth: tableData.headers.length > 4 ? "600px" : "auto", borderCollapse: "collapse", fontSize: "0.9em"}}}}>
+          <thead>
+            <tr>
+              {{tableData.headers.map((h, i) => (
+                <th key={{i}} style={{{{textAlign: "left", padding: "8px 12px", borderBottom: "2px solid var(--accent)",
+                  color: "var(--accent)", fontWeight: 600}}}}>{{renderInline(h)}}</th>
+              ))}}
+            </tr>
+          </thead>
+          <tbody>
+            {{tableData.rows.map((row, ri) => (
+              <tr key={{ri}} style={{{{borderBottom: "1px solid rgba(255,255,255,0.06)"}}}}>
+                {{row.map((cell, ci) => (
+                  <td key={{ci}} style={{{{padding: "8px 12px", color: ci === 0 ? "var(--text)" : "var(--text2)"}}}}>
+                    {{cell.startsWith("$") || cell.startsWith("-$") || cell.startsWith("~")
+                      ? <span className="money">{{cell}}</span>
+                      : renderInline(cell)}}
+                  </td>
+                ))}}
+              </tr>
+            ))}}
+          </tbody>
+        </table>
+      </div>
+    );
+  }}
+
+  function RenderList({{ items }}) {{
+    return (
+      <ul style={{{{margin: 0, paddingLeft: "20px", marginBottom: "12px"}}}}>
+        {{items.map((item, i) => (
+          <li key={{i}} style={{{{color: "var(--text2)", marginBottom: "6px", lineHeight: 1.5}}}}>{{renderInline(item)}}</li>
+        ))}}
+      </ul>
+    );
+  }}
+
+  function parseLoadout(lines) {{
+    const rows = [];
+    let noteRows = [];
+
+    function categorize(parts) {{
+      let reel = "", line = "", hook = "", lure = "", notes = [];
+      for (const p of parts) {{
+        const t = p.trim();
+        if (!t) continue;
+        if (!reel && /\d{{3,5}}/.test(t) && !/Fluoro|Braid|Mono|X-Series|Leader|Sinker|Feeder|Hook|Slider|Spoon|Runner|Cutbait|Minnow|Mussel|Jig|Boil|Worm|Finger|Slug|Swimbait|Lure|Float|Rig/i.test(t)) {{
+          reel = t;
+        }} else if (/Fluoro|Braid|Mono\s*\.|X-Series|Moustache Line/i.test(t) && !/Leader/i.test(t)) {{
+          line = line ? line + ", " + t : t;
+        }} else if (/Hook\s*#/i.test(t)) {{
+          hook = t;
+        }} else if (/Leader|Titanium\s*\./i.test(t)) {{
+          line = line ? line + ", " + t : t;
+        }} else if (/Sinker|Feeder|Slider|Float|Rig\s|Groundbait|Mix Grand/i.test(t)) {{
+          notes.push(t);
+        }} else if (/Spoon|Runner|Cutbait|Minnow|Mussel|Jig|Slug|Swimbait|Lure|Worm|Boil|Bait|Shrimp|Corn|Crawl|Finger|Golem|Fish Head|Horsehair/i.test(t)) {{
+          lure = lure ? lure + ", " + t : t;
+        }} else if (/#\d/i.test(t) && !hook) {{
+          hook = t;
+        }} else {{
+          notes.push(t);
+        }}
+      }}
+      return {{ reel, line, hook, lure, notes: notes.join(", ") }};
+    }}
+
+    for (const ln of lines) {{
+      const trimmed = ln.trim();
+      const slotMatch = trimmed.match(/^(\d+)\.\s+(.*)/);
+      if (slotMatch) {{
+        const rest = slotMatch[2];
+        const dashSplit = rest.split(/\s+[-\u2014]\s+/);
+        const rodPart = dashSplit[0] || "";
+        const setupStr = dashSplit.slice(1).join(" - ") || "";
+        const parts = setupStr.split(/,\s*/);
+        const cat = categorize(parts);
+        rows.push({{ slot: slotMatch[1], rod: rodPart, ...cat }});
+      }} else {{
+        const cleaned = trimmed.replace(/^[-*\\[\\]x ]+/, "").trim();
+        if (cleaned) noteRows.push(cleaned);
+      }}
+    }}
+    return {{ rows, noteRows }};
+  }}
+
+  function RenderLoadout({{ lines }}) {{
+    const {{ rows, noteRows }} = parseLoadout(lines);
+    if (rows.length === 0) return null;
+    const thStyle = {{textAlign: "left", padding: "8px 10px", borderBottom: "2px solid var(--accent)",
+      color: "var(--accent)", fontWeight: 600, whiteSpace: "nowrap"}};
+    const tdStyle = {{padding: "8px 10px", color: "var(--text2)", fontSize: "0.88em"}};
+    return (
+      <div>
+        <div style={{{{overflowX: "auto", WebkitOverflowScrolling: "touch", marginBottom: "12px"}}}}>
+          <table style={{{{width: "100%", borderCollapse: "collapse", fontSize: "0.9em"}}}}>
+            <thead>
+              <tr>
+                <th style={{{{...thStyle, textAlign: "center", width: "40px"}}}}>Slot</th>
+                <th style={{{{...thStyle}}}}>Rod</th>
+                <th style={{{{...thStyle}}}}>Reel</th>
+                <th style={{{{...thStyle}}}}>Line / Leader</th>
+                <th style={{{{...thStyle}}}}>Hook</th>
+                <th style={{{{...thStyle}}}}>Lure / Bait</th>
+                <th style={{{{...thStyle}}}}>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{rows.map((r, i) => (
+                <tr key={{i}} style={{{{borderBottom: "1px solid rgba(255,255,255,0.06)"}}}}>
+                  <td style={{{{...tdStyle, textAlign: "center", color: "var(--accent)", fontWeight: 700}}}}>{{r.slot}}</td>
+                  <td style={{{{...tdStyle, color: "var(--text)"}}}}>{{renderInline(r.rod)}}</td>
+                  <td style={{{{...tdStyle}}}}>{{renderInline(r.reel)}}</td>
+                  <td style={{{{...tdStyle}}}}>{{renderInline(r.line)}}</td>
+                  <td style={{{{...tdStyle}}}}>{{renderInline(r.hook)}}</td>
+                  <td style={{{{...tdStyle}}}}>{{renderInline(r.lure)}}</td>
+                  <td style={{{{...tdStyle, fontSize: "0.85em", opacity: 0.8}}}}>{{renderInline(r.notes)}}</td>
+                </tr>
+              ))}}
+            </tbody>
+          </table>
+        </div>
+        {{noteRows.length > 0 && <RenderList items={{noteRows}} />}}
+      </div>
+    );
+  }}
+
+  function SectionContent({{ text, sectionName }}) {{
+    const lines = text.split("\\n");
+
+    if (sectionName && /^Loadout/i.test(sectionName)) {{
+      return <RenderLoadout lines={{lines}} />;
+    }}
+
+    const blocks = [];
+    let currentList = [];
+    let currentTable = [];
+
+    function flushList() {{
+      if (currentList.length > 0) {{
+        blocks.push({{ type: "list", items: [...currentList] }});
+        currentList = [];
+      }}
+    }}
+    function flushTable() {{
+      if (currentTable.length > 0) {{
+        const parsed = parseMarkdownTable(currentTable.join("\\n"));
+        if (parsed) blocks.push({{ type: "table", data: parsed }});
+        currentTable = [];
+      }}
+    }}
+
+    lines.forEach(line => {{
+      const trimmed = line.trim();
+      if (!trimmed) {{ flushList(); flushTable(); return; }}
+      const isTableLine = trimmed.startsWith("|") && trimmed.endsWith("|");
+      const isSeparator = /^\|[\s:|-]+\|$/.test(trimmed);
+
+      if (isTableLine || isSeparator) {{
+        flushList();
+        currentTable.push(trimmed);
+      }} else {{
+        flushTable();
+        const cleaned = trimmed.replace(/^[\d]+\.\s+/, "").replace(/^[-*\\[\\]x ]+/, "").trim();
+        if (cleaned) currentList.push(cleaned);
+      }}
+    }});
+    flushList();
+    flushTable();
+
+    if (blocks.length === 0) return null;
+    return (
+      <div>
+        {{blocks.map((block, i) => (
+          block.type === "table"
+            ? <RenderTable key={{i}} tableData={{block.data}} />
+            : <RenderList key={{i}} items={{block.items}} />
+        ))}}
+      </div>
+    );
+  }}
+
+  function SectionTable({{ text, sectionName }}) {{
+    return <SectionContent text={{text}} sectionName={{sectionName}} />;
+  }}
+
+  function SectionList({{ text, sectionName }}) {{
+    return <SectionContent text={{text}} sectionName={{sectionName}} />;
+  }}
+
+  const sectionIcons = {{
+    "Financials": "💰",
+    "XP": "⭐",
+    "Baitcoins": "🪙",
+    "Loadout Used": "🎣",
+    "What Worked": "✅",
+    "What Didn't Work": "❌",
+    "Fish Caught (Highlights)": "🐟",
+    "Sturgeon Intel": "🔍",
+    "Missions / Expeditions": "🎯",
+    "Takeaways for Next Visit": "📝",
+    "Notes": "📌",
+    "Loadout (7 Slots)": "🎣",
+  }};
+
+  const tableSections = ["Financials", "XP", "Baitcoins", "Fish Caught (Highlights)", "Loadout (7 Slots)",
+    "Baitcoins / Economy", "Baitcoins / Premium Bait", "Fish Keeper", "Fish Keeper (End of Session)"];
+
+  const compactSections = ["Financials", "XP", "Baitcoins", "Baitcoins / Economy",
+    "Baitcoins / Premium Bait", "Challenges Completed", "DLC / Pack Acquisitions Today"];
+
+  const fullWidthPatterns = ["Loadout", "Fish Caught", "Fish Keeper", "Personal Bests"];
+  const isFullWidth = (name) => fullWidthPatterns.some(p => name.startsWith(p));
+
+  // Group entries by base date (strip trailing b/c/d suffixes from filenames like 2026-04-07b)
+  const grouped = {{}};
+  entries.forEach((entry, ei) => {{
+    const baseDate = (entry.date || "").replace(/[a-z]$/, "");
+    if (!grouped[baseDate]) grouped[baseDate] = [];
+    grouped[baseDate].push({{ ...entry, _idx: ei }});
+  }});
+
+  function formatDateHeader(dateStr) {{
+    try {{
+      const [y, m, d] = dateStr.split("-").map(Number);
+      const dt = new Date(y, m - 1, d);
+      return dt.toLocaleDateString("en-US", {{ weekday: "long", year: "numeric", month: "long", day: "numeric" }});
+    }} catch (e) {{
+      return dateStr;
+    }}
+  }}
+
+  return (
+    <div className="panel">
+      <div className="section-title">Fishing Journal</div>
+      <p className="detail" style={{{{marginBottom: "24px"}}}}>
+        Session notes, reflections, and progress tracking for this location.
+      </p>
+
+      {{Object.entries(grouped).map(([dateKey, dayEntries]) => (
+        <div key={{dateKey}} style={{{{marginBottom: "28px"}}}}>
+          <div style={{{{display: "flex", alignItems: "center", gap: "12px", marginBottom: "12px",
+            paddingBottom: "8px", borderBottom: "2px solid rgba(0,188,212,0.3)"}}}}>
+            <span style={{{{fontSize: "1.1em", color: "var(--accent)", fontWeight: 700}}}}>
+              📅 {{formatDateHeader(dateKey)}}
+            </span>
+            <span style={{{{color: "var(--text2)", fontSize: "0.85em"}}}}>
+              {{dayEntries.length}} session{{dayEntries.length > 1 ? "s" : ""}}
+            </span>
+          </div>
+
+          {{dayEntries.map((entry) => {{
+            const ei = entry._idx;
+            const isOpen = !!openEntries[ei];
+            return (
+            <div key={{ei}} style={{{{marginBottom: "12px"}}}}>
+              <div onClick={{() => toggleEntry(ei)}} style={{{{display: "flex", alignItems: "center", gap: "16px",
+                padding: "12px 20px", background: "linear-gradient(135deg, rgba(0,188,212,0.12), rgba(76,175,80,0.08))",
+                borderRadius: isOpen ? "10px 10px 0 0" : "10px", border: "1px solid rgba(0,188,212,0.25)",
+                cursor: "pointer", userSelect: "none", transition: "background 0.2s"}}}}>
+                <div style={{{{fontSize: "1.4em"}}}}>📓</div>
+                <div style={{{{flex: 1}}}}>
+                  <div style={{{{fontSize: "1.1em", fontWeight: 700}}}}>
+                    {{entry.meta.title || "Session"}}
+                  </div>
+                  <div style={{{{color: "var(--text2)", fontSize: "0.85em", marginTop: "2px", display: "flex", gap: "16px", flexWrap: "wrap"}}}}>
+                    {{entry.meta.level && <span>Level: <strong>{{entry.meta.level}}</strong></span>}}
+                    {{entry.generated_at && <span style={{{{opacity: 0.7}}}}>Published: {{entry.generated_at}}</span>}}
+                  </div>
+                </div>
+                <div style={{{{color: "var(--text2)", fontSize: "1.2em", transition: "transform 0.3s",
+                  transform: isOpen ? "rotate(180deg)" : "rotate(0deg)"}}}}>▼</div>
+              </div>
+
+              {{isOpen && (
+              <div style={{{{padding: "16px 0 0", borderLeft: "1px solid rgba(0,188,212,0.15)",
+                borderRight: "1px solid rgba(0,188,212,0.15)", borderBottom: "1px solid rgba(0,188,212,0.15)",
+                borderRadius: "0 0 10px 10px", paddingLeft: "8px", paddingRight: "8px"}}}}>
+                {{/* Compact sections: Financials, XP, Baitcoins — 3 equal columns */}}
+                {{(() => {{
+                  const compact = Object.entries(entry.sections).filter(([name]) => compactSections.includes(name));
+                  return compact.length > 0 && (
+                    <div style={{{{display: "grid", gridTemplateColumns: `repeat(${{Math.min(compact.length, 3)}}, 1fr)`, gap: "12px"}}}}>
+                      {{compact.map(([name, text], si) => (
+                        <div key={{si}} className="card">
+                          <h3 style={{{{color: "var(--accent)", marginBottom: "12px"}}}}>
+                            {{(sectionIcons[name] || "📋") + " " + name}}
+                          </h3>
+                          <SectionTable text={{text}} sectionName={{name}} />
+                        </div>
+                      ))}}
+                    </div>
+                  );
+                }})()}}
+
+                {{/* Full-width sections: Loadout, Fish Keeper */}}
+                {{Object.entries(entry.sections).filter(([name]) => isFullWidth(name)).map(([name, text], si) => (
+                  <div key={{si}} className="card" style={{{{marginTop: "12px"}}}}>
+                    <h3 style={{{{color: "var(--accent)", marginBottom: "12px"}}}}>
+                      {{(sectionIcons[name] || "📋") + " " + name}}
+                    </h3>
+                    {{tableSections.includes(name)
+                      ? <SectionTable text={{text}} sectionName={{name}} />
+                      : <SectionList text={{text}} sectionName={{name}} />
+                    }}
+                  </div>
+                ))}}
+
+                {{/* Remaining sections: 2 columns (50% each) */}}
+                <div style={{{{display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "12px", marginTop: "12px"}}}}>
+                  {{Object.entries(entry.sections).filter(([name]) => !compactSections.includes(name) && !isFullWidth(name)).map(([name, text], si) => (
+                    <div key={{si}} className="card">
+                      <h3 style={{{{color: "var(--accent)", marginBottom: "12px"}}}}>
+                        {{(sectionIcons[name] || "📋") + " " + name}}
+                      </h3>
+                      {{tableSections.includes(name)
+                        ? <SectionTable text={{text}} sectionName={{name}} />
+                        : <SectionList text={{text}} sectionName={{name}} />
+                      }}
+                    </div>
+                  ))}}
+                </div>
+              </div>
+              )}}
+            </div>
+            );
+          }})}}
+        </div>
+      ))}}
     </div>
   );
 }}
@@ -2259,7 +2940,7 @@ def deploy_to_aws():
 
     # Update index.html with report list
     index_path = OUTPUT_DIR / "index.html"
-    with open(index_path, "r") as fh:
+    with open(index_path, "r", encoding="utf-8") as fh:
         index_html = fh.read()
 
     import json as _json
@@ -2270,14 +2951,46 @@ def deploy_to_aws():
 
     # Write updated index
     updated_index = OUTPUT_DIR / "_index_deploy.html"
-    with open(updated_index, "w") as fh:
+    with open(updated_index, "w", encoding="utf-8") as fh:
         fh.write(index_html)
+
+    # Build inventory page with embedded JSON data
+    inventory_src = OUTPUT_DIR / "inventory.html"
+    inventory_deploy = None
+    if inventory_src.exists():
+        inv_json_path = PROJECT_DIR / "player_inventory.json"
+        if inv_json_path.exists():
+            print("  Building inventory page...")
+            inv_html = inventory_src.read_text(encoding="utf-8")
+            inv_data = inv_json_path.read_text(encoding="utf-8")
+            inv_html = inv_html.replace(
+                "/*INVENTORY_DATA*/",
+                f"window.__INV_DATA__ = {inv_data};",
+            )
+            inventory_deploy = OUTPUT_DIR / "_inventory_deploy.html"
+            inventory_deploy.write_text(inv_html, encoding="utf-8")
+
+    # Build loadouts page with embedded JSON data
+    loadouts_src = OUTPUT_DIR / "loadouts.html"
+    loadouts_deploy = None
+    if loadouts_src.exists():
+        lo_json_path = PROJECT_DIR / "player_loadouts.json"
+        if lo_json_path.exists():
+            print("  Building loadouts page...")
+            lo_html = loadouts_src.read_text(encoding="utf-8")
+            lo_data = lo_json_path.read_text(encoding="utf-8")
+            lo_html = lo_html.replace(
+                "/*LOADOUT_DATA*/",
+                f"window.__LOADOUT_DATA__ = {lo_data};",
+            )
+            loadouts_deploy = OUTPUT_DIR / "_loadouts_deploy.html"
+            loadouts_deploy.write_text(lo_html, encoding="utf-8")
 
     # Upload index
     print(f"  Uploading index.html...")
     result = subprocess.run(
         ["aws", "s3", "cp", str(updated_index), f"s3://{AWS_BUCKET}/index.html",
-         "--content-type", "text/html", "--cache-control", "max-age=60",
+         "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=60",
          "--profile", AWS_PROFILE],
         capture_output=True, text=True,
     )
@@ -2286,12 +2999,52 @@ def deploy_to_aws():
         return
     updated_index.unlink()
 
+    # Upload inventory page
+    if inventory_deploy and inventory_deploy.exists():
+        print("  Uploading inventory.html...")
+        result = subprocess.run(
+            ["aws", "s3", "cp", str(inventory_deploy), f"s3://{AWS_BUCKET}/inventory.html",
+             "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=300",
+             "--profile", AWS_PROFILE],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(f"  ERROR uploading inventory: {result.stderr}")
+        inventory_deploy.unlink()
+
+    # Upload standalone strategy/guide pages
+    for guide_name in ["telescopic-strategy.html", "hook-reference.html"]:
+        guide_path = OUTPUT_DIR / guide_name
+        if guide_path.exists():
+            print(f"  Uploading {guide_name}...")
+            result = subprocess.run(
+                ["aws", "s3", "cp", str(guide_path), f"s3://{AWS_BUCKET}/{guide_name}",
+                 "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=300",
+                 "--profile", AWS_PROFILE],
+                capture_output=True, text=True,
+            )
+            if result.returncode != 0:
+                print(f"  ERROR uploading {guide_name}: {result.stderr}")
+
+    # Upload loadouts page
+    if loadouts_deploy and loadouts_deploy.exists():
+        print("  Uploading loadouts.html...")
+        result = subprocess.run(
+            ["aws", "s3", "cp", str(loadouts_deploy), f"s3://{AWS_BUCKET}/loadouts.html",
+             "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=300",
+             "--profile", AWS_PROFILE],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(f"  ERROR uploading loadouts: {result.stderr}")
+        loadouts_deploy.unlink()
+
     # Upload each report
     for f in report_files:
         print(f"  Uploading {f.name}...")
         result = subprocess.run(
             ["aws", "s3", "cp", str(f), f"s3://{AWS_BUCKET}/{f.name}",
-             "--content-type", "text/html", "--cache-control", "max-age=300",
+             "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=300",
              "--profile", AWS_PROFILE],
             capture_output=True, text=True,
         )
