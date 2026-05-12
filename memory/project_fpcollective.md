@@ -1,6 +1,6 @@
 ---
 name: FP Collective Scraper Project
-description: Fishing Planet loadout analyzer — scrapes fp-collective.com API + wiki.fishingplanet.com, analyzes loadout screenshots, generates interactive React HTML reports hosted at fpreports.click
+description: Fishing Planet loadout analyzer  -  scrapes fp-collective.com API + wiki.fishingplanet.com, analyzes loadout screenshots, generates interactive React HTML reports hosted at fpreports.click
 type: project
 ---
 
@@ -8,12 +8,12 @@ type: project
 Tool that scrapes **fp-collective.com REST API** (at `api.fp-collective.com/wp-json/fp-collective/v2/`) and **wiki.fishingplanet.com** (MediaWiki API) for Fishing Planet PC game data, analyzes player loadout screenshots, and generates interactive single-page React HTML reports.
 
 ## Key Script: `fp_analyzer.py`
-- `--location <slug>` — generate report for a location
-- `--list-locations` — show all 27 locations
-- `--analysis-file <path>` — use manual analysis JSON (our primary workflow)
-- `--deploy` — upload reports to AWS S3/CloudFront
-- `--archive` — move current loadout to past_loadouts
-- `--no-vision` — skip Claude Vision API (we always use manual analysis instead)
+- `--location <slug>`  -  generate report for a location
+- `--list-locations`  -  show all 27 locations
+- `--analysis-file <path>`  -  use manual analysis JSON (our primary workflow)
+- `--deploy`  -  upload reports to AWS S3/CloudFront
+- `--archive`  -  move current loadout to past_loadouts
+- `--no-vision`  -  skip Claude Vision API (we always use manual analysis instead)
 
 ## Data Sources
 - **fp-collective API**: fish, baits, lures, hooks, jigheads, spots, weather/bite charts, license costs, ubersheet data
@@ -22,7 +22,7 @@ Tool that scrapes **fp-collective.com REST API** (at `api.fp-collective.com/wp-j
 
 ## Report Features (React SPA tabs)
 - Loadout Analysis (per-slot with screenshots, ratings, leader recommendations)
-- Mission Plan (when applicable — target fish strategy)
+- Mission Plan (when applicable  -  target fish strategy)
 - Recommended Loadout (with wiki equipment images)
 - Priority Actions
 - Fish & Tackle (activity times, preferred depth, recommended hook, ubersheet data, preferred baits with images, lure types)
@@ -42,13 +42,13 @@ Tool that scrapes **fp-collective.com REST API** (at `api.fp-collective.com/wp-j
 - Reports sorted by level on index page with level badges
 
 ## File Structure
-- `fp_analyzer.py` — main script (cross-platform: macOS + Windows)
-- `manual_analysis_*.json` — per-location analysis files (9 locations so far)
-- `player_inventory.json` — full gear inventory (rods, reels, lines, leaders, tackle, boats)
-- `reports/index.html` — report index template
-- `current_loadout/` — latest loadout screenshots (HEIC from iPhone or JPG from PC)
-- `home-inventory/` — home storage inventory screenshots
-- `memory/` — Claude memory files
+- `fp_analyzer.py`  -  main script (cross-platform: macOS + Windows)
+- `manual_analysis_*.json`  -  per-location analysis files (9 locations so far)
+- `player_inventory.json`  -  full gear inventory (rods, reels, lines, leaders, tackle, boats)
+- `reports/index.html`  -  report index template
+- `current_loadout/`  -  latest loadout screenshots (HEIC from iPhone or JPG from PC)
+- `home-inventory/`  -  home storage inventory screenshots
+- `memory/`  -  Claude memory files
 
 ## Workflow
 1. Player screenshots loadout in-game (iPhone HEIC or PC JPG)

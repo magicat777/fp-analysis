@@ -18,7 +18,7 @@ type: reference
 - Equipment pages: `Match rods`, `Spinning rods`, `Casting rods`, `Bottom rods`, `Feeder rods`, `Spinning reels`, `Casting reels`, `Simple Hooks`, `Common Jig Heads`, `Classic Bobbers`, `Soft plastic baits`, `Spoons`, `Spinners`, etc.
 - Image resolution: `action=query&titles=File:NAME.png&prop=imageinfo&iiprop=url`
 - Bait images use descriptive names (Bloodworms.png, Crickets.png)
-- Lure images use numeric IDs (723.png) — must parse HTML tables to map
+- Lure images use numeric IDs (723.png)  -  must parse HTML tables to map
 - Cache key normalization: wiki returns spaces in filenames, code uses underscores
 
 ## AWS Hosting

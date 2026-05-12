@@ -26,8 +26,8 @@
 
 ## What Worked
 - Triple Runner 8 ft #5/0 on Salmonster/Kraken is THE active fishing lure for this dock area
-- TECHNIQUE: Drop to bottom, rest 3 sec, reel to level 3 sec, drop and jig to bottom, rest 3 sec, smooth reel — hits on the draw-up
-- Targets fish 3-5 ft from the bottom in 20-30 ft water (deepest 40 ft) — this is where most fish hold
+- TECHNIQUE: Drop to bottom, rest 3 sec, reel to level 3 sec, drop and jig to bottom, rest 3 sec, smooth reel  -  hits on the draw-up
+- Targets fish 3-5 ft from the bottom in 20-30 ft water (deepest 40 ft)  -  this is where most fish hold
 - Smallmouth Bass hit aggressively on the draw-up, Blue Catfish also take this lure with the same technique
 - Caught a Trophy Northern Pike (21.82 lb!) on this setup
 - STURGEON CAUGHT! 42.809 lb Lake Sturgeon on Duck Mussel Meat, morning, at marker [299.82, -161.17]
@@ -35,7 +35,7 @@
 - Challenge unlocked: Landing Net Guru I
 
 ## What Didn't Work
-- Three bottom rods were slow — only ~10 catches between them from 5:30-9:24 AM
+- Three bottom rods were slow  -  only ~10 catches between them from 5:30-9:24 AM
 - Bottom rods underperforming compared to active Triple Runner technique
 - May need to reposition bottom rods or change bait for better passive results in morning hours
 
@@ -50,9 +50,9 @@
 | ~505 lbs total | Mixed | All methods | All | Keep |
 
 ## Sturgeon Intel (UPDATED)
-- CAUGHT on Duck Mussel Meat — CONFIRMED BAIT
-- Marker location: [299.82, -161.17] — mark this spot!
-- Time: Morning (caught between 5:30-9:24 AM window — within the 7-8 AM feed window)
+- CAUGHT on Duck Mussel Meat  -  CONFIRMED BAIT
+- Marker location: [299.82, -161.17]  -  mark this spot!
+- Time: Morning (caught between 5:30-9:24 AM window  -  within the 7-8 AM feed window)
 - Weather: Clear, morning
 - Weight: 42.809 lb, Length: 58.0 inch
 - Rod: Cat Boxer 8'6" SE with RedFish 5500, bottom rig
@@ -72,14 +72,14 @@
 - Fish Species: 29/49
 
 ## Takeaways for Next Visit
-- Triple Runner drop-jig technique is dominant — consider adding a second active rod with same lure
-- Bottom rods underperforming in morning — try repositioning closer to sturgeon marker [299.82, -161.17]
-- Duck Mussel Meat confirmed for sturgeon — keep this on the Cat Boxer
-- Sturgeon marker location saved — cast bottom rod directly to [299.82, -161.17] during feed windows
-- Trophy Northern Pike on the Triple Runner — this lure attracts big predators too
+- Triple Runner drop-jig technique is dominant  -  consider adding a second active rod with same lure
+- Bottom rods underperforming in morning  -  try repositioning closer to sturgeon marker [299.82, -161.17]
+- Duck Mussel Meat confirmed for sturgeon  -  keep this on the Cat Boxer
+- Sturgeon marker location saved  -  cast bottom rod directly to [299.82, -161.17] during feed windows
+- Trophy Northern Pike on the Triple Runner  -  this lure attracts big predators too
 
 ## Notes
-- Credits approaching 685k — strong financial position
+- Credits approaching 685k  -  strong financial position
 - Sturgeon mystery SOLVED: Duck Mussel Meat + morning + bottom rod at the right coordinates
 - The active fishing technique is significantly outperforming passive bottom rods (maybe 40+ fish active vs ~10 passive)
 - Consider reducing bottom rods from 3 to 2 and adding another active spinning rod

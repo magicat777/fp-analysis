@@ -29,13 +29,13 @@
 | Gained | +1 |
 
 ## What Worked
-- Bionic Slug 4.7" on Salmonster/Kraken jig setup landed a UNIQUE Blue Catfish (63.758 lb) — biggest catfish yet
+- Bionic Slug 4.7" on Salmonster/Kraken jig setup landed a UNIQUE Blue Catfish (63.758 lb)  -  biggest catfish yet
 - ~400 lbs total fish hauled in a short afternoon session
 - Swapping slot 6 from Crankbait to Thorn Jighead 5/8 Oz #2/0 + Bionic Slug proved highly effective
 - Premium account doubled the income from ~24.6k to ~37k
 
 ## What Didn't Work
-- Nothing notable — productive short session
+- Nothing notable  -  productive short session
 
 ## Fish Caught (Highlights)
 | Fish | Weight | Method | Slot | Keep/Release |
@@ -44,16 +44,16 @@
 | Various (400+ lbs total) | Mixed | Multiple rods | All | Keep |
 
 ## Milestones
-- Unique Blue Catfish — 10th unique fish overall!
+- Unique Blue Catfish  -  10th unique fish overall!
 - Challenge unlocked: Unique Gainer I
 - Total fish caught milestone: 1,114
 
 ## Takeaways for Next Visit
-- Bionic Slug 4.7" on a jig is a proven catfish killer at Saint-Croix — keep this setup
+- Bionic Slug 4.7" on a jig is a proven catfish killer at Saint-Croix  -  keep this setup
 - Short sessions can still be very profitable (~37k credits in one trip)
-- Premium account is active until 08/09/2026 — take advantage of the 1.5x bonus
+- Premium account is active until 08/09/2026  -  take advantage of the 1.5x bonus
 
 ## Notes
 - Short afternoon excursion, quick but very productive
 - Profile: 946 catches, 158 trophies, 10 uniques
-- Credits recovering well after the earlier dip — now at 620,421
+- Credits recovering well after the earlier dip  -  now at 620,421

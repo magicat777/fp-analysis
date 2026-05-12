@@ -1,0 +1,324 @@
+{
+  "location": {
+    "name": "Skarland Fjord",
+    "region": "Norway",
+    "type": "Ocean",
+    "continent": "Europe",
+    "base_level": 105,
+    "travel_cost": 50000,
+    "extend_cost": 10000,
+    "level_note": "Unlocked by DLC (Valkyrie Saga + Chamaeleon Cruiser Packs). Player accessing at Level 56 — far below base 105. Travel $50k is the highest in inventory; budget carefully. 45 days of pass remaining as of 2026-04-29."
+  },
+  "fish_summary": {
+    "primary_targets": [
+      "Greenland Shark — boss-class saltwater apex (Seal Blubber + heaviest E-rod)",
+      "European Sea Sturgeon — saltwater sturgeon class (Large Fish Strips)",
+      "Atlantic Halibut — flat saltwater giant (Atlantic Mackerel Cut Baits + Bluey)",
+      "Greenland Halibut — secondary halibut (Atlantic Mackerel Cut Baits + Bluey)",
+      "Porbeagle Shark — mid-class shark (Large Fish Strips)",
+      "Atlantic Wolffish — toothy bottom-dweller (Crab)",
+      "European Angler — anglerfish ambush predator (Atlantic Mackerel + Bluey)",
+      "Common Ling — long deep-water cod relative",
+      "Cusk — deep cold-water cod-like",
+      "Norway Atlantic Salmon — Atlantic salmon class",
+      "Sea Trout — anadromous trout"
+    ],
+    "secondary_targets": [
+      "Atlantic Cod, Coalfish, Haddock, Whiting (mid-class cod family)",
+      "Atlantic Mackerel, Atlantic Horse Mackerel, Atlantic Herring, Atlantic Saury (baitfish-tier; high catch-count for exploration)",
+      "Brill (flatfish)",
+      "European Hake (mid-deep predator)",
+      "Meagre (drum-family, surf-zone)",
+      "Norway Seaperch (perch class)",
+      "Spiny Dogfish (small shark)",
+      "Arctic Char (cold-water salmonid)"
+    ],
+    "monster_fish": [
+      "Fenrivore — boss-class apex predator (research bait/lure)",
+      "Helgaflut — boss-class saltwater giant (research bait/lure)"
+    ],
+    "fish_count": 25,
+    "fish_value_note": "fp-collective API doesn't expose Skarland weight/price data (all zeros). Use real catches to populate per-species PBs. Greenland Shark + Sea Sturgeon are the headline trophy targets given the E-class tackle requirement."
+  },
+  "spots": [
+    {
+      "name": "Ranvika Marina",
+      "type": "Boat dock — fjord shelter",
+      "best_for": ["Cod family (Atlantic Cod, Coalfish, Haddock)", "Mackerel + Herring volume catches", "Saltwater entry-tier fishing", "Exploration completion"],
+      "notes": "Likely the milder shore + dock area for first-trip orientation. Good for warming up before deep-water boat trips."
+    },
+    {
+      "name": "Skarvika",
+      "type": "Open fjord — deep saltwater",
+      "best_for": ["Greenland Shark (with Seal Blubber + heaviest E-rod)", "Atlantic + Greenland Halibut", "Sea Sturgeon", "Porbeagle Shark", "Boss monsters (Fenrivore / Helgaflut research zones)"],
+      "notes": "Deep-water boat fishing zone. Requires Valkyrie Fishing Boat + Advanced license. Trophy/Unique Greenland Shark + Halibut hotspot."
+    }
+  ],
+  "licensing": {
+    "basic_license": {
+      "day_cost": 15000,
+      "unlimited_cost": 1900,
+      "night_fishing": false,
+      "boat_fishing": false
+    },
+    "advanced_license": {
+      "day_cost": 22000,
+      "unlimited_cost": 4000,
+      "night_fishing": true,
+      "boat_fishing": true,
+      "recommended": "MANDATORY — boat is the only way to reach Skarvika and the deep fjord. Without boat access, only Ranvika Marina shore is fishable. $4,000 unlimited is the right buy given the $50k travel; you'll want to maximize each trip."
+    }
+  },
+  "ocean_vs_freshwater": {
+    "summary": "Ocean fishing is fundamentally different from FP's lake/river mechanics. Skarland Fjord operates on saltwater rules — your freshwater rod/reel/bait playbook doesn't translate.",
+    "key_differences": [
+      "FISH CLASS WEIGHT — saltwater species reach 200-1000+ lb (Greenland Shark up to 1,400 lb in real life; FP cap likely 600-1000+ lb). Conventional reels CANNOT handle these, even L'Impulsion 12000 SE (81.5 Lb drag).",
+      "ELECTRIC REELS REQUIRED — Saltwater Casting E-Reels (AmperDrive X 24000 SE 315 Lb, Arcspark 2W 22000 SE 243 Lb, Glacion 21000 SE 172 Lb) are mandatory. The electric mechanism auto-fights the fish to some extent — different gameplay loop than spinning/casting reels.",
+      "BAITS ARE SALTWATER-SPECIFIC — Sea Worms, Sand Fleas, Crab, Atlantic Mackerel Cut Baits, Bluey, Seal Blubber, Large Fish Strips, Finger Mullets, Scaled Sardine. Freshwater baits (Shiners, Worms, Bloodworms) WILL NOT WORK.",
+      "DEPTH RANGES — Fjord water is much deeper than lakes. Sinkers in the 13-35 oz range (vs typical 1-7 oz freshwater). Tungsten sinkers preferred for cold deep water (denser, sinks faster).",
+      "LINE/LEADER WEIGHTS — main lines in .02-.055\" diameter (vs .008-.014\" freshwater). Leaders in .04-.07\" (vs .015-.018\" freshwater). Norwegian saltwater = MUCH thicker tackle.",
+      "BOAT REQUIRED — Shore fishing at Ranvika Marina is limited; boat fishing at Skarvika is where the trophy class lives. Valkyrie Fishing Boat is the Skarland-grade vessel.",
+      "TROLL VS BOTTOM — Most of your saltwater rigs are bottom rigs (heavy sinker + bait dropped). Trolling may unlock with specific lures/setups. The 'Allow for Livebait trolling' note on Bluey suggests trolling is possible at Skarland.",
+      "WEATHER MATTERS MORE — Fjord weather (storms, fog, swell) affects fish activity at higher amplitude than lakes. Watch for clear-day/calm-water windows for trophy attempts."
+    ],
+    "what_carries_over": [
+      "Finesse retrieve technique (low tension + slow speed) still applies to monster-class fish",
+      "Match-the-hatch bait selection logic — pick bait based on species in the fjord, not generic 'something fishy'",
+      "Marker-pattern recognition for trophy hotspots transfers (deep-edge structure pays at Skarland too)",
+      "Pre-trip checklist (license + boat + appropriate gear) is even more critical here given $50k travel cost"
+    ]
+  },
+  "loadout_strategy": {
+    "philosophy": "Skarland is an ocean location requiring specialized E-class tackle for saltwater monsters. Your current 7-slot loadout is HALF correct — Slots 5/6/7 are properly configured saltwater E-rods, but Slots 1/2/3/4 are freshwater rods that will be ineffective or shelved at this location.",
+    "current_loadout_assessment": {
+      "ocean_compatible_slots": [
+        "Slot 5: Sigma F 6'7\" NE SE + Glacion 21000 SE + Crab — entry-tier ocean rig, Wolffish/Cod/Norway Seaperch",
+        "Slot 6: Chillarc 5'11\" SE + Arcspark 2W 22000 SE + Atlantic Herring — mid-class, halibut/cod/wolffish",
+        "Slot 7: PulseWave 5'7\" SE + AmperDrive X 24000 SE + Seal Blubber — MONSTER class, Greenland Shark hunter"
+      ],
+      "freshwater_slots_to_swap_or_shelve": [
+        "Slot 1: Tibia 13'9\" Carp setup — NOT for saltwater. Carp Hook #2/0 + Pop-up Boilies don't match saltwater species. SHELVE or replace with second saltwater bottom rig.",
+        "Slot 2: JigWinner 8'10\" SE + Trophy Bass Jig — bass-class lure, won't attract Norwegian saltwater species. SHELVE.",
+        "Slot 3: SharpCaster 7'3\" + Crankbait 8 ft #6/0 — freshwater predator setup. Could potentially work for shallow-class Mackerel/Herring/Cod near Ranvika Marina but will not survive saltwater monster strikes. KEEP for shallow exploration only.",
+        "Slot 4: NileChasseur 6'3\" SE + Vampire Mouse Lure — freshwater monster spinning. The 97 Lb line spec is well below ocean class needs (200+ Lb). SHELVE."
+      ]
+    },
+    "recommended_loadout_skarland": {
+      "ideal_7_slot_setup": [
+        "Slot 1: PulseWave 5'7\" SE + AmperDrive X 24000 SE — MONSTER hunter (Greenland Shark, Sea Sturgeon, Helgaflut)",
+        "Slot 2: Chillarc 5'11\" SE + Arcspark 2W 22000 SE — HEAVY (Atlantic + Greenland Halibut, Porbeagle Shark)",
+        "Slot 3: Sigma F 6'7\" NE SE + Glacion 21000 SE — MEDIUM-HEAVY (Wolffish, Cod, European Angler, Common Ling, Cusk)",
+        "Slot 4: SharpCaster 7'3\" + Rivertex Tornado 7500 + Sea Worms / Mackerel cut bait — SHALLOW boat-edge for cod/mackerel/herring volume catches (test if rod survives; if not, shelve for fourth E-rod when acquired)",
+        "Slot 5: NileChasseur 6'3\" SE + GiantSpin 9000 SE + Sea Worms / Finger Mullets — SECONDARY mid-class spinning for Salmon/Sea Trout near Ranvika Marina. Watch reel durability.",
+        "Slot 6: Brutus 10'10\" SE + EspiraDoublePunch 6500 SE + small hook + Sea Worms — exploration float for Mackerel/Herring volume + small species (acquire 4th rod slot if available)",
+        "Slot 7: JigWinner / Salmonster (lighter spinning) + small saltwater spoon — Atlantic Salmon / Sea Trout / Mackerel surface fishing near marina"
+      ],
+      "ideal_setup_note": "If you only have 3 E-rod slots configured, the OPTIMAL Skarland 7-slot is: 3 E-rods (PulseWave/Chillarc/Sigma F) + 4 conventional rods used for Marina-class shallow species only. Don't take Tibia carp / JigWinner bass jigs — they have no role at saltwater Norway.",
+      "critical_swaps": [
+        "Tibia 13'9\" → SHELVE (no carp at saltwater Norway)",
+        "Trophy Bass Jig → SHELVE (no warm-water bass)",
+        "Vampire Mouse Lure → SHELVE (freshwater muskie/pike lure, not for ocean)",
+        "Carp Pop-up Boilies → SHELVE",
+        "Carp Hook #2/0 → SHELVE",
+        "ADD: Bluey (Halibut) and Atlantic Mackerel Cut Baits as primary E-rod baits for halibut targeting"
+      ]
+    }
+  },
+  "slots": [
+    {
+      "slot_number": 2,
+      "screenshot": "20260429191044_1.jpg",
+      "rod": "MizuJigu 5'7\" SE (Saltwater Spinning, X-Heavy, 1 3/4-12 1/3 Oz, 88.2-198 Lb, Moderate)",
+      "reel": "JigokuTen 16000 SE",
+      "line": "Kaigen Fluoro .0413\"",
+      "leader": "",
+      "terminal_tackle": "Triple Hook Pilker 7 Oz #8/0",
+      "bait": "Pilker (artificial)",
+      "setup_type": "Saltwater Spinning — mid-class active jigger",
+      "target_fish": ["Atlantic Cod", "Common Ling", "Trophy Common Ling (validated 4/29 - 59.6 lb)", "Unique Common Ling (validated 4/29 - 71.2 lb)"],
+      "effectiveness_rating": 8,
+      "notes": "Active vertical jigging rod. Pilker drop-and-rip technique on cod/ling marks. 198 Lb line spec handles 70+ lb Unique Common Ling. Validated 4/29: Unique Common Ling 71.174 lb on Giant Tiger Prawn variation, Trophy Ling 59.591 lb on Pilker. Lighter alternative to bottom E-rods for active fishing windows."
+    },
+    {
+      "slot_number": 3,
+      "screenshot": "20260429191054_1.jpg",
+      "rod": "SharpCaster 7'3\" (Casting, X-Heavy, 5/8-2 Oz, 28.6-66 Lb, Fast)",
+      "reel": "Rivertex Tornado 7500",
+      "line": "Fluoro .02\"",
+      "leader": "",
+      "terminal_tackle": "Crankbait 8 ft #6/0",
+      "bait": "Crankbait (artificial)",
+      "setup_type": "Freshwater Casting — shallow exploration only",
+      "target_fish": ["Mackerel (shallow)", "Coalfish (shallow)", "Small Cod"],
+      "effectiveness_rating": 4,
+      "notes": "FRESHWATER ROD — kept for shallow Marina-edge work only. Line rating 28-66 Lb is well below ocean class. Won't survive saltwater monster strikes. Use ONLY at Ranvika Marina shallow water for cod/mackerel volume; pull immediately if a big fish hits. Consider replacing with a 4th E-rod when budget allows."
+    },
+    {
+      "slot_number": 4,
+      "screenshot": "20260429191100_1.jpg",
+      "rod": "NileChasseur 6'3\" SE (Spinning, X-Heavy, 1-2 3/5 Oz, 46-97 Lb, Mod Fast)",
+      "reel": "GiantSpin 9000 SE",
+      "line": "Braid .0146\"",
+      "leader": "Fluorocarbon Leader .033\"",
+      "terminal_tackle": "Vampire Mouse Lure 1 5/7 Oz #7/0",
+      "bait": "Vampire Mouse Lure (freshwater muskie/pike)",
+      "setup_type": "Freshwater Spinning — under-spec for ocean",
+      "target_fish": ["Salmon/Sea Trout (Marina shallows ONLY)", "Mackerel"],
+      "effectiveness_rating": 3,
+      "notes": "FRESHWATER ROD CARRIED OVER FROM CONGO. 97 Lb line spec is well below ocean class needs (200+ Lb for shark/halibut). Vampire Mouse Lure is a freshwater muskie/pike pattern — won't attract Norwegian saltwater species. SHELVE for proper saltwater spoons or live bait, or replace slot with a 4th E-rod when affordable. Did not produce on 4/29 trip."
+    },
+    {
+      "slot_number": 5,
+      "screenshot": "20260429191101_1.jpg",
+      "rod": "Sigma F 6'7\" NE SE (Saltwater Bottom Casting E-Rod, X-Heavy, 77.2-176 Lb line, 3 1/2-25 Oz cast weight, Fast)",
+      "reel": "Glacion 21000 SE (172 Lb drag, electric)",
+      "line": "Kaigen Fluoro .0393\"",
+      "leader": "TitanGuard Titanium Leader .0197\"",
+      "terminal_tackle": "Tungsten Sinker 13 1/4 Oz + Tungsten Golden Hook #12/0",
+      "bait": "Giant Tiger Prawn",
+      "setup_type": "Ocean Bottom E-Rod — entry-tier saltwater",
+      "target_fish": ["Atlantic Cod", "Trophy Atlantic Cod (validated 4/29 - 53 lb)", "Common Ling", "Trophy Common Ling (validated 4/29 - 61.5 lb)", "Trophy Haddock (validated 4/29 - 20.5 lb)", "Haddock"],
+      "effectiveness_rating": 9,
+      "notes": "Lightest of the 3 E-rods. Giant Tiger Prawn proved more universal than originally-planned Crab — pulled trophy cod + trophy ling + trophy haddock all in one session. Fluoro main + Titanium leader handles toothy bycatch. Use as the volume-catch rig for cod/ling/haddock; 5-65 lb fish class."
+    },
+    {
+      "slot_number": 6,
+      "screenshot": "20260429191102_1.jpg",
+      "rod": "Chillarc 5'11\" SE (Saltwater Bottom Casting E-Rod, X-Heavy, 143-247 Lb line, 5 3/10-42 Oz cast weight, Fast)",
+      "reel": "Arcspark 2W 22000 SE (243 Lb drag, electric)",
+      "line": "Glowing Braid .0201\" (high-vis for deep-water bite detection)",
+      "leader": "Njorinvik Steel Leader .0213\" (saltwater-rated)",
+      "terminal_tackle": "Tungsten Sinker 17 5/8 Oz + Tungsten Golden Hook #12/0",
+      "bait": "Giant Tiger Prawn",
+      "setup_type": "Ocean Bottom E-Rod — heavy class (TROPHY MAGNET)",
+      "target_fish": ["Greenland Shark (validated 4/29 - 636 lb PB)", "Young Greenland Shark", "Porbeagle Shark", "Young Porbeagle Shark", "Atlantic Halibut", "Greenland Halibut"],
+      "effectiveness_rating": 10,
+      "notes": "BREAKTHROUGH ROD — produced the Greenland Shark 636.078 lb new #1 PB on 4/29 (Tackles +5520 / Boat +2425 modifier). Giant Tiger Prawn out-pulled Atlantic Herring across all weight classes. Steel leader survived shark strikes. Glowing braid helps see bites in dark fjord water. KEEP DEPLOYED at all times in Skarvika deep water."
+    },
+    {
+      "slot_number": 7,
+      "screenshot": "20260429191103_1.jpg",
+      "rod": "PulseWave 5'7\" SE (Saltwater Bottom Casting E-Rod, X-Heavy, 176-320 Lb line, 7-49 Oz cast weight, Moderate)",
+      "reel": "AmperDrive X 24000 SE (315 Lb drag, electric — STRONGEST IN GAME)",
+      "line": "Glowing Mono .0551\" (heavy-duty)",
+      "leader": "Colorful Fluorocarbon Leader .0650\"",
+      "terminal_tackle": "Tungsten Sinker 35 Oz + Tungsten Golden Hook #12/0",
+      "bait": "Atlantic Herring",
+      "setup_type": "Ocean Bottom E-Rod — MONSTER class (depth specialist)",
+      "target_fish": ["Greenland Shark", "Unique Atlantic Halibut (validated 4/29 - 409 lb)", "Atlantic Halibut", "European Sea Sturgeon", "Helgaflut (boss monster)", "Fenrivore (boss monster)"],
+      "effectiveness_rating": 10,
+      "notes": "TOP-TIER monster rig. 315 Lb drag handles species into 1000+ lb theoretical class. 35 Oz sinker for max-depth drops. Validated 4/29: produced the Unique Atlantic Halibut 409.193 lb (100,868 XP single-fish reward, biggest XP haul on record). Try Seal Blubber for dedicated Greenland Shark hunting next trip — Atlantic Herring still works but Tiger Prawn on Slot 6 produced more shark hits."
+    }
+  ],
+  "shopping_list": {
+    "saltwater_baits_priority": [
+      "Sea Worms — universal saltwater bait (Bonefish-class species, Mullet, Mackerel) — ALREADY HAVE",
+      "Sand Fleas — Permit/Drum/Bass class — ALREADY HAVE",
+      "Finger Mullets — Bonefish + Snook class — ALREADY HAVE",
+      "Crab — Wolffish/Cod primary — ALREADY HAVE",
+      "Scaled Sardine — Tarpon/Permit/Bass — ALREADY HAVE",
+      "Large Fish Strips — Sturgeon/Shark/Grouper — ALREADY HAVE",
+      "Atlantic Mackerel Cut Baits — Halibut family — ALREADY HAVE",
+      "Bluey — Halibut + European Angler — ALREADY HAVE",
+      "Seal Blubber — Greenland Shark MONSTER bait — ALREADY HAVE"
+    ],
+    "saltwater_terminal_tackle_priority": [
+      "Tungsten Golden Hooks #7/0 to #15/0 — proven on E-rods",
+      "Tungsten Sinkers 13-35 Oz — already configured",
+      "Saltwater leaders (Steel + Colorful Fluoro + Njorinvik Steel) — already configured",
+      "Backup Glowing Braid + Glowing Mono for night/deep visibility"
+    ],
+    "DO_NOT_BUY": [
+      "Carp baits (Boilies, Pellets) — no carp at Norway saltwater",
+      "Bass jigs / soft plastics — no bass at Norway saltwater",
+      "Freshwater spoons / spinners — limited saltwater appeal",
+      "Live freshwater bait (Worms, Bloodworms, Maggots, Shiners, Minnows) — saltwater fish prefer saltwater bait profiles"
+    ]
+  },
+  "income_review": {
+    "summary": "Skarland is an XP and trophy location, NOT an income farm. $50k travel + $4k unlimited Advanced license = $54k pre-trip cost. To break even you need $50k+ from each session. Single big-fish catches (Greenland Shark, Sea Sturgeon) likely produce $30-60k+ per fish, but volume catches of cod/mackerel/herring may not cover trip costs alone.",
+    "best_xp_per_hour_strategy": {
+      "approach": "Mixed Slot 5 (Crab) + Slot 6 (Atlantic Herring) bottom rigs at Skarvika deep water",
+      "rationale": "Wolffish/Cod/Halibut fights at 50-200 lb class produce 5-15k XP per fish on E-rods. Steady stream of mid-class catches.",
+      "expected_xp_per_hour": "10-20k XP/hr (Premium) — needs validation"
+    },
+    "best_credits_per_hour_strategy": {
+      "approach": "Slot 7 PulseWave + Seal Blubber at Skarvika monster zones",
+      "rationale": "Single Greenland Shark or Sea Sturgeon catch likely produces 30-60k+ credits. Lower hit frequency but massive single-fish jackpot.",
+      "expected_credits_per_fish": "$15,000-60,000+ for trophy/unique class"
+    },
+    "best_jackpot_targets": [
+      "Greenland Shark (Trophy/Unique class) — Seal Blubber on PulseWave + AmperDrive X",
+      "European Sea Sturgeon — Large Fish Strips on PulseWave",
+      "Atlantic Halibut Trophy — Atlantic Mackerel Cut Baits on Chillarc",
+      "Helgaflut / Fenrivore monsters — research bait (likely Seal Blubber + Bluey)"
+    ],
+    "first_trip_goals": [
+      "Pay travel + license: $54k breakeven",
+      "Goal: 1+ Trophy-class catch on each E-rod for new species PBs",
+      "Exploration progress: aim for 10+ different species in first session (25 total)",
+      "Unlock challenges: Norway Voyager, Skarland Mariner, etc.",
+      "Confirm Skarvika hotspots with marker buoys for return trips"
+    ]
+  },
+  "strategy": {
+    "first_trip_protocol": [
+      "Buy Advanced Mongolia... wait, Norway Advanced Unlimited license: $4,000",
+      "Travel to Skarland Fjord: $50,000",
+      "Equip Valkyrie Fishing Boat from inventory before launching",
+      "Start at Ranvika Marina (shore) for orientation — test Slot 5 Sigma F + Crab on Wolffish/Cod",
+      "Once comfortable, boat to Skarvika deep water",
+      "Deploy all 3 E-rods (Sigma F + Chillarc + PulseWave) with appropriate bait per fish-class target",
+      "Drop Seal Blubber on PulseWave first — Greenland Shark primary target",
+      "Use marker buoys at productive depth/structure for return trips",
+      "Watch weather — fjord storms shut down monster bites; calm-day fishing produces"
+    ],
+    "missions_to_check": [
+      "Norway Exploration I (likely 10+ species threshold)",
+      "Norway Exploration II (advanced, may require all 25 species)",
+      "Greenland Shark mastery missions",
+      "Halibut family (Atlantic + Greenland) trophy missions",
+      "Saltwater Sturgeon mission (if location-specific)",
+      "Norway Voyager challenge for cross-spot completion",
+      "Fenrivore + Helgaflut monster fish unlocks"
+    ],
+    "reel_durability_warning": [
+      "E-reels are expensive to repair — backup reels essential before any monster attempt",
+      "Avoid maximum-drag fights on Greenland Shark; the same finesse retrieve from Congo applies (let the fish run, low speed setting, accept long fights)",
+      "Shore-test gear at Ranvika Marina before risking the AmperDrive X on a Skarvika monster"
+    ]
+  },
+  "critical_warnings": [
+    "FRESHWATER LOADOUT WILL FAIL — Slots 1/2/4 (Tibia carp, JigWinner bass, NileChasseur freshwater) need to be SHELVED or replaced. Saltwater fish ignore freshwater baits and freshwater rods will break on saltwater monster strikes.",
+    "TRAVEL COST $50k — most expensive location in inventory. Don't travel without enough credits + unlimited license + correct gear. Failed trips cost real money.",
+    "ADVANCED LICENSE REQUIRED for boat — without it, you're stuck at Ranvika Marina shore. $4,000 unlimited is the smart buy.",
+    "VALKYRIE FISHING BOAT REQUIRED — confirmed in inventory. Make sure it's equipped before launching. Boat is the only way to reach Skarvika deep-water trophy zone.",
+    "FINESSE TECHNIQUE STILL APPLIES — Greenland Shark / Sea Sturgeon will run hard. Use low reel-speed setting + sub-maximum tension despite the 315 Lb drag headroom on the AmperDrive X.",
+    "SHELVE FRESHWATER BAITS — Pop-up Boilies, Trophy Bass Jigs, Vampire Mouse Lures all useless here. Pack only saltwater baits.",
+    "WEATHER WINDOWS MATTER — fjord storms shut down monster bites. Plan around clear-day/calm-water in-game weather forecasts."
+  ],
+  "open_research_questions": [
+    "Fenrivore + Helgaflut monster fish — what bait/lure unlocks them? (Likely Seal Blubber + heaviest E-rod, but boss-class may have specific triggers)",
+    "Per-species max weights at Skarland — fp-collective doesn't expose; populate from real catches",
+    "Fish-finder behavior in deep fjord — does the Garry Scott Draco transducer still work or do you need a saltwater-specific finder? (Note: user has Valkyrie Fishing Boat — different boat, different finder)",
+    "Trolling viability — Bluey says 'Allow for Livebait trolling no' — what baits ARE trolling-compatible at Skarland?",
+    "Day vs night — Advanced license unlocks night; is there a night-feeding bias for any monster class?",
+    "Mackerel/Herring volume — can you fill keepnet on small saltwater species for income, or are these too low-value to bother with?"
+  ],
+  "overall_analysis": {
+    "fit_with_current_loadout": "MIXED — 3 of 7 slots (5/6/7) are correctly configured for ocean fishing. 4 of 7 slots (1/2/3/4) are freshwater rods that have no role at Skarland and should be shelved. User needs to reconfigure pre-trip.",
+    "session_potential": "VERY HIGH for trophy XP + new species PBs. Lower for raw income volume vs Saint-Croix or BCI. This is a 'go for the monsters' location.",
+    "comparison_to_other_locations": {
+      "vs_congo": "Skarland's monster ceiling (Greenland Shark 1000+ lb) likely exceeds Congo's Nile Perch 452 lb. But Congo has higher density of catchable trophies; Skarland is fewer-but-bigger.",
+      "vs_bci": "BCI is volume saltwater (24 species, 154 lb max Tarpon). Skarland is monster saltwater (25 species, much higher class). BCI for income; Skarland for trophy XP.",
+      "vs_dnipro": "Dnipro is mid-tier Euro freshwater. Skarland is endgame saltwater. Different gear class entirely. No overlap in tackle or technique."
+    },
+    "session_economics": {
+      "minimum_break_even": "$54,000 ($50k travel + $4k Advanced unlimited license, one-time)",
+      "post_license_break_even_per_trip": "$60,000 ($50k travel + $10k extend if multi-day)",
+      "expected_first_trip_results": "If Greenland Shark or Sea Sturgeon trophy is landed: +$50-100k per single fish + 30-60k XP. Without a trophy strike: cod/mackerel volume = $20-40k, may net -$10k to +$10k vs travel cost.",
+      "verdict": "Skarland is HIGH-VARIANCE income. Treat it like a trophy hunt, not an income grind. If you need cash, fish Saint-Croix Floating Dock; if you want endgame XP, fish here."
+    },
+    "level_56_caveat": "Player at Level 56 fishing a base-105 location. Some species/missions may not unlock until higher player levels. Watch for level-locked content gates. Initial trip should focus on what's accessible at L56 (likely most species, but maybe not the boss monsters)."
+  }
+}

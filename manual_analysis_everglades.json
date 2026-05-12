@@ -34,28 +34,78 @@
     },
     {
       "slot_number": 2,
-      "screenshot": "IMG_1718.jpg",
+      "screenshot": "20260502090228_1.jpg",
       "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast)",
-      "reel": "Breamer 4500 SE",
-      "line": "Fluoro .012\"",
-      "leader": "Titanium Leader .005\"",
-      "terminal_tackle": "Turtle Spoon 1/4 Oz. #1/0",
+      "reel": "Prima 3500 SE",
+      "line": "Braid .008\" (10 Lb)",
+      "leader": "Fluorocarbon Leader .011\" (9.9 Lb)",
+      "terminal_tackle": "Bass Jig 1/2 Oz. #3/0 with Shad 3\" trailer",
       "bait": null,
-      "setup_type": "Spinning (Spoon)",
-      "target_fish": ["Butterfly Peacock Bass", "Largemouth Bass", "Tarpon", "Common Snook", "Red Drum"],
-      "effectiveness_rating": 7,
+      "setup_type": "Spinning (Bass Jig)",
+      "target_fish": ["Butterfly Peacock Bass", "Largemouth Bass", "Trophy Largemouth Bass", "Bowfin"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "MVP for 5-10 lb Bass — Trophy #4/0 → Standard #3/0 rotation (contest-validated 2026-05-02; rotation tactic validated 2026-05-11)",
+      "contest_rotation": {
+        "rationale": "Trophy Bass Jig #4/0 boosts trophy/unique LMB hit rate ~10-20% (user-validated 2026-05-11) — two unique Largemouth Bass were caught ONLY on the Trophy variant, never on standard #3/0. Standard Bass Jig #3/0 has higher base bite frequency. Rotate phases to capture both score components.",
+        "phase_1_trophy_hunt": {
+          "tackle": "Trophy Bass Jig #4/0 (no trailer or matching Trophy-class trailer)",
+          "duration": "Contest opening (first 10-15 min, or until 2-3 trophies bagged)",
+          "target": "Trophy Largemouth Bass + Unique-class LMB (some uniques only catchable on Trophy variant)",
+          "expected_rate": "Lower bite frequency than standard, but score-disproportionate catches"
+        },
+        "phase_2_volume_fill": {
+          "tackle": "Standard Bass Jig 1/2 Oz #3/0 + Shad 3\" trailer",
+          "duration": "Remainder of contest",
+          "target": "Regular Largemouth + Peacock Bass — catch-count and total-weight points",
+          "expected_rate": "~95% hit rate per 2026-05-02 contest validation"
+        },
+        "why": "Contests reward bite frequency × catch size. Trophy-first captures the score-disproportionate trophies and uniques up front (when the clock is least pressured); standard-second maximizes fill volume on regular bass once the heavy hitters are bagged."
+      },
+      "contest_validation": {
+        "event": "Bass Challenge (Everglades), 30-minute heat",
+        "result": "31 catches / 30 min, 130.095 lb total, ranked 31/221 finishers (top 14%)",
+        "score": "Primary 34.683 / Secondary 10.773 / 12,439 credits earned",
+        "notable_catches": [
+          "Trophy Largemouth Bass 6.175 lb / 20.8 in",
+          "Trophy Largemouth Bass 5.761 lb / 20.4 in",
+          "Trophy Bowfin 9.575 lb / 32.7 in",
+          "Trophy Butterfly Peacock Bass 4.193 lb / 18.3 in",
+          "Plus one Unique-class catch (~1 min fight, max line tension)"
+        ],
+        "xp_rating": "+3 to -1 range while fishing (ideal match) — most casts produced a hit",
+        "hit_rate": "~95% of casts produced a strike with proper retrieve"
+      },
+      "technique": {
+        "retrieve_speed": "Initial cast med-fast (speed 3) to get lure moving, then drop to medium (speed 2) to keep the jig bouncing low/off-bottom with occasional slight rise-and-drop",
+        "rod_action": "Pulse the trigger to bounce the Shad 3\" off the bottom at constant but erratic speed",
+        "key_principle": "Constant motion + erratic ground-bouncing pattern keeps the lure in the strike window while triggering reaction strikes",
+        "unique_handling": "Unique fish (~1 min fight) puts max tension on line — DO NOT yank the rod; let the fish tire against drag or it'll break the 9.9 Lb fluoro leader"
+      },
+      "why_this_setup_wins": [
+        "Line/lure weight perfectly matched to 5-10 lb bass class: 10 Lb braid + 9.9 Lb fluoro leader stays in the +3 to -1 XP rating band",
+        "1/2 oz #3/0 jig is the exact weight class for the JigWinner's 1/6-5/8 oz lure rating",
+        "Light power + Fast action = sensitive enough to feel bottom contact, fast enough to set hook on reaction strikes",
+        "Prima 3500 SE recovery speed (medium-class) matches the bouncing retrieve cadence",
+        "Survives Unique-class hits with finesse (don't muscle it)"
+      ],
+      "rejected_alternatives": [
+        "World Bass Tour casting/spinning rod templates: too short on distance + wrong recovery speed (too fast or too slow), AND showed -3 XP rating consistently (overpowered for the line weight)",
+        "AuroraSport rod + matching Sport spinning reel: too short on casting distance",
+        "Various casting setups: some had slightly better hook rates but rods/reels were overpowered for the line, always showed -3 XP",
+        "Lesson: Hook rate alone doesn't win — XP rating band (gear-fish match) determines whether the setup is sustainable for a contest",
+        "Lesson: WBT branded rods are NOT automatically optimal for bass contests — they're often overpowered for finesse line weights"
+      ],
       "issues": [
-        "Light rod (3-13 Lb) is severely undergunned for Everglades monsters",
-        "Tarpon (33.1 lb), Common Snook (46.3 lb), and Red Drum (47.4 lb) will overpower this setup",
-        "Titanium leader protects against gar teeth but won't save you from a drag-screaming Snook run",
-        "Turtle Spoon 1/4 Oz is good for bass-sized fish but may be too small for the big predators"
+        "Light rod (3-13 Lb) is severely undergunned for Everglades MONSTERS (Tarpon 33 lb, Snook 46 lb, Red Drum 47 lb) — DO NOT use this setup for those species",
+        "9.9 Lb fluoro leader will snap on big-bass-only setup if Snook or Red Drum strikes — keep slot 5 Zeus rigged for monster targets",
+        "Setup is bass-class only — switch to slot 3 or 5 if targeting predators"
       ],
       "improvements": [
-        "Good for Butterfly Peacock Bass and Largemouth Bass  -  stay in the channels where these species hold",
-        "If a Tarpon or Snook hits, set drag very loose and be prepared for a long fight",
-        "Consider upgrading to a medium or medium-heavy rod for Everglades  -  this location has much bigger fish than previous locations",
-        "Titanium leader is essential here  -  Florida Gar will bite through anything else",
-        "Cast near structure and mangrove roots where Peacock Bass ambush prey"
+        "USE FOR BASS CONTESTS at Everglades — proven 31/221 finish in a Bass Challenge",
+        "Best deployment spots: Lily Pad Channel (cover-edge bouncing), Infinity Tunnels (mangrove-tunnel jigging), The Floating Thickets (vegetation pockets)",
+        "Keep the technique cadence (speed 3 → 2, trigger pulses for ground-bounce) — this is what the contest validated",
+        "Repair before each contest — durability 46200/46200 must stay high to avoid mid-contest breakage",
+        "Pair this slot with slot 5 Zeus SE for monster fish on the same trip — never try to land Snook/Tarpon on the JigWinner"
       ]
     },
     {
@@ -310,6 +360,24 @@
       "The Floating Thickets": [4, 7, 6],
       "Infinity Tunnels": [3, 6, 2],
       "The Salty Delta": [1, 3, 5]
+    },
+    "mvp_setups": {
+      "5-10 lb Bass (contest-class)": {
+        "slot": 2,
+        "rod": "JigWinner 8'10\" SE",
+        "reel": "Prima 3500 SE",
+        "line": "Braid .008\" (10 Lb) + Fluorocarbon Leader .011\" (9.9 Lb)",
+        "lure": "Bass Jig 1/2 Oz. #3/0 + Shad 3\" trailer",
+        "retrieve": "Cast at speed 3 (med-fast) to start motion, drop to speed 2 (medium), pulse trigger to bounce Shad off bottom — constant but erratic ground-contact",
+        "validated_at": "Bass Challenge 2026-05-02 — 31 catches/30 min, 130.095 lb, 31/221 (top 14%)",
+        "screenshots": [
+          "20260502090228_1.jpg (rod/reel/line/leader/lure setup)",
+          "20260502070104_1.jpg (final standings 31/221)",
+          "20260502065736_1.jpg (Time-is-up catch summary 31/130 lb)"
+        ],
+        "key_principle": "Match line weight + lure weight to 5-10 lb bass class (10 Lb line for 5-10 Lb fish) AND match recovery speed to retrieve cadence (medium-class reel for ground-bouncing jig). Overpowered gear shows -3 XP rating even when it catches; balanced gear shows +3 to -1.",
+        "do_not_use_for": ["Common Snook (46 lb)", "Red Drum (47 lb)", "Tarpon (33 lb)", "Big saltwater predators — switch to slot 5 Zeus SE"]
+      }
     }
   }
 }

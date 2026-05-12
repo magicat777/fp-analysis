@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "description": "Player loadout library — tracks every distinct rod setup used across sessions with outcome notes. Grows over time as new journal entries are logged.",
-    "last_updated": "2026-04-13"
+    "description": "Player loadout library  -  tracks every distinct rod setup used across sessions with outcome notes. Grows over time as new journal entries are logged.",
+    "last_updated": "2026-04-27"
   },
   "loadouts": [
     {
@@ -17,7 +17,7 @@
       "target_fish": "Smallmouth Bass, Walleye, Brown Trout (3-10 lb)",
       "location": "Saint-Croix Lake (Floating Dock)",
       "session_date": "2026-04-12",
-      "notes": "Longest X-Heavy casting rod in game. Best long-range casting setup at St-Croix. Slightly light vs 20+ lb blue cats — use 90% tension + Med-Fast reel speed (not full speed) to land big cats. ~1 ft/2 sec retrieval. Slow drop + fast raise technique universal.",
+      "notes": "Longest X-Heavy casting rod in game. Best long-range casting setup at St-Croix. Slightly light vs 20+ lb blue cats  -  use 90% tension + Med-Fast reel speed (not full speed) to land big cats. ~1 ft/2 sec retrieval. Slow drop + fast raise technique universal.",
       "rating": 9
     },
     {
@@ -33,7 +33,7 @@
       "target_fish": "Smallmouth Bass, Walleye, mixed species",
       "location": "Saint-Croix Lake (Floating Dock)",
       "session_date": "2026-04-12",
-      "notes": "Active lure rod. ThunderSpin 5500 SE gives good responsiveness for drop-and-raise technique. Zeus 8'10\" SE upgrade tested — similar hit rate but less sensitivity; reel class (5500 vs 8000) matters more than rod length.",
+      "notes": "Active lure rod. ThunderSpin 5500 SE gives good responsiveness for drop-and-raise technique. Zeus 8'10\" SE upgrade tested  -  similar hit rate but less sensitivity; reel class (5500 vs 8000) matters more than rod length.",
       "rating": 8
     },
     {
@@ -97,7 +97,7 @@
       "target_fish": "Lake Sturgeon, Blue Catfish",
       "location": "Saint-Croix Lake (Fairytale / Floating Dock)",
       "session_date": "2026-04-08 to 2026-04-12",
-      "notes": "Sturgeon machine. Duck Mussel Meat on feeder confirmed producer of 40-55 lb Lake Sturgeon. Night catches reliable. Heavily taxed by 40-60 lb sturgeons at SJD — at St-Croix it's right-sized.",
+      "notes": "Sturgeon machine. Duck Mussel Meat on feeder confirmed producer of 40-55 lb Lake Sturgeon. Night catches reliable. Heavily taxed by 40-60 lb sturgeons at SJD  -  at St-Croix it's right-sized.",
       "rating": 9
     },
     {
@@ -127,7 +127,7 @@
       "lure_or_bait": "Golem Lure 6 ft #8/0 (swapped from Skull Jig 1 1/2 Oz #5/0 + Silicone Finger 3\")",
       "hook": "#8/0",
       "target_fish": "Muskie Golem (monster), Clear Muskie, Tiger Muskie, Northern Pike",
-      "location": "Saint-Croix Lake (King of Green Bay — Golem fight)",
+      "location": "Saint-Croix Lake (King of Green Bay  -  Golem fight)",
       "session_date": "2026-04-11",
       "notes": "MONSTER KILLER. Caught the Muskie Golem 77.984 lb + Unique Clear Muskie 56.9 lb + Trophy Clear Muskie + multiple Northern Pike on Golem Lure 6 ft #8/0. Steel Leader essential for muskie/pike bite-off. Level 36 required for Golem mission unlock.",
       "rating": 10
@@ -145,7 +145,7 @@
       "target_fish": "Blue Catfish (volume 25-35 lb class)",
       "location": "Saint-Croix Lake (Fairytale Docks)",
       "session_date": "2026-04-11",
-      "notes": "Repurposed from match float duty to match-style bottom cat rig. Armored Slider + Medium Cutbait works because it's bottom bait, not float (Fairytale's dock-ward current kills float rigs). Originally stashed for being too short on range — now useful in mid-range bottom role.",
+      "notes": "Repurposed from match float duty to match-style bottom cat rig. Armored Slider + Medium Cutbait works because it's bottom bait, not float (Fairytale's dock-ward current kills float rigs). Originally stashed for being too short on range  -  now useful in mid-range bottom role.",
       "rating": 7
     },
     {
@@ -161,7 +161,7 @@
       "target_fish": "Smallmouth Bass, Walleye, Brown Trout",
       "location": "Saint-Croix Lake (Fairytale Docks)",
       "session_date": "2026-04-11",
-      "notes": "Original Zeus 8'2\" setup — drop-jig MVP for smaller aggressive bottom fish. Drop/4s-pause/raise/4s-swim cadence crushed smallies. Range slightly short for Fairytale sweet spots — had to cast from dock edge.",
+      "notes": "Original Zeus 8'2\" setup  -  drop-jig MVP for smaller aggressive bottom fish. Drop/4s-pause/raise/4s-swim cadence crushed smallies. Range slightly short for Fairytale sweet spots  -  had to cast from dock edge.",
       "rating": 8
     },
     {
@@ -819,6 +819,152 @@
       "session_date": "2026-04-13",
       "notes": "Short-range casting rod with Glow&Holo spoon for low-light Alaska conditions. Not a confirmed producer this session but viable alternate.",
       "rating": 6
+    },
+    {
+      "rod_type": "match",
+      "rod": "Brutus 10'10\" SE",
+      "rod_specs": "Match, 11-34 Lb, Mod Fast, 3-piece",
+      "reel": "CGT SpinTitan 4500",
+      "line": "Trophy Mono .02\"",
+      "leader": "",
+      "terminal": "Club-Series Glowing Pear-Shaped Float",
+      "lure_or_bait": "Shiners",
+      "hook": "#6/0",
+      "target_fish": "Tarpon, Red Drum, Black Drum, Common Snook (medium-class)",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "USER VERDICT: 'PERFECT for this location'  -  right balance of strength + durability for medium-weight fish at BCI. Tarpon 43.255 lb landed. Match rod with spinning reel works well as float-fishing setup with bait. 53,442/54,000 durability post-trip (untouched).",
+      "rating": 9
+    },
+    {
+      "rod_type": "spinning",
+      "rod": "UncleSam 6'3\"",
+      "rod_specs": "Heavy, 1/2-1 3/4 Oz, 6-21 Lb, Mod Fast, 7-piece",
+      "reel": "Patriot'sDream 4000",
+      "line": "Mono .016\"",
+      "leader": "",
+      "terminal": "",
+      "lure_or_bait": "Club-Series Buzzbait 6/7 Oz #4/0 + Worm 5\"",
+      "hook": "#4/0",
+      "target_fish": "Largemouth Bass, Butterfly Peacock Bass, Bowfin, smaller predators",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "USER VERDICT: 'less than ideal'  -  line rating 6-21 Lb is too light for BCI's 30-100 lb fish. Reel speed wrong for the lures, didn't match jig sizes. Wore Patriot's Dream 4000 reel down to 27,226/46,200 (59%) durability. RECOMMENDATION: Replace with Rivertex Salmonster 8'2\" (X-Heavy, 5/8-2 Oz, 15-42 Lb) for proper line capacity at BCI.",
+      "rating": 4
+    },
+    {
+      "rod_type": "casting",
+      "rod": "SharpCaster 7'3\"",
+      "rod_specs": "X-Heavy, 5/8-2 Oz, 28.6-66 Lb, Fast, 2-piece",
+      "reel": "VorteX 7000 SE",
+      "line": "Trophy Mono .02\"",
+      "leader": "",
+      "terminal": "",
+      "lure_or_bait": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0 (also Buzzbait 1 Oz #5/0 + Larva/Worm)",
+      "hook": "#4/0",
+      "target_fish": "Striped Bass, Trophy Red Drum, Tarpon, Snook, Permit",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25 / 2026-04-26",
+      "notes": "USER VERDICT: 'IDEAL'  -  covers full lure-weight spectrum at BCI. Glow&Holo Medium Spoon 1 Oz day + night producer. **MVP COMBO** with Buzzbait 1 Oz #5/0 + Larva 4\" / Worm 5\" using drop-and-pause technique (bottom-bounce → mid-water raise → drop → bounce). Pause LONGER than usual on hookset. Multiple Trophy Red Drum landed. The most versatile rod at BCI.",
+      "rating": 10
+    },
+    {
+      "rod_type": "spinning",
+      "rod": "NileChasseur 6'3\" SE",
+      "rod_specs": "X-Heavy, 1-2 3/5 Oz, 46-97 Lb, Mod Fast, 2-piece",
+      "reel": "GiantSpin 9000 SE",
+      "line": "Mono .034\"",
+      "leader": "",
+      "terminal": "Drop Sinker 1 Oz + Three-way Rig 0.036\" + Offset Hook #6/0",
+      "lure_or_bait": "Ribbed Shad 6\"",
+      "hook": "#6/0 Offset",
+      "target_fish": "Trophy Bowfin, Trophy Longnose Gar, Unique Common Snook (Large Cutbait swap), Unique Gafftopsail (Craw 4\" swap)",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "Congo three-way rig + Ribbed Shad 6\" setup transferred to BCI for medium-class predators. Landed Unique Common Snook 35.843 lb (Large Cutbait swap), Unique Gafftopsail Catfish 7.621 lb (Craw 4\" swap), Trophy Longnose Gar 13.530 lb (Major Popper swap), Trophy Bowfin 7.064 lb. Versatile bait-swap rig.",
+      "rating": 9
+    },
+    {
+      "rod_type": "casting",
+      "rod": "LibertyCast 8'10\"",
+      "rod_specs": "Med Light, 1/5-5/8 Oz, 3.5-10.5 Lb, Moderate, 9-piece",
+      "reel": "AmericanEagle 2000",
+      "line": "Braid .008\"",
+      "leader": "",
+      "terminal": "JigHead 1/2 Oz #3/0",
+      "lure_or_bait": "Crayfish 3\"",
+      "hook": "#3/0 Jighead",
+      "target_fish": "Bass shallow (Shoal/Butterfly Peacock/smaller Largemouth), smaller catfish",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "USER VERDICT: 'less than ideal'  -  too light for BCI's larger fish class. Wore AmericanEagle 2000 reel down to 9,242/46,200 (20% RED  -  needs repair). RECOMMENDATION: Either swap to DragonCast 7'3\" NE (Heavy, 7.5-23 Lb, validated for warm-water bass at Falcon/Neherrin/Emerald) for proper line strength while keeping similar lure range, OR shelve this slot for BCI trips.",
+      "rating": 4
+    },
+    {
+      "rod_type": "bottom",
+      "rod": "Mokonzi 12'10\" SE",
+      "rod_specs": "X-Heavy, 6-9 7/8 Oz cast weight, 39.7-81.6 Lb, Moderate, 2-piece",
+      "reel": "L'impulsion 12000 SE",
+      "line": "Fluoro .033\"",
+      "leader": "Titanium Leader .018\"",
+      "terminal": "Sinker 6 Oz",
+      "lure_or_bait": "Large Cutbait",
+      "hook": "#6/0",
+      "target_fish": "Drum class (Black + Red), Tarpon, Wels-class catfish",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "**MVP for BCI Drum hunting.** Landed Unique Black Drum 82.786 lb (early night) + Unique Red Drum 66.827 lb (early night). Multiple Trophy Red Drum + Trophy Black Drum on the same Large Cutbait + bottom rig. L'impulsion 81.5 Lb drag is overkill for BCI but absorbs surprise Tarpon strikes.",
+      "rating": 10
+    },
+    {
+      "rod_type": "bottom",
+      "rod": "Tribal Totem 12'10\"",
+      "rod_specs": "X-Heavy, 6-9 7/8 Oz cast weight, 39.7-81.6 Lb, Moderate, 2-piece",
+      "reel": "Savanna Spirit 11000",
+      "line": "Fluoro .034\"",
+      "leader": "Titanium Leader .018\"",
+      "terminal": "Sinker 5 1/2 Oz",
+      "lure_or_bait": "Shiners",
+      "hook": "#6/0",
+      "target_fish": "Bigmouth Buffalo, Bowfin, Trophy Brown Bullhead, Channel Catfish, mid-class species",
+      "location": "Blue Crab Island (Mississippi)",
+      "session_date": "2026-04-25",
+      "notes": "Reliable bottom workhorse at BCI. Shiners on bottom = consistent panfish + medium-class catches. Trophy Brown Bullhead (2x) + Trophy Gafftopsail Catfish landed. Used for perimeter mapping at southern Gulf inlet on 2026-04-26.",
+      "rating": 8
+    },
+    {
+      "rod_type": "casting",
+      "rod": "VBO Caster 7'3\"",
+      "rod_specs": "Heavy, 3/8-1 3/7 Oz, 7.5-23 Lb (Virtual Bass Open Pack)",
+      "reel": "VBO Reel 3500 S",
+      "reel_specs": "22 Lb drag, 7.2:1 ratio, 33.5\" recovery (HIGHEST ratio in casting reels)",
+      "line": "Braid .009\" (20 Lb)",
+      "leader": "Fluorocarbon Leader .012\" (~6.2 Lb)",
+      "terminal": "JigHead",
+      "lure_or_bait": "Grub 2.7\" (note: generalist  -  attracts Bass, Bowfin, Bigmouth Buffalo)",
+      "hook": "#3/0",
+      "target_fish": "Largemouth Bass (common + trophy), Bowfin (Trophy bycatch), Bigmouth Buffalo (Trophy bycatch)",
+      "location": "Everglades (Lily Pad Channel)",
+      "session_date": "2026-04-27",
+      "notes": "VBO setup hits fast on bait + recovery, but rod is OVER-POWERED for Everglades common-class bass (3-5 lb). XP -3 arrows on Shad 4\" Largemouth catches. Use this rig ONLY for trophy spots where 5-7 lb trophy / 7-10 lb unique bass are likely.",
+      "rating": 7
+    },
+    {
+      "rod_type": "spinning",
+      "rod": "JigWinner 8'10\" SE",
+      "rod_specs": "Light, 1/6-5/8 Oz, 3-13 Lb, Fast",
+      "reel": "Prima 3500 SE",
+      "reel_specs": "11 Lb drag, 5.2:1 ratio, 31.5\" recovery",
+      "line": "Braid .008\" (20 Lb)",
+      "leader": "Fluorocarbon Leader .014\" (15 Lb)",
+      "terminal": "Bass Jig 1/2 Oz",
+      "lure_or_bait": "Twin Tail Spider Grub 2\" (or Crayfish 3\" / Senko 5\" for variation)",
+      "hook": "#3/0 (bump to #4/0 only at trophy spots)",
+      "target_fish": "Largemouth Bass (common 3-5 lb class)",
+      "location": "Everglades (Lily Pad Channel)",
+      "session_date": "2026-04-27",
+      "notes": "VALIDATED EVERGLADES BASS SETUP after 5-rod comparison test + trophy-class proof on 4/27. Light power class is the correct match for FP's XP scoring across the full bass class spread (3-5 common, 5-7 trophy, 7-10 unique). Same rod / reel / line / leader covers ALL classes  -  only the lure variant changes (Trophy Bass Jig #4/0 for 5+ lb, standard Bass Jig #3/0 for 3-5 lb). Speed 3 (medium) with this reel = trophy strike zone. Marker-ring pattern recognition validated: cast perimeter of deep zones, not center. Single-session result: Unique Largemouth 10.662 lb + 4x Trophy Largemouth 5-8 lb + Trophy Butterfly Peacock Bass 5.847 lb (NEW PB).",
+      "rating": 10
     }
   ]
 }

@@ -1,0 +1,292 @@
+{
+  "location": {
+    "name": "Selegne River",
+    "region": "Mongolia",
+    "type": "River",
+    "continent": "Asia",
+    "base_level": 48,
+    "travel_cost": 10000,
+    "extend_cost": 2000,
+    "level_note": "Unlocked at Level 50. First trip 2026-04-20  -  cleared first exploration mission with bottom rigs + Brutus. JigWinner 8'10\" SE confirmed perfect for Baikal Omul on light spoons."
+  },
+  "fish_summary": {
+    "primary_targets": [
+      "Siberian Taimen (MONSTER class  -  max 60 kg / 132 lb, the headline fish)",
+      "Northern Pike (max 18 kg / 40 lb  -  TITANIUM LEADERS REQUIRED)",
+      "Lenok (max 10 kg / 22 lb  -  large salmonid, mid-heavy spinning)",
+      "Burbot (max 12.5 kg / 27.6 lb  -  cold-water bottom)",
+      "Baikal Omul (max 3.5 kg / 7.7 lb  -  JigWinner light spoon)",
+      "Arctic Grayling (max 4.4 kg / 9.7 lb  -  JigWinner spoon/spinner)",
+      "Humpback Whitefish (max 4 kg / 8.8 lb  -  JigWinner spoon)"
+    ],
+    "secondary_targets": [
+      "European Perch (max 2.2 kg / 4.9 lb  -  float/light spinning)",
+      "Ide (max 2.4 kg / 5.3 lb  -  float, high value at 166 cr)",
+      "Common Dace (max 1.3 kg / 2.9 lb  -  float)",
+      "Common Roach (max 1 kg / 2.2 lb  -  float)",
+      "Amur Bitterling (panfish  -  exploration only)",
+      "Common Minnow (bait fish)"
+    ],
+    "monster_fish": [
+      "Taimen-Khan  -  boss-class Taimen (similar to Muskie Golem). The Khan of the entire Selenge River."
+    ],
+    "fish_count": 13,
+    "fish_value_ranked": [
+      "Northern Pike  -  170 cr/lb (HIGHEST)",
+      "Ide  -  166 cr/lb",
+      "Arctic Grayling  -  160 cr/lb",
+      "Common Minnow  -  130 cr/lb",
+      "Baikal Omul  -  129 cr/lb",
+      "Humpback Whitefish  -  115 cr/lb",
+      "Burbot  -  110 cr/lb",
+      "Siberian Taimen  -  100 cr/lb (but MASSIVE weight = huge total)",
+      "Lenok  -  100 cr/lb",
+      "Amur Bitterling  -  91 cr/lb",
+      "Common Roach  -  85 cr/lb",
+      "European Perch  -  75 cr/lb"
+    ]
+  },
+  "spots": [
+    {
+      "name": "Tom Gal",
+      "location_on_map": "NW",
+      "type": "Shore - River bend",
+      "best_for": ["Lenok", "Arctic Grayling", "Baikal Omul", "Humpback Whitefish"]
+    },
+    {
+      "name": "Nomadic Camp",
+      "location_on_map": "Mid-North",
+      "type": "Shore - Camp area",
+      "best_for": ["European Perch", "Ide", "Common Roach", "panfish exploration"]
+    },
+    {
+      "name": "Taimen Island",
+      "location_on_map": "Mid-River",
+      "type": "Shore - Island",
+      "best_for": ["Siberian Taimen (PRIMARY trophy spot)", "Northern Pike", "Burbot bottom"],
+      "notes": "Named for the species  -  this is the Taimen hotspot. Bring heaviest tackle (NileChasseur + GiantSpin 9000 SE)."
+    },
+    {
+      "name": "Ancient Hitching Post",
+      "location_on_map": "SE",
+      "type": "Shore - Historic site",
+      "best_for": ["Northern Pike", "Lenok", "Burbot"]
+    }
+  ],
+  "licensing": {
+    "basic_license": {
+      "day_cost": 4000,
+      "week_cost": 25200,
+      "unlimited_cost": 800,
+      "night_fishing": false,
+      "boat_fishing": false
+    },
+    "advanced_license": {
+      "day_cost": 8000,
+      "week_cost": 50400,
+      "unlimited_cost": 1600,
+      "night_fishing": true,
+      "boat_fishing": true,
+      "recommended": "Buy unlimited Advanced License  -  1,600 cr is cheap for permanent boat + night access. Taimen and big Pike often respond better to night/dawn fishing."
+    }
+  },
+  "loadout_strategy": {
+    "philosophy": "Selegne is a multi-class river  -  light spinning for Omul/Grayling/Whitefish, heavy spinning/casting for Lenok/Pike/Taimen, bottom rigs for Burbot. Current 7-rod loadout is well-suited. Critical adjustment: TITANIUM LEADERS on every active rod (Northern Pike + Taimen both have teeth that destroy fluoro/mono leaders).",
+    "validated_setups_first_trip_4_20": [
+      "Bottom rigs (Slots 5/6/7) + Brutus = cleared first exploration mission",
+      "JigWinner 8'10\" SE + Prima 3500 SE + light spoons = PERFECT for Baikal Omul (user-confirmed)"
+    ],
+    "key_changes_from_saint_croix_loadout": [
+      "CRITICAL: Titanium leaders on slots 1, 2, 3, 4, 5, 6, 7 (Pike + Taimen present everywhere)",
+      "Slot 4 (NileChasseur): TAIMEN HUNTER  -  swap to large spoon (Single Spoon 1 1/2 Oz) or live Common Minnow on heavy hook",
+      "Slot 5 (Humerus bottom): Burbot rig  -  Medium Cutbait or Common Minnow on Cap'n Hook #6/0",
+      "Slot 6 (Mokonzi feeder): Cold-water groundbait mix (Crimson Cold + CSL Cyclo Shrimp + Oilcake Pele)",
+      "Slot 7 (Tribal Totem): Heavy Taimen bottom  -  Common Minnow live bait on Cap'n Hook #7/0 with steel/titanium leader"
+    ]
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "Brutus 10'10\" SE (Match, 11-34 Lb line, Mod Fast)",
+      "reel": "EspiraDoublePunch 6500 SE",
+      "line": "Braid .0076\"",
+      "leader": "Titanium Leader .011\" (KEEP)",
+      "terminal_tackle": "Club-Series Glowing Pear-Shaped Float + Hook #6/0",
+      "bait": "Large Minnows or Shiners",
+      "setup_type": "Float Rig - Predator + Whitefish",
+      "target_fish": ["European Perch", "Ide", "Pike (small)", "Whitefish"],
+      "effectiveness_rating": 7,
+      "notes": "Brutus has handled Selegne mission fish well in first trip. Float + Large Minnows works for predator strikes; Hook #6/0 fine for medium fish. Could swap to Hook #4 + Bloodworms for panfish/exploration completion."
+    },
+    {
+      "slot_number": 2,
+      "rod": "JigWinner 8'10\" SE (Spinning, Light, 1/6-5/8 Oz lure, 4-12 Lb line)",
+      "reel": "Prima 3500 SE",
+      "line": "Fluoro .016\"",
+      "leader": "Titanium Leader .005\" (CRITICAL  -  Pike bite-off risk on light spinners)",
+      "terminal_tackle": "Medium Spoon 1/3 - 1/2 Oz #4/0 OR Bullet Spinner 1/2 Oz #2/0",
+      "bait": "Spoon/Spinner lure",
+      "setup_type": "Light Spinning Spoon - Salmonid Active",
+      "target_fish": ["Baikal Omul", "Arctic Grayling", "Humpback Whitefish", "Lenok (smaller class)"],
+      "effectiveness_rating": 9,
+      "notes": "USER-CONFIRMED MVP for Baikal Omul on first trip. Light spoons (1/3-1/2 Oz) load the Light blank perfectly. Add Titanium leader  -  even small Pike will bite through fluoro."
+    },
+    {
+      "slot_number": 3,
+      "rod": "SharpCaster 7'3\" (Casting, X-Heavy, 5/8-2 Oz lure, 28.6-66 Lb line, Fast)",
+      "reel": "CGT BBgun 4500",
+      "line": "Braid .0084\"",
+      "leader": "Titanium Leader .011\" (KEEP)",
+      "terminal_tackle": "Bullet Spinner 5/6 Oz #2/0 + Spinner Tail 2\" OR Crankbait 6 ft #3/0",
+      "bait": "Lure",
+      "setup_type": "Casting Lure - Lenok + Pike",
+      "target_fish": ["Lenok", "Northern Pike", "Trophy Grayling"],
+      "effectiveness_rating": 9,
+      "notes": "Saint-Croix MVP combo (Bullet Spinner 5/6 Oz #2/0) should transfer well. CGT BBgun 4500 (44 Lb drag) handles Lenok class easily. For Pike, swap to Spinnerbait or Crankbait."
+    },
+    {
+      "slot_number": 4,
+      "rod": "NileChasseur 6'3\" SE (Spinning, X-Heavy, 1-2 3/5 Oz lure, 46-97 Lb line)",
+      "reel": "GiantSpin 9000 SE",
+      "line": "Braid .0146\"",
+      "leader": "Titanium Leader .0193\" (CRITICAL  -  Taimen + Pike both present)",
+      "terminal_tackle": "Single Spoon 1 1/2 Oz #4/0 OR Cap'n Hook #6/0 with Common Minnow live bait",
+      "bait": "Common Minnow OR large spoon",
+      "setup_type": "Heavy Spinning - TAIMEN HUNTER",
+      "target_fish": ["Siberian Taimen (PRIMARY)", "Trophy Northern Pike", "Trophy Lenok"],
+      "effectiveness_rating": 10,
+      "notes": "TAIMEN ROD. 60 kg / 132 lb max  -  needs the heaviest spinning setup. GiantSpin 9000 SE drag handles Congo Kamba so will handle Taimen. Single Spoon 1 1/2 Oz on the drop-and-pause technique mirrors successful Congo Nile Perch tactic."
+    },
+    {
+      "slot_number": 5,
+      "rod": "Humerus 11'1\" (Bottom, X-Heavy, 6 1/3-10 1/5 Oz casting, 37.5-72.7 Lb line)",
+      "reel": "Ossibus Blue 11000",
+      "line": "Braid .013\"",
+      "sinker": "Monkey Skull Sinker 7 Oz",
+      "leader": "Titanium Leader .018\" (UPGRADE FROM Mono Leader .025\"  -  Pike present)",
+      "terminal_tackle": "Cap'n Hook #6/0",
+      "bait": "Medium Cutbait OR Common Minnow",
+      "setup_type": "Bottom Rig - Burbot + Pike",
+      "target_fish": ["Burbot (PRIMARY  -  cold-water bottom feeder)", "Northern Pike", "Lenok bycatch"],
+      "effectiveness_rating": 8,
+      "notes": "Burbot is a cod-like cold-water fish  -  Medium Cutbait on bottom rig is the classic approach. Same bait will draw Pike and Lenok. UPGRADE leader to titanium  -  Pike bite-off destroys mono."
+    },
+    {
+      "slot_number": 6,
+      "rod": "Mokonzi 12'10\" SE (Bottom, X-Heavy, 6-9 7/8 Oz casting, 39.7-81.6 Lb line)",
+      "reel": "L'impulsion 12000 SE",
+      "line": "Fluoro .033\"",
+      "feeder": "Open Feeder 3 1/6 Oz",
+      "groundbait": "Crimson Cold 60% / CSL Cyclo Shrimp 20% / Oilcake Pele 20% (cold-water mix)",
+      "leader": "Titanium Leader .018\" (KEEP)",
+      "terminal_tackle": "Cap'n Hook #7/0",
+      "bait": "Medium Cutbait OR Common Minnow",
+      "setup_type": "Feeder Rig - Cold-Water Groundbait Attractor",
+      "target_fish": ["Burbot", "Lenok", "Northern Pike", "Whitefish"],
+      "effectiveness_rating": 8,
+      "notes": "Cold-water groundbait mix designed for Selegne's cool-water salmonids/whitefish. CSL Cyclo Shrimp aroma penetrates cold water where sweet aromas fail. Burbot will hit feeder + Medium Cutbait reliably. Big drag handles surprise Taimen if it grabs the bait."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Tribal Totem 12'10\" (Bottom, X-Heavy, 6-9 7/8 Oz casting, 39.7-81.6 Lb line)",
+      "reel": "Savanna Spirit 11000",
+      "line": "Fluoro .033\"",
+      "sinker": "Monkey Skull Sinker 7 Oz",
+      "leader": "Titanium Leader .018\" (UPGRADE FROM Fluorocarbon Leader .034\")",
+      "terminal_tackle": "Cap'n Hook #7/0",
+      "bait": "Common Minnow live bait (LARGE)",
+      "setup_type": "Bottom Rig - TAIMEN INSURANCE",
+      "target_fish": ["Siberian Taimen (heavy bottom-class)", "Trophy Pike", "Trophy Burbot"],
+      "effectiveness_rating": 9,
+      "notes": "Heavy bottom Taimen rig. Live Common Minnow on big hook = classic Taimen target. Titanium leader essential  -  both Taimen and Pike will bite off fluoro. This is the dead-stick monster rod."
+    }
+  ],
+  "shopping_list": {
+    "baits_to_buy": [
+      "Common Minnow (live)  -  Taimen + Pike + Lenok primary live bait",
+      "Large Minnows  -  Pike + Whitefish + Lenok",
+      "Bloodworms  -  Grayling, Whitefish, panfish exploration",
+      "Maggots  -  Roach, Dace, Bitterling completion"
+    ],
+    "lures_to_consider": [
+      "Single Spoon 1 1/2 Oz #4/0  -  Taimen + Lenok primary",
+      "Medium Spoon 1/3 - 1/2 Oz  -  Baikal Omul + Grayling (JigWinner range)",
+      "Bullet Spinner 1/2 Oz #2/0  -  already have, transfers from Saint-Croix",
+      "Crankbait 6 ft #3/0  -  Pike + Lenok deep work",
+      "Spinnerbait 3/4 Oz #4/0  -  Pike active casting"
+    ],
+    "leaders_critical": [
+      "Titanium Leader .005\"  -  for JigWinner light spinning (CURRENTLY MISSING)",
+      "Titanium Leader .011\"  -  already have (Brutus + SharpCaster)",
+      "Titanium Leader .018\"  -  already have (need to swap onto bottom rods)",
+      "Titanium Leader .0193\"  -  already have (NileChasseur)"
+    ],
+    "groundbait_mix": [
+      "Crimson Cold (cold-water base)  -  already have",
+      "CSL Cyclo Shrimp aroma  -  already have",
+      "Oilcake Pele particle  -  already have",
+      "Mix as 60/20/20 for Mokonzi feeder Burbot/Whitefish attraction"
+    ]
+  },
+  "strategy": {
+    "first_trip": [
+      "VALIDATED 2026-04-20: Bottom rigs + Brutus cleared first exploration mission",
+      "VALIDATED: JigWinner + light spoon = Baikal Omul producer",
+      "Buy unlimited Advanced Mongolia License (1,600 cr) for boat + night access  -  cheap insurance",
+      "Travel cost 10,000 cr  -  moderate",
+      "Visit Taimen Island first  -  best Taimen hotspot with NileChasseur + Single Spoon",
+      "Rotate to Tom Gal (NW) for Lenok/Grayling/Omul on JigWinner + SharpCaster",
+      "Nomadic Camp for Ide/Perch/Roach exploration completion",
+      "Ancient Hitching Post (SE) for evening Pike + Lenok"
+    ],
+    "income_priorities": [
+      "Northern Pike at 170 cr/lb = highest per-pound value  -  focus",
+      "Ide at 166 cr/lb  -  high value panfish, bonus income",
+      "Arctic Grayling at 160 cr/lb  -  JigWinner volume catches",
+      "Trophy Taimen = MASSIVE single-fish reward (132 lb × 100 cr = 13,200+ cr per fish)",
+      "Lenok = mid-class income, big enough to fill keepnet fast"
+    ],
+    "missions_to_check": [
+      "Selegne River Exploration I (cleared 2026-04-20)",
+      "Selegne Exploration II  -  likely needs 5+ different species (rotate baits)",
+      "Selegne Wayfarer (catch fish at all 4 spots)",
+      "Taimen mastery missions (catch Trophy/Unique Taimen)",
+      "Pike trophy missions transferable from Saint-Croix",
+      "Salmon Hunt-style mission may transfer to Taimen-equivalent",
+      "Mongolia Decontaminator / Sanitizer for cleanup XP"
+    ]
+  },
+  "critical_warnings": [
+    "TITANIUM LEADERS REQUIRED on all active rods  -  Northern Pike (40 lb max) AND Siberian Taimen (132 lb max) both have teeth that destroy fluoro/mono",
+    "Slot 5 (Humerus) currently has Mono Leader .025\"  -  UPGRADE to Titanium .018\" before Pike encounter",
+    "Slot 7 (Tribal Totem) currently has Fluorocarbon Leader .034\"  -  UPGRADE to Titanium for Taimen/Pike",
+    "Slot 2 (JigWinner) currently no titanium  -  ADD Titanium Leader .005\" to prevent light-spinner bite-offs",
+    "Boat + Night fishing require ADVANCED Mongolia License (1,600 cr unlimited)",
+    "Taimen-Khan (monster fish) likely requires specific bait + heaviest tackle  -  research before attempting",
+    "Cold-water groundbait outperforms warm-water mixes  -  use Crimson Cold base + CSL Cyclo Shrimp aroma"
+  ],
+  "open_research_questions": [
+    "What bait/lure does Taimen-Khan respond to? (no baits/lures listed in API for monster fish)",
+    "Does Selegne have a Trial / Mongolia Tournament? Check Sport tab.",
+    "Best in-game time of day for Taimen vs Burbot vs Omul?",
+    "Are there marker spots beyond the 4 official spots? (Marked deeper holes on Taimen Island?)"
+  ],
+  "overall_analysis": {
+    "fit_with_current_loadout": "EXCELLENT  -  current 7-rod setup matches Selegne's fish class spread almost perfectly. JigWinner addresses light salmonids, NileChasseur handles Taimen, bottom rods cover Burbot, SharpCaster covers Lenok/Pike. Only critical change: titanium leaders everywhere.",
+    "first_trip_validated_4_20": {
+      "exploration_mission_complete": true,
+      "validated_rigs": [
+        "Bottom rigs (Slots 5/6/7)  -  cleared first exploration mission",
+        "Brutus (Slot 1)  -  pulled species variety for exploration",
+        "JigWinner 8'10\" SE + Prima 3500 SE + Light Spoon  -  perfect for Baikal Omul"
+      ],
+      "user_verdict": "Beautiful location with varied fishing. JigWinner finally has a home location where it earns its slot."
+    },
+    "session_potential": "HIGH  -  combines exploration completion (13 species), big-fish potential (Taimen 132 lb, Pike 40 lb), and finesse work (Omul/Grayling/Whitefish). Single trip can target volume + trophy + exploration simultaneously.",
+    "comparison_to_other_locations": {
+      "vs_saint_croix": "Selegne has bigger trophy ceiling (Taimen 132 lb >> Saint-Croix Blue Cat ~80 lb) but lower volume potential. Saint-Croix wins for cash farming; Selegne wins for trophy hunting + exploration.",
+      "vs_kaniq": "Similar river-salmonid feel, but Selegne adds the monster Taimen tier (Kaniq tops at Chinook ~33 lb). Selegne is a richer location.",
+      "vs_congo": "Congo Trophy Kamba 200+ lb still tops Selegne, but Selegne has better species diversity (13 vs Congo's 16+ but with more class-spread). Selegne is a 'middle ground' between Saint-Croix density and Congo trophy class."
+    }
+  }
+}

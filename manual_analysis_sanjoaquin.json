@@ -290,7 +290,7 @@
     ]
   },
   "recommended_loadout": {
-    "philosophy_v2_return_trip": "REVISED 2026-04-12 for return trip: FOCUS ON STURGEON FARMING + SALMON MISSION. Deploy 4-Rod Stand at Fishing the Beaver with 4x X-Heavy bottom rods all rigged identically for Large Cutbait sturgeon volume. One active spinning rod for Striped Bass bycatch + Triple Runner. One dedicated casting rod with Green and Black Single Spoon 42g #4/0 for Salmon Hunt mission (wade at Cryton Dam). Skip the finesse/panfish diversification from 4/10 — Ichthyologist challenge already complete.",
+    "philosophy_v2_return_trip": "REVISED 2026-04-12 for return trip: FOCUS ON STURGEON FARMING + SALMON MISSION. Deploy 4-Rod Stand at Fishing the Beaver with 4x X-Heavy bottom rods all rigged identically for Large Cutbait sturgeon volume. One active spinning rod for Striped Bass bycatch + Triple Runner. One dedicated casting rod with Green and Black Single Spoon 42g #4/0 for Salmon Hunt mission (wade at Cryton Dam). Skip the finesse/panfish diversification from 4/10  -  Ichthyologist challenge already complete.",
     "philosophy": "REVISED 2026-04-10: Use existing X-Heavy loadout. SJD fish are big enough to damage Medium/Light gear (steelhead halved FarCaster reel durability in one fight). Keep heavy rods, just change baits and hooks to match SJD species. NO PIKE/MUSKIE at SJD - fluoro leaders preferred except on sturgeon rods (titanium for scute abrasion).",
     "slots": [
       {
@@ -394,7 +394,7 @@
           "terminal": "JigHead 3/4 Oz #3/0",
           "lure": "Shad 4\"",
           "targets": "Striped Bass, Largemouth Bass, trout bycatch",
-          "notes": "Soft plastic jig-and-shad for active bass/trout coverage. Replaces the Triple Runner Narrow Spoon combo — goes deeper to work bottom-structure bass."
+          "notes": "Soft plastic jig-and-shad for active bass/trout coverage. Replaces the Triple Runner Narrow Spoon combo  -  goes deeper to work bottom-structure bass."
         },
         {
           "slot": 2,
@@ -406,7 +406,7 @@
           "leader": "",
           "lure": "Single Spoon 1 1/2 Oz #4/0",
           "targets": "Trophy Chinook Salmon 33+ lb (SALMON HUNT MISSION)",
-          "notes": "Matches the Lemon Tiger Medium Spoon 1 1/2 Oz #4/0 Steam guide recommendation. Used Day 1 at Cryton Dam and boat south of Southern Docks. Trophies caught only ~20 lb so far — 33+ lb likely Unique class (RNG)."
+          "notes": "Matches the Lemon Tiger Medium Spoon 1 1/2 Oz #4/0 Steam guide recommendation. Used Day 1 at Cryton Dam and boat south of Southern Docks. Trophies caught only ~20 lb so far  -  33+ lb likely Unique class (RNG)."
         },
         {
           "slot": 3,
@@ -432,7 +432,7 @@
           "hook": "#4/0",
           "targets": "White Sturgeon, Striped Bass",
           "spot": "Fishing the Beaver (Rod Stand)",
-          "notes": "UNEXPECTED FINDING 4/13: Crawfish on Heavy Chaser caught White Sturgeon 42.880 lb at midday. Crawfish works as a sturgeon alt-bait — not just a bass bait. Keep it as a diversifier on one rod to catch any sturgeon that ignore cutbait."
+          "notes": "UNEXPECTED FINDING 4/13: Crawfish on Heavy Chaser caught White Sturgeon 42.880 lb at midday. Crawfish works as a sturgeon alt-bait  -  not just a bass bait. Keep it as a diversifier on one rod to catch any sturgeon that ignore cutbait."
         },
         {
           "slot": 5,
@@ -446,7 +446,7 @@
           "hook": "#4/0",
           "targets": "White Sturgeon",
           "spot": "Fishing the Beaver (Rod Stand)",
-          "notes": "Proven 4/13 — multiple sturgeon caught on this rod Day 1."
+          "notes": "Proven 4/13  -  multiple sturgeon caught on this rod Day 1."
         },
         {
           "slot": 6,
@@ -475,7 +475,7 @@
           "hook": "#4/0",
           "targets": "White Sturgeon",
           "spot": "Fishing the Beaver (Rod Stand)",
-          "notes": "Proven 4/13 — consistent sturgeon producer."
+          "notes": "Proven 4/13  -  consistent sturgeon producer."
         }
       ],
       "day_1_results": {
@@ -539,11 +539,11 @@
       "session_plan": [
         "1. Buy Advanced License (unlimited 550 BC) - night sturgeon + boat fishing unlocked",
         "2. Travel to SJD. Head directly to Fishing the Beaver (confirmed sturgeon hotspot from 4/10)",
-        "3. Deploy 4-Rod Stand (Club-Series Rod Oasis) with Heavy Chaser + Humenus + Tribal Totem + Mokonzi — ALL WITH LARGE CUTBAIT + #4/0 HOOK",
+        "3. Deploy 4-Rod Stand (Club-Series Rod Oasis) with Heavy Chaser + Humenus + Tribal Totem + Mokonzi  -  ALL WITH LARGE CUTBAIT + #4/0 HOOK",
         "4. Active rod (Salmonster 8'10\" + Kraken 8000 SE) with Triple Runner 8 ft #5/0 for Striped Bass bycatch",
         "5. Fish through the day at Fishing the Beaver - expect 5-10 sturgeon per session (39-54 lb range based on 4/10 data)",
-        "6. Night: sturgeon activity peaks — stay through to catch Sturgeon in the Dark competition slot",
-        "7. Travel to Below the Cryton Dam for Salmon Hunt mission — wade out, cast Green and Black Single Spoon 42g #4/0 mid-channel",
+        "6. Night: sturgeon activity peaks  -  stay through to catch Sturgeon in the Dark competition slot",
+        "7. Travel to Below the Cryton Dam for Salmon Hunt mission  -  wade out, cast Green and Black Single Spoon 42g #4/0 mid-channel",
         "8. Trophy Chinook target: Buzzbait 1 Oz #4/0 also proven (38.55 lb on 4/10) - keep as backup",
         "9. Trophy Steelhead (if bycatch): Spinnerbait 1 Oz #4/0 + Spinner Tail 2\" confirmed (18.7 lb 4/10) or Lemon Tiger Medium Spoon 1 1/2 oz #4/0",
         "10. Sell and return - skip the carp/panfish diversification from 4/10 trip (Ichthyologist challenge already complete)"

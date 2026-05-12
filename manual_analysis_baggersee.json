@@ -1,6 +1,6 @@
 {
   "passive_fishing": {
-    "best_stand_spot": "Stillwater Village (shore-based 4-Rod Stand) — primary base for the Club Rod Oasis",
+    "best_stand_spot": "Stillwater Village (shore-based 4-Rod Stand)  -  primary base for the Club Rod Oasis",
     "stand_spot_why": "Calm waters, deep-enough drop-offs for carp and bream, easy walking distance to the active spinning zone. Mid-lake feeder casts (30-50 ft) cover the productive carp shelf without requiring boat. Multiple bait types can be cycled across the 4 rods to target Common/Mirror Carp + Bream + Tench + Wels Cat simultaneously.",
     "active_fishing_zone": "Cast Pike/Zander spinnerbaits along the dock/structure 50-150 ft to either side of the rod stand. Stay within 100 ft of the rods so you can hear/see strike alerts and reach a bite within 5 seconds. Fan-cast sweeping arcs without crossing your stand rod lines.",
     "strategy": [
@@ -9,13 +9,13 @@
       "Slot 2 (Mokonzi Method Feeder + Corn) cast 30-50 ft for Bream/Tench/mixed Carp attraction",
       "Slot 3 (Tribal Totem + Large Cutbait) cast 60-100 ft to deeper water for Wels Catfish",
       "Slot 4 (Heavy Chaser + alt-flavor Boilies/Pellet) cast 40-70 ft as the carp diversifier",
-      "Slot 5 (Salmonster + Spinnerbait) IN HAND — fan-cast Pike/Zander structure 50-150 ft from stand position",
-      "Recast/refresh stand rods every 10-15 min — degraded bait stops attracting carp",
+      "Slot 5 (Salmonster + Spinnerbait) IN HAND  -  fan-cast Pike/Zander structure 50-150 ft from stand position",
+      "Recast/refresh stand rods every 10-15 min  -  degraded bait stops attracting carp",
       "When carp keepnet fills, sell at travel screen and reset all 4 stand rods"
     ],
     "income_estimate": [
       "Common/Mirror Carp passive: 2-3 fish/hour at avg 8-12 lb = ~$3,000-$5,000/hr per active stand rod",
-      "Wels Catfish on Tribal Totem: high-variance — 1 catch can be $2,000-$10,000+ depending on size",
+      "Wels Catfish on Tribal Totem: high-variance  -  1 catch can be $2,000-$10,000+ depending on size",
       "Method Feeder Bream/Tench bonus: $500-$1,500/hr fill-in income",
       "Spinnerbait Pike/Zander active: $1,000-$3,000/hr bonus while stand soaks",
       "Total realistic target: $7,000-$15,000/hr combined active+passive at Stillwater Village"
@@ -23,7 +23,7 @@
     "boat_trolling": {
       "recommended": true,
       "boat_required": "GoldenAlbatross Adventure Kayak or Garry Scott Draco Bass Boat (Advanced License required for boat fishing)",
-      "summary": "Boat trolling at Sander Baggersee is HIGHLY VIABLE for Pike, Zander, and Wels Catfish along submerged structure. Lake-in-a-Lake area is the prime trolling zone — accessible only by boat and holds the largest predators.",
+      "summary": "Boat trolling at Sander Baggersee is HIGHLY VIABLE for Pike, Zander, and Wels Catfish along submerged structure. Lake-in-a-Lake area is the prime trolling zone  -  accessible only by boat and holds the largest predators.",
       "staging_spot": "Lake in a Lake (boat-only inner water body)",
       "staging_why": "Inner lake structure holds the deepest pools and largest Wels Cats + trophy Pike. No shore competition. Drift along the connecting channels for big predator strikes.",
       "route": "Launch at Southern Docks → Troll east toward Lake-in-a-Lake → Slow troll (2-3 mph) along the channel and around the inner lake perimeter → Anchor at deeper holes for stationary cat fishing",
@@ -35,18 +35,18 @@
         "European Perch (schoolers along structure)"
       ],
       "recommended_lures": [
-        "Spinnerbait 1 Oz #4/0 with Titanium leader — Pike/Zander all-purpose troll",
-        "Jerkbait Medium #2/0 — slow troll for Pike along weed edges",
-        "Crankbait 6-8 ft #4/0 deep diver — covers mid-water column for big Pike + Zander",
-        "Soft Plastic Shad 4-6\" on JigHead 3/4-1 Oz — bottom-bouncing Zander rig",
-        "Live Small Minnows under bobber — dead-drift behind boat for Pike (most natural)"
+        "Spinnerbait 1 Oz #4/0 with Titanium leader  -  Pike/Zander all-purpose troll",
+        "Jerkbait Medium #2/0  -  slow troll for Pike along weed edges",
+        "Crankbait 6-8 ft #4/0 deep diver  -  covers mid-water column for big Pike + Zander",
+        "Soft Plastic Shad 4-6\" on JigHead 3/4-1 Oz  -  bottom-bouncing Zander rig",
+        "Live Small Minnows under bobber  -  dead-drift behind boat for Pike (most natural)"
       ],
       "notes": [
-        "Slow troll speed: 2-3 mph — Pike and Zander prefer slower presentations than salmon",
-        "TITANIUM LEADERS MANDATORY — Pike WILL be caught and will bite off Fluoro",
+        "Slow troll speed: 2-3 mph  -  Pike and Zander prefer slower presentations than salmon",
+        "TITANIUM LEADERS MANDATORY  -  Pike WILL be caught and will bite off Fluoro",
         "Two-rod troll spread: one shallow (Spinnerbait), one deep (Crankbait) covers the column",
         "Drop anchor at Lake-in-a-Lake holes for stationary Wels Catfish bottom rigs (Tribal Totem + Cutbait)",
-        "Watch fish finder — Wels Catfish show as massive single returns near bottom in deep holes",
+        "Watch fish finder  -  Wels Catfish show as massive single returns near bottom in deep holes",
         "Best trolling windows: dawn (5-8am in-game) and dusk (6-9pm) when predators are most active",
         "Boat travel from Southern Docks → Lake-in-a-Lake takes ~5-10 min in-game depending on boat speed"
       ]

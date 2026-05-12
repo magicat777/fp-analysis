@@ -36,7 +36,7 @@ Brief summary of what slots were used and any swaps made during the session.
 | | | | | |
 
 ## Missions / Expeditions
-- [ ] Mission name — status
+- [ ] Mission name  -  status
 
 ## Takeaways for Next Visit
 -

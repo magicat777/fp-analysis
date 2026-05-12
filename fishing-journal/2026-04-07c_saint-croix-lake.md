@@ -29,20 +29,20 @@
 ## Loadout Changes
 - Added Cat Boxer 8'6" SE bottom rod with Duck Mussel Meat (sturgeon bait!) and RedFish 5500 reel
 - Heavy Chaser switched to Open Feeder 4 1/2 Oz + Mix Grand Fish Feeder groundbait
-- Salmonster running Triple Runner 8 ft #5/0 crankbait — proven multi-species lure
+- Salmonster running Triple Runner 8 ft #5/0 crankbait  -  proven multi-species lure
 - Zeus moved to backpack, replaced by second Salmonster with Triple Runner
 - Now running 3 bottom rods (Cat Boxer, Mokonzi, Heavy Chaser) + 2 spinning/crankbait + 1 jig + 1 heavy float
 
 ## What Worked
-- Triple Runner 8 ft #5/0 on Salmonster/Kraken — caught loads of Smallmouth Bass plus trophy Blue Catfish on a crankbait!
+- Triple Runner 8 ft #5/0 on Salmonster/Kraken  -  caught loads of Smallmouth Bass plus trophy Blue Catfish on a crankbait!
 - Three bottom rods passive fishing = massive catfish income
-- 62 fish caught, 839 lbs total, max single fish 308.647 lb — absolutely massive Blue Catfish
-- Duck Mussel Meat on Cat Boxer — this IS a sturgeon-approved bait per the wiki
-- Mix Grand Fish Feeder on Heavy Chaser — broader attraction than Catfish Destroyer
+- 62 fish caught, 839 lbs total, max single fish 308.647 lb  -  absolutely massive Blue Catfish
+- Duck Mussel Meat on Cat Boxer  -  this IS a sturgeon-approved bait per the wiki
+- Mix Grand Fish Feeder on Heavy Chaser  -  broader attraction than Catfish Destroyer
 - Earned Catfish Master II challenge
 
 ## What Didn't Work
-- Still haven't caught a sturgeon this session — may need to be more precise with timing (7-8 AM / 5-9 PM windows) and location
+- Still haven't caught a sturgeon this session  -  may need to be more precise with timing (7-8 AM / 5-9 PM windows) and location
 - Duck Mussel Meat is correct bait but may need exact positioning near the smaller boat's bow
 
 ## Fish Caught (Highlights)
@@ -56,7 +56,7 @@
 ## Milestones
 - Level 30 → 31!
 - Catfish Master II challenge unlocked
-- 308.6 lb Blue Catfish — personal record!
+- 308.6 lb Blue Catfish  -  personal record!
 - 62 fish in one session
 
 ## Fishing Location
@@ -65,14 +65,14 @@
 - Fish Species discovered: 29/49
 
 ## Takeaways for Next Visit
-- Triple Runner 8 ft is THE crankbait for Saint-Croix — catches bass AND catfish
-- Three bottom rods with catfish bait is the income machine — ~49k credits per session
-- Duck Mussel Meat on Cat Boxer should catch sturgeon — need to time it right (7-8 AM or 5-9 PM)
+- Triple Runner 8 ft is THE crankbait for Saint-Croix  -  catches bass AND catfish
+- Three bottom rods with catfish bait is the income machine  -  ~49k credits per session
+- Duck Mussel Meat on Cat Boxer should catch sturgeon  -  need to time it right (7-8 AM or 5-9 PM)
 - Cast the Cat Boxer 150 ft from dock corner toward the smaller boat's bow during sturgeon windows
 - Consider dedicating an entire session to sturgeon timing windows only
 
 ## Notes
 - Massive improvement in income: 49,387 credits in one session (best yet at Saint-Croix)
-- Level 31 unlocked — check what new locations/gear become available
-- 29/49 fish species discovered at this location — still lots to find
-- Credits now ~663k — healthiest bankroll yet
+- Level 31 unlocked  -  check what new locations/gear become available
+- 29/49 fish species discovered at this location  -  still lots to find
+- Credits now ~663k  -  healthiest bankroll yet

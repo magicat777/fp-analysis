@@ -17,7 +17,7 @@ type: user
 - **Saint-Croix Muskie Golem mission COMPLETE** (caught 77.984 lb Golem on 4/11)
 - DLCs: Supernatural Pack, Hellish Fighter Pack, Club Enthusiast Pack, Supernatural Explorer Pack, World Bass Tour Pack
 - Owns **Club-Series Rod Oasis 4-Rod Stand** (from Club tokens)
-- Current base: **Saint-Croix Floating Dock** (moved from Fairytale Docks 4/12 — 360° casting, shorter bottom range)
+- Current base: **Saint-Croix Floating Dock** (moved from Fairytale Docks 4/12  -  360° casting, shorter bottom range)
 - Fish caught: 1,750+ | Trophy: 195+ | Unique: 20+ (Muskie Golem caught 4/11, Unique Brown Trout 4/12)
 
 ## Current 7-Slot Loadout (as of 2026-04-10 - Saint-Croix monster prep loadout, X-HEAVY)

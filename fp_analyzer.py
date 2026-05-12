@@ -116,19 +116,23 @@ def fetch_location_data(api, slug):
         fish["baits"] = [bait_map[bid] for bid in fish.get("baitIds", []) if bid in bait_map]
         fish["lures"] = [lure_map[lid] for lid in fish.get("lureIds", []) if lid in lure_map]
 
-        # Fetch individual fish for ubersheet fields
+        # Fetch individual fish for ubersheet fields + maxWeight + howToCatch
         try:
             fish_detail = api.get_fish(fish["slug"])
             fish["ubersheetBaits"] = [bait_map[bid] for bid in fish_detail.get("ubersheetBaitIds", []) if bid in bait_map]
             fish["ubersheetLures"] = [lure_map[lid] for lid in fish_detail.get("ubersheetLureIds", []) if lid in lure_map]
             fish["ubersheetHooks"] = [hook_map[hid] for hid in fish_detail.get("ubersheetHookIds", []) if hid in hook_map]
             fish["ubersheetJigheads"] = [jighead_map[jid] for jid in fish_detail.get("ubersheetJigheadIds", []) if jid in jighead_map]
+            fish["maxWeightFromDetail"] = fish_detail.get("maxWeight")
+            fish["howToCatch"] = fish_detail.get("howToCatch") or ""
             time.sleep(0.2)
         except Exception:
             fish["ubersheetBaits"] = []
             fish["ubersheetLures"] = []
             fish["ubersheetHooks"] = []
             fish["ubersheetJigheads"] = []
+            fish["maxWeightFromDetail"] = None
+            fish["howToCatch"] = ""
 
     # Parse fishDetails JSON string if present
     if isinstance(location.get("fishDetails"), str):
@@ -242,7 +246,7 @@ class WikiScraper:
             if img.lower() not in ("credits.png", "baitcoins.png") and len(name) > 1:
                 items[name.lower()] = img
 
-        # Strategy 2: For rods/lures — name in a header-style cell, image link below
+        # Strategy 2: For rods/lures  -  name in a header-style cell, image link below
         # Pattern: <td ...>BrandName <b>ModelName</b></td> ... <a href="/File:XXX.png">
         header_pattern = re.compile(
             r'<td[^>]*style="[^"]*font-weight:\s*bold[^"]*"[^>]*>'
@@ -649,165 +653,165 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
         })
 
     # Build fish data for frontend
-    # Fish activity/depth data — sourced from wiki.fishingplanet.com and in-game behavior
+    # Fish activity/depth data  -  sourced from wiki.fishingplanet.com and in-game behavior
     fish_activity_db = {
         "Black Crappie": {
             "preferred_depth": "Mid-water to deep (6-13 ft)",
-            "active_times": "Dawn, dusk, and late evening — most active during twilight",
+            "active_times": "Dawn, dusk, and late evening  -  most active during twilight",
             "habitat": "Clear, deeper water near structure and drop-offs. Prefers cooler, calmer areas.",
             "technique_tip": "Float fish at 6-10 ft depth near structure. Slow presentation works best.",
             "recommended_hook": "#1",
         },
         "Bluegill": {
             "preferred_depth": "Shallow to mid-water (2-7 ft)",
-            "active_times": "Morning through midday — active throughout daylight hours",
+            "active_times": "Morning through midday  -  active throughout daylight hours",
             "habitat": "Among water plants and around underwater structures near shore.",
-            "technique_tip": "Float fish near weed edges at 3-5 ft. Very aggressive biters — quick hook set needed.",
+            "technique_tip": "Float fish near weed edges at 3-5 ft. Very aggressive biters  -  quick hook set needed.",
             "recommended_hook": "#1",
         },
         "Colorado Golden Trout": {
             "preferred_depth": "Mid-water to deep (7-13 ft)",
-            "active_times": "Early morning and late evening — peak at dawn and dusk",
+            "active_times": "Early morning and late evening  -  peak at dawn and dusk",
             "habitat": "Cold, clear mountain lake water. Holds near rocky bottom structure.",
             "technique_tip": "Float with Flies at 8-11 ft or slow-retrieve small spoons. Most valuable fish at $91/lb.",
             "recommended_hook": "#1/0",
         },
         "Cutthroat Trout": {
             "preferred_depth": "Mid-water (5-10 ft)",
-            "active_times": "Morning and evening — most active during cooler periods",
+            "active_times": "Morning and evening  -  most active during cooler periods",
             "habitat": "Clear water with gravel bottoms. Frequents shallow-to-moderate depth transitions.",
-            "technique_tip": "Versatile — takes float rigs and lures equally well. Try near gravel/rock transitions.",
+            "technique_tip": "Versatile  -  takes float rigs and lures equally well. Try near gravel/rock transitions.",
             "recommended_hook": "#3/0",
         },
         "Rainbow Trout": {
             "preferred_depth": "Mid-water to deep (7-13 ft), near bottom",
-            "active_times": "Morning and evening — feeds near bottom in deeper water during midday",
+            "active_times": "Morning and evening  -  feeds near bottom in deeper water during midday",
             "habitat": "Oxygenated depths near rocky structure. Often found near the bottom in deeper holes.",
             "technique_tip": "Cast to deep holes and let lure sink near bottom. Ultra-light tackle recommended.",
             "recommended_hook": "#1/0",
         },
         "Golden Shiner": {
             "preferred_depth": "Shallow (2-5 ft)",
-            "active_times": "Midday — active during warmer water periods",
+            "active_times": "Midday  -  active during warmer water periods",
             "habitat": "Shallow vegetated areas near shore. Schools near surface.",
             "technique_tip": "Float fish at 2-3 ft in weedy shallows. Small hook (#6-#10) essential.",
             "recommended_hook": "#4",
         },
         "White Bass": {
             "preferred_depth": "Mid-water (5-10 ft)",
-            "active_times": "Dawn and dusk — aggressive feeders during twilight",
+            "active_times": "Dawn and dusk  -  aggressive feeders during twilight",
             "habitat": "Open water, often schooling. Chases baitfish actively.",
             "technique_tip": "Spinning with small spoons or spinners. Steady retrieve triggers strikes.",
             "recommended_hook": "#4/0",
         },
         "White Sucker": {
             "preferred_depth": "Bottom (7-13 ft)",
-            "active_times": "Late evening and night — bottom feeder most active in low light",
+            "active_times": "Late evening and night  -  bottom feeder most active in low light",
             "habitat": "Sandy/muddy bottoms in deeper areas. Feeds by suction along the substrate.",
             "technique_tip": "Bottom/ledger rig with Marshmallows or Crickets. Let bait sit on bottom at 10-13 ft.",
             "recommended_hook": "#2",
         },
         "Smallmouth Buffalo": {
             "preferred_depth": "Bottom (7-16 ft)",
-            "active_times": "Evening and night — most active in low light conditions",
+            "active_times": "Evening and night  -  most active in low light conditions",
             "habitat": "Deep water near muddy bottoms and vegetation.",
-            "technique_tip": "Bottom rig with heavy bait. Patience required — slow biter.",
+            "technique_tip": "Bottom rig with heavy bait. Patience required  -  slow biter.",
             "recommended_hook": "#1/0",
         },
         "Spotted Bass": {
             "preferred_depth": "Mid-water to deep (5-13 ft)",
-            "active_times": "Morning and evening — ambush feeder near structure",
+            "active_times": "Morning and evening  -  ambush feeder near structure",
             "habitat": "Rocky structure, drop-offs, and submerged cover.",
             "technique_tip": "Jig or small spoon near rocky structure. Moderate retrieve with pauses.",
             "recommended_hook": "#4/0",
         },
         "Redear Sunfish": {
             "preferred_depth": "Shallow to mid-water (2-7 ft)",
-            "active_times": "Morning through afternoon — active in warm water",
+            "active_times": "Morning through afternoon  -  active in warm water",
             "habitat": "Near vegetation and structure in shallow areas. Bottom feeder.",
             "technique_tip": "Float fish near weed beds at 3-7 ft. Prefers insect baits.",
             "recommended_hook": "#1",
         },
         "Channel Catfish": {
             "preferred_depth": "Bottom (7-20 ft)",
-            "active_times": "Night and twilight — nocturnal feeder",
+            "active_times": "Night and twilight  -  nocturnal feeder",
             "habitat": "Deep holes, channels, and areas with slow current near bottom.",
             "technique_tip": "Bottom rig at deepest available spots. Strong-smelling baits work best.",
             "recommended_hook": "#4/0",
         },
         "Grass Pickerel": {
             "preferred_depth": "Shallow to mid-water (2-7 ft)",
-            "active_times": "Morning and late afternoon — ambush predator",
+            "active_times": "Morning and late afternoon  -  ambush predator",
             "habitat": "Dense vegetation and weedy shallows.",
             "technique_tip": "Small lures or live bait near weed edges. Quick, darting retrieves.",
             "recommended_hook": "#1/0",
         },
         "Blacktail Shiner": {
             "preferred_depth": "Shallow (2-3 ft)",
-            "active_times": "Midday — prefers flowing water and fast current areas",
+            "active_times": "Midday  -  prefers flowing water and fast current areas",
             "habitat": "Areas with little vegetation and fast current.",
             "technique_tip": "Tiny hooks (#8-#12) with Dough Balls or Semolina Balls near current.",
             "recommended_hook": "#6",
         },
         "Green Sunfish": {
             "preferred_depth": "Shallow (2-5 ft)",
-            "active_times": "Morning through afternoon — aggressive during warm periods",
+            "active_times": "Morning through afternoon  -  aggressive during warm periods",
             "habitat": "Near rocks, logs, and structure in shallow water.",
             "technique_tip": "Float fish near cover at 2-3 ft. Small hooks essential.",
             "recommended_hook": "#6",
         },
         "White Crappie": {
             "preferred_depth": "Mid-water (5-10 ft)",
-            "active_times": "Dawn and dusk — schooling fish, most active at twilight",
+            "active_times": "Dawn and dusk  -  schooling fish, most active at twilight",
             "habitat": "Brush piles, standing timber, and submerged structure.",
             "technique_tip": "Float or small jig near structure at 7 ft. Often found in schools.",
             "recommended_hook": "#1/0",
         },
         "Largemouth Bass": {
             "preferred_depth": "Shallow to mid-water (3-10 ft)",
-            "active_times": "Early morning and late evening — ambush feeder",
+            "active_times": "Early morning and late evening  -  ambush feeder",
             "habitat": "Near lily pads, fallen trees, docks, and weed lines.",
             "technique_tip": "Spinnerbaits, crankbaits, or soft plastics near cover. Vary retrieve speed.",
             "recommended_hook": "#4/0",
         },
         "Smallmouth Bass": {
             "preferred_depth": "Mid-water to deep (7-16 ft)",
-            "active_times": "Morning and evening — more active in cooler water",
+            "active_times": "Morning and evening  -  more active in cooler water",
             "habitat": "Rocky points, gravel bars, and clear water structure.",
             "technique_tip": "Jigs, tubes, or small crankbaits near rocky structure.",
             "recommended_hook": "#1/0",
         },
         "Chain Pickerel": {
             "preferred_depth": "Shallow to mid-water (3-8 ft)",
-            "active_times": "Morning and late afternoon — ambush predator",
+            "active_times": "Morning and late afternoon  -  ambush predator",
             "habitat": "Weedy shallows and vegetated areas.",
             "technique_tip": "Spoons or spinners near weed edges. Wire leader recommended.",
             "recommended_hook": "#4/0",
         },
         "Walleye": {
             "preferred_depth": "Mid-water to deep (10-20 ft)",
-            "active_times": "Dawn, dusk, and night — light-sensitive, most active in low light",
+            "active_times": "Dawn, dusk, and night  -  light-sensitive, most active in low light",
             "habitat": "Rocky reefs, sand bars, and deep structure.",
             "technique_tip": "Jig tipped with minnow near bottom. Slow, dragging retrieve.",
             "recommended_hook": "#4/0",
         },
         "Yellow Perch": {
             "preferred_depth": "Mid-water (5-10 ft)",
-            "active_times": "Morning and late afternoon — schools actively during daylight",
+            "active_times": "Morning and late afternoon  -  schools actively during daylight",
             "habitat": "Near weed beds and structure. Schools in open water.",
             "technique_tip": "Small jigs or float with worms/minnows at 7 ft.",
             "recommended_hook": "#2/0",
         },
         "Rock Bass": {
             "preferred_depth": "Shallow to mid-water (3-10 ft)",
-            "active_times": "Morning through evening — aggressive and easy to catch",
+            "active_times": "Morning through evening  -  aggressive and easy to catch",
             "habitat": "Rocky areas, around boulders and fallen timber.",
-            "technique_tip": "Small lures or bait near rocky structure. Not picky — will hit most offerings.",
+            "technique_tip": "Small lures or bait near rocky structure. Not picky  -  will hit most offerings.",
             "recommended_hook": "#8",
         },
         "Brook Trout": {
             "preferred_depth": "Mid-water (5-10 ft)",
-            "active_times": "Early morning and evening — prefers cold water",
+            "active_times": "Early morning and evening  -  prefers cold water",
             "habitat": "Cold, clear streams and spring-fed pools.",
             "technique_tip": "Small flies or spinners. Delicate presentation required.",
             "recommended_hook": "#4/0",
@@ -821,47 +825,170 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
         },
         "Brown Trout": {
             "preferred_depth": "Mid-water to deep (7-16 ft)",
-            "active_times": "Evening and night — more nocturnal than other trout",
+            "active_times": "Evening and night  -  more nocturnal than other trout",
             "habitat": "Undercut banks, deep pools, and shaded areas.",
             "technique_tip": "Larger lures than for other trout. Night fishing can be very productive.",
             "recommended_hook": "#4/0",
         },
         "Northern Pike": {
             "preferred_depth": "Shallow to mid-water (3-10 ft)",
-            "active_times": "Morning and late afternoon — ambush predator",
+            "active_times": "Morning and late afternoon  -  ambush predator",
             "habitat": "Weed edges, lily pad beds, and shallow bays.",
             "technique_tip": "Large spoons, spinnerbaits, or live bait. Wire leader essential.",
             "recommended_hook": "#6/0",
         },
         "Muskie": {
             "preferred_depth": "Mid-water to deep (7-20 ft)",
-            "active_times": "Midday to afternoon — follows large prey fish",
+            "active_times": "Midday to afternoon  -  follows large prey fish",
             "habitat": "Deep weed edges, rock bars, and open water structure.",
-            "technique_tip": "Large lures with erratic action. Requires patience — the 'fish of 10,000 casts'.",
+            "technique_tip": "Large lures with erratic action. Requires patience  -  the 'fish of 10,000 casts'.",
             "recommended_hook": "#7/0",
         },
         "Common Carp": {
             "preferred_depth": "Bottom (3-13 ft)",
-            "active_times": "Morning and evening — bottom feeder active in warm water",
+            "active_times": "Morning and evening  -  bottom feeder active in warm water",
             "habitat": "Muddy bottoms near vegetation. Often found in shallows during warm periods.",
             "technique_tip": "Bottom rig with boilies, corn, or bread. Groundbait helps concentrate fish.",
             "recommended_hook": "#6/0",
         },
         "Grass Carp": {
             "preferred_depth": "Mid-water to bottom (3-10 ft)",
-            "active_times": "Morning through afternoon — herbivorous feeder",
+            "active_times": "Morning through afternoon  -  herbivorous feeder",
             "habitat": "Vegetated areas with abundant plant growth.",
             "technique_tip": "Float or bottom rig with corn, peas, or bread near vegetation.",
             "recommended_hook": "#6/0",
         },
         "Mirror Carp": {
             "preferred_depth": "Bottom (7-16 ft)",
-            "active_times": "Morning and evening — bottom feeder",
+            "active_times": "Morning and evening  -  bottom feeder",
             "habitat": "Deep margins, silt bottoms, and near structure.",
             "technique_tip": "Hair rig with boilies. Pre-bait area with groundbait for best results.",
             "recommended_hook": "#6/0",
         },
     }
+
+    # Load player_records.json for the Player Tackle overlay
+    player_records = []
+    try:
+        records_path = PROJECT_DIR / "player_records.json"
+        if records_path.exists():
+            import json as _json
+            with open(records_path, "r", encoding="utf-8") as _rf:
+                _records_data = _json.load(_rf)
+                player_records = _records_data.get("records", [])
+    except Exception as _e:
+        print(f"  WARNING: could not load player_records.json: {_e}")
+
+    location_name_for_records = loc.get("title", "")
+    variant_prefixes = ["", "Trophy ", "Unique ", "Young ", "Golem "]
+
+    def _player_records_for_fish(species_name):
+        """Return records matching this species at this location (any variant)."""
+        candidates = {p + species_name for p in variant_prefixes}
+        return [
+            r for r in player_records
+            if r.get("location") == location_name_for_records and r.get("fish") in candidates
+        ]
+
+    # Load player_loadouts.json for MVP loadouts at this location
+    mvp_loadouts = []
+    try:
+        loadouts_path = PROJECT_DIR / "player_loadouts.json"
+        if loadouts_path.exists():
+            import json as _json2
+            with open(loadouts_path, "r", encoding="utf-8") as _lf:
+                _loadouts_data = _json2.load(_lf)
+                _all_loadouts = _loadouts_data.get("loadouts", [])
+                # Filter: rating >= 8 (validated MVPs) AND location matches (substring check)
+                _loc_title_lower = location_name_for_records.lower()
+                for entry in _all_loadouts:
+                    entry_loc = (entry.get("location") or "").lower()
+                    rating = entry.get("rating", 0) or 0
+                    if rating >= 8 and _loc_title_lower and _loc_title_lower in entry_loc:
+                        mvp_loadouts.append({
+                            "rod": entry.get("rod", ""),
+                            "rodSpecs": entry.get("rod_specs", ""),
+                            "reel": entry.get("reel", ""),
+                            "reelSpecs": entry.get("reel_specs", ""),
+                            "line": entry.get("line", ""),
+                            "leader": entry.get("leader", ""),
+                            "terminal": entry.get("terminal", ""),
+                            "lureOrBait": entry.get("lure_or_bait", ""),
+                            "hook": entry.get("hook", ""),
+                            "targetFish": entry.get("target_fish", ""),
+                            "spotOrContext": entry.get("location", ""),
+                            "sessionDate": entry.get("session_date", ""),
+                            "notes": entry.get("notes", ""),
+                            "rating": rating,
+                        })
+                # Sort by rating desc
+                mvp_loadouts.sort(key=lambda x: x.get("rating", 0), reverse=True)
+    except Exception as _e:
+        print(f"  WARNING: could not load player_loadouts.json: {_e}")
+
+    # Aggregate bite-map markers per fish id so we can derive per-species stats
+    # (max weight, top baits/lures/hooks, top times) when fishDetails / ubersheet
+    # data is missing from the API (common for newly-released locations).
+    from collections import Counter as _Counter
+    _markers_by_fish = {}
+    for _m in (loc.get("fishMarkersRaw") or []):
+        _fids = _m.get("fishId") or []
+        if not _fids:
+            continue
+        _fid = _fids[0] if isinstance(_fids, list) else _fids
+        _markers_by_fish.setdefault(_fid, []).append(_m)
+
+    def _top_n(counter, n=3):
+        return [{"name": name, "count": cnt} for name, cnt in counter.most_common(n)]
+
+    def _aggregate_markers_for_fish(fish_id):
+        ms = _markers_by_fish.get(fish_id) or []
+        if not ms:
+            return None
+        weights = [m.get("weight") for m in ms if m.get("weight") is not None]
+        types = _Counter((m.get("type") or "common") for m in ms)
+        baits = _Counter()
+        bait_images = {}
+        for m in ms:
+            b = (m.get("bait") or {}).get("title")
+            if b:
+                baits[b] += 1
+                if b not in bait_images:
+                    bait_images[b] = (m.get("bait") or {}).get("image", "")
+        lures = _Counter()
+        lure_images = {}
+        lure_colors = {}
+        for m in ms:
+            l = (m.get("lure") or {}).get("title") if m.get("lure") else None
+            if l:
+                lures[l] += 1
+                if l not in lure_images:
+                    lure_images[l] = (m.get("lure") or {}).get("image", "")
+                    lure_colors[l] = (m.get("lure") or {}).get("color", "")
+        hooks = _Counter()
+        hook_meta = {}
+        for m in ms:
+            h = (m.get("hook") or {}).get("title") if m.get("hook") else None
+            if h:
+                hooks[h] += 1
+                if h not in hook_meta:
+                    hook_meta[h] = {"image": (m.get("hook") or {}).get("image",""), "size": (m.get("hook") or {}).get("size","")}
+        times = _Counter((m.get("time") or "").strip() for m in ms if m.get("time"))
+        techniques = _Counter((m.get("technique") or "").strip() for m in ms if m.get("technique"))
+        weather = _Counter(((m.get("weatherPattern") or {}).get("title") or "") for m in ms if m.get("weatherPattern"))
+        depths = [m.get("depth") for m in ms if m.get("depth") not in (None, 0, "")]
+        return {
+            "count": len(ms),
+            "maxWeight": max(weights) if weights else None,  # kg
+            "byType": dict(types),
+            "topBaits": [{"title": n, "count": c, "image": bait_images.get(n,"")} for n, c in baits.most_common(5)],
+            "topLures": [{"title": n, "count": c, "image": lure_images.get(n,""), "color": lure_colors.get(n,"")} for n, c in lures.most_common(5)],
+            "topHooks": [{"title": n, "count": c, "image": hook_meta.get(n,{}).get("image",""), "size": hook_meta.get(n,{}).get("size","")} for n, c in hooks.most_common(5)],
+            "topTimes": _top_n(times, 5),
+            "topTechniques": _top_n(techniques, 5),
+            "topWeather": _top_n(weather, 3),
+            "avgDepth": (sum(depths) / len(depths)) if depths else None,
+        }
 
     fish_data = []
     for fish in loc.get("fish", []):
@@ -871,11 +998,42 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
             {}
         )
         activity = fish_activity_db.get(fish["title"], {})
+        # Build player tackle entries for this fish at this location
+        _matching = _player_records_for_fish(fish["title"])
+        # Sort by weight desc so biggest catches appear first
+        _matching = sorted(_matching, key=lambda r: r.get("weight_lb", 0) or 0, reverse=True)
+        player_tackle = [
+            {
+                "fishVariant": r.get("fish", ""),
+                "trophyOrUnique": r.get("trophy_or_unique", ""),
+                "weightLb": r.get("weight_lb"),
+                "baitLure": r.get("bait_lure", ""),
+                "rod": r.get("rod", ""),
+                "reel": r.get("reel", ""),
+                "realDate": r.get("real_date", ""),
+                "session": r.get("session", ""),
+                "timeOfDay": r.get("time_of_day", ""),
+                "xp": r.get("xp"),
+                "credits": r.get("credits"),
+            }
+            for r in _matching
+        ]
+        # Prefer location-scoped fishDetails max_weight, else fall back to per-fish endpoint maxWeight,
+        # else fall back to bite-map marker max weight aggregation.
+        _detail_max = detail.get("max_weight")
+        _fish_max = fish.get("maxWeightFromDetail")
+        marker_agg = _aggregate_markers_for_fish(fish.get("id"))
+        _marker_max = marker_agg.get("maxWeight") if marker_agg else None
+        max_weight = None
+        for _candidate in (_detail_max, _fish_max, _marker_max):
+            if _candidate not in (None, 0, "?", ""):
+                max_weight = _candidate
+                break
         fish_data.append({
             "name": fish["title"],
             "image": fish.get("image", ""),
-            "maxWeight": detail.get("max_weight", "?"),
-            "price": detail.get("price", "?"),
+            "maxWeight": max_weight,
+            "price": detail.get("price") if detail.get("price") not in (None, 0, "?", "") else None,
             "types": detail.get("types", []),
             "baits": [b["title"] for b in fish.get("baits", [])],
             "lures": [{"title": l["title"], "color": l.get("color", ""), "type": l.get("lureType", "")} for l in fish.get("lures", [])[:20]],
@@ -884,10 +1042,13 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
             "habitat": activity.get("habitat", ""),
             "techniqueTip": activity.get("technique_tip", ""),
             "recommendedHook": activity.get("recommended_hook", ""),
+            "howToCatch": fish.get("howToCatch", ""),
             "ubersheetBaits": [b["title"] for b in fish.get("ubersheetBaits", [])],
             "ubersheetLures": [{"title": l["title"], "color": l.get("color", ""), "type": l.get("lureType", ""), "hookSize": l.get("hookSize", ""), "weight": l.get("weight", ""), "baseLevel": l.get("baseLevel", "")} for l in fish.get("ubersheetLures", [])[:15]],
             "ubersheetHooks": [{"title": h["title"], "size": h.get("size", ""), "type": h.get("type", "")} for h in fish.get("ubersheetHooks", [])],
             "ubersheetJigheads": [{"title": j["title"], "size": j.get("size", ""), "weight": j.get("weight", "")} for j in fish.get("ubersheetJigheads", [])],
+            "playerTackle": player_tackle,
+            "biteMap": marker_agg,
         })
 
     spots_data = [
@@ -956,6 +1117,7 @@ def generate_react_html(location_data, analysis, jpg_files, output_path, wiki_im
         "loadoutImages": embedded_images,
         "wikiImages": wiki_images or {},
         "journal": build_journal_data(loc.get("slug", "")),
+        "mvpLoadouts": mvp_loadouts,
     }
 
     data_json = json.dumps(app_data, ensure_ascii=False)
@@ -1326,8 +1488,42 @@ function LoadoutTab({{ setLightbox }}) {{
   const slots = a.slots || [];
   const imageKeys = Object.keys(D.loadoutImages).sort();
 
+  const mvpSetups = (a.overall_analysis && a.overall_analysis.mvp_setups) || null;
+
   return (
     <div className="panel">
+      {{mvpSetups && Object.keys(mvpSetups).length > 0 && (
+        <div style={{{{background: "linear-gradient(135deg, rgba(255,193,7,0.12), rgba(255,152,0,0.08))",
+                      border: "2px solid rgba(255,193,7,0.4)", borderRadius: "12px",
+                      padding: "16px 20px", marginBottom: "20px"}}}}>
+          <div style={{{{fontSize: "1.1em", fontWeight: 700, color: "var(--gold)", marginBottom: "12px",
+                        display: "flex", alignItems: "center", gap: "8px"}}}}>
+            🏆 MVP SETUPS (validated)
+          </div>
+          {{Object.entries(mvpSetups).map(([fishClass, setup], idx) => (
+            <div key={{idx}} style={{{{marginBottom: idx < Object.keys(mvpSetups).length - 1 ? "16px" : 0,
+                                       paddingBottom: idx < Object.keys(mvpSetups).length - 1 ? "16px" : 0,
+                                       borderBottom: idx < Object.keys(mvpSetups).length - 1 ? "1px solid rgba(255,193,7,0.2)" : "none"}}}}>
+              <div style={{{{fontWeight: 600, color: "var(--gold)", marginBottom: "6px", fontSize: "1em"}}}}>
+                {{fishClass}} {{setup.slot && <span style={{{{fontSize: "0.85em", opacity: 0.8}}}}>(Slot {{setup.slot}})</span>}}
+              </div>
+              {{setup.rod && <div className="detail"><strong>Rod:</strong> {{setup.rod}}</div>}}
+              {{setup.reel && <div className="detail"><strong>Reel:</strong> {{setup.reel}}</div>}}
+              {{setup.line && <div className="detail"><strong>Line:</strong> {{setup.line}}</div>}}
+              {{setup.lure && <div className="detail"><strong>Lure:</strong> {{setup.lure}}</div>}}
+              {{setup.retrieve && <div className="detail"><strong>Retrieve:</strong> {{setup.retrieve}}</div>}}
+              {{setup.validated_at && <div className="detail" style={{{{color: "var(--accent)", fontSize: "0.9em", marginTop: "4px"}}}}><strong>Validated:</strong> {{setup.validated_at}}</div>}}
+              {{setup.key_principle && <div className="detail" style={{{{marginTop: "6px", fontStyle: "italic", color: "var(--text2)", fontSize: "0.9em"}}}}>{{setup.key_principle}}</div>}}
+              {{setup.do_not_use_for && setup.do_not_use_for.length > 0 && (
+                <div style={{{{marginTop: "6px", fontSize: "0.85em"}}}}>
+                  <strong style={{{{color: "var(--warn)"}}}}>DO NOT USE FOR:</strong> {{setup.do_not_use_for.join(", ")}}
+                </div>
+              )}}
+            </div>
+          ))}}
+        </div>
+      )}}
+
       <div className="section-title">Current Loadout Slots</div>
       <div className="grid grid-2">
         {{slots.map((slot, i) => {{
@@ -1359,6 +1555,93 @@ function LoadoutTab({{ setLightbox }}) {{
                 <div className="detail">
                   <strong>Targets:</strong> {{slot.target_fish.map((f,j) =>
                     <span key={{j}} className="badge common">{{f}}</span>)}}
+                </div>
+              )}}
+
+              {{slot.mvp_tag && (
+                <div style={{{{background: "linear-gradient(135deg, rgba(255,193,7,0.2), rgba(255,152,0,0.15))",
+                              border: "2px solid rgba(255,193,7,0.6)", borderRadius: "10px",
+                              padding: "10px 14px", margin: "12px 0",
+                              fontWeight: 700, color: "var(--gold)", fontSize: "1em",
+                              textAlign: "center", letterSpacing: "0.02em"}}}}>
+                  🏆 {{slot.mvp_tag}}
+                </div>
+              )}}
+
+              {{slot.contest_validation && (
+                <div style={{{{background: "rgba(255,193,7,0.08)", border: "1px solid rgba(255,193,7,0.3)",
+                              borderRadius: "8px", padding: "12px", margin: "10px 0"}}}}>
+                  <div style={{{{fontWeight: 600, color: "var(--gold)", marginBottom: "6px", fontSize: "0.9em"}}}}>CONTEST VALIDATION</div>
+                  {{slot.contest_validation.event && <div className="detail"><strong>Event:</strong> {{slot.contest_validation.event}}</div>}}
+                  {{slot.contest_validation.result && <div className="detail"><strong>Result:</strong> {{slot.contest_validation.result}}</div>}}
+                  {{slot.contest_validation.score && <div className="detail"><strong>Score:</strong> {{slot.contest_validation.score}}</div>}}
+                  {{slot.contest_validation.xp_rating && <div className="detail"><strong>XP Rating:</strong> {{slot.contest_validation.xp_rating}}</div>}}
+                  {{slot.contest_validation.hit_rate && <div className="detail"><strong>Hit Rate:</strong> {{slot.contest_validation.hit_rate}}</div>}}
+                  {{slot.contest_validation.notable_catches && slot.contest_validation.notable_catches.length > 0 && (
+                    <div style={{{{marginTop: "6px"}}}}>
+                      <div className="detail"><strong>Notable Catches:</strong></div>
+                      {{slot.contest_validation.notable_catches.map((c,j) => (
+                        <div key={{j}} style={{{{paddingLeft: "12px", fontSize: "0.9em", color: "var(--text2)"}}}}>• {{c}}</div>
+                      ))}}
+                    </div>
+                  )}}
+                </div>
+              )}}
+
+              {{slot.technique && (
+                <div style={{{{background: "rgba(76,175,80,0.08)", border: "1px solid rgba(76,175,80,0.3)",
+                              borderRadius: "8px", padding: "12px", margin: "10px 0"}}}}>
+                  <div style={{{{fontWeight: 600, color: "#81c784", marginBottom: "6px", fontSize: "0.9em"}}}}>TECHNIQUE</div>
+                  {{slot.technique.retrieve_speed && <div className="detail"><strong>Retrieve Speed:</strong> {{slot.technique.retrieve_speed}}</div>}}
+                  {{slot.technique.rod_action && <div className="detail"><strong>Rod Action:</strong> {{slot.technique.rod_action}}</div>}}
+                  {{slot.technique.key_principle && <div className="detail" style={{{{marginTop: "6px", fontStyle: "italic", color: "var(--text2)"}}}}>{{slot.technique.key_principle}}</div>}}
+                  {{slot.technique.unique_handling && <div className="detail" style={{{{marginTop: "6px", color: "var(--warn)"}}}}><strong>Unique Handling:</strong> {{slot.technique.unique_handling}}</div>}}
+                </div>
+              )}}
+
+              {{slot.contest_rotation && (
+                <div style={{{{background: "linear-gradient(135deg, rgba(255,193,7,0.08), rgba(255,152,0,0.08))",
+                              border: "1px solid rgba(255,193,7,0.3)",
+                              borderRadius: "8px", padding: "12px", margin: "10px 0"}}}}>
+                  <div style={{{{fontWeight: 600, color: "#ffc107", marginBottom: "6px", fontSize: "0.9em"}}}}>🔄 CONTEST ROTATION STRATEGY</div>
+                  {{slot.contest_rotation.rationale && <div className="detail" style={{{{marginBottom: "8px", fontStyle: "italic", color: "var(--text2)"}}}}>{{slot.contest_rotation.rationale}}</div>}}
+                  {{slot.contest_rotation.phase_1_trophy_hunt && (
+                    <div style={{{{marginBottom: "8px"}}}}>
+                      <div style={{{{color: "#ffc107", fontWeight: 600, fontSize: "0.85em", marginBottom: "2px"}}}}>Phase 1 — Trophy Hunt</div>
+                      <div className="detail"><strong>Tackle:</strong> {{slot.contest_rotation.phase_1_trophy_hunt.tackle}}</div>
+                      <div className="detail"><strong>Duration:</strong> {{slot.contest_rotation.phase_1_trophy_hunt.duration}}</div>
+                      <div className="detail"><strong>Target:</strong> {{slot.contest_rotation.phase_1_trophy_hunt.target}}</div>
+                      <div className="detail"><strong>Expected Rate:</strong> {{slot.contest_rotation.phase_1_trophy_hunt.expected_rate}}</div>
+                    </div>
+                  )}}
+                  {{slot.contest_rotation.phase_2_volume_fill && (
+                    <div style={{{{marginBottom: "8px"}}}}>
+                      <div style={{{{color: "#ffc107", fontWeight: 600, fontSize: "0.85em", marginBottom: "2px"}}}}>Phase 2 — Volume Fill</div>
+                      <div className="detail"><strong>Tackle:</strong> {{slot.contest_rotation.phase_2_volume_fill.tackle}}</div>
+                      <div className="detail"><strong>Duration:</strong> {{slot.contest_rotation.phase_2_volume_fill.duration}}</div>
+                      <div className="detail"><strong>Target:</strong> {{slot.contest_rotation.phase_2_volume_fill.target}}</div>
+                      <div className="detail"><strong>Expected Rate:</strong> {{slot.contest_rotation.phase_2_volume_fill.expected_rate}}</div>
+                    </div>
+                  )}}
+                  {{slot.contest_rotation.why && <div className="detail" style={{{{marginTop: "6px", color: "var(--text2)", fontSize: "0.85em"}}}}>{{slot.contest_rotation.why}}</div>}}
+                </div>
+              )}}
+
+              {{slot.why_this_setup_wins && slot.why_this_setup_wins.length > 0 && (
+                <div style={{{{marginTop: "10px"}}}}>
+                  <div style={{{{fontWeight: 600, color: "#81c784", marginBottom: "4px", fontSize: "0.9em"}}}}>WHY THIS SETUP WINS</div>
+                  {{slot.why_this_setup_wins.map((w,j) => (
+                    <div key={{j}} className="improvement">✓ {{w}}</div>
+                  ))}}
+                </div>
+              )}}
+
+              {{slot.rejected_alternatives && slot.rejected_alternatives.length > 0 && (
+                <div style={{{{marginTop: "10px"}}}}>
+                  <div style={{{{fontWeight: 600, color: "var(--text2)", marginBottom: "4px", fontSize: "0.9em"}}}}>REJECTED ALTERNATIVES</div>
+                  {{slot.rejected_alternatives.map((r,j) => (
+                    <div key={{j}} className="issue" style={{{{opacity: 0.85}}}}>✗ {{r}}</div>
+                  ))}}
                 </div>
               )}}
 
@@ -1545,7 +1828,7 @@ function RecommendedTab({{ setLightbox }}) {{
               <div style={{{{display: "flex", alignItems: "center", gap: "12px", marginBottom: "12px"}}}}>
                 <div className="slot-num" style={{{{position: "relative", top: 0, left: 0}}}}>{{slot.slot_number || i + 1}}</div>
                 <div>
-                  <h3 style={{{{margin: 0}}}}>Slot {{slot.slot_number || i + 1}} — {{slot.setup_type}}</h3>
+                  <h3 style={{{{margin: 0}}}}>Slot {{slot.slot_number || i + 1}}  -  {{slot.setup_type}}</h3>
                   <div className={{"rating " + rClass}} style={{{{display: "inline-flex", margin: "4px 0"}}}}>
                     Current: {{r}}/10
                   </div>
@@ -1626,7 +1909,7 @@ function RecommendedTab({{ setLightbox }}) {{
       <div style={{{{marginTop: "24px"}}}}>
         <div className="section-title">Bait & Lure Quick Reference</div>
         <p style={{{{color: "var(--text2)", marginBottom: "16px", fontSize: "0.9em"}}}}>
-          All baits and lures effective at this location — images from the Fishing Planet Wiki.
+          All baits and lures effective at this location  -  images from the Fishing Planet Wiki.
         </p>
         <div style={{{{display: "flex", gap: "12px", flexWrap: "wrap"}}}}>
           {{Object.entries(wi).map(([name, url]) => (
@@ -1701,12 +1984,18 @@ function FishTab() {{
                 <div className="detail">
                   {{fish.types.map(t => <span key={{t}} className={{"badge " + t}}>{{t}}</span>)}}
                 </div>
-                <div className="detail">Max Weight: <strong>{{(fish.maxWeight * 2.205).toFixed(1)}} lb</strong></div>
-                <div className="detail">Price: <strong className="money">${{(fish.price / 2.205).toFixed(0)}}/lb</strong></div>
+                {{fish.maxWeight ? (
+                  <div className="detail">Max Weight: <strong>{{(fish.maxWeight * 2.205).toFixed(1)}} lb</strong></div>
+                ) : (
+                  <div className="detail" style={{{{color:"var(--text2)",fontStyle:"italic"}}}}>Max Weight: <strong>not in fp-collective DB</strong></div>
+                )}}
+                {{fish.price ? (
+                  <div className="detail">Price: <strong className="money">${{(fish.price / 2.205).toFixed(0)}}/lb</strong></div>
+                ) : null}}
               </div>
             </div>
 
-            {{/* Activity, Depth & Hook info — always visible */}}
+            {{/* Activity, Depth & Hook info  -  always visible */}}
             {{(fish.activeTimes || fish.preferredDepth || fish.recommendedHook) && (
               <div style={{{{marginTop: "12px", display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "8px"}}}}>
                 {{fish.activeTimes && (
@@ -1744,7 +2033,102 @@ function FishTab() {{
               <div className="tip" style={{{{marginTop: "6px", fontSize: "0.85em"}}}}>{{fish.techniqueTip}}</div>
             )}}
 
-            {{/* Ubersheet recommended — curated best tackle */}}
+            {{/* howToCatch prose fallback when ubersheet is empty */}}
+            {{(!fish.ubersheetBaits?.length && !fish.ubersheetLures?.length && !fish.ubersheetHooks?.length && fish.howToCatch) && (
+              <div style={{{{marginTop: "10px", background: "rgba(0,188,212,0.06)", border: "1px solid rgba(0,188,212,0.25)",
+                            borderRadius: "8px", padding: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent)", marginBottom: "6px"}}}}>HOW TO CATCH (fp-collective community guide)</div>
+                <div style={{{{fontSize: "0.85em", color: "var(--text)", lineHeight: "1.45"}}}}
+                     dangerouslySetInnerHTML={{{{__html: fish.howToCatch}}}} />
+              </div>
+            )}}
+
+            {{/* Bite map aggregation - community catches for this fish at this place */}}
+            {{(!fish.ubersheetBaits?.length && !fish.ubersheetLures?.length && !fish.ubersheetHooks?.length && fish.biteMap && fish.biteMap.count > 0) && (
+              <div style={{{{marginTop: "10px", background: "rgba(156,39,176,0.06)", border: "1px solid rgba(156,39,176,0.30)",
+                            borderRadius: "8px", padding: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "#ce93d8", marginBottom: "8px"}}}}>
+                  BITE MAP AGGREGATE ({{fish.biteMap.count}} community catches at this location)
+                </div>
+                {{fish.biteMap.maxWeight && (
+                  <div style={{{{fontSize: "0.82em", color: "var(--text)", marginBottom: "6px"}}}}>
+                    <span style={{{{color: "var(--text2)"}}}}>Max recorded weight: </span>
+                    <strong>{{(fish.biteMap.maxWeight * 2.205).toFixed(1)}} lb</strong>
+                    <span style={{{{color: "var(--text2)", fontSize: "0.85em"}}}}> ({{fish.biteMap.maxWeight.toFixed(1)}} kg)</span>
+                  </div>
+                )}}
+                {{fish.biteMap.byType && Object.keys(fish.biteMap.byType).length > 0 && (
+                  <div style={{{{fontSize: "0.78em", color: "var(--text2)", marginBottom: "8px"}}}}>
+                    Catch breakdown: {{Object.entries(fish.biteMap.byType).map(([k,v]) => `${{k}}: ${{v}}`).join(" · ")}}
+                  </div>
+                )}}
+                {{fish.biteMap.topBaits?.length > 0 && (
+                  <div style={{{{marginBottom: "6px"}}}}>
+                    <span style={{{{fontSize: "0.75em", color: "var(--text2)", marginRight: "6px"}}}}>Top baits:</span>
+                    {{fish.biteMap.topBaits.map((b,j) => (
+                      <span key={{j}} style={{{{display: "inline-flex", alignItems: "center", gap: "3px",
+                                            background: "rgba(156,39,176,0.12)", border: "1px solid rgba(156,39,176,0.30)",
+                                            borderRadius: "6px", padding: "2px 8px 2px 2px", marginRight: "4px", marginBottom: "2px"}}}}>
+                        {{b.image && <img src={{b.image}} alt={{b.title}} style={{{{width: "22px", height: "22px", objectFit: "contain"}}}} />}}
+                        <span style={{{{fontSize: "0.8em", fontWeight: 600}}}}>{{b.title}}</span>
+                        <span style={{{{fontSize: "0.7em", color: "var(--text2)", marginLeft: "2px"}}}}>×{{b.count}}</span>
+                      </span>
+                    ))}}
+                  </div>
+                )}}
+                {{fish.biteMap.topLures?.length > 0 && (
+                  <div style={{{{marginBottom: "6px"}}}}>
+                    <span style={{{{fontSize: "0.75em", color: "var(--text2)", marginRight: "6px"}}}}>Top lures:</span>
+                    {{fish.biteMap.topLures.map((l,j) => (
+                      <span key={{j}} style={{{{display: "inline-flex", alignItems: "center", gap: "3px",
+                                            background: "rgba(156,39,176,0.12)", border: "1px solid rgba(156,39,176,0.30)",
+                                            borderRadius: "6px", padding: "2px 8px 2px 2px", marginRight: "4px", marginBottom: "2px"}}}}>
+                        {{l.image && <img src={{l.image}} alt={{l.title}} style={{{{width: "22px", height: "22px", objectFit: "contain"}}}} />}}
+                        <span style={{{{fontSize: "0.8em", fontWeight: 600}}}}>{{l.title}}</span>
+                        {{l.color && <span style={{{{fontSize: "0.7em", color: "var(--text2)"}}}}>{{l.color}}</span>}}
+                        <span style={{{{fontSize: "0.7em", color: "var(--text2)", marginLeft: "2px"}}}}>×{{l.count}}</span>
+                      </span>
+                    ))}}
+                  </div>
+                )}}
+                {{fish.biteMap.topHooks?.length > 0 && (
+                  <div style={{{{marginBottom: "6px"}}}}>
+                    <span style={{{{fontSize: "0.75em", color: "var(--text2)", marginRight: "6px"}}}}>Top hooks:</span>
+                    {{fish.biteMap.topHooks.map((h,j) => (
+                      <span key={{j}} style={{{{display: "inline-flex", alignItems: "center",
+                                            background: "rgba(156,39,176,0.12)", border: "1px solid rgba(156,39,176,0.30)",
+                                            borderRadius: "6px", padding: "2px 8px", marginRight: "4px", fontSize: "0.78em"}}}}>
+                        <strong>{{h.title}}</strong>
+                        {{h.size && <span style={{{{color: "var(--text2)", marginLeft: "4px"}}}}>{{h.size}}</span>}}
+                        <span style={{{{color: "var(--text2)", marginLeft: "4px"}}}}>×{{h.count}}</span>
+                      </span>
+                    ))}}
+                  </div>
+                )}}
+                {{(fish.biteMap.topTimes?.length > 0 || fish.biteMap.topTechniques?.length > 0) && (
+                  <div style={{{{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px", marginTop: "6px", fontSize: "0.75em", color: "var(--text2)"}}}}>
+                    {{fish.biteMap.topTimes?.length > 0 && (
+                      <div>
+                        <span style={{{{marginRight: "6px"}}}}>Top times:</span>
+                        {{fish.biteMap.topTimes.slice(0, 3).map((t,j) => (
+                          <span key={{j}} style={{{{marginRight: "6px", color: "var(--text)"}}}}>{{t.name}} <span style={{{{color: "var(--text2)"}}}}>×{{t.count}}</span></span>
+                        ))}}
+                      </div>
+                    )}}
+                    {{fish.biteMap.topTechniques?.length > 0 && (
+                      <div>
+                        <span style={{{{marginRight: "6px"}}}}>Top techniques:</span>
+                        {{fish.biteMap.topTechniques.slice(0, 3).map((t,j) => (
+                          <span key={{j}} style={{{{marginRight: "6px", color: "var(--text)"}}}}>{{t.name}} <span style={{{{color: "var(--text2)"}}}}>×{{t.count}}</span></span>
+                        ))}}
+                      </div>
+                    )}}
+                  </div>
+                )}}
+              </div>
+            )}}
+
+            {{/* Ubersheet recommended  -  curated best tackle */}}
             {{(fish.ubersheetBaits?.length > 0 || fish.ubersheetLures?.length > 0 || fish.ubersheetHooks?.length > 0) && (
               <div style={{{{marginTop: "10px", background: "rgba(255,193,7,0.06)", border: "1px solid rgba(255,193,7,0.2)",
                             borderRadius: "8px", padding: "10px"}}}}>
@@ -1807,7 +2191,48 @@ function FishTab() {{
               </div>
             )}}
 
-            {{/* Preferred baits — always visible */}}
+            {{/* Player Tackle  -  what the user actually caught here */}}
+            {{fish.playerTackle?.length > 0 && (
+              <div style={{{{marginTop: "10px", background: "rgba(76,175,80,0.06)", border: "1px solid rgba(76,175,80,0.25)",
+                            borderRadius: "8px", padding: "10px"}}}}>
+                <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent2)", marginBottom: "8px"}}}}>PLAYER TACKLE (Confirmed Catches at This Location)</div>
+                <div style={{{{display: "flex", flexDirection: "column", gap: "6px"}}}}>
+                  {{fish.playerTackle.slice(0, 8).map((p, j) => (
+                    <div key={{j}} style={{{{display: "grid", gridTemplateColumns: "auto 1fr auto", gap: "8px",
+                                          alignItems: "center", padding: "4px 8px",
+                                          background: "rgba(0,0,0,0.2)", borderRadius: "6px"}}}}>
+                      <span style={{{{fontSize: "0.75em", fontWeight: 700,
+                                     color: p.trophyOrUnique === "Unique" ? "#ba68c8" :
+                                            p.trophyOrUnique === "Trophy" ? "var(--gold)" :
+                                            p.trophyOrUnique === "Golem" ? "var(--accent2)" : "var(--text)",
+                                     minWidth: "60px"}}}}>
+                        {{p.weightLb != null ? `${{p.weightLb.toFixed(3)}} lb` : "—"}}
+                      </span>
+                      <div style={{{{fontSize: "0.78em", lineHeight: "1.3"}}}}>
+                        <div style={{{{color: "var(--text)"}}}}>
+                          {{p.trophyOrUnique && <span style={{{{fontWeight: 600, marginRight: "4px"}}}}>{{p.trophyOrUnique}}</span>}}
+                          <span style={{{{color: "var(--accent2)"}}}}>{{p.baitLure || "(bait n/a)"}}</span>
+                        </div>
+                        <div style={{{{color: "var(--text2)", fontSize: "0.92em"}}}}>
+                          {{p.rod}}{{p.reel ? ` + ${{p.reel}}` : ""}}{{p.timeOfDay ? ` · ${{p.timeOfDay}}` : ""}}
+                        </div>
+                      </div>
+                      <span style={{{{fontSize: "0.7em", color: "var(--text2)", textAlign: "right"}}}}>
+                        {{p.realDate || ""}}
+                        {{p.credits != null ? <div style={{{{color: "var(--gold)"}}}}>${{p.credits.toLocaleString()}}</div> : null}}
+                      </span>
+                    </div>
+                  ))}}
+                </div>
+                {{fish.playerTackle.length > 8 && (
+                  <div style={{{{marginTop: "6px", fontSize: "0.7em", color: "var(--text2)", fontStyle: "italic"}}}}>
+                    + {{fish.playerTackle.length - 8}} more catches
+                  </div>
+                )}}
+              </div>
+            )}}
+
+            {{/* Preferred baits  -  always visible */}}
             {{fish.baits.length > 0 && (
               <div style={{{{marginTop: "10px"}}}}>
                 <div style={{{{fontSize: "0.75em", fontWeight: 600, color: "var(--accent)", marginBottom: "6px"}}}}>ALL EFFECTIVE BAITS</div>
@@ -1828,7 +2253,7 @@ function FishTab() {{
               </div>
             )}}
 
-            {{/* Preferred lure types — always visible */}}
+            {{/* Preferred lure types  -  always visible */}}
             {{fish.lures.length > 0 && (() => {{
               const typeGroups = {{}};
               fish.lures.forEach(l => {{
@@ -1955,7 +2380,7 @@ function FishMapTab() {{
       mapInstanceRef.current.removeLayer(layerRef.current);
     }}
 
-    // Filter markers — x/y are 0-100 percentages; reject outliers (bad data with huge negative coords)
+    // Filter markers  -  x/y are 0-100 percentages; reject outliers (bad data with huge negative coords)
     const filtered = markers.filter(m => {{
       if (selectedFish !== "ALL" && m.fish !== selectedFish) return false;
       if (selectedType !== "ALL" && (m.type || "common") !== selectedType) return false;
@@ -1999,9 +2424,9 @@ function FishMapTab() {{
 
   return (
     <div className="panel">
-      <div className="section-title">Fish Map — Crowdsourced Catch Locations</div>
+      <div className="section-title">Fish Map  -  Crowdsourced Catch Locations</div>
       <p className="detail" style={{{{marginBottom:"12px"}}}}>
-        {{markers.length}} catch markers from fp-collective.com. Click a marker to see what was caught — species, bait/lure, technique, weather, and more.
+        {{markers.length}} catch markers from fp-collective.com. Click a marker to see what was caught  -  species, bait/lure, technique, weather, and more.
       </p>
       <div style={{{{display:"flex", gap:"12px", flexWrap:"wrap", marginBottom:"12px", alignItems:"center"}}}}>
         <label style={{{{color:"var(--text2)", fontSize:"0.85em"}}}}>Species:</label>
@@ -2109,12 +2534,12 @@ function PassiveFishingTab() {{
         <h3 style={{{{color: "var(--accent)"}}}}>How Rod Stand Fishing Works</h3>
         <div style={{{{display: "grid", gap: "8px", marginTop: "10px"}}}}>
           {{[
-            "Place your rod stand at a fishing spot — RodPod Trio holds 3 rods simultaneously",
+            "Place your rod stand at a fishing spot  -  RodPod Trio holds 3 rods simultaneously",
             "Cast each float/bottom rod to a promising spot and set it on the stand",
             "Fish actively with a spinning or casting rod in your hands nearby",
             "When a fish bites a stand rod: the float dips/moves and you hear an audio cue",
             "Quickly switch to the biting rod (use Select Rod), set the hook, and reel in the fish",
-            "Re-bait, cast back out, and return the rod to the stand — resume active fishing",
+            "Re-bait, cast back out, and return the rod to the stand  -  resume active fishing",
           ].map((step, i) => (
             <div key={{i}} style={{{{display: "flex", gap: "10px", alignItems: "flex-start"}}}}>
               <div style={{{{background: "var(--accent)", color: "#fff", width: "24px", height: "24px",
@@ -2131,14 +2556,14 @@ function PassiveFishingTab() {{
         <h3 style={{{{color: "var(--gold)"}}}}>Tips for Maximum Passive Income</h3>
         <div style={{{{marginTop: "8px"}}}}>
           {{[
-            "Stay within visual range of your rod stand — if you wander too far, you'll miss bites and lose fish",
+            "Stay within visual range of your rod stand  -  if you wander too far, you'll miss bites and lose fish",
             "Use GLOWING floats (Pear-Shaped, Slim) for visibility at distance and during dawn/dusk/night",
             "Heavier floats are easier to see bite indications from further away",
             "Cast stand rods at different distances and angles to cover more water",
             "Set float depths at different levels (shallow, mid, deep) to find where fish are holding",
-            "Re-check and re-bait stand rods every 5-10 minutes even without bites — bait degrades over time",
+            "Re-check and re-bait stand rods every 5-10 minutes even without bites  -  bait degrades over time",
             "Active fish with your spinning rod NEAR the rod stand, not across the lake from it",
-            "Sell your keepnet when it's full, then reset all stand rods — this is your income cycle",
+            "Sell your keepnet when it's full, then reset all stand rods  -  this is your income cycle",
           ].map((tip, i) => (
             <div key={{i}} className="tip" style={{{{padding: "4px 0"}}}}>{{tip}}</div>
           ))}}
@@ -2156,7 +2581,7 @@ function PassiveFishingTab() {{
           {{standSlots.length > 0 ? standSlots.map((slot, i) => (
             <div key={{i}} style={{{{background: "rgba(76,175,80,0.08)", borderRadius: "8px",
                                   padding: "10px", marginBottom: "8px"}}}}>
-              <div style={{{{fontWeight: 600}}}}>Slot {{slot.slot_number}} — {{slot.setup_type}}</div>
+              <div style={{{{fontWeight: 600}}}}>Slot {{slot.slot_number}}  -  {{slot.setup_type}}</div>
               <div className="detail">{{slot.rod}}</div>
               <div className="detail">{{slot.terminal_tackle}}</div>
               {{slot.bait && <div className="detail">Bait: <strong>{{slot.bait}}</strong></div>}}
@@ -2177,7 +2602,7 @@ function PassiveFishingTab() {{
           {{activeSlots.length > 0 ? activeSlots.map((slot, i) => (
             <div key={{i}} style={{{{background: "rgba(0,188,212,0.08)", borderRadius: "8px",
                                   padding: "10px", marginBottom: "8px"}}}}>
-              <div style={{{{fontWeight: 600}}}}>Slot {{slot.slot_number}} — {{slot.setup_type}}</div>
+              <div style={{{{fontWeight: 600}}}}>Slot {{slot.slot_number}}  -  {{slot.setup_type}}</div>
               <div className="detail">{{slot.rod}}</div>
               <div className="detail">{{slot.terminal_tackle}}</div>
               {{slot.target_fish && <div className="detail" style={{{{marginTop: "4px"}}}}>
@@ -2295,6 +2720,7 @@ function GearTab({{ setLightbox }}) {{
   const gear = a.gear || {{}};
   const gb = a.groundbait || {{}};
   const imageKeys = Object.keys(D.loadoutImages).sort();
+  const mvps = D.mvpLoadouts || [];
 
   // Find gear and groundbait screenshots
   const gearImgKey = gear.screenshot || imageKeys.find(k => k.includes("1704"));
@@ -2304,10 +2730,73 @@ function GearTab({{ setLightbox }}) {{
   const gbImgSrc = gbImgKey && D.loadoutImages[gbImgKey]
     ? "data:image/jpeg;base64," + D.loadoutImages[gbImgKey] : null;
 
-  if (!gear.hat && !gb.status) return <div className="panel"><p>No gear data available in this analysis.</p></div>;
+  if (!gear.hat && !gb.status && mvps.length === 0) return <div className="panel"><p>No gear data available in this analysis.</p></div>;
 
   return (
     <div className="panel">
+      {{mvps.length > 0 && (
+        <div style={{{{marginBottom: "24px"}}}}>
+          <div className="section-title" style={{{{display: "flex", alignItems: "center", gap: "10px"}}}}>
+            <span>🏆 MVP Loadouts</span>
+            <span style={{{{fontSize: "0.7em", color: "var(--text2)", fontWeight: 400}}}}>
+              ({{mvps.length}} validated setup{{mvps.length === 1 ? "" : "s"}}, rating ≥ 8)
+            </span>
+          </div>
+          <div className="table-wrap" style={{{{overflowX: "auto"}}}}>
+            <table style={{{{width: "100%", borderCollapse: "collapse", fontSize: "0.85em"}}}}>
+              <thead>
+                <tr style={{{{borderBottom: "2px solid var(--accent)"}}}}>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Rod</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Reel</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Line</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Leader</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Hook</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Bait / Lure</th>
+                  <th style={{{{textAlign: "left", padding: "8px", color: "var(--accent)"}}}}>Target Fish</th>
+                  <th style={{{{textAlign: "right", padding: "8px", color: "var(--accent)"}}}}>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{mvps.map((m, i) => (
+                  <tr key={{i}} style={{{{borderBottom: "1px solid rgba(255,255,255,0.05)"}}}}>
+                    <td style={{{{padding: "8px", color: "var(--text)", fontWeight: 600}}}}>
+                      {{m.rod}}
+                      {{m.rodSpecs && <div style={{{{fontSize: "0.78em", color: "var(--text2)", fontWeight: 400, marginTop: "2px"}}}}>{{m.rodSpecs}}</div>}}
+                    </td>
+                    <td style={{{{padding: "8px"}}}}>
+                      {{m.reel}}
+                      {{m.reelSpecs && <div style={{{{fontSize: "0.78em", color: "var(--text2)", marginTop: "2px"}}}}>{{m.reelSpecs}}</div>}}
+                    </td>
+                    <td style={{{{padding: "8px", fontSize: "0.85em"}}}}>{{m.line || "—"}}</td>
+                    <td style={{{{padding: "8px", fontSize: "0.85em"}}}}>{{m.leader || "—"}}</td>
+                    <td style={{{{padding: "8px", fontSize: "0.85em"}}}}>{{m.hook || "—"}}</td>
+                    <td style={{{{padding: "8px", fontSize: "0.85em", color: "var(--accent2)"}}}}>{{m.lureOrBait || "—"}}</td>
+                    <td style={{{{padding: "8px", fontSize: "0.8em"}}}}>{{m.targetFish || "—"}}</td>
+                    <td style={{{{padding: "8px", textAlign: "right", fontWeight: 700,
+                                color: m.rating >= 10 ? "var(--gold)" : m.rating >= 9 ? "var(--accent2)" : "var(--accent)"}}}}>
+                      {{m.rating}}
+                    </td>
+                  </tr>
+                ))}}
+              </tbody>
+            </table>
+          </div>
+          <div style={{{{marginTop: "8px", fontSize: "0.78em", color: "var(--text2)", fontStyle: "italic"}}}}>
+            Pulled from player_loadouts.json — entries with rating 8 or higher matching this location. Use this for quick competition prep / loadout validation.
+          </div>
+          {{mvps.some(m => m.notes) && (
+            <div style={{{{marginTop: "12px", padding: "10px 14px", background: "var(--surface2)", borderRadius: "8px", borderLeft: "3px solid var(--accent2)"}}}}>
+              <div style={{{{fontSize: "0.85em", fontWeight: 600, color: "var(--accent2)", marginBottom: "6px"}}}}>MVP Notes</div>
+              {{mvps.filter(m => m.notes).map((m, i) => (
+                <div key={{i}} style={{{{fontSize: "0.82em", color: "var(--text2)", marginBottom: "6px", lineHeight: 1.4}}}}>
+                  <strong style={{{{color: "var(--text)"}}}}>{{m.rod}}:</strong> {{m.notes}}
+                </div>
+              ))}}
+            </div>
+          )}}
+        </div>
+      )}}
+
       <div className="section-title">Equipped Gear</div>
       <div className="grid grid-2">
         <div className="card">
@@ -2427,7 +2916,7 @@ function XPGuideTab() {{
           <p className="detail" style={{{{marginBottom:"12px"}}}}>Heavier fish & trophies give more XP. Unique fish give first-catch bonuses.</p>
           {{xpFish.slice(0,5).map((f,i) => (
             <div key={{i}} className="detail">
-              <strong>{{i+1}}. {{f.name}}</strong> — {{(f.maxWeight * 2.205).toFixed(1)}} lb max
+              <strong>{{i+1}}. {{f.name}}</strong>  -  {{(f.maxWeight * 2.205).toFixed(1)}} lb max
               {{f.types.map(t => <span key={{t}} className={{"badge " + t}} style={{{{marginLeft:"4px"}}}}>{{t}}</span>)}}
             </div>
           ))}}
@@ -2438,7 +2927,7 @@ function XPGuideTab() {{
           <p className="detail" style={{{{marginBottom:"12px"}}}}>Sorted by price per lb. Focus on these for maximum silver earnings.</p>
           {{moneyFish.slice(0,5).map((f,i) => (
             <div key={{i}} className="detail">
-              <strong>{{i+1}}. {{f.name}}</strong> — <span className="money">${{(f.price / 2.205).toFixed(0)}}/lb</span> (max {{(f.maxWeight * 2.205).toFixed(1)}} lb)
+              <strong>{{i+1}}. {{f.name}}</strong>  -  <span className="money">${{(f.price / 2.205).toFixed(0)}}/lb</span> (max {{(f.maxWeight * 2.205).toFixed(1)}} lb)
             </div>
           ))}}
         </div>
@@ -2460,11 +2949,11 @@ function XPGuideTab() {{
 
       <div style={{{{marginTop:"24px"}}}} className="card">
         <h3>General Fishing Planet Tips</h3>
-        <div className="tip">• Keep nets/stringers full before selling — bulk sells are more efficient time-wise</div>
-        <div className="tip">• Trophy fish give 2-3x XP — always use tackle rated for trophies when possible</div>
-        <div className="tip">• Match your hook size to the fish — oversized hooks reduce bite rate</div>
+        <div className="tip">• Keep nets/stringers full before selling  -  bulk sells are more efficient time-wise</div>
+        <div className="tip">• Trophy fish give 2-3x XP  -  always use tackle rated for trophies when possible</div>
+        <div className="tip">• Match your hook size to the fish  -  oversized hooks reduce bite rate</div>
         <div className="tip">• Check bite charts above to fish during peak activity windows</div>
-        <div className="tip">• Unique (first-time) catches give large XP bonuses — diversify species</div>
+        <div className="tip">• Unique (first-time) catches give large XP bonuses  -  diversify species</div>
         <div className="tip">• Advanced license unlocks night fishing which often has better trophy rates</div>
         <div className="tip">• Use the cheapest effective bait to maximize profit margins</div>
       </div>
@@ -2782,7 +3271,7 @@ function JournalTab() {{
               <div style={{{{padding: "16px 0 0", borderLeft: "1px solid rgba(0,188,212,0.15)",
                 borderRight: "1px solid rgba(0,188,212,0.15)", borderBottom: "1px solid rgba(0,188,212,0.15)",
                 borderRadius: "0 0 10px 10px", paddingLeft: "8px", paddingRight: "8px"}}}}>
-                {{/* Compact sections: Financials, XP, Baitcoins — 3 equal columns */}}
+                {{/* Compact sections: Financials, XP, Baitcoins  -  3 equal columns */}}
                 {{(() => {{
                   const compact = Object.entries(entry.sections).filter(([name]) => compactSections.includes(name));
                   return compact.length > 0 && (
@@ -2986,6 +3475,22 @@ def deploy_to_aws():
             loadouts_deploy = OUTPUT_DIR / "_loadouts_deploy.html"
             loadouts_deploy.write_text(lo_html, encoding="utf-8")
 
+    # Build player records page with embedded JSON data
+    records_src = OUTPUT_DIR / "player-records.html"
+    records_deploy = None
+    if records_src.exists():
+        rec_json_path = PROJECT_DIR / "player_records.json"
+        if rec_json_path.exists():
+            print("  Building player records page...")
+            rec_html = records_src.read_text(encoding="utf-8")
+            rec_data = rec_json_path.read_text(encoding="utf-8")
+            rec_html = rec_html.replace(
+                "/*RECORDS_DATA*/",
+                f"window.__RECORDS_DATA__ = {rec_data};",
+            )
+            records_deploy = OUTPUT_DIR / "_player-records_deploy.html"
+            records_deploy.write_text(rec_html, encoding="utf-8")
+
     # Upload index
     print(f"  Uploading index.html...")
     result = subprocess.run(
@@ -3013,7 +3518,7 @@ def deploy_to_aws():
         inventory_deploy.unlink()
 
     # Upload standalone strategy/guide pages
-    for guide_name in ["telescopic-strategy.html", "hook-reference.html"]:
+    for guide_name in ["telescopic-strategy.html", "hook-reference.html", "groundbait-mixes.html", "reel-swap-matrix.html", "leader-reference.html", "float-strategy.html"]:
         guide_path = OUTPUT_DIR / guide_name
         if guide_path.exists():
             print(f"  Uploading {guide_name}...")
@@ -3038,6 +3543,19 @@ def deploy_to_aws():
         if result.returncode != 0:
             print(f"  ERROR uploading loadouts: {result.stderr}")
         loadouts_deploy.unlink()
+
+    # Upload player records page
+    if records_deploy and records_deploy.exists():
+        print("  Uploading player-records.html...")
+        result = subprocess.run(
+            ["aws", "s3", "cp", str(records_deploy), f"s3://{AWS_BUCKET}/player-records.html",
+             "--content-type", "text/html; charset=utf-8", "--cache-control", "max-age=300",
+             "--profile", AWS_PROFILE],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(f"  ERROR uploading player-records: {result.stderr}")
+        records_deploy.unlink()
 
     # Upload each report
     for f in report_files:
@@ -3074,7 +3592,7 @@ def deploy_to_aws():
 # ── Main ───────────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(
-        description="Fishing Planet Loadout Analyzer — scrapes fp-collective.com "
+        description="Fishing Planet Loadout Analyzer  -  scrapes fp-collective.com "
                     "and analyzes your loadout screenshots.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
@@ -3155,7 +3673,7 @@ Examples:
     print("\n[4/5] Analyzing loadout screenshots...")
     if args.analysis_file:
         print(f"  Loading pre-built analysis from {args.analysis_file}...")
-        with open(args.analysis_file, "r") as f:
+        with open(args.analysis_file, "r", encoding="utf-8") as f:
             analysis = json.load(f)
     elif args.no_vision or not all_jpgs:
         if not all_jpgs:

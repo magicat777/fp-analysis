@@ -1,4 +1,4 @@
-# Session: Saint-Croix Lake (AM — Floating Dock Recovery Session, Fill the Keepnet)
+# Session: Saint-Croix Lake (AM  -  Floating Dock Recovery Session, Fill the Keepnet)
 **Date:** 2026-04-14 (morning, after Sander Baggersee disappointment)
 **Level:** 38
 **Location Level:** 30
@@ -23,20 +23,20 @@
 ## Challenges Completed
 - **Zander Chief II** ✓ (accumulated challenge carry-over)
 
-## Loadout Used (7 slots — Saint-Croix Refit)
-1. **Brutus 10'10" SE** (Match Rod, Heavy, 11-34 Lb, Mod Fast) — EspiraDoublePunch 6500 SE, Braid .0076", Club-Series Glowing Pear-Shaped Float, X-Series Barbless Hook #4/0, **Small Minnows**
-2. **WBT BassStriker 7'10" SE** *(NEW — OVERPOWERED REEL)* (Casting, Heavy, 1/2-1 5/8 Oz, 9-24.2 Lb, Fast) — Vampire's Bane 7500, Braid .0076", Titanium Leader .011", **Medium Spoon 1/2 Oz #3/0**
-3. **Rivertex Salmonster 8'10"** (Spinning, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast) — Kraken 8000 SE, X-Series Fluoro .025", Titanium Leader .012", **Triple Runner 8 ft #5/0**
-4. **Humenus 11'1"** — Ossibus Blue 11000, Braid .013", Sinker 6 Oz, Titanium Leader .018", Hook #7/0, **Large Cutbait** *(on 4-Rod Stand)*
-5. **Heavy Chaser 9'10" SE** — RedFish 5500, X-Series Fluoro .025", Monkey Skull Sinker 7 Oz, Titanium Leader .012", Hook #6/0, **Medium Cutbait** *(on 4-Rod Stand)*
-6. **Mokonzi 12'10" SE** — Ambusher 9000 SE, X-Series Fluoro .025", Rusty Cage Feeder 5 2/3 Oz, Titanium Leader .018", Barbless Hook #7/0, **Large Cutbait** *(on 4-Rod Stand)*
-7. **Tribal Totem 12'10"** — Savana Spirit 11000, Fluoro .033", Monkey Skull Sinker 7 Oz, Titanium Leader .018", Hook #6/0, **Medium Cutbait** *(on 4-Rod Stand)*
+## Loadout Used (7 slots  -  Saint-Croix Refit)
+1. **Brutus 10'10" SE** (Match Rod, Heavy, 11-34 Lb, Mod Fast)  -  EspiraDoublePunch 6500 SE, Braid .0076", Club-Series Glowing Pear-Shaped Float, X-Series Barbless Hook #4/0, **Small Minnows**
+2. **WBT BassStriker 7'10" SE** *(NEW  -  OVERPOWERED REEL)* (Casting, Heavy, 1/2-1 5/8 Oz, 9-24.2 Lb, Fast)  -  Vampire's Bane 7500, Braid .0076", Titanium Leader .011", **Medium Spoon 1/2 Oz #3/0**
+3. **Rivertex Salmonster 8'10"** (Spinning, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)  -  Kraken 8000 SE, X-Series Fluoro .025", Titanium Leader .012", **Triple Runner 8 ft #5/0**
+4. **Humenus 11'1"**  -  Ossibus Blue 11000, Braid .013", Sinker 6 Oz, Titanium Leader .018", Hook #7/0, **Large Cutbait** *(on 4-Rod Stand)*
+5. **Heavy Chaser 9'10" SE**  -  RedFish 5500, X-Series Fluoro .025", Monkey Skull Sinker 7 Oz, Titanium Leader .012", Hook #6/0, **Medium Cutbait** *(on 4-Rod Stand)*
+6. **Mokonzi 12'10" SE**  -  Ambusher 9000 SE, X-Series Fluoro .025", Rusty Cage Feeder 5 2/3 Oz, Titanium Leader .018", Barbless Hook #7/0, **Large Cutbait** *(on 4-Rod Stand)*
+7. **Tribal Totem 12'10"**  -  Savana Spirit 11000, Fluoro .033", Monkey Skull Sinker 7 Oz, Titanium Leader .018", Hook #6/0, **Medium Cutbait** *(on 4-Rod Stand)*
 
 ## Fish Keeper (End of Session)
 - **67 fish / 928.389 lb** (over-cap!)
 - **Reward:** 54,643 credits (premium)
 
-## Fish Caught — Highlights
+## Fish Caught  -  Highlights
 | Fish | Weight | Method | Notes |
 |------|--------|--------|-------|
 | Trophy Blue Catfish | **38.453 lb** | Large Cutbait | Midday |
@@ -63,8 +63,8 @@
 
 ## What Worked (User-Confirmed)
 - **Cast → drop slowly → hit bottom → raise slowly technique** works **consistently** on both casting and spinning setups
-- **Fast hit rate** — "hits happening within a few seconds of dropping a bottom rig or lure into the water"
-- **Variety in one location** — float, spinning, casting, bottom all viable from Floating Dock
+- **Fast hit rate**  -  "hits happening within a few seconds of dropping a bottom rig or lure into the water"
+- **Variety in one location**  -  float, spinning, casting, bottom all viable from Floating Dock
 - **Triple Runner 8 ft #5/0** continues as the active-lure MVP (cats + walleye + smallies)
 - **Medium Cutbait + #6/0 / Large Cutbait + #7/0** still the cat volume combos
 - **Grub 2.7" + Cicada 3/7 Oz** = new productive trout lures (Brown Trout class 5-8 lb)
@@ -79,13 +79,13 @@
   - **Lesson:** Reel power class MUST match rod line rating. X-Heavy reel on Heavy rod = rod damage.
   - **Fix for next deployment:** Pair BassStriker 7'10" SE with a **Heavy-class reel** (e.g., Cyclone 6500 SE, Counsellor 3500 P SE, or CGT BBgun 4500). Put Vampire's Bane 7500 back on Silverthorn Stake where it belongs.
 
-## User Verdict — Saint-Croix Floating Dock = FAVORITE
+## User Verdict  -  Saint-Croix Floating Dock = FAVORITE
 > "This is an excellent location and is one of my favorites in the game. It provides a variety of different fishing techniques, baits, lures, and styles all from a central location. The speed is also fast with hits happening within a few seconds of dropping a bottom rig or lure into the water."
 
 **Why it's the favorite:**
-1. Centralized 360° fishing — no repositioning needed
+1. Centralized 360° fishing  -  no repositioning needed
 2. Fast hit rate (seconds, not minutes like Euro lakes)
-3. Variety in one spot — all fishing styles viable
+3. Variety in one spot  -  all fishing styles viable
 4. 4-Rod Stand deployment works cleanly
 5. Drop-and-raise technique translates universally here
 6. Reliable income engine for recovering from experimental trips
@@ -98,11 +98,11 @@
 | **Saint-Croix (4/14 AM)** | **+$54,643 fish / $7,800 travel / repairs included = full recovery + surplus** |
 
 ## Key Takeaways
-1. **Saint-Croix Floating Dock is the income engine** — use for recovery after experimental trips
-2. **Rod-reel power matching matters** — don't over-spec the reel relative to the rod's line rating
-3. **Grub 2.7" and Cicada 3/7 Oz #2/0 are new Saint-Croix trout producers** — add to the active rod rotation
-4. **Small Minnows on match float = Trophy Tiger Trout** — proven combo from this session
-5. **7-hour in-game sessions fill the keepnet** — the Floating Dock + 4-Rod Stand cadence is sustainable
+1. **Saint-Croix Floating Dock is the income engine**  -  use for recovery after experimental trips
+2. **Rod-reel power matching matters**  -  don't over-spec the reel relative to the rod's line rating
+3. **Grub 2.7" and Cicada 3/7 Oz #2/0 are new Saint-Croix trout producers**  -  add to the active rod rotation
+4. **Small Minnows on match float = Trophy Tiger Trout**  -  proven combo from this session
+5. **7-hour in-game sessions fill the keepnet**  -  the Floating Dock + 4-Rod Stand cadence is sustainable
 
 ## Running Economic Reality (last 4 trips)
 - Experimental trips (Tiber, Lesní Víla, Sander, Kaniq) have been marginal to negative

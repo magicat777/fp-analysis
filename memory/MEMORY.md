@@ -1,6 +1,27 @@
-- [FP Collective Scraper](project_fpcollective.md) — Fishing Planet loadout analyzer with React HTML reports, hosted at fpreports.click
-- [User plays Fishing Planet](user_gamer.md) — PC gamer magicat777, level 34, extensive DLC inventory, progressing through locations
-- [Location preferences](user_location_preferences.md) — Strong preference for deep water lakes (Saint-Croix, White Moose); dislikes shallow rivers like SJD
-- [Workflow preferences](feedback_workflow.md) — Manual screenshot analysis, imperial units, deploy after each report, check inventory before recommending gear
-- [API and data references](reference_apis.md) — fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
-- [Congo tackle ceiling](project_congo_tackle_ceiling.md) — Market tops at 97 lb; fish >180 lb unlandable; open research on endgame unlocks
+- [FP Collective Scraper](project_fpcollective.md)  -  Fishing Planet loadout analyzer with React HTML reports, hosted at fpreports.click
+- [User plays Fishing Planet](user_gamer.md)  -  PC gamer magicat777, level 34, extensive DLC inventory, progressing through locations
+- [Location preferences](user_location_preferences.md)  -  Strong preference for deep water lakes (Saint-Croix, White Moose); dislikes shallow rivers like SJD
+- [Workflow preferences](feedback_workflow.md)  -  Manual screenshot analysis, imperial units, deploy after each report, check inventory before recommending gear
+- [API and data references](reference_apis.md)  -  fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
+- [Congo tackle ceiling](project_congo_tackle_ceiling.md)  -  Market tops at 97 lb; fish >180 lb unlandable; open research on endgame unlocks
+- [Competition tactics](feedback_competition_tactics.md)  -  FP comps reward bite frequency over fish size; use smaller lures + matched-weight rods
+- [Pre-trip checklist](feedback_pretrip_checklist.md)  -  Verify gear matches location constraints (rod-pods, boats, licenses) before recommending travel; failed trips cost real money
+- [Mid-range slot validation](feedback_midrange_slot_validation.md)  -  Slot 1 DragonCast + Basilisk 3500 P is the 5-10 lb bass/trout mission-runner (Falcon/Neherrin/White Moose/Emerald validated)
+- [Congo finesse retrieve](feedback_congo_finesse_retrieve.md)  -  100+ lb Congo fish require low-speed + sub-maximum tension; brute force destroys reels at 1%/second
+- [Keepnet swap strategy](feedback_keepnet_swap_strategy.md)  -  Spine Stringer (DLC) for Congo big-fish, FishStronghold M Plus for volume locations
+- [Undersized rod/reel = wear](feedback_undersized_rod_reel_wear.md)  -  Match rod line rating to fish class minimum; mismatched gear damages reels even with finesse
+- [Line type vs weight](feedback_line_type_vs_weight.md)  -  At BCI, line type matters more than weight; avoid fluoro on active retrieves due to flex
+- [DragonCast bass-only](feedback_dragoncast_bci_underweight.md)  -  DragonCast 7'3" NE is bass-class only, NOT for BCI/Congo/Dnipro/SJD; rod blank is the limit, not reel
+- [BCI afternoon bite](feedback_bci_afternoon_bite.md)  -  Blue Crab Island bite frequency peaks afternoon; start 12 PM not 5 AM
+- [BCI saltwater baits](feedback_bci_saltwater_bait_preference.md)  -  Sand fleas/muscle meat/finger mullets > freshwater baits at BCI
+- [Buzzbait technique](feedback_buzzbait_technique.md)  -  FP buzzbaits are mid-water/bottom spinners (not topwater); drop-and-pause + delayed hookset
+- [Lure balance QUAD + XP rating readout](feedback_lure_balance_triangle.md)  -  4 vars + XP band (+3 to -1 = matched, -3 = overpowered); JigWinner contest MVP validated 5/2 (31/221)
+- [Marker pattern recognition](feedback_marker_pattern_recognition.md)  -  Marker rings around deep zones = trophy fish "live on the edge"; cast perimeter, not center
+- [Saltwater E-class](reference_saltwater_eclass.md)  -  Electric saltwater rods + reels (172-315 Lb drag) for endgame Skarland Fjord/Maldives/Japan locations
+- [Repair cost = % of value](feedback_repair_cost_percentage.md)  -  Saltwater E-reel repairs eat 50-70% of fish-sale gross on early trips; finesse from minute one
+- [Skarland ocean pace + best XP/hr](feedback_skarland_ocean_pace.md)  -  Fastest leveling in game: 2-4 hr/level vs Congo 4-8 hr vs freshwater 6-16 hr; 4-8 catches/hr, 1 min/100 ft reel
+- [Boat selection - Skarland](feedback_boat_selection_skarland.md)  -  Valkyrie wins over Chamaeleon Cruiser at Skarland (rough water + 3 rod holders/person vs 2)
+- [Hook size + depth = fish size](feedback_hook_size_depth_correlation.md)  -  At deep ocean: #12/0 deep = shark/halibut, smaller/shallower = cod/ling/haddock filler
+- [Ubersheet Norway/Japan outreach](project_ubersheet_norway_japan.md)  -  User pinged FP Ubersheet owner on Reddit 4/30; recheck v2/fish endpoint periodically — code auto-prefers ubersheet when populated
+- [Float selection strategy](feedback_float_selection.md)  -  Slider if depth > rod, waggler for distance, pear for sensitivity, glowing for night; inventory light on wagglers/sliders
+- [Trophy vs X-Series vs Club-Series](feedback_trophy_vs_xseries.md)  -  Trophy #4/0 Bass Jig +10-20% trophy LMB at Everglades; rotate Trophy→standard for big/fill; X-Series = durability/logistics; Club-Series ≈ X-Series tier but purchased

@@ -1,10 +1,14 @@
 {
   "player": {
     "name": "magicat777",
-    "level": 30,
-    "baitcoins": 455,
-    "credits": 583409,
-    "last_updated": "2026-04-07"
+    "level": 65,
+    "baitcoins": 383,
+    "credits": 5428424,
+    "premium_bait": 617,
+    "last_updated": "2026-05-02",
+    "new_dlc_unlocked": ["Valkyrie Saga Pack", "Chamaeleon Cruiser Pack"],
+    "new_location_unlocked": "Skarland Fjord (Norway, L105 Ocean)",
+    "level_progression_note": "Level 57 → 65 between 2026-04-29 and 2026-05-02 (3 days, ~8 levels) primarily via Skarland XP rate"
   },
   "dlc_packs": [
     "Fishing Planet: World Bass Tour Pack",
@@ -58,11 +62,13 @@
       {"name": "GGC MatchMonster 10'10\"", "type": "Match", "length": "10'10\"", "line_weight": "11-30.5 Lb", "action": "Mod Fast", "pieces": 3},
       {"name": "GGC MatchMonster 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-35 Lb", "action": "Mod Fast", "pieces": 3},
       {"name": "CGT FinGiant 9'10\"", "type": "Match", "length": "9'10\"", "line_weight": "11-25 Lb", "action": "Mod Fast", "pieces": 3},
-      {"name": "EquatorMatch 8'6\" SE", "type": "Match", "length": "8'6\"", "line_weight": "28.6-83.8 Lb", "action": "Moderate", "pieces": 3, "note": "VERY HIGH line weight — saltwater class"},
+      {"name": "EquatorMatch 8'6\" SE", "type": "Match", "length": "8'6\"", "line_weight": "28.6-83.8 Lb", "action": "Moderate", "pieces": 3, "note": "VERY HIGH line weight  -  saltwater class"},
       {"name": "Fenix 14'10\" SE", "type": "Match", "length": "14'10\"", "line_weight": "5-22 Lb", "action": "Mod Fast", "pieces": 3},
       {"name": "Fenix 11'5\"", "type": "Match", "length": "11'5\"", "line_weight": "4.5-17.5 Lb", "action": "Mod Fast", "pieces": 3, "source": "Salmon Star Pack or in-game"},
       {"name": "Brutus 10'10\" SE", "type": "Match", "length": "10'10\"", "line_weight": "11-34 Lb", "action": "Mod Fast", "pieces": 3},
-      {"name": "MCT McCarp 13'2\"", "type": "Match", "length": "13'2\"", "line_weight": "9-25.5 Lb", "action": "Mod Fast", "pieces": 3, "source": "Mighty Carp Pack"}
+      {"name": "MCT McCarp 13'2\"", "type": "Match", "length": "13'2\"", "line_weight": "9-25.5 Lb", "action": "Mod Fast", "pieces": 3, "source": "Mighty Carp Pack"},
+      {"name": "Majesty 11'5\" SE", "type": "Match", "length": "11'5\"", "line_weight": "31-57 Lb", "action": "Mod Fast", "pieces": 3, "added": "2026-04-26", "note": "NEW  -  Heavy Match class, fills 31-57 Lb gap between Brutus (34 max) and Wicked Viking (83 min)"},
+      {"name": "Nero 12'10\" Sport", "type": "Match", "length": "12'10\"", "line_weight": "5-12 Lb", "action": "Moderate", "pieces": 3, "added": "2026-04-26", "note": "NEW  -  Sport variant of Nero 12'10\""}
     ],
     "spinning": [
       {"name": "FeatherLight 6'3\" Sport", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/32-1/4 Oz", "power": "Ultralight"},
@@ -70,7 +76,7 @@
       {"name": "UncleSam 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/2-1 3/4 Oz", "power": "Heavy"},
       {"name": "JigWinner 8'10\" SE", "type": "Spinning", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
       {"name": "Thora 9'6\" SE", "type": "Spinning", "length": "9'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy"},
-      {"name": "Rivertex Zeus 8'10\" SE", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "note": "TOP TIER — best for monsters"},
+      {"name": "Rivertex Zeus 8'10\" SE", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "note": "TOP TIER  -  best for monsters"},
       {"name": "Elemental 6'1\"", "type": "Spinning", "length": "6'1\"", "lure_weight": "1/16-1/2 Oz", "power": "Ultralight"},
       {"name": "FeatherLight 6'6\" NE", "type": "Spinning", "length": "6'6\"", "lure_weight": "1/28-1/3 Oz", "power": "Ultralight"},
       {"name": "ValueSpin 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
@@ -78,7 +84,6 @@
       {"name": "ValueSpin 8'6\"", "type": "Spinning", "length": "8'6\"", "lure_weight": "1/4-3/4 Oz", "power": "Light"},
       {"name": "Aurora 7'6\"", "type": "Spinning", "length": "7'6\"", "lure_weight": "3/8-3/4 Oz", "power": "Light"},
       {"name": "Aurora 6'3\"", "type": "Spinning", "length": "6'3\"", "lure_weight": "1/4-1 1/2 Oz", "power": "Light"},
-      {"name": "Rivertex Saltmaster 7'7\" SE", "type": "Spinning", "length": "7'7\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "note": "SALTWATER — strong"},
       {"name": "CGT MonSpin 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy"},
       {"name": "Aurora 8'2\"", "type": "Spinning", "length": "8'2\"", "lure_weight": "3/8-3/4 Oz", "power": "Light"},
       {"name": "JigWinner 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light"},
@@ -87,7 +92,11 @@
       {"name": "Rivertex Salmonster 8'2\"", "type": "Spinning", "length": "8'2\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "line_weight": "15-42 Lb", "action": "Mod Fast", "source": "Anniversary Pack"},
       {"name": "Rivertex Salmonster 8'10\"", "type": "Spinning", "length": "8'10\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "line_weight": "18-46 Lb", "action": "Mod Fast", "source": "Anniversary Pack", "note": "Currently equipped slot 6"},
       {"name": "Loki 7'7\" SE", "type": "Spinning", "length": "7'7\"", "lure_weight": "5/7-2 1/3 Oz", "power": "Heavy", "line_weight": "6-24 Lb", "action": "Moderate", "source": "Trout Triumph Pack"},
-      {"name": "SpookySpin 8'6\"", "type": "Spinning", "length": "8'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy", "line_weight": "6.6-19.8 Lb", "action": "Mod Fast", "source": "Spooky Fishing Pack"}
+      {"name": "SpookySpin 8'6\"", "type": "Spinning", "length": "8'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy", "line_weight": "6.6-19.8 Lb", "action": "Mod Fast", "source": "Spooky Fishing Pack"},
+      {"name": "Rivertex Salmonster 7'3\"", "type": "Spinning", "length": "7'3\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW  -  shorter Salmonster variant for tighter casting"},
+      {"name": "Thora 9'6\" SE", "type": "Spinning", "length": "9'6\"", "lure_weight": "5/7-1 3/4 Oz", "power": "Heavy", "added": "2026-04-26", "note": "NEW SE variant of Thora 9'6\""},
+      {"name": "Aurora 8'2\" Sport", "type": "Spinning", "length": "8'2\"", "lure_weight": "1/6-1/2 Oz", "power": "Light", "added": "2026-04-26", "note": "NEW  -  Sport variant, lighter lure range than Aurora 8'2\""},
+      {"name": "JigWinner 6'10\"", "type": "Spinning", "length": "6'10\"", "lure_weight": "1/6-5/8 Oz", "power": "Light", "added": "2026-04-26", "note": "NEW  -  shorter JigWinner variant for tighter quarters"}
     ],
     "casting": [
       {"name": "FarCaster 8'6\" Sport", "type": "Casting", "length": "8'6\"", "lure_weight": "1/2-1 1/2 Oz", "power": "Medium"},
@@ -106,16 +115,34 @@
       {"name": "WBT BassEnchanter 7'3\" NE", "type": "Casting", "length": "7'3\"", "lure_weight": "3/8-1 3/7 Oz", "power": "Heavy"},
       {"name": "FarCaster 8'6\" SE", "type": "Casting", "length": "8'6\"", "lure_weight": "1/2-1 1/2 Oz", "power": "Medium"},
       {"name": "CGT HugeCaster 6'3\"", "type": "Casting", "length": "6'3\"", "lure_weight": "1-3 Oz", "power": "X-Heavy", "line_weight": "12-50.5 Lb", "note": "STRONG"},
-      {"name": "ValueCast 6'6\"", "type": "Casting", "length": "6'6\"", "lure_weight": "1/4-6/7 Oz", "power": "Med Light"}
+      {"name": "ValueCast 6'6\"", "type": "Casting", "length": "6'6\"", "lure_weight": "1/4-6/7 Oz", "power": "Med Light"},
+      {"name": "SharpCaster 7'3\"", "type": "Casting", "length": "7'3\"", "lure_weight": "5/8-2 Oz", "power": "X-Heavy", "line_weight": "28.6-66 Lb", "action": "Fast", "pieces": 2, "guides": 8, "note": "Equipped Slot 3  -  replaced Silverthorn Stake 7'6\" on 2026-04-19"},
+      {"name": "GalaxyCast 8'6\"", "type": "Casting", "length": "8'6\"", "lure_weight": "3/4-2 1/8 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "Long-range X-Heavy casting; 14.6-83.8 Lb line per loadout history"},
+      {"name": "GalaxyCast 5'11\" SE", "type": "Casting", "length": "5'11\"", "lure_weight": "7/8-2 1/2 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "Short X-Heavy casting (Supernatural Pack)"}
     ],
     "feeder": [
-      {"name": "Big Ali 13'10\" SE", "type": "Feeder", "length": "13'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy"},
-      {"name": "AllRound 11'10\" SE", "type": "Feeder", "length": "11'10\"", "casting_weight": "1 1/6-3 1/5 Oz", "power": "Med-Heavy"},
-      {"name": "Big Ali 13'10\" SE", "type": "Feeder", "length": "13'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy"}
+      {"name": "Big Alli 14'10\"", "type": "Feeder", "length": "14'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy"},
+      {"name": "Big Alli 13'10\" SE", "type": "Feeder", "length": "13'10\"", "casting_weight": "3-6 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW SE variant"},
+      {"name": "AllRound 11'10\" SE", "type": "Feeder", "length": "11'10\"", "casting_weight": "1 1/16-3 1/5 Oz", "power": "Med-Heavy"}
     ],
     "bottom": [
-      {"name": "Mokona 12'10\" SE", "type": "Bottom", "length": "12'10\"", "casting_weight": "6-8 7/8 Oz", "power": "X-Heavy", "note": "MONSTER FISH ROD"},
-      {"name": "Heavy Chaser 9'10\" SE", "type": "Bottom", "length": "9'10\"", "casting_weight": "6-8.5 Oz", "power": "X-Heavy", "note": "MONSTER FISH ROD"}
+      {"name": "Mokonzi 12'10\" SE", "type": "Bottom", "length": "12'10\"", "casting_weight": "6-9 7/8 Oz", "power": "X-Heavy", "line_weight": "39.7-81.6 Lb", "note": "MONSTER FISH ROD - active loadout slot 6"},
+      {"name": "Tribal Totem 12'10\"", "type": "Bottom", "length": "12'10\"", "casting_weight": "6-9 7/8 Oz", "power": "X-Heavy", "line_weight": "39.7-81.6 Lb", "note": "MONSTER FISH ROD - active loadout slot 7"},
+      {"name": "Humerus 11'1\"", "type": "Bottom", "length": "11'1\"", "casting_weight": "6 1/3-10 1/5 Oz", "power": "X-Heavy", "line_weight": "37.5-72.7 Lb"},
+      {"name": "Heavy Chaser 9'10\" SE", "type": "Bottom", "length": "9'10\"", "casting_weight": "6-8.5 Oz", "power": "X-Heavy"},
+      {"name": "Cat Boxer 8'6\" SE", "type": "Bottom", "length": "8'6\"", "casting_weight": "5 3/10-7 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW  -  shorter bottom rod for tighter quarters"}
+    ],
+    "carp": [
+      {"name": "Deep Horizon 13'9\"", "type": "Carp", "length": "13'9\"", "casting_weight": "3 7/8-8 1/12 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW  -  long-range carp specialist"},
+      {"name": "Mega Chuber 12'4\" SE", "type": "Carp", "length": "12'4\"", "casting_weight": "2 1/2-5 1/2 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW  -  carp specialist (also confirmed in DLC pack contents)"}
+    ],
+    "spod": [
+      {"name": "Femur 12'7\"", "type": "Spod", "length": "12'7\"", "casting_weight": "4 2/5-10 1/19 Oz", "power": "X-Heavy", "added": "2026-04-26", "note": "NEW  -  spod rod for spodding carp groundbait"}
+    ],
+    "saltwater_bottom_e_rods": [
+      {"name": "PulseWave 5'7\" SE", "type": "Saltwater Bottom Casting E-Rod", "length": "5'7\"", "electric": true, "added": "2026-04-26", "note": "NEW  -  electric saltwater bottom rod for endgame saltwater locations (Skarland Fjord L105, Maldives L94)"},
+      {"name": "Chillarc 5'11\" SE", "type": "Saltwater Bottom Casting E-Rod", "length": "5'11\"", "electric": true, "added": "2026-04-26", "note": "NEW  -  electric saltwater bottom rod"},
+      {"name": "Sigma F 6'7\" NE SE", "type": "Saltwater Bottom Casting E-Rod", "length": "6'7\"", "electric": true, "added": "2026-04-26", "note": "NEW  -  electric saltwater bottom rod, longest of the three"}
     ]
   },
   "reels": {
@@ -153,8 +180,8 @@
       {"name": "GGC Garn'nGloReel 4500", "max_drag": "38.9 Lb", "ratio": "4.8:1", "recovery": "27.5\""},
       {"name": "CGT SpinTitan 5500", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "note": "TOP TIER"},
       {"name": "CGT SpinTitan 4500", "max_drag": "34.2 Lb", "ratio": "5.4:1", "recovery": "31.8\""},
-      {"name": "Fileur 11000 SE", "max_drag": "79.4 Lb", "ratio": "5.2:1", "recovery": "43.3\"", "note": "MONSTER — 2nd strongest"},
-      {"name": "L'Impulsion 12000 SE", "max_drag": "81.5 Lb", "ratio": "5.6:1", "recovery": "47.2\"", "note": "MONSTER — STRONGEST REEL"},
+      {"name": "Fileur 11000 SE", "max_drag": "79.4 Lb", "ratio": "5.2:1", "recovery": "43.3\"", "note": "MONSTER  -  2nd strongest"},
+      {"name": "L'Impulsion 12000 SE", "max_drag": "81.5 Lb", "ratio": "5.6:1", "recovery": "47.2\"", "note": "MONSTER  -  STRONGEST REEL"},
       {"name": "LineGlider 4000 SE", "max_drag": "22 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
       {"name": "Big River 6000 SE", "max_drag": "18 Lb", "ratio": "6:1", "recovery": "47.2\""},
       {"name": "FatBoySpin 6000 SE", "max_drag": "19.8 Lb", "ratio": "4.6:1", "recovery": "29.5\""},
@@ -167,14 +194,22 @@
       {"name": "Ambusher 9000 SE", "max_drag": "49.6 Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "VERY STRONG"},
       {"name": "ThunderSpin 5500 SE", "max_drag": "42 Lb", "ratio": "5.4:1", "recovery": "31.5\""},
       {"name": "Prima 3500", "max_drag": "9.9 Lb", "ratio": "5.2:1", "recovery": "31.5\""},
-      {"name": "Kraken 8000 SE", "max_drag": "49+ Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "Currently equipped slot 6 — STRONG", "source": "Salmon Star Pack or in-game"},
+      {"name": "Kraken 8000 SE", "max_drag": "49+ Lb", "ratio": "5.1:1", "recovery": "35.5\"", "note": "Currently equipped slot 6  -  STRONG", "source": "Salmon Star Pack or in-game"},
       {"name": "EspiraMLR 3600", "max_drag": "~15 Lb", "ratio": "5.1:1", "recovery": "29.5\"", "note": "Currently equipped slot 4", "source": "In-game purchase"},
       {"name": "EspiraSlim 2500 Sport", "max_drag": "6.4 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "source": "In backpack"},
       {"name": "HeartSpinner 3500", "max_drag": "12.5 Lb", "ratio": "5.2:1", "recovery": "31.5\"", "source": "Crappie Valentine Pack"},
       {"name": "Ghost Reel 3000", "max_drag": "11 Lb", "ratio": "4.6:1", "recovery": "27.5\"", "source": "Spooky Fishing Pack"},
       {"name": "MCT CarpAxel 4000", "max_drag": "22 Lb", "ratio": "4.6:1", "recovery": "29.5\"", "source": "Mighty Carp Pack"},
       {"name": "Callisto MG 3000 Sport", "max_drag": "8.8 Lb", "ratio": "4.7:1", "recovery": "27.5\"", "source": "Sport Float Pack"},
-      {"name": "MagFin WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.3:1", "recovery": "31.5\"", "source": "World Bass Tour Pack"}
+      {"name": "MagFin WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.3:1", "recovery": "31.5\"", "source": "World Bass Tour Pack"},
+      {"name": "Ossibus Red 10000", "max_drag": "57.7 Lb", "ratio": "4.3:1", "recovery": "43.3\"", "added": "2026-04-26", "note": "NEW  -  Ossibus family Red variant; second-strongest spinning reel after Ossibus Blue 11000"},
+      {"name": "Leviathan 9000", "max_drag": "53.3 Lb", "ratio": "4.3:1", "recovery": "41.7\"", "added": "2026-04-26", "note": "NEW  -  heavy-class spinning, fills gap between Ambusher 9000 (49.6 Lb) and Ossibus Red 10000 (57.7 Lb)"},
+      {"name": "Ossibus Green 8500", "max_drag": "46.2 Lb", "ratio": "5:1", "recovery": "35.5\"", "added": "2026-04-26", "note": "NEW  -  Ossibus family Green variant; medium-heavy class"},
+      {"name": "GGC Gars'n'GloReel 4500 (35 Lb)", "max_drag": "35 Lb", "ratio": "5.4:1", "recovery": "31.5\"", "added": "2026-04-26", "note": "NEW variant  -  different from existing 39 Lb variant"},
+      {"name": "Mega Tank 7000 SE", "max_drag": "34 Lb", "ratio": "5.1:1", "recovery": "42.5\"", "added": "2026-04-26", "note": "NEW  -  long-recovery spinning reel for casting distance"},
+      {"name": "Ghost Reel 5000", "max_drag": "25.3 Lb", "ratio": "5.1:1", "recovery": "31.5\"", "added": "2026-04-26", "note": "NEW  -  fills gap between Ghost 4000 (19.8 Lb) and SCT Pouncer 5000 (26.4 Lb)"},
+      {"name": "Exterminator 4500", "max_drag": "16.5 Lb", "ratio": "4.6:1", "recovery": "31.5\"", "added": "2026-04-26", "note": "NEW  -  light-medium spinning"},
+      {"name": "Breamer 4500 SE", "max_drag": "13 Lb", "ratio": "5.5:1", "recovery": "36.5\"", "added": "2026-04-26", "note": "NEW  -  bream/panfish specialist with high recovery"}
     ],
     "casting": [
       {"name": "Helios 2000S", "max_drag": "15.4 Lb", "ratio": "5.8:1", "recovery": "21.6\""},
@@ -193,7 +228,15 @@
       {"name": "Counsellor 3500 P SE", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "29.5\""},
       {"name": "Cyclone 6500 SE", "max_drag": "48.5 Lb", "ratio": "6.5:1", "recovery": "31.5\""},
       {"name": "WBT Maelstrom 4500", "max_drag": "23 Lb", "ratio": "6.2:1", "recovery": "59.8\""},
-      {"name": "WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.4:1", "recovery": "31.5\""}
+      {"name": "WBT DragAssistant 3500 S", "max_drag": "33 Lb", "ratio": "6.4:1", "recovery": "31.5\""},
+      {"name": "Rivertex Tornado 7500", "max_drag": "~42 Lb", "ratio": "est 5.4:1", "recovery": "est 31.5\"", "note": "Equipped Slot 3 with SharpCaster 7'3\"  -  2026-04-19"},
+      {"name": "PowerGrab 7000", "max_drag": "70.5 Lb", "ratio": "6.5:1", "recovery": "37\"", "added": "2026-04-26", "note": "NEW  -  major casting reel upgrade; fills gap between Cyclone 6500 SE (48.5 Lb) and Vampire's Bane 7500 (83.7 Lb)"},
+      {"name": "PowerGrab 6500", "max_drag": "64 Lb", "ratio": "6.5:1", "recovery": "37\"", "added": "2026-04-26", "note": "NEW  -  second PowerGrab variant, slight drag step-down"}
+    ],
+    "saltwater_e_reels": [
+      {"name": "AmperDrive X 24000 SE", "type": "Saltwater Casting E-Reel", "max_drag": "315 Lb", "ratio": "7.5:1", "electric": true, "added": "2026-04-26", "note": "NEW  -  strongest reel in inventory, electric-powered for endgame saltwater (Skarland Fjord, Maldives)"},
+      {"name": "Arcspark 2W 22000 SE", "type": "Saltwater Casting E-Reel", "max_drag": "243 Lb", "ratio": "7.5:1", "electric": true, "added": "2026-04-26", "note": "NEW  -  second-strongest reel, electric saltwater"},
+      {"name": "Glacion 21000 SE", "type": "Saltwater Casting E-Reel", "max_drag": "172 Lb", "ratio": "7.7:1", "electric": true, "added": "2026-04-26", "note": "NEW  -  third electric saltwater reel; entry-tier for the E-reel category"}
     ]
   },
   "lines": {
@@ -319,7 +362,7 @@
     "tackle_boxes": ["GGC TackleShell", "LoveBox (x2)", "MagFin EasyFish", "RIVERTEX GoldenDragon", "Sport Lure Box", "Easy Go Belt Pocket", "ChumChest XL", "BigBox L"],
     "vests": ["BornAmerican Fishing Jacket", "CGT Goliath", "FPA Cup Jacket", "GarryScott DragonSkin F", "GGC BomberJaws", "MCT Carpster", "PassionBomber", "SCT FatCat (x2)", "Sport Shirt", "VBO Fishing Jacket", "WBT Bass Winner Jacket", "Travel Pro II", "Grizzly Vest", "Pro Angler", "Wild Element Deluxe Angler Vest"],
     "hats": ["Bass Boss Cap", "Catfish Combat Cap", "Fishing Planet Cap", "GarryScott DragonMaster Cap", "Predator Hunter Cap", "Salmon Star Cap", "Trout Triumph Cap"],
-    "keepnets": ["FishHut L", "FishCabin XS Plus", "FishCabin S", "FishCabin M Plus", "FishFort XS", "FishFort M", "FishFort XL Plus (x2)", "FishCastle L (x2)", "Iron Maiden Fish Stringer"],
+    "keepnets": ["FishHut L", "FishCabin XS Plus", "FishCabin S", "FishCabin M Plus", "FishFort XS", "FishFort M", "FishFort XL Plus (x2)", "FishCastle L (x2)", "Iron Maiden Fish Stringer", "FishStronghold M Plus Keepnet (925.942 lb total / 308.647 lb single-fish max)", "Spine Stringer (DLC  -  734.1 lb total / 389.4 lb single-fish max  -  Congo big-fish setup)"],
     "rod_stands": ["TripleFeeder Rod Stand", "GreenPod Rod Stand", "RodPod Trio Rod Stand"],
     "headlamps": ["Luminos Headlamp"],
     "markers": ["Magic RedRiverDragon Marker"],

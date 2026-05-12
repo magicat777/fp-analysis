@@ -1,0 +1,331 @@
+{
+  "location": {
+    "name": "Blue Crab Island",
+    "region": "Mississippi",
+    "type": "Lake (saltwater + brackish + freshwater mix)",
+    "continent": "North America",
+    "base_level": 54,
+    "travel_cost": 12000,
+    "extend_cost": 2500,
+    "level_note": "Unlocked at Level 54. First trip 2026-04-25  -  exceptional first session: cleared Expedition I, nearly cleared Expedition II (only 2 daytime bass remaining), filled keepnet, multiple Uniques landed."
+  },
+  "fish_summary": {
+    "primary_targets": [
+      "Tarpon (max 70 kg / 154 lb  -  biggest fish here)",
+      "Black Drum (max 48 kg / 106 lb  -  bottom feeder, Unique potential 82+ lb confirmed)",
+      "Red Drum (max 40 kg / 88 lb  -  Unique potential 66+ lb confirmed)",
+      "Permit (max 35 kg / 77 lb  -  saltwater target on Shad)",
+      "Striped Bass (max 25 kg / 55 lb  -  80 cr/lb)",
+      "Common Snook (max 18 kg / 40 lb  -  Unique potential 35+ lb confirmed)"
+    ],
+    "secondary_targets": [
+      "Bigmouth Buffalo (max 28 kg / 62 lb)",
+      "Longnose Gar (max 14 kg / 31 lb  -  Trophy class accessible)",
+      "Speckled Peacock Bass (max 10 kg / 22 lb  -  180 cr/lb HIGH VALUE)",
+      "Bonefish (max 8.5 kg / 18.7 lb  -  120 cr/lb)",
+      "Southern Flounder (max 8.5 kg / 18.7 lb  -  143 cr/lb)",
+      "Largemouth Bass (max 4.9 kg / 10.8 lb  -  152 cr/lb HIGH VALUE)",
+      "Butterfly Peacock Bass (max 4.2 kg / 9.3 lb  -  150 cr/lb)",
+      "Shoal Bass (max 4 kg / 8.8 lb  -  215 cr/lb HIGHEST per-pound)",
+      "Gafftopsail Catfish (max 4.5 kg / 9.9 lb  -  Unique potential 7+ lb confirmed)",
+      "Bowfin (max 4.5 kg / 9.9 lb  -  Trophy class accessible)"
+    ],
+    "panfish_exploration": [
+      "Channel Catfish, Brown Bullhead, American Gizzard Shad, Oscar, Redear Sunfish, Bluegill, Warmouth, Golden Shiner  -  all <2 lb; exploration completion fodder"
+    ],
+    "monster_fish": [
+      "Ghost Peacock Bass  -  boss-class Peacock Bass (likely high-value Speckled or Butterfly variant)"
+    ],
+    "fish_count": 24,
+    "fish_value_ranked_per_lb": [
+      "Shoal Bass: 215 cr/lb (TOP)",
+      "Speckled Peacock Bass: 180",
+      "Warmouth: 170",
+      "Largemouth Bass: 152",
+      "Butterfly Peacock Bass: 150",
+      "Southern Flounder: 143",
+      "Bonefish: 120",
+      "Redear Sunfish: 120",
+      "American Gizzard Shad: 100",
+      "Golden Shiner: 100"
+    ],
+    "fish_value_ranked_per_max_fish": [
+      "Tarpon: ~$11,858 max single (154 lb × 77 cr/lb)",
+      "Black Drum: ~$7,194 max single (106 lb × 68 cr/lb)",
+      "Red Drum: ~$5,914 max single (88 lb × 67 cr/lb)",
+      "Permit: ~$5,792 max single (77 lb × 75 cr/lb)",
+      "Speckled Peacock Bass: ~$3,968 max single (22 lb × 180 cr/lb)",
+      "Striped Bass: ~$4,409 max single (55 lb × 80 cr/lb)"
+    ]
+  },
+  "spots": [
+    {
+      "name": "Mangrove Sunset",
+      "type": "Shore - Mangrove area",
+      "best_for": ["Snook", "Tarpon", "Red Drum", "Bonefish in flats", "Shoal Bass"]
+    },
+    {
+      "name": "The Bass Base",
+      "type": "Boat dock / structure",
+      "best_for": ["Largemouth Bass", "Butterfly Peacock Bass", "Speckled Peacock Bass", "Bowfin night fishing"],
+      "notes": "User confirmed boat dock as PRODUCTIVE day + night, with night producing more big fish + faster hit rates."
+    },
+    {
+      "name": "Southern Inlet from Gulf (boat-mapped 2026-04-26)",
+      "type": "Boat - Saltwater influx zone (southernmost map point)",
+      "best_for": ["Permit (PRIMARY  -  3-hr hunt confirmed only this spot)", "Tarpon", "Bonefish (saltwater flats)", "saltwater species in general"],
+      "notes": "USER-MAPPED: marker buoys placed for boat fishing perimeter. Permit only landed at this spot after 3 hours of multi-spot search. Future BCI saltwater missions should default to this location."
+    }
+  ],
+  "licensing": {
+    "basic_license": {
+      "day_cost": 5000,
+      "unlimited_cost": 1000,
+      "night_fishing": false,
+      "boat_fishing": false
+    },
+    "advanced_license": {
+      "day_cost": 10000,
+      "unlimited_cost": 2000,
+      "night_fishing": true,
+      "boat_fishing": true,
+      "recommended": "Buy unlimited Advanced License  -  $2,000 for permanent boat + night access. Night produced more big fish than day at this location (user-confirmed)."
+    }
+  },
+  "first_trip_results_4_25": {
+    "level": 54,
+    "session_xp_premium": 24550,
+    "session_credits_premium": 52330,
+    "fish_count": 68,
+    "total_weight_lb": 928.821,
+    "keepnet_capacity": "925.942 lb (capped  -  switched to Spine Stringer mid-session for max single-fish allowance)",
+    "expedition_progress": {
+      "expedition_1": "COMPLETED",
+      "expedition_2": "Nearly complete  -  only 2 daytime bass remaining"
+    },
+    "challenges_unlocked": ["Fishy Kayaker", "Blue Crab Viator"],
+    "notable_uniques_landed": [
+      "Unique Black Drum 82.786 lb / 54.1 in (Large Cutbait, Early night, Slot 6 Mokonzi bottom)",
+      "Unique Red Drum 66.827 lb / 55.3 in (Large Cutbait, Early night, bottom)",
+      "Unique Common Snook 35.843 lb / 44.8 in (Large Cutbait, Night, NileChasseur three-way)",
+      "Unique Gafftopsail Catfish 7.621 lb / 23.5 in (Craw 4\", Morning, NileChasseur)"
+    ],
+    "notable_trophies_landed": [
+      "Trophy Red Drum 38.310 lb / 47.3 in (Large Cutbait night)",
+      "Trophy Red Drum 31.888 lb (Club-Series Glow&Holo Medium Spoon 1 Oz #4/0)",
+      "Trophy Red Drum 24.019 lb (Buzzbait 1 Oz #5/0)",
+      "Trophy Black Drum 33.462 lb / 40.1 in (Large Cutbait early night)",
+      "Trophy Longnose Gar 13.530 lb / 45.6 in (Major Popper 1 Oz #3/0 evening)",
+      "Trophy Bowfin 7.064 lb / 28.7 in (Major Popper 1 Oz #3/0)",
+      "Trophy Butterfly Peacock Bass 5.110 lb / 19.0 in (Walker 1 Oz #3/0)",
+      "Trophy Gafftopsail Catfish 5.232 lb (Shiners morning) + 4.537 lb (Large Cutbait early night)",
+      "Trophy Brown Bullhead 2.112 + 2.240 lb (Leeches early morning)"
+    ]
+  },
+  "loadout_strategy": {
+    "philosophy": "Blue Crab Island is a multi-class lake with saltwater (Tarpon, Snook, Permit, Bonefish, Drum), brackish (Bass varieties), and freshwater (Bowfin, Bullhead, Catfish). Current 7-rod loadout was experimental  -  testing if UncleSam 6'3\" Heavy and LibertyCast 8'10\" Med-Light could fill mid-light gaps. Result: BOTH rods underperformed and wore down both reels significantly. Brutus + SharpCaster + bottom rods carried the day.",
+    "validated_winners": [
+      "Brutus 10'10\" SE Match (Slot 1) + CGT SpinTitan 4500 + Trophy Mono .02\" + Float + Hook #6/0 + Shiners  -  \"perfect for this location\" per user; right balance for medium-weight fish",
+      "SharpCaster 7'3\" (Slot 3) + VorteX 7000 SE + Club-Series Glow&Holo Medium Spoon 1 Oz #4/0  -  covers full lure-weight spectrum, ideal day + night spoon work",
+      "NileChasseur 6'3\" SE (Slot 4) + GiantSpin 9000 SE + Three-way + Offset Hook #6/0 + Ribbed Shad 6\"  -  Congo MVP rig transferred well; landed Unique Common Snook 35.843 lb",
+      "Mokonzi 12'10\" SE (Slot 6) + L'impulsion 12000 SE + Sinker 6 Oz + Titanium Leader .018\" + Hook #6/0 + Large Cutbait  -  produced significantly; landed Unique Black Drum 82.786 lb + Unique Red Drum 66.827 lb",
+      "Tribal Totem 12'10\" (Slot 7) + Savanna Spirit 11000 + Sinker 5 1/2 Oz + Titanium Leader .018\" + Hook #6/0 + Shiners  -  bottom workhorse"
+    ],
+    "validated_losers": [
+      "UncleSam 6'3\" Spinning (Slot 2) Heavy  -  reel speed wrong, didn't match lure/jig sizes, insufficient line strength for medium-big fish. Wore down Patriot's Dream 4000 reel to 27,226/46,200 (59%) durability",
+      "LibertyCast 8'10\" Casting (Slot 5) Med Light  -  too light for the larger fish encountered. Wore down AmericanEagle 2000 reel to 9,242/46,200 (20% RED  -  needs repair)"
+    ]
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "Brutus 10'10\" SE (Match, 11-34 Lb line, Mod Fast)",
+      "reel": "CGT SpinTitan 4500 (34.2 Lb drag spinning)",
+      "line": "Trophy Mono .02\"",
+      "leader": " - ",
+      "terminal_tackle": "Club-Series Glowing Pear-Shaped Float + Hook #6/0",
+      "bait": "Scaled Sardine (saltwater)  -  UPDATED 2026-04-26",
+      "setup_type": "Float Rig - Mid-class predator volume (saltwater bait)",
+      "target_fish": ["Red Drum (Trophy class)", "Black Drum (Trophy class)", "Tarpon", "Common Snook", "Striped Bass", "Permit"],
+      "effectiveness_rating": 9,
+      "notes": "USER VERDICT: 'PERFECT for this location'  -  right balance of strength + durability for medium-weight fish. Bait swapped from Shiners to Scaled Sardine per saltwater preference finding. 53,980/54,000 durability remaining."
+    },
+    {
+      "slot_number": 2,
+      "rod": "JigWinner 8'10\" SE (Spinning, Light, 1/6-5/8 Oz lure, 3-13 Lb line, Fast)  -  REPLACED UncleSam 2026-04-26",
+      "reel": "Prima 3500 SE",
+      "line": "Fluoro .014\"",
+      "leader": "Fluorocarbon Leader .009\"",
+      "terminal_tackle": "Barbless Nano Spoon 1/5 Oz #1/0",
+      "bait": "Lure",
+      "setup_type": "Light spinning - finesse for smaller fish + Snook",
+      "target_fish": ["Unique Common Snook (38.676 lb landed on Finger Mullets)", "Smaller bass class", "Light-target species"],
+      "effectiveness_rating": 8,
+      "notes": "Replaced UncleSam (was 'less than ideal'). JigWinner produces well at BCI for lighter targets  -  landed Unique Common Snook 38.676 lb on Finger Mullets. Light setup means swap baits for bigger fish (Finger Mullets > Nano Spoon for Snook trophy class)."
+    },
+    {
+      "slot_number": 3,
+      "rod": "SharpCaster 7'3\" (Casting, X-Heavy, 5/8-2 Oz lure, 28.6-66 Lb line, Fast)",
+      "reel": "Rivertex Tornado 7500 (~42 Lb drag)  -  UPDATED 2026-04-26",
+      "line": "Fluoro .024\"",
+      "leader": " - ",
+      "terminal_tackle": "Buzzbait 1 Oz #5/0 + Nymphes 4\"",
+      "bait": "Buzzbait + Nymphes 4\" soft plastic combo",
+      "setup_type": "Buzzbait drop-and-pause - mid-water/bottom Drum hunter (MVP)",
+      "target_fish": ["Trophy Black Drum 60.019 lb (PB)", "Trophy Red Drum class", "Striped Bass", "Snook", "5+ Trophy Drum landed"],
+      "effectiveness_rating": 10,
+      "notes": "USER VERDICT: 'IDEAL' / MVP  -  Buzzbait 1 Oz #5/0 + Nymphes 4\" with drop-and-pause technique = monster Drum producer. 60 lb Trophy Black Drum PB on this rig (2026-04-26). Reel switched to Tornado 7500 from VorteX 7000 SE (VorteX moved to Slot 5 with DragonCast)."
+    },
+    {
+      "slot_number": 4,
+      "rod": "NileChasseur 6'3\" SE (Spinning, X-Heavy, 1-2 3/5 Oz lure, 46-97 Lb line)",
+      "reel": "GiantSpin 9000 SE",
+      "line": "Mono .034\"",
+      "leader": " - ",
+      "terminal_tackle": "Drop Sinker 1 Oz + Three-way Rig 0.036\" + Offset Hook #8/0  -  UPGRADED 2026-04-26",
+      "bait": "Burying Beetle Larva 4\"  -  UPDATED 2026-04-26",
+      "setup_type": "Three-way rig - bottom-feeder + flounder hunter",
+      "target_fish": ["Unique Southern Flounder 15.329 lb (NEW PB)", "Trophy Bowfin", "Trophy Bonefish", "Mid-class Drum"],
+      "effectiveness_rating": 10,
+      "notes": "Hook upgraded to #8/0 for more aggressive bottom-feeder hookset. Burying Beetle Larva 4\" replaces Ribbed Shad  -  closer to flounder/sole prey profile. Landed Unique Southern Flounder 15.329 lb on this rig with Buzzbait 1 Oz #5/0 + Nymphes."
+    },
+    {
+      "slot_number": 5,
+      "rod": "DragonCast 7'3\" NE (Casting, Heavy, 3/8-1 3/7 Oz lure, 7.5-23 Lb line, Fast)  -  REPLACED LibertyCast 2026-04-26",
+      "reel": "VorteX 7000 SE (33 Lb drag)  -  moved from Slot 3",
+      "line": " - ",
+      "leader": " - ",
+      "terminal_tackle": " - ",
+      "bait": " - ",
+      "setup_type": "Mid-range casting - bass/permit/medium predator",
+      "target_fish": ["Permit 17.031 lb (NEW PB on Scaled Sardine)", "Trophy Permit", "Trophy Southern Flounder 10.498 lb (Labradorite Flat Spoon)", "Striped Bass class"],
+      "effectiveness_rating": 9,
+      "notes": "Replaced LibertyCast (was 'less than ideal'). DragonCast + VorteX 7000 SE is the recommended mid-range casting setup  -  Heavy power class with 33 Lb drag handles BCI mid-class fish. Landed Permit 17.031 lb (NEW PB) on Scaled Sardine. Earlier 4/26 finding 'DragonCast underweight for BCI' was tested at the wrong reel pairing  -  with VorteX 7000 SE, it's now properly matched."
+    },
+    {
+      "slot_number": 6,
+      "rod": "Mokonzi 12'10\" SE (Bottom, X-Heavy, 6-9 7/8 Oz casting)",
+      "reel": "L'impulsion 12000 SE (81.5 Lb drag)",
+      "line": "Fluoro .033\"",
+      "sinker": "Sinker 8 Oz  -  UPGRADED 2026-04-26 (was 6 Oz)",
+      "leader": "Titanium Leader .018\"",
+      "terminal_tackle": "Hook #6/0",
+      "bait": "Shrimp (saltwater)  -  UPDATED 2026-04-26",
+      "setup_type": "Bottom Rig - saltwater Bonefish + Trophy Bonefish + Drum",
+      "target_fish": ["Trophy Bonefish 10.177 lb (NEW SPECIES PB)", "Bonefish (multiple)", "Unique Gafftopsail Catfish 8.832 lb", "Drum class"],
+      "effectiveness_rating": 10,
+      "notes": "Bait swapped from Large Cutbait to Shrimp per saltwater preference finding. Sinker upgraded 6→8 Oz for stronger hold in current. Landed Trophy Bonefish 10.177 lb (NEW species PB) and multiple bonefish on Sand Fleas/Shrimp combo. Mokonzi continues to be MVP for big saltwater bottom targets."
+    },
+    {
+      "slot_number": 7,
+      "rod": "Tribal Totem 12'10\" (Bottom, X-Heavy, 6-9 7/8 Oz casting)",
+      "reel": "Savanna Spirit 11000",
+      "line": "Fluoro .034\"",
+      "feeder": "Rusty Cage Feeder 5 2/3 Oz  -  ADDED 2026-04-26 (was sinker only)",
+      "leader": "Titanium Leader .018\"",
+      "terminal_tackle": "Hook #6/0",
+      "bait": "Mussel Meat (saltwater)  -  UPDATED 2026-04-26",
+      "setup_type": "Feeder + Bottom Rig - saltwater Gafftopsail + Flounder + Snook",
+      "target_fish": ["Multiple Gafftopsail Catfish (Trophy 5.232 + 4.993 lb)", "Southern Flounder (multiple)", "Common Snook variants", "Bigmouth Buffalo"],
+      "effectiveness_rating": 9,
+      "notes": "Added Rusty Cage Feeder to Tribal Totem for groundbait attraction. Bait switched to Mussel Meat per saltwater preference finding. Now functions as a feeder rig vs pure bottom  -  different role from Slot 6 (which kept its straight bottom rig with Sinker 8 Oz + Shrimp)."
+    }
+  ],
+  "shopping_list": {
+    "saltwater_baits_priority": [
+      "Sand Fleas  -  saltwater specialist, confirmed high bite rate",
+      "Muscle Meat  -  saltwater specialist, confirmed high bite rate",
+      "Finger Mullets  -  saltwater specialist, confirmed high bite rate"
+    ],
+    "saltwater_baits_note": "BCI is brackish/saltwater  -  saltwater baits significantly outperform freshwater baits for bite rate. Use these as primary bait inventory for any BCI trip.",
+    "baits_to_buy": [
+      "Large Cutbait  -  primary for Drum + Snook (multiple Uniques landed on this)",
+      "Shiners  -  bottom + float versatile (freshwater fallback)",
+      "Major Popper 1 Oz #3/0  -  confirmed for Bowfin + Longnose Gar evening (Trophy Bowfin landed)",
+      "Walker 1 Oz #3/0  -  confirmed for Butterfly Peacock Bass evening (Trophy landed)",
+      "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0  -  Striped Bass + Red Drum producer",
+      "Buzzbait 1 Oz #5/0 + Larva 4\" or Worm 5\"  -  VALIDATED MVP COMBO with SharpCaster (drop-and-pause technique, see notes)",
+      "Craw 4\"  -  confirmed for Unique Gafftopsail Catfish",
+      "Leeches  -  Brown Bullhead (multiple Trophies)",
+      "Crayfish 3\"  -  Bass shallow"
+    ],
+    "lures_to_consider": [
+      "Buzzbait 6/7 Oz #4/0  -  already used (UncleSam slot)",
+      "Larger spoons (1 1/2 Oz) for big Striped Bass + Red Drum",
+      "Soft plastic worms 5\"  -  already used (UncleSam slot)",
+      "Topwater frogs for Bass shallow cover"
+    ]
+  },
+  "strategy": {
+    "next_trip_recommendations": [
+      "Buy unlimited Advanced License ($2,000) for boat + night  -  boat dock at The Bass Base produced more big fish at night",
+      "Travel cost $12,000  -  moderate",
+      "REPLACE Slot 5 (LibertyCast + AmericanEagle 2000): too light for BCI fish class. Try DragonCast 7'3\" NE (Heavy) + Basilisk 3500 P here instead",
+      "RECONSIDER Slot 2 (UncleSam + Patriot's Dream 4000): underperformed. Could shelve and run only 6 active rods, or swap to a true Heavy spinning class",
+      "CONFIRMED: Brutus + SharpCaster + NileChasseur three-way + Mokonzi/Tribal Totem bottom = the BCI core",
+      "Complete Expedition II  -  only 2 daytime bass remaining. Visit Bass Base in daylight with Buzzbait or Walker for Largemouth/Butterfly Peacock"
+    ],
+    "income_priorities": [
+      "Tarpon = highest single-fish potential (~$12k for max class)",
+      "Drum (Black + Red) = consistent bottom-rig producers at trophy class ($2-7k each)",
+      "Shoal Bass = highest cr/lb at 215 (worth volume catches)",
+      "Speckled Peacock Bass + Largemouth Bass = high-value bass class (150-180 cr/lb)"
+    ],
+    "missions_to_check": [
+      "Expedition I (DONE)",
+      "Expedition II  -  2 daytime bass remaining (Largemouth or Butterfly Peacock at Bass Base in daylight)",
+      "Fishy Kayaker challenge (unlocked this trip)",
+      "Blue Crab Viator challenge (unlocked this trip)",
+      "Saltwater species mastery (Tarpon, Snook, Permit, Bonefish, Drum trophies)",
+      "Ghost Peacock Bass  -  boss-class research needed"
+    ]
+  },
+  "critical_warnings": [
+    "TITANIUM LEADERS REQUIRED on bottom rods (Slots 6/7 already have .018\"  -  keep)  -  Drum scute abrasion + occasional Snook/Tarpon shock loads",
+    "REEL WEAR: AmericanEagle 2000 dropped to 9,242/46,200 (20%) durability  -  repair before next trip or replace",
+    "REEL WEAR: Patriot's Dream 4000 dropped to 27,226/46,200 (59%)  -  moderate wear, monitor",
+    "Boat + Night fishing require ADVANCED Mississippi License ($2,000 unlimited)",
+    "Saltwater hooks may be needed for Tarpon trophy class (research before next big-Tarpon attempt)",
+    "Ghost Peacock Bass monster fish  -  research bait/lure preferences before attempting"
+  ],
+  "open_research_questions": [
+    "What bait/lure does Ghost Peacock Bass respond to? (likely high-end bass lure or live bait)",
+    "Maximum Tarpon size landable on current Mokonzi setup? (max class is 154 lb)",
+    "Best night-fishing window for big Drum (early night was productive  -  what about deep night/late night)?"
+  ],
+  "trip_2_findings_4_26": {
+    "all_missions_completed": true,
+    "permit_hotspot": "Southern inlet from Gulf  -  3-hour real-time hunt across multiple spots before finding this single productive zone",
+    "time_of_day_finding": "Bite frequency PEAKS in afternoon  -  start trips at 12 PM not 5 AM. Counter to typical FP dawn-fishing wisdom.",
+    "loadout_validation": {
+      "sharpcaster_mvp": "SharpCaster 7'3\" + VorteX 7000 SE = MVP for trophy fish at BCI",
+      "dragoncast_underpowered": "DragonCast 7'3\" NE confirmed underpowered for BCI deeper water  -  broke lines + tackle even with VorteX 7000 SE upgrade. The rod blank is the limit, not the reel. KEEP DragonCast for shallow bass-only locations (Falcon/Neherrin/Emerald/White Moose)."
+    },
+    "line_weight_experiment": {
+      "tested": "23 Lb to 40 Lb across mono, braid, fluorocarbon",
+      "hit_rate_finding": "No significant difference across line weights at BCI's fish class",
+      "fluoro_finding": "Fluorocarbon flexed significantly more than mono/braid, made retrieves much harder in deeper water",
+      "recommendation": "Use mono or braid 25-40 Lb on active rods at BCI; reserve fluoro for leader sections only"
+    },
+    "perimeter_mapping": "Used bottom rods + marker buoys to map productive boat-fishing perimeters in southern bay. Tested bait + hook size combinations to identify species-specific producers.",
+    "cost_vs_congo": "BCI = ~half Congo's XP and income, but ~half the cost. No Spine Stringer needed (FishStronghold M Plus 308.6 lb single-fish cap is sufficient  -  no 300+ lb fish landed here).",
+    "saltwater_bait_preference": "Saltwater baits (Sand Fleas, Muscle Meat, Finger Mullets) significantly outperform freshwater baits at BCI. Freshwater works but slower bite rate. First-saltwater-location lesson  -  applies to future Florida Keys / saltwater DLC trips.",
+    "buzzbait_technique_correction": {
+      "lure": "Buzzbait 1 Oz #5/0 + Larva 4\" or Worm 5\"",
+      "rod_reel": "SharpCaster 7'3\" + VorteX 7000 SE = MVP",
+      "technique": "Drop-and-pause mid-water/bottom: cast → bottom → bounce off bottom → raise a few seconds → drop → bounce again. NOT a topwater technique despite real-world buzzbait association.",
+      "hookset": "Pause LONGER than usual before setting  -  fast hookset snaps the lure out of the fish's mouth. Wait for clear weight commitment.",
+      "why_misses_happen": "Setting hook too quickly is the most common cause of missed buzzbait strikes  -  not retrieve speed or reel ratio."
+    }
+  },
+  "overall_analysis": {
+    "first_trip_verdict": "EXCEPTIONAL  -  cleared Expedition I, nearly cleared Expedition II, filled keepnet, multiple Uniques. Worth returning regularly for both XP grinding and saltwater species variety. Ranks among the best new-location debuts of the week.",
+    "fit_with_current_loadout": "MIXED  -  5 of 7 slots fit perfectly (Brutus, SharpCaster, NileChasseur, Mokonzi, Tribal Totem). 2 slots (UncleSam + LibertyCast) underperformed and wore down both reels significantly. Pre-trip experimentation with rod-class spread didn't pay off here  -  the experimentation hypothesis was wrong for BCI's fish class spread.",
+    "session_potential": "HIGH  -  single trip yielded 4 Uniques + 9 Trophies + 68 fish. Repeatable with refined loadout (replacing Slot 2 + Slot 5).",
+    "comparison_to_other_locations": {
+      "vs_saint_croix": "BCI offers similar volume (60-70 fish keepnet) but with bigger trophy ceiling (Tarpon 154 lb >> Blue Cat 80 lb) and saltwater variety. Saint-Croix easier to grind; BCI more interesting for diversity.",
+      "vs_dnipro": "Both Level ~50 European/American mid-tier. Dnipro has Wels 132 lb max single; BCI has Tarpon 154 lb max. BCI has wider species variety (24 vs 32  -  Dnipro wins on count, BCI wins on per-species value).",
+      "vs_congo": "BCI is the income/volume play; Congo is the trophy/XP play. Different roles in the rotation."
+    }
+  }
+}
