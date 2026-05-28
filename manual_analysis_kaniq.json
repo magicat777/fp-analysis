@@ -82,16 +82,35 @@
     },
     {
       "slot_number": 3,
-      "rod": "Rivertex Salmonster 8'10\" (Spinning, X-Heavy, 3/4-2 1/8 Oz, 18-46 Lb, Mod Fast)",
-      "reel": "Kraken 8000 SE",
-      "line": "X-Series Fluoro .025\"",
-      "leader": "Titanium Leader .012\" (KEEP - pike protection)",
-      "terminal_tackle": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0",
-      "bait": "Club-Series Glow&Holo Medium Spoon 1 Oz #4/0 (lure)",
-      "setup_type": "Spinning Spoon - Salmon Active",
-      "target_fish": ["Coho Salmon", "Sockeye Salmon", "Chinook Salmon", "Pink Salmon"],
-      "effectiveness_rating": 9,
-      "notes": "Salmonster + spoon = proven cross-location salmon producer. Glow&Holo spoon works in low-light Alaska conditions. Drop-and-pause technique transfers well to salmon."
+      "rod": "Loki 7'6\" SE (Spinning, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate)",
+      "reel": "EspiraDoublePunch 4500 SE",
+      "line": "Mono .016\" (~20 Lb test)",
+      "leader": "Fluorocarbon Leader .015\" (~18 Lb) — swap to Titanium .011\" if pike are active in the spot",
+      "terminal_tackle": "Club-Series Flat Spoon 1 1/2 Oz #6/0 (PRIMARY — competition rig); Medium Spoon 1 Oz #4/0 as backup; Glow&Holo Medium Spoon 1 Oz in low-light",
+      "bait": "Club-Series Flat Spoon 1 1/2 Oz #6/0 (lure)",
+      "setup_type": "Spinning Spoon — Trophy Salmonid Competition Rig",
+      "target_fish": ["Trophy Chinook Salmon", "Trophy Sockeye Salmon", "Coho Salmon", "Pink Salmon", "Trophy Bull Trout / Dolly Varden", "20-30 lb trophy + occasional sub-50 lb unique"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "COMPETITION-READY — Trophy Salmonid Class (2026-05-28)",
+      "contest_validation": {
+        "event": "Kaniq Creek night salmon competition (2026-05-28)",
+        "result": "Near top-10 finish on this rig — strong trophy run",
+        "xp_rating": "Matched-band on Lure Balance Quad with 1.5 Oz #6/0 Flat Spoon",
+        "hit_rate": "Reliable strikes on the drop-and-pause cadence; 20-30 lb trophy class commits cleanly",
+        "ceiling": "MAXES OUT at ~50 lb fish — a monster unique (60+ lb) BROKE 20 Lb mono on this rig. Step up to slot 8 (Black Needle) for the unique class.",
+        "notable_catches": [
+          "Sockeye + Chinook trophy class (20-30 lb)",
+          "Single 60 lb unique landed earlier in the run — left a marker but lost the rig setup notes",
+          "Multi-location validated: Kaniq + SJD + White Moose (2026-05-16 to 2026-05-28)"
+        ]
+      },
+      "technique": {
+        "retrieve_speed": "Medium-slow drop-and-pause (matches 27.5\" recovery + 4.5:1 ratio)",
+        "rod_action": "Moderate — telegraphs medium to medium-heavy strikes cleanly",
+        "key_principle": "1.5 Oz #6/0 Flat Spoon sits dead-center in the Loki's lure-weight band (5/7-2 1/3 Oz). The common Kaniq 1/2 Oz Medium Spoon is BELOW the band — workable in this narrow river due to short casts, but pair the Loki with the heavier flat spoon for competition pacing.",
+        "unique_handling": "If a 50+ lb fish hits, palm the spool and walk the fish — 20 Lb mono is at its ceiling. For confirmed monster-unique markers (60-80 lb class), pre-rig slot 8 (Black Needle) instead."
+      },
+      "notes": "COMPETITION MVP for Kaniq trophy-class salmonids. The 1.5 Oz #6/0 Flat Spoon is the validated competition pairing — the common 1/2 Oz Medium Spoon is too light for this rod (use the JigWinner light spinning rig for that lure instead — there's a gap in the middle that the Loki bridges with the heavier flat spoon). For monster uniques (60-80 lb), the Loki is UNDERGUNNED — see slot 8."
     },
     {
       "slot_number": 4,
@@ -144,6 +163,37 @@
       "target_fish": ["Longnose Sucker", "Bull Trout", "Dolly Varden"],
       "effectiveness_rating": 6,
       "notes": "REPURPOSED FROM SJD: previously sturgeon bottom (Large Cutbait). At Kaniq, single bottom rod with Night Crawlers for Longnose Sucker (panfish completion) and Bull Trout/Dolly Varden bycatch. Heaviest bottom rod kept for any large char that hit. Could swap to Roe if salmon are running through the deep pools."
+    },
+    {
+      "slot_number": 8,
+      "rod": "Black Needle 7'6\" (Spinning, X-Heavy, 5/8-2 Oz, 24-60 Lb, Mod Fast)",
+      "reel": "Scarlet Thread 7000",
+      "line": "Fluoro .028\" (~56 Lb test)",
+      "leader": "Fluorocarbon Leader .025\" (~44 Lb test) — accept pike bite-off risk; the leader weight is what matters against monster salmon",
+      "terminal_tackle": "Club-Series Flat Spoon 1 1/2 Oz #6/0",
+      "bait": "Club-Series Flat Spoon 1 1/2 Oz #6/0 (lure)",
+      "setup_type": "Spinning Spoon — Monster Unique Killer",
+      "target_fish": ["Monster Unique Chinook Salmon (50-80 lb)", "Monster Unique Coho/Sockeye (when applicable)", "Big northerns and bull trout bycatch"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "MONSTER UNIQUE KILLER — 70 lb Unique Validated (2026-05-28)",
+      "contest_validation": {
+        "event": "Kaniq Creek field test post-Loki-snap (2026-05-28)",
+        "result": "70 lb unique salmon landed within a few casts at a previously-marked monster zone",
+        "xp_rating": "Matched-band — 1.5 Oz #6/0 Flat Spoon centers the X-Heavy band",
+        "hit_rate": "Very high at marked monster zones",
+        "notable_catches": [
+          "70 lb unique landed within first few casts at a previously-marked spot",
+          "Recovers fish that broke the Loki's 20 Lb mono",
+          "Background context: night-competition observation that other players were pulling 50-80 lb uniques drove the gear upgrade"
+        ]
+      },
+      "technique": {
+        "retrieve_speed": "Same medium-slow drop-and-pause as slot 3 — the lure cadence is what gets the strike, the rod/line just lets you LAND the fish",
+        "rod_action": "Mod Fast X-Heavy — strong hookset, plenty of backbone for 60-80 lb pulls",
+        "key_principle": "The Loki maxes out at ~50 lb. Kaniq carries a 60-80 lb monster-unique salmon class that the standard salmonid kit can't land — 20 Lb mono SNAPS. Step up to .028 fluoro main + .025 fluoro leader and let the X-Heavy rod absorb the headshakes.",
+        "unique_handling": "Mark monster-unique zones on the map — these are repeatable spots. Pre-rig this slot before fishing them. The Flat Spoon 1.5 oz pattern is the same as slot 3, so retrieve muscle memory carries over."
+      },
+      "notes": "MONSTER UNIQUE KILLER added 2026-05-28. Fills the gap above the Loki's working ceiling (~50 lb) and below the heaviest bottom rods. Pairs the SAME 1.5 oz #6/0 Flat Spoon as slot 3 — only line/leader/rod class change. Triggered by losing a monster unique that snapped 20 Lb mono on the Loki + observing other competitors landing 50-80 lb uniques at night."
     }
   ],
   "shopping_list": {
@@ -193,10 +243,12 @@
     ]
   },
   "critical_warnings": [
-    "NORTHERN PIKE PRESENT - all active lure rods MUST use Titanium leader (Fluoro will be bitten off)",
+    "NORTHERN PIKE PRESENT - all active lure rods MUST use Titanium leader (Fluoro will be bitten off) EXCEPT the Black Needle monster-unique rig (slot 8) which accepts the bite-off risk in exchange for the heavy-fluoro stretch needed for 60-80 lb salmon",
+    "MONSTER UNIQUE CLASS PRESENT (60-80 lb salmon) - the Loki + 20 Lb mono CANNOT land these (broke the line 2026-05-28). Use slot 8 (Black Needle + .028 fluoro + .025 leader) at marked monster zones",
     "Salmon Hunt mission MAY transfer here - 33+ lb Chinook potentially easier in Alaska river vs SJD California",
     "Cold-weather location - check if license type affects gear durability differently",
-    "Spawning runs are seasonal in-game weather/time-dependent - plan around weather window for best salmon density"
+    "Spawning runs are seasonal in-game weather/time-dependent - plan around weather window for best salmon density",
+    "Lure-weight gap: the common Kaniq 1/2 Oz Medium Spoon #3/0 is below the Loki's lure-weight band. Use the light spinning rig (JigWinner) for that lure, OR pair the Loki with the 1.5 Oz #6/0 Flat Spoon for competition pacing"
   ],
   "overall_analysis": {
     "loadout_progress": {
@@ -234,6 +286,41 @@
       "confirmed_working_rods": ["Silverthorn Stake 7'6\"", "Salmonster 8'10\""],
       "challenges_completed": ["Kaniq Creek Sanitizer I", "Unique Gainer II", "Salmon Master II", "Kaniq Creek Voyager I"]
     },
-    "user_verdict": "MIXED FEELINGS. Technical finesse fishing is fun but XP/income underwhelming vs Saint-Croix and SJD. Tabled for later date - not returning immediately. Good for mission completion but not income farming."
+    "session_2_journal_5_28": {
+      "headline": "Monster-unique gap discovered — Loki maxes out, Black Needle takes over for 60-80 lb class",
+      "user_level_snapshot": "Level 89 as of 2026-05-28 (up from 83 on 2026-05-17 — 6 levels in 11 days via endgame DLC grind)",
+      "tournament_context": "Cats 'n Nightcatchers contest 2026-05-24: 2nd place, score 92 / secondary 53.616, +30 personal rating. Top-10 near-miss in a Kaniq night salmon competition observed at the same time.",
+      "discovery_chain": [
+        "1. Loki + 1 Oz Medium Spoon was the established trophy salmonid rig — comfortable in the 20-30 lb trophy class",
+        "2. During Kaniq NIGHT competition, observed other players landing 50-80 lb UNIQUE salmon (a class above what the Loki was rated for)",
+        "3. Landed ONE 60 lb unique with the Loki — left a marker but didn't capture the rig details at the time",
+        "4. Returned to the marker, hooked another monster unique on the Loki — SNAPPED the 20 Lb mono almost immediately",
+        "5. Stepped up to Black Needle 7'6\" + .028 Fluoro main + .025 Fluoro leader → landed a 70 lb unique within a few casts",
+        "6. Realized two rigs are needed at Kaniq: Loki for trophy class (1.5 oz #6/0 Flat Spoon = competition rig), Black Needle for monster unique class"
+      ],
+      "lure_weight_gap_insight": {
+        "problem": "Kaniq's common-salmon spoon is 1/2 oz Medium #3/0 — too LIGHT for the Loki's 5/7-2 1/3 oz lure band, but the JigWinner (light spinning) gets OVERPOWERED by larger fish. There's a gear gap in the middle.",
+        "solution": "The Loki CAN throw the 1/2 oz spoon because Kaniq's river is narrow (short casts still hit the sweet spots), but it's not ideal. The clean fix is to pair the Loki with the 1.5 oz #6/0 Flat Spoon — sits dead-center in the lure band, fishes the same retrieve cadence, and turns the Loki into a true competition rig. Keep the JigWinner + 1/2 oz Medium Spoon as the common-salmon volume rig."
+      },
+      "field_validated_combos": [
+        "Loki 7'6\" SE + EspiraDoublePunch 4500 SE + Mono .016\" + Fluoro Leader .015\" + Club-Series Flat Spoon 1 1/2 Oz #6/0 → COMPETITION TROPHY RIG (20-30 lb class + occasional sub-50 lb unique)",
+        "Black Needle 7'6\" + Scarlet Thread 7000 + Fluoro .028\" + Fluoro Leader .025\" + Club-Series Flat Spoon 1 1/2 Oz #6/0 → MONSTER UNIQUE KILLER (60-80 lb class)",
+        "JigWinner 8'10\" SE + Prima 3500 SE + Mono .010\" + Fluoro Leader .008\" + 1/2 Oz Medium Spoon #3/0 → light spinning common-salmon volume rig"
+      ],
+      "verdict_update": "User originally tabled Kaniq after 4/13 as 'mission-only, not income-farming.' 5/28 update flips that: the monster-unique class makes Kaniq COMPETITION-relevant, and the Black Needle rig opens a tier of fish that wasn't previously accessible. Closer to top-10 competition finishes are now realistic with the two-rig setup."
+    },
+    "progression_snapshot_5_28": {
+      "level": 89,
+      "credits": 24386409,
+      "permium_expires": "2027-07-28",
+      "biggest_fish_records_to_date": [
+        "Ancient Greenland Shark 1552.533 lb at Skärland Fjord (2026-05-01)",
+        "Unique Black Marlin 1251.115 lb at Noomaa Kuda Atholhu (2026-05-14, Trolling Skirt 9.8\" + Squid Chain 8\" 5 pcs)",
+        "Greenland Shark 757.907 lb at Skärland Fjord (2026-05-03)"
+      ],
+      "competition_rating": 94,
+      "competitions_completed": 46
+    },
+    "user_verdict": "REVISED 2026-05-28: Originally tabled as mission-only after 4/13. Updated to COMPETITION-RELEVANT after the monster-unique discovery — the 60-80 lb unique class makes Kaniq night competitions worthwhile, and the two-rig Loki+Black Needle setup unlocks a previously inaccessible tier."
   }
 }

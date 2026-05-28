@@ -3,6 +3,7 @@
 - [Location preferences](user_location_preferences.md)  -  Strong preference for deep water lakes (Saint-Croix, White Moose); dislikes shallow rivers like SJD
 - [Workflow preferences](feedback_workflow.md)  -  Manual screenshot analysis, imperial units, deploy after each report, check inventory before recommending gear
 - [API and data references](reference_apis.md)  -  fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
+- [Domain WHOIS verification fragility](project_domain_whois_verification.md)  -  fpreports.click was clientHold-suspended 5/28 because registrant email was admin@example.com placeholder; ICANN verification went undeliverable. If domain stops resolving, check WHOIS for clientHold BEFORE debugging AWS
 - [Congo tackle ceiling](project_congo_tackle_ceiling.md)  -  Market tops at 97 lb; fish >180 lb unlandable; open research on endgame unlocks
 - [Competition tactics](feedback_competition_tactics.md)  -  FP comps reward bite frequency over fish size; use smaller lures + matched-weight rods
 - [Pre-trip checklist](feedback_pretrip_checklist.md)  -  Verify gear matches location constraints (rod-pods, boats, licenses) before recommending travel; failed trips cost real money
@@ -25,3 +26,10 @@
 - [Ubersheet Norway/Japan outreach](project_ubersheet_norway_japan.md)  -  User pinged FP Ubersheet owner on Reddit 4/30; recheck v2/fish endpoint periodically — code auto-prefers ubersheet when populated
 - [Float selection strategy](feedback_float_selection.md)  -  Slider if depth > rod, waggler for distance, pear for sensitivity, glowing for night; inventory light on wagglers/sliders
 - [Trophy vs X-Series vs Club-Series](feedback_trophy_vs_xseries.md)  -  Trophy #4/0 Bass Jig +10-20% trophy LMB at Everglades; rotate Trophy→standard for big/fill; X-Series = durability/logistics; Club-Series ≈ X-Series tier but purchased
+- [Loki 7'6" SE salmonid MVP](feedback_loki_salmonid_mvp.md)  -  Loki 7'6" SE + Espira DoublePunch 4500 SE + 20lb mono + 18lb fluoro + Medium Spoon 1oz = Kaniq/SJD/White Moose contest-ready, +2 XP, multi-species (LMB→Chinook+trophy trout)
+- [Straight retrieve quest tactic](feedback_straight_retrieve_tactic.md)  -  Straight = speed +1-3, no pauses; drop-to-bottom-first + Loki + Bullet Spinner 5/6 oz + Club-Series Spinnertail 2" = back-to-back Atlantic salmon + splake at markers
+- [Level progression snapshot](project_level_progression.md)  -  2026-05-28: level 89, comp rating 94, 24.4M credits; 94 unlocks Maldives, 105 unlocks final Skarland, cap 110
+- [Kaniq monster-unique tackle](feedback_kaniq_monster_unique_tackle.md)  -  Kaniq has a 60-80 lb unique salmon tier; Loki+20Lb mono SNAPS — use Black Needle 7'6" + .028 fluoro + .025 leader + 1.5oz #6/0 Flat Spoon
+- [Daily mission XP strategy](feedback_daily_mission_xp_strategy.md)  -  Dailies weighted to recently-visited locations; 60/30/10 difficulty + 6/2/1 location split; 90-120k XP per catch = 300-400k/day; resets 2100 PST
+- [Chameleon yacht trolling](feedback_chameleon_yacht_trolling.md)  -  Chameleon Cruiser + DLC bundle rods = field-validated marlin/swordfish/big tuna/mahi at Maldives + Kaji Nori
+- [No knots in FP](feedback_no_knots_in_fp.md)  -  FP doesn't model fishing knots; never recommend knot types (FG, PR bobbin, etc.) or knot-strength caveats — leader material/weight is the meaningful axis
