@@ -15,10 +15,29 @@ metadata:
 - **Mark monster-unique zones** — these are repeatable spots; pre-rig the Black Needle before fishing them
 - The Loki gets a competition-ready upgrade with the **1.5 Oz #6/0 Flat Spoon** vs. the common-Kaniq 1/2 Oz Medium Spoon — the heavier flat spoon sits dead-center in the Loki's lure-weight band
 
+**Zone geography (where to fish for which class):**
+- **Trophy + small uniques (20-40 lb):** Cast from "Angling the Middle-Earth" toward the OPEN WATER facing Hunter's Cabin — shallower river stretch. Loki + Mono .016" handles this class.
+- **MONSTER UNIQUES (60-90 lb):** Start at Hunter's Cabin and work toward the MIDDLE ISLAND — the DEEPEST river section at Kaniq. Estimated **2-3 monster-unique spots** in this stretch. Black Needle + Fluoro .028" required; Loki SNAPS here.
+- **Validated catches at Kaniq monster zone (2026-05-28):** 60 lb landed on Loki (barely), 70 lb landed on Black Needle (rig stressed), ~80 lb snapped Loki at a third spot, ~90 lb observed during night competition (largest fish seen).
+
+**Tackle ceiling at the apex class (80-90 lb):**
+- Black Needle + .028 fluoro + .025 leader was **STRESSED** landing the 70 lb fish — clearly working at the upper end of its capacity
+- A 90 lb monster is at the **very limits** of the Black Needle rig
+- For consistent landings of the apex Kaniq class, an even heavier rod + heavier line/leader is likely needed (open research)
+
 **Lure-weight gap insight:**
 - Kaniq's common-salmon spoon is **1/2 Oz Medium #3/0** — too light for the Loki (5/7-2 1/3 Oz lure band)
 - JigWinner 8'10" SE (light spinning) throws the 1/2 Oz spoon cleanly but gets **overpowered** by larger salmon
 - The Loki CAN throw the 1/2 Oz spoon in this narrow river (short casts hit the sweet spots), but the clean fix is to pair it with the 1.5 Oz #6/0 Flat Spoon and use the JigWinner only for common-salmon volume
+
+**Black Needle retrieve technique (CRITICAL — different from Loki drop-and-pause):**
+- **Drop to bottom** first — let the 1.5 Oz Flat Spoon settle
+- **Slow-and-go** with **medium-fast reel speed**
+- **Pulse the rod** to keep the lure **bouncing off the bottom** — lifts briefly into the water, then drops right back
+- **NOT dragging** the bottom — **bouncing it repeatedly and very quickly**
+- Goal: lure in **constant movement at maximum depth** — stays glued near the bottom, never climbs into shallower depths
+- Monster-unique strike zone is tight to the bottom; needs **deep water** near the marker
+- This is a much FASTER, more aggressive cadence than the Loki drop-and-pause — different retrieve, same lure
 
 **Pike-leader tradeoff on the Black Needle:**
 - Northern Pike are present at Kaniq, so titanium leaders are the standard recommendation

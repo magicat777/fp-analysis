@@ -30,12 +30,14 @@
     {
       "name": "Angling the Middle-Earth",
       "type": "Shore - River bend",
-      "best_for": ["Salmon species", "Bull Trout", "Dolly Varden"]
+      "best_for": ["Salmon species", "Bull Trout", "Dolly Varden", "30-40 lb unique salmon (Loki territory)"],
+      "fish_class_notes": "Cast from Angling the Middle-Earth toward the OPEN WATER facing Hunter's Cabin — this stretch holds 30-40 lb unique salmon that the Loki + 20 Lb mono can land. Shallower water than the monster zone; standard slot 3 Loki rig works here."
     },
     {
       "name": "Hunter's Cabin",
-      "type": "Shore - Cabin overlook",
-      "best_for": ["Northern Pike", "Salmon", "Char"]
+      "type": "Shore - Cabin overlook (gateway to monster-unique deep zone)",
+      "best_for": ["Northern Pike", "Salmon", "Char", "MONSTER UNIQUE SALMON (60-90 lb)"],
+      "fish_class_notes": "MONSTER UNIQUE LAUNCH POINT. Start at Hunter's Cabin and work toward the MIDDLE ISLAND — the deeper river section in this stretch holds 2-3 monster-unique salmon spots, fish in the 60-90 lb class. This is BLACK NEEDLE TERRITORY (slot 8) — the Loki + 20 Lb mono SNAPS on this fish class. The Black Needle + .028 fluoro + .025 leader has landed a 70 lb here but was STRESSED by the fight; a 90 lb fish (estimated largest seen during night competition) is at the very limits of the rig."
     },
     {
       "name": "Taming the Kaniq",
@@ -43,6 +45,28 @@
       "best_for": ["Active salmon casting", "Pacific salmon runs"]
     }
   ],
+  "monster_unique_zones": {
+    "summary": "Kaniq has THREE distinct fish-class zones based on water depth, not just spot location.",
+    "zones": [
+      {
+        "name": "Shallow trophy zone",
+        "location": "Angling the Middle-Earth → open water facing Hunter's Cabin",
+        "depth": "Shallower river stretch",
+        "fish_class": "Trophy + small uniques (20-40 lb)",
+        "rig": "slot 3 — Loki 7'6\" SE + Mono .016\" + Flat Spoon 1 1/2 Oz #6/0",
+        "validated": "Multiple sessions"
+      },
+      {
+        "name": "Deep monster zone",
+        "location": "Hunter's Cabin → middle island, deep river section",
+        "depth": "Deepest river water at this location",
+        "fish_class": "MONSTER unique (60-90 lb), estimated 2-3 spots",
+        "rig": "slot 8 — Black Needle 7'6\" + Fluoro .028\" + Fluoro Leader .025\" + Flat Spoon 1 1/2 Oz #6/0",
+        "validated": "60 lb and 70 lb landed (separate spots); 80 lb snapped Loki at a third spot during night competition",
+        "ceiling_warning": "Black Needle's 50 Lb fluoro ceiling is STRESSED by 70 lb monsters; estimated 80-90 lb fish (observed largest during night competition) is at the very limits of this rig. Even bigger tackle may be needed for the apex Kaniq monster class."
+      }
+    ]
+  },
   "loadout_strategy": {
     "philosophy": "Adapted from current SJD loadout. Kaniq Creek is a SALMON RIVER - active spoon/spinner fishing dominates. NOT a heavy-bottom location like Saint-Croix or SJD. Pike presence REQUIRES Titanium leaders on all active rods (cannot use Fluoro). Reduce bottom rods from 4 (sturgeon) to 1-2 (sucker/bull trout); convert remaining bottom slots to active salmon rods.",
     "key_changes_from_sjd_loadout": [
@@ -188,10 +212,10 @@
         ]
       },
       "technique": {
-        "retrieve_speed": "Same medium-slow drop-and-pause as slot 3 — the lure cadence is what gets the strike, the rod/line just lets you LAND the fish",
-        "rod_action": "Mod Fast X-Heavy — strong hookset, plenty of backbone for 60-80 lb pulls",
-        "key_principle": "The Loki maxes out at ~50 lb. Kaniq carries a 60-80 lb monster-unique salmon class that the standard salmonid kit can't land — 20 Lb mono SNAPS. Step up to .028 fluoro main + .025 fluoro leader and let the X-Heavy rod absorb the headshakes.",
-        "unique_handling": "Mark monster-unique zones on the map — these are repeatable spots. Pre-rig this slot before fishing them. The Flat Spoon 1.5 oz pattern is the same as slot 3, so retrieve muscle memory carries over."
+        "retrieve_speed": "Medium-fast reel — slow-and-go cadence with the rod doing the work; fast enough to keep the lure in constant motion, slow enough to keep it pinned tight to the bottom",
+        "rod_action": "Mod Fast X-Heavy — strong hookset, plenty of backbone for 60-80 lb pulls; the rapid pulsing cadence relies on the rod's quick recovery between bounces",
+        "key_principle": "DROP TO BOTTOM, then SLOW-AND-GO with RAPID PULSING. The lure bounces off the bottom — lifts briefly into the water column, then drops right back. NOT dragging the bottom, but bouncing it repeatedly and very quickly so the lure is in constant movement at maximum depth. The pulse cadence is FAST — much faster than the slot 3 Loki drop-and-pause. Critical: prevent the lure from leaping up into shallower depths — the monster-unique strike zone is tight to the bottom, and a lure that climbs through the water column leaves that zone.",
+        "unique_handling": "Mark monster-unique zones on the map — these are repeatable spots. Pre-rig this slot before fishing them. The retrieve here is FUNDAMENTALLY DIFFERENT from the slot 3 Loki drop-and-pause: bottom bouncing is faster, more aggressive, and stays GLUED to the bottom rather than walking through the water column. Needs deep water — find the deepest available water near the marker and keep the lure as close to the bottom as possible throughout the retrieve. The deep monster-unique zone is specifically the stretch from HUNTER'S CABIN toward the MIDDLE ISLAND — estimated 2-3 monster spots in that section. The slot 3 Loki + Mono .016\" cannot land this class (60-90 lb); even this Black Needle rig is STRESSED by 70 lb fish and a ~90 lb monster is at the very limits of its 50 Lb fluoro ceiling."
       },
       "notes": "MONSTER UNIQUE KILLER added 2026-05-28. Fills the gap above the Loki's working ceiling (~50 lb) and below the heaviest bottom rods. Pairs the SAME 1.5 oz #6/0 Flat Spoon as slot 3 — only line/leader/rod class change. Triggered by losing a monster unique that snapped 20 Lb mono on the Loki + observing other competitors landing 50-80 lb uniques at night."
     }

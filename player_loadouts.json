@@ -965,6 +965,38 @@
       "session_date": "2026-04-27",
       "notes": "VALIDATED EVERGLADES BASS SETUP after 5-rod comparison test + trophy-class proof on 4/27. Light power class is the correct match for FP's XP scoring across the full bass class spread (3-5 common, 5-7 trophy, 7-10 unique). Same rod / reel / line / leader covers ALL classes  -  only the lure variant changes (Trophy Bass Jig #4/0 for 5+ lb, standard Bass Jig #3/0 for 3-5 lb). Speed 3 (medium) with this reel = trophy strike zone. Marker-ring pattern recognition validated: cast perimeter of deep zones, not center. Single-session result: Unique Largemouth 10.662 lb + 4x Trophy Largemouth 5-8 lb + Trophy Butterfly Peacock Bass 5.847 lb (NEW PB).",
       "rating": 10
+    },
+    {
+      "rod": "Loki 7'6\" SE",
+      "rod_specs": "Spinning, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate",
+      "rod_type": "spinning",
+      "reel": "EspiraDoublePunch 4500 SE",
+      "line": "Mono .016\"",
+      "leader": "Fluorocarbon Leader .015\"",
+      "lure_or_bait": "Club-Series Flat Spoon 1 1/2 Oz #6/0",
+      "hook": "#6/0",
+      "terminal": "",
+      "target_fish": "Trophy Chinook/Sockeye/Coho Salmon, Trophy Bull Trout/Dolly Varden (20-30 lb trophy class + occasional sub-50 lb unique)",
+      "location": "Kaniq Creek (Alaska)",
+      "session_date": "2026-05-28",
+      "rating": 10,
+      "notes": "COMPETITION-READY trophy salmonid rig. The 1.5 Oz #6/0 Flat Spoon centers the Loki's lure-weight band (5/7-2 1/3 Oz). Near top-10 finish in Kaniq night salmon competition (2026-05-28). MAXES OUT around 50 lb — a monster unique (60+ lb) SNAPPED the 20 Lb mono on this rig; for that class use the Black Needle slot."
+    },
+    {
+      "rod": "Black Needle 7'6\"",
+      "rod_specs": "Spinning, X-Heavy, 5/8-2 Oz, 24-60 Lb, Mod Fast",
+      "rod_type": "spinning",
+      "reel": "Scarlet Thread 7000",
+      "line": "Fluoro .028\"",
+      "leader": "Fluorocarbon Leader .025\"",
+      "lure_or_bait": "Club-Series Flat Spoon 1 1/2 Oz #6/0",
+      "hook": "#6/0",
+      "terminal": "",
+      "target_fish": "Monster Unique Chinook/Coho/Sockeye Salmon (60-80 lb class), big northerns and bull trout bycatch",
+      "location": "Kaniq Creek (Alaska)",
+      "session_date": "2026-05-28",
+      "rating": 10,
+      "notes": "MONSTER-UNIQUE KILLER. Landed a 70 lb unique salmon within a few casts at a previously-marked monster zone after the Loki + 20 Lb mono snapped on the same fish class. Same 1.5 Oz #6/0 Flat Spoon as the Loki, only the rod/line/leader class steps up. Uses fluoro leader (not titanium) — accept the pike bite-off risk in exchange for the heavy stretch needed against 60-80 lb salmon. Retrieve is DROP-TO-BOTTOM + medium-fast pulsing bounce (NOT the Loki's drop-and-pause)."
     }
   ]
 }
