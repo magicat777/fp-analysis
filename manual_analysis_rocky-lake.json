@@ -49,6 +49,7 @@
           "TeleDragon 23' + Hydra 3000 + Mono .005\" (2 Lb) + X-Series Slim Float + Hook #2 + Maggots at 22\" depth (AM comp MVP — 19 fish in 30 min)",
           "TeleValentine 23' + Heartspinner 2500 + Mono ~2 Lb + Hook #4 + Mayflies at 12\" depth (PM practice — opened the second panfish layer)"
         ],
+        "sequence_tactic": "Validated 2026-06-05 3rd return. Cast TeleValentine (12\" mayflies) FIRST at each spot as the 'scout' — shallow layer commits faster. If it hits, immediately follow up the EXACT SAME SPOT with TeleDragon (22\" maggots) — ~50% hit rate on the follow-up within ~15 sec. Active panfish zones are STRATIFIED across both depth layers; the shallow hit signals the deep layer is also live at that spot. If TeleValentine hasn't hit by ~30 sec, the spot is cold — move on without burning a follow-up cast. Estimated catch-rate lift on confirmed-hot zones: ~50%.",
         "best_finish": "Top-25 estimated (19-fish primary score, 30% behind top-4 leaders who hit 40-50 fish — exact placement pending leaderboard data)",
         "open_variables": [
           "Wait-time cutoff (currently recasting at ~45 sec; top players likely cut at 20 sec)",
@@ -109,7 +110,7 @@
         "key_principle": "Telescopic eliminates the reel-in cycle which is the rate-limiting step on 1pt/fish formats. Swing out → wait for float → yank on commit → swing fish to hand → re-bait → swing out. Fastest reset of any rod type.",
         "wait_time": "Recast at 1 minute if no commit; current open question is whether 20-30 sec cutoff would lift catch rate by skipping slow-bite spots faster"
       },
-      "notes": "AM 'One by One' competition MVP. Deliberately under-rated line (2 Lb on 3-13 Lb rod) for ultralight panfish strike detection. Float + #2 + maggots at 22\" hits crappie/bluegill/sucker mix. RUN IN PARALLEL with slot 2 (TeleValentine at 12\") to cover both strike layers without rod swaps."
+      "notes": "AM 'One by One' competition MVP. Deliberately under-rated line (2 Lb on 3-13 Lb rod) for ultralight panfish strike detection. Float + #2 + maggots at 22\" hits crappie/bluegill/sucker mix. SEQUENCE ROLE: Follow-up rod — cast IMMEDIATELY after slot 2 (TeleValentine) hits, to the EXACT SAME SPOT. ~50% hit rate on the follow-up within ~15 sec (validated 2026-06-05 3rd return). Productive spots are stratified across both depth layers; a slot 2 hit signals the deep layer is also live at that zone."
     },
     {
       "slot_number": 2,
@@ -134,7 +135,7 @@
         "rod_action": "Identical principle to slot 1; rod blank absorbs over-rated fish",
         "key_principle": "Shallow panfish layer exists separate from the deep one. Running slot 1 (22\"/maggots) AND slot 2 (12\"/mayflies) in parallel covers both bands without rod swaps."
       },
-      "notes": "PM hypothesis-validation rig. Second telescopic chassis confirmed (TeleValentine 23' + Heartspinner 2500). Use the 12\" depth band as the COMPLEMENT to slot 1 (22\"); fish whichever is hitting on the day. #4 hook is interchangeable with #2 — soft variable."
+      "notes": "PM hypothesis-validation rig. Second telescopic chassis confirmed (TeleValentine 23' + Heartspinner 2500). SEQUENCE ROLE: Lead/scout rod — cast FIRST at each spot. Shallow layer commits faster, so this rig functions as the 'is this spot live?' diagnostic. If it hits, IMMEDIATELY follow up with slot 1 (TeleDragon) at the exact same spot — ~50% second-fish hit rate within ~15 sec. If no hit by ~30 sec, the spot is cold — move on without burning a follow-up cast."
     },
     {
       "slot_number": 3,

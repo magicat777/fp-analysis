@@ -5,7 +5,7 @@
 - [API and data references](reference_apis.md)  -  fp-collective API, wiki.fishingplanet.com, AWS hosting details, secret locations
 - [Domain WHOIS verification fragility](project_domain_whois_verification.md)  -  fpreports.click was clientHold-suspended 5/28 because registrant email was admin@example.com placeholder; ICANN verification went undeliverable. If domain stops resolving, check WHOIS for clientHold BEFORE debugging AWS
 - [Congo tackle ceiling](project_congo_tackle_ceiling.md)  -  Market tops at 97 lb; fish >180 lb unlandable; open research on endgame unlocks
-- [Competition tactics](feedback_competition_tactics.md)  -  FP comps reward bite frequency over fish size; use smaller lures + matched-weight rods
+- [Competition tactics](feedback_competition_tactics.md)  -  FP comps reward bite frequency over fish size; use smaller lures + matched-weight rods. Stopwatch protocol: recast at 30s for light/med, 1min for med/heavy, 1-3min for extra-heavy bottom (Norway tier)
 - [Pre-trip checklist](feedback_pretrip_checklist.md)  -  Verify gear matches location constraints (rod-pods, boats, licenses) before recommending travel; failed trips cost real money
 - [Mid-range slot validation](feedback_midrange_slot_validation.md)  -  Slot 1 DragonCast + Basilisk 3500 P is the 5-10 lb bass/trout mission-runner (Falcon/Neherrin/White Moose/Emerald validated)
 - [Congo finesse retrieve](feedback_congo_finesse_retrieve.md)  -  100+ lb Congo fish require low-speed + sub-maximum tension; brute force destroys reels at 1%/second
