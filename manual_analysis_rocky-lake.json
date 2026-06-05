@@ -1,0 +1,275 @@
+{
+  "location": {
+    "name": "Rocky Lake",
+    "region": "Colorado, USA",
+    "type": "Lake",
+    "continent": "North America",
+    "base_level": 5,
+    "travel_cost": "negligible",
+    "level_note": "Early-game location (Base Level 5) — long unlocked. Revisit destination for SPORT and TROUT competitions, not income farming. Endgame relevance is purely competition-meta."
+  },
+  "fish_summary": {
+    "primary_targets_panfish_layer": [
+      "Black Crappie (sport-comp count + small reward)",
+      "Bluegill (sport-comp count + small reward)",
+      "Golden Shiner (sport-comp count)",
+      "White Sucker (sport-comp count + size — biggest fish, up to ~3+ lb trophy class)"
+    ],
+    "primary_targets_trout_layer": [
+      "Rainbow Trout (volume + young class)",
+      "Cutthroat Trout (trophy class, weight-comp target)",
+      "Colorado Golden Trout (UNIQUE — long hit time, 1.5-2.5 min — only worth fishing in WEIGHT/SIZE formats, NOT count formats)",
+      "White Bass (occasional)"
+    ],
+    "fish_count": 8
+  },
+  "spots": [
+    {
+      "name": "Trout Galore",
+      "type": "Shore (validated 2026-04-19 Old Buck's Trout Competition)",
+      "best_for": ["Cutthroat Trout (trophy)", "Rainbow Trout", "Young trout volume"],
+      "fish_class_notes": "Field-validated for the trout-quality competition format. SharpCaster 7'3\" + X-Series Barbless Spinner 1/2 Oz #3/0 produced 2x Trophy Cutthroat + 2x Rainbow Trout."
+    },
+    {
+      "name": "Panfish shore (general)",
+      "type": "Shore — shallow productive zone",
+      "best_for": ["Black Crappie", "Bluegill", "Golden Shiner", "White Sucker"],
+      "fish_class_notes": "Multi-layer panfish — at least TWO distinct depth bands at 12\" (mayflies attractive) and 22\" (maggots attractive). Run TWO telescopic rods in parallel to cover both. Mapping the leaderboard zones is the next open question — top-4 in the 6/5 'One by One' comp likely cluster on a specific spot."
+    }
+  ],
+  "competition_formats": {
+    "summary": "Rocky Lake hosts at least TWO distinct competition formats. The scoring math determines the rig category — they are NOT interchangeable.",
+    "formats": [
+      {
+        "name": "One by One (sport / 1pt-per-fish)",
+        "scoring": "Primary score = count of fish caught. Secondary score = total weight. Bait restricted to insect/worm.",
+        "duration": "30 minutes",
+        "rig_category": "TELESCOPIC + ULTRALIGHT (validated 2026-06-05)",
+        "validated_rigs": [
+          "TeleDragon 23' + Hydra 3000 + Mono .005\" (2 Lb) + X-Series Slim Float + Hook #2 + Maggots at 22\" depth (AM comp MVP — 19 fish in 30 min)",
+          "TeleValentine 23' + Heartspinner 2500 + Mono ~2 Lb + Hook #4 + Mayflies at 12\" depth (PM practice — opened the second panfish layer)"
+        ],
+        "best_finish": "Top-25 estimated (19-fish primary score, 30% behind top-4 leaders who hit 40-50 fish — exact placement pending leaderboard data)",
+        "open_variables": [
+          "Wait-time cutoff (currently recasting at ~45 sec; top players likely cut at 20 sec)",
+          "Specific zone clustering — map leader positions next session",
+          "Hook size sweep (#4 vs #2 confirmed; try #6 for faster commits)",
+          "Bait sweep (worm vs maggot vs mayfly — partial data only)"
+        ],
+        "skip_list": [
+          "Colorado Golden Trout unique — 1.5-2.5 min hit time burns count points; skip in this format",
+          "Match rods (OmniFloat 14'10\" SE measured 2x slower per cycle with identical tackle in PM A/B test)",
+          "Spinning/casting rods — reel-in cycle disqualifies the entire category"
+        ]
+      },
+      {
+        "name": "Old Buck's Competition (trout / weight-quality)",
+        "scoring": "Primary = best trout weights",
+        "duration": "Standard tournament",
+        "rig_category": "CASTING + light-spinner (validated 2026-04-19)",
+        "validated_rigs": [
+          "SharpCaster 7'3\" + Counsellor 3500 P SE + X-Series Barbless Spinner 1/2 Oz #3/0 (MVP — all 4 trophy-class trout on this rig)"
+        ],
+        "best_finish": "49th place (first trout comp run; score 532.394 primary / 3.207 secondary, 9 fish / 17.573 lb)",
+        "open_variables": [
+          "Lighter rod (JigWinner 8'10\" SE, 1/6-5/8 Oz) for proper loading on sub-1/2 Oz lures",
+          "Smaller hook (#1/0 or #2/0) for faster commits on soft/fast trout strikes"
+        ]
+      }
+    ],
+    "rig_category_rule": "MATCH the rig to the scoring math, NOT the species. 1pt/fish = telescopic. Weight-quality = casting/spinning + selectivity. Mixing categories loses by definition (match rod with sport tackle = 2x cycle penalty)."
+  },
+  "slots": [
+    {
+      "slot_number": 1,
+      "rod": "TeleDragon 23' (Telescopic, 3-13 Lb, 7 pcs, Mod Fast)",
+      "reel": "Hydra 3000",
+      "line": "Mono .005\" (~2 Lb)",
+      "leader": "None (direct mono — telescopic technique tolerates no-leader on panfish)",
+      "terminal_tackle": "X-Series Slim Float + Hook #2",
+      "bait": "Maggots",
+      "setup_type": "Telescopic Ultralight — Sport Competition MVP (Deep Panfish Layer)",
+      "target_fish": ["Black Crappie", "Bluegill", "Golden Shiner", "White Sucker (up to 3+ lb trophy)"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "SPORT-COMP MVP — 19 fish / 30 min validated 2026-06-05 AM",
+      "contest_validation": {
+        "event": "Rocky Lake 'One by One' 1pt/fish sport competition (2026-06-05 AM)",
+        "result": "19 fish in 30 min (Primary 19 / Secondary 3.009 / Total 24.385 lb / +1,066 cr) — personal fastest catch rate to date",
+        "hit_rate": "Hits at 15-20 sec, hooksets at 30-45 sec, rare after 1 min",
+        "notable_catches": [
+          "Trophy White Sucker 3.1 lb on 2 Lb mono (rod blank absorbed 1-3 lb over rated line)",
+          "Multiple Black Crappie 0.5-0.7 lb",
+          "Multiple White Sucker 2.4-3.0 lb"
+        ],
+        "depth": "22\" — deep panfish strike layer"
+      },
+      "technique": {
+        "retrieve_speed": "N/A — set + yank + swing fish to hand (no reel cycle)",
+        "rod_action": "Mod Fast telescopic; rod blank absorbs over-rated fish (1-3 lb above line rating)",
+        "key_principle": "Telescopic eliminates the reel-in cycle which is the rate-limiting step on 1pt/fish formats. Swing out → wait for float → yank on commit → swing fish to hand → re-bait → swing out. Fastest reset of any rod type.",
+        "wait_time": "Recast at 1 minute if no commit; current open question is whether 20-30 sec cutoff would lift catch rate by skipping slow-bite spots faster"
+      },
+      "notes": "AM 'One by One' competition MVP. Deliberately under-rated line (2 Lb on 3-13 Lb rod) for ultralight panfish strike detection. Float + #2 + maggots at 22\" hits crappie/bluegill/sucker mix. RUN IN PARALLEL with slot 2 (TeleValentine at 12\") to cover both strike layers without rod swaps."
+    },
+    {
+      "slot_number": 2,
+      "rod": "TeleValentine 23' (Telescopic)",
+      "reel": "Heartspinner 2500",
+      "line": "Mono ~2 Lb",
+      "leader": "None",
+      "terminal_tackle": "Float + Hook #4",
+      "bait": "Mayflies (also works on Maggots)",
+      "setup_type": "Telescopic Ultralight — Shallow Panfish Layer",
+      "target_fish": ["Black Crappie", "Bluegill", "Golden Shiner"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "SHALLOW LAYER OPENER — opened second panfish band 2026-06-05 PM",
+      "contest_validation": {
+        "event": "Rocky Lake post-comp practice block (2026-06-05 PM)",
+        "result": "Partial-session — combined with slot 1 produced 44 fish in the practice block",
+        "hit_rate": "Comparable to TeleDragon 23' baseline — cycle rate parity, different strike layer",
+        "depth": "12\" — shallow panfish strike layer separate from the 22\" maggot band"
+      },
+      "technique": {
+        "retrieve_speed": "N/A — telescopic set + yank cadence (same as slot 1)",
+        "rod_action": "Identical principle to slot 1; rod blank absorbs over-rated fish",
+        "key_principle": "Shallow panfish layer exists separate from the deep one. Running slot 1 (22\"/maggots) AND slot 2 (12\"/mayflies) in parallel covers both bands without rod swaps."
+      },
+      "notes": "PM hypothesis-validation rig. Second telescopic chassis confirmed (TeleValentine 23' + Heartspinner 2500). Use the 12\" depth band as the COMPLEMENT to slot 1 (22\"); fish whichever is hitting on the day. #4 hook is interchangeable with #2 — soft variable."
+    },
+    {
+      "slot_number": 3,
+      "rod": "SharpCaster 7'3\" (Casting Rod, 5/8-2 Oz, Mod Fast)",
+      "reel": "Counsellor 3500 P SE",
+      "line": "Mono ~12 Lb (validated 2026-04-19)",
+      "leader": "Fluoro leader (light)",
+      "terminal_tackle": "X-Series Barbless Spinner 1/2 Oz #3/0 + Spinner Tail 2\"",
+      "bait": "X-Series Barbless Spinner (lure)",
+      "setup_type": "Casting Spinner — Trout Weight-Comp Rig",
+      "target_fish": ["Trophy Cutthroat Trout (3-4 lb class)", "Rainbow Trout", "Cutthroat Trout (volume)"],
+      "effectiveness_rating": 9,
+      "mvp_tag": "TROUT COMP MVP — Old Buck's Competition 49th place finish 2026-04-19",
+      "contest_validation": {
+        "event": "Rocky Lake Old Buck's Competition (2026-04-19)",
+        "result": "49th place — first trout comp run (score 532.394 primary / 3.207 secondary, 9 fish / 17.573 lb)",
+        "hit_rate": "Soft/fast bites — barbless hook requires immediate aggressive hookset",
+        "notable_catches": [
+          "Trophy Cutthroat Trout 3.208 lb (20.6 in)",
+          "Trophy Cutthroat Trout 2.773 lb (19.7 in)",
+          "Rainbow Trout 2.641 lb",
+          "Rainbow Trout 2.538 lb"
+        ]
+      },
+      "technique": {
+        "retrieve_speed": "Standard spinner cadence — keep blade turning",
+        "rod_action": "Casting precision beat spinning rod placement; lure dropped into the sweet spot rather than raising/dropping through the column",
+        "key_principle": "For trout weight-quality comps, casting precision > spinning range. The SharpCaster places the spinner at the correct depth without the lure climbing through the column on retrieve."
+      },
+      "notes": "Trout weight-comp rig — RESERVED for Old Buck's-style competitions, NOT useful in 1pt/fish sport formats. Rod blank rated 5/8-2 Oz but ran 1/2 Oz under minimum — next iteration: try JigWinner 8'10\" SE (Light, 1/6-5/8 Oz) + smaller hook (#1/0 or #2/0) for faster commits on soft trout strikes."
+    },
+    {
+      "slot_number": 4,
+      "rod": "OmniFloat 14'10\" SE (Match Rod, 3-7.5 Lb, Moderate) — REJECTED for sport comp",
+      "reel": "EspiraSlim 2500 Sport",
+      "line": "Mono .008\" (~4 Lb)",
+      "leader": "None",
+      "terminal_tackle": "UFO Bobber + Barbless Hook #2/0",
+      "bait": "Mayflies",
+      "setup_type": "Match Rod (TROUT) — REJECTED for 1pt/fish formats",
+      "target_fish": ["Rainbow Trout", "Cutthroat Trout"],
+      "effectiveness_rating": 5,
+      "rejection_reason": "Field-tested 2026-06-05 PM against TeleValentine 23' with IDENTICAL tackle (same line/hook/bait/float/depth) — measured ~2x slower per fish cycle. The bottleneck is the rod-type cadence (cast → drift → reel-in slack → recast), NOT the rig. OmniFloat got marginally longer casts but the doubled cycle time made the extra reach uneconomic. SINCE OmniFloat is the LIGHT match rod in inventory, any heavier match rod is worse — entire match category disqualified for Rocky Lake 1pt/fish sport competitions.",
+      "salvage_role": "Reserve for trout-weight or selectivity formats where individual fish quality matters more than count cadence. Even then, the SharpCaster (slot 3) is the stronger trout-comp rig."
+    }
+  ],
+  "shopping_list": {
+    "competition_panfish": [
+      "Maggots (sport-comp staple)",
+      "Mayflies (alternate insect bait — opens shallower strike layer)",
+      "Worms (untested at Rocky — open variable)",
+      "Hooks #2, #4, #6 (sweep hook size on the strike layer)",
+      "X-Series Slim Float backups (the strike-detection float for ultralight panfish)"
+    ],
+    "trout_comp": [
+      "X-Series Barbless Spinner 1/2 Oz #3/0 backups (Old Buck's MVP terminal)",
+      "Spinner Tail 2\" replacements",
+      "Mayflies + worms for selectivity trout sessions"
+    ]
+  },
+  "strategy": {
+    "sport_competition": [
+      "Identify the format BEFORE selecting the rig — 1pt/fish = telescopic, weight-quality = casting/spinning",
+      "Pre-rig BOTH telescopics (slot 1 at 22\" / #2 / maggots and slot 2 at 12\" / #4 / mayflies) to cover both strike layers without rod swaps",
+      "Skip Colorado Golden Trout in 1pt/fish formats — 1.5-2.5 min hit time burns count opportunities",
+      "Map the leaderboard cluster zones — top-4 likely concentrate on a specific spot",
+      "Test wait-time cutoffs: recast at 20, 30, 45 sec on separate sessions to dial in"
+    ],
+    "trout_competition": [
+      "SharpCaster 7'3\" + Counsellor 3500 P SE + X-Series Barbless Spinner 1/2 Oz #3/0 — proven trophy producer",
+      "Trout Galore spot — validated for Old Buck's-style format",
+      "Iteration target: try JigWinner 8'10\" SE for better rod loading on sub-1/2 Oz lures, smaller hook (#1/0 or #2/0) for faster commits"
+    ],
+    "missions_to_check": [
+      "Rocky Lake exploration / species-completion missions (panfish + trout collection)",
+      "Cutthroat Trout + Rainbow Trout trophy missions"
+    ]
+  },
+  "critical_warnings": [
+    "FORMAT MISMATCH = LEADERBOARD GAP. The biggest mistake at Rocky is running the wrong rod CATEGORY for the comp format. Match rod in a 1pt/fish comp = 2x cycle penalty (PM 2026-06-05 A/B confirmed). Telescopic in a weight-quality trout comp loses selectivity.",
+    "MATCH RODS ARE OUT for Rocky sport formats. OmniFloat 14'10\" SE (the light match) was 2x slower than TeleValentine 23' with identical tackle. Heavier match rods are worse.",
+    "COLORADO GOLDEN TROUT UNIQUE = 1.5-2.5 min hit time. Worth pursuing in weight/size formats (potential 2nd-place secondary score) but BURNS count points in 1pt/fish formats. Skip in sport comps.",
+    "OVER-RATED LANDING WORKS on telescopic — 2 Lb mono landed 3.1 lb Trophy White Sucker because the rod blank absorbs the load (no drag mechanism to fail). Don't be afraid of ultralight line.",
+    "30% LEADERBOARD GAP in the 6/5 sport comp (19 fish vs top-4's 40-50). The rig is correct; the remaining variables are WAIT TIME and ZONE SELECTION, not gear."
+  ],
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 9.0,
+      "improvement_summary": "Two competition rig categories validated: telescopic ultralight for sport (1pt/fish) and casting + barbless spinner for trout (weight-quality). Match-rod category eliminated empirically. Two telescopic chassis confirmed (TeleDragon 23' and TeleValentine 23')."
+    },
+    "session_1_journal_4_19": {
+      "headline": "First trout competition — Old Buck's at Rocky Lake. Placed 49th.",
+      "result": "Primary 532.394 / Secondary 3.207, 9 fish / 17.573 lb, +1,981 cr competition reward",
+      "mvp_rig": "SharpCaster 7'3\" + Counsellor 3500 P SE + X-Series Barbless Spinner 1/2 Oz #3/0",
+      "key_findings": [
+        "Casting beat spinning for trout-spinner placement precision",
+        "All 4 trophy-class trout (2x Trophy Cutthroat + 2x Rainbow) landed on the SharpCaster",
+        "Soft/fast bites — barbless hook needs immediate aggressive hookset",
+        "Rod blank under-loaded with 1/2 Oz lure (rated 5/8-2 Oz) — next iteration: lighter rod"
+      ],
+      "user_verdict": "Respectable first trout comp finish. Slot 3 (SharpCaster + Counsellor 3500 P SE) confirmed as a legitimate trout-quality setup."
+    },
+    "session_2_journal_6_5_AM": {
+      "headline": "Personal fastest catch rate — 19 fish in 30 min on 'One by One' sport comp",
+      "result": "Primary 19 / Secondary 3.009 / Total 24.385 lb / +1,066 cr",
+      "mvp_rig": "TeleDragon 23' + Hydra 3000 + Mono .005\" (2 Lb) + X-Series Slim Float + Hook #2 + Maggots at 22\"",
+      "key_findings": [
+        "Telescopic + ultralight = sport-comp meta for 1pt/fish formats",
+        "Trophy White Sucker 3.1 lb landed on 2 Lb mono (rod blank absorbs over-rated load)",
+        "Hit cadence: 15-20 sec hit, 30-45 sec hookset, rare after 1 min",
+        "30% behind top-4 leaders (40-50 fish) — gap is wait-time + zone, not rig"
+      ],
+      "user_verdict": "Rocky is COMPETITION-RELEVANT for sport formats. Telescopic is the meta — match rod tested pre-comp (mayflies on OmniFloat for trout) was too slow at 30-45 sec hits."
+    },
+    "session_3_journal_6_5_PM": {
+      "headline": "Hypothesis validation post-comp — OmniFloat with identical tackle 2x slower than telescopic",
+      "result": "44 fish in practice block",
+      "mvp_rig": "TeleValentine 23' + Heartspinner 2500 + Mono ~2 Lb + Hook #4 + Mayflies at 12\" — opened second panfish strike layer",
+      "key_findings": [
+        "Match rod (OmniFloat 14'10\" SE) with IDENTICAL tackle is 2x slower per cycle — rod-type is the bottleneck, not the rig",
+        "Two panfish strike layers exist: 12\" (mayflies) and 22\" (maggots)",
+        "#4 hook works alongside #2 — hook size is a soft variable",
+        "Two telescopic chassis validated (TeleDragon 23' + TeleValentine 23')",
+        "Reach trade-off is unfavorable — distance < cycle speed in count formats"
+      ],
+      "user_verdict": "Confirmed: this is a TELESCOPIC competition. Match rod category is out. Next comp plan: run BOTH telescopics in parallel (22\" + 12\") to cover both layers without swaps. Remaining gap is wait-time tuning + zone selection."
+    },
+    "competition_meta_summary": {
+      "rule": "Match the rig CATEGORY to the scoring math, not the species.",
+      "format_mapping": [
+        "1pt/fish sport comp (count) → Telescopic + ultralight + bait-only",
+        "Weight/quality trout comp (selectivity) → Casting + light spinner",
+        "Mixing categories costs 2x cycle penalty (validated empirically)"
+      ]
+    },
+    "user_verdict": "Rocky Lake serves two distinct competition niches: (1) telescopic-meta sport comps with panfish count optimization, and (2) casting-meta trout weight competitions. Both have validated MVP rigs. Not an income destination — endgame relevance is purely competition-rating."
+  }
+}
