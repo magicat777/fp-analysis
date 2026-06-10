@@ -48,4 +48,4 @@ White Crappie + American Shad + smaller bass dominated. If targeting the decline
 - [[feedback_lure_balance_triangle]] — #2 hook + 1/6 Oz + Light rod + 4 Lb mono = balanced quad for Neherrin panfish/shad class
 - [[feedback_competition_tactics]] — retrieve-speed tuning + 6/9 rod-class verification lesson
 - [[feedback_marker_pattern_recognition]] — trophy/unique White Crappie sat at structure adjacent to panfish-dense edge — likely the same edge-of-deep-zone perimeter pattern
-- Session journal: `2026-06-10_neherrin.md`
+- Session journal: `2026-06-10_neherrin-river.md`

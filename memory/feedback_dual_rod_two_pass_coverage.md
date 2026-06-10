@@ -57,4 +57,4 @@ Both are valid; pick by what stratifies the zone. **Depth stratification → sam
 - [[feedback_neherrin_panfish_mvp]] — pass 2 rig spec (JigWinner + InspireCast + 4 Lb + #2 spoon)
 - [[feedback_marker_pattern_recognition]] — trophy fish at structure perimeters (informs WHERE to focus pass 2)
 - [[feedback_competition_tactics]] — rod-class verification before pre-scouting (the failure mode that surfaced this whole tactic)
-- Session journal: `2026-06-10_neherrin.md`
+- Session journal: `2026-06-10_neherrin-river.md`
