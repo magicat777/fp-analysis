@@ -1,6 +1,6 @@
 ---
 name: Competition tactics  -  bite frequency over fish size
-description: In FP competitions, top placers maximize bite count with smaller lures + matched-weight rods, not biggest fish; user validated this across multiple comps. Use a stopwatch and recast if no hit by the fish-class wait-time target (15-30s light/med, 30s-1min med/heavy, 1-3min extra-heavy bottom).
+description: In FP competitions, top placers maximize bite count with smaller lures + matched-weight rods, not biggest fish; user validated this across multiple comps. Use a stopwatch and recast if no hit by the fish-class wait-time target (15-30s light/med, 30s-1min med/heavy, 1-3min extra-heavy bottom). Verify the comp rod-class BEFORE pre-scouting (Neherrin 6/9 lesson). Retrieve-speed is a third tuning variable alongside lure size + hook size.
 type: feedback
 ---
 
@@ -39,7 +39,31 @@ Bring a stopwatch (mental or actual) and recast if no hit by the fish-class wait
 
 **How to validate at Rocky 6/5 data:** Panfish hit at 15-20 sec / hooked at 30-45 sec on the TeleDragon — squarely in the light/medium 15-30s target band. The 30% leaderboard gap behind top-4 is consistent with top players cutting recasts at 20 sec while user was holding to 45 sec.
 
+**Verify the rod-class FIRST — pre-scouting the wrong category is wasted prep:**
+
+Field-learned 2026-06-09 at Neherrin minimal competition. User arrived an hour early with a **telescopic match** to pre-scout panfish positions along the river edge. Banned. The comp was **spinning/casting only.** Even with all the panfish spots marked, the wrong rod-class meant the comp had to be improvised from scratch — and improvisation during a comp clock costs the placing.
+
+**Rule:** Before traveling to ANY comp:
+- Open the comp tile and read the **allowed rod classes** explicitly (telescopic / match / spinning / casting / bottom / feeder / carp / fly).
+- Pre-scout with a rod-class that's **on the allowed list.** If you don't have one ready, scout with whatever and accept the time loss — but don't bring a banned rig to the comp itself.
+- If the comp allows MULTIPLE classes, scout with the one that fits the comp scoring format (e.g., telescopic for count-format; casting for trophy-weight; bottom for big-fish formats).
+- Verify the comp **bait/lure restrictions** at the same time (insect/worm only, lure only, no live bait, etc.) — see [[feedback_pretrip_checklist]] for the broader pre-trip pattern.
+
+**Retrieve-speed tuning is a third variable (alongside lure size + hook size):**
+
+Field-learned 2026-06-10 at Neherrin on the JigWinner 8'10" SE + Casting Spoon 1/6 Oz #2 rig. Same rod + same lure + same line; **only the reel retrieve speed changed:**
+
+| Reel retrieve | Result |
+|---|---|
+| **31.5"** | Decent results — slightly too fast for panfish commit |
+| **27.5" (InspireCast 3000 SE)** | **Hit on near-every cast** along the edge |
+
+**Rule:** For sub-1 lb panfish on small spinning lures, sub-30" retrieve reels are the working window. The fish need time to commit to the lure inspection; too-fast retrieves walk it past their strike window before commit.
+
 **Cross-references:**
 - [[feedback_telescopic_sport_competition]] — Rocky 1pt/fish data point that's IN-band for light/medium tier
 - [[feedback_skarland_ocean_pace]] — extra-heavy bottom tier; longer wait windows expected
 - [[feedback_loki_salmonid_mvp]] — medium/heavy tier (salmon)
+- [[feedback_neherrin_panfish_mvp]] — retrieve-speed tuning + 6/9 rod-class lesson came from this rig discovery
+- [[feedback_dual_rod_two_pass_coverage]] — what survives in spinning/casting-only comps when the telescopic pass is banned
+- [[feedback_pretrip_checklist]] — broader pre-trip verification pattern that the rod-class check extends

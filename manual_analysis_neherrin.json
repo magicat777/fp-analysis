@@ -1,299 +1,281 @@
 {
+  "location": {
+    "name": "Neherrin River",
+    "region": "North Carolina, USA",
+    "type": "River",
+    "continent": "North America",
+    "travel_cost": "~$2,800 travel + $500/day",
+    "level_note": "Mid-game river location validated for light-class panfish/bass and the 'minimal' spinning/casting-only competition format. Updated 2026-06-10 at level 93 — new MVP rig discovered + dual-rod two-pass coverage tactic confirmed."
+  },
+  "fish_summary": {
+    "primary_targets_light_class": [
+      "Black Crappie (panfish count + small reward)",
+      "White Crappie (UNIQUE 2.635 lb landed 2026-06-10 + Trophy 1.351 lb landed same session)",
+      "American Shad (1.9-2.7 lb consistent on Casting Spoon 1/6 Oz #2 — bycatch + count filler)",
+      "Bluegill (trophy class observed)",
+      "Pumpkinseed",
+      "Golden Shiner (DECLINED #2 spoon — open variable, retry with smaller lure/bait)",
+      "Redear Sunfish (DECLINED #2 spoon at Neherrin 6/10 — needs different bait coverage)"
+    ],
+    "primary_targets_predator_class": [
+      "Smallmouth Bass ($73/lb, max ~8.2 lb)",
+      "Largemouth Bass ($69/lb, max ~6.4 lb)",
+      "Redfin Pickerel ($68/lb)",
+      "Longnose Gar (Trophy 24.3 lb)",
+      "Flathead Catfish (Trophy 36.4 lb — night-active)"
+    ],
+    "fish_count": 13
+  },
+  "spots": [
+    {
+      "name": "Into the Rocky Blue",
+      "type": "Shore — rocky structure in main channel",
+      "best_for": ["Smallmouth Bass", "Largemouth Bass", "White Crappie (Unique/Trophy at adjacent structure)"],
+      "fish_class_notes": "Best for active spinning on Slot 1 JigWinner + Casting Spoon 1/6 Oz #2. Cast into eddies behind rocks where bass and trophy crappie ambush in current breaks. The structure here is INACCESSIBLE TO the TeleValentine match rod — the JigWinner's casting reach is what pulled the Unique White Crappie 2.635 lb on 2026-06-10."
+    },
+    {
+      "name": "Woody Enchantment",
+      "type": "Shore — log structure + slack water behind logs",
+      "best_for": ["Black Crappie", "White Crappie", "Bluegill", "Panfish edge sweep"],
+      "fish_class_notes": "Best for the edge-sweep half of the dual-rod two-pass coverage tactic. TeleValentine match (#12 / 16\" / pearl barley) along the edge here is the lap-1 producer. Then return with the JigWinner casting spoon for structured-zone pulls."
+    },
+    {
+      "name": "Great Parking Job",
+      "type": "Shore — easy bank access, slack water near bank",
+      "best_for": ["Panfish edge sweep", "Casting practice from stable footing"],
+      "fish_class_notes": "Lower-yield than Rocky Blue / Woody Enchantment but easiest access. Good for warm-up casts and rig dial-in."
+    },
+    {
+      "name": "Rubble of Old Times",
+      "type": "Shore — submerged rubble structure",
+      "best_for": ["White Crappie", "Black Crappie", "Sunfish at submerged structure"],
+      "fish_class_notes": "Secondary structure spot. Casting spoon at structure perimeter (per [[feedback_marker_pattern_recognition]] edge-of-deep-zone pattern) is the likely trophy pull pattern here."
+    }
+  ],
+  "competition_formats": {
+    "summary": "Neherrin River hosts a 'minimal' competition format that is SPINNING/CASTING ONLY. Telescopic and match rods are BANNED. This format constraint determines the rig category — see 6/9/26 setup-fail lesson.",
+    "formats": [
+      {
+        "name": "Neherrin Minimal Competition (spinning/casting only)",
+        "scoring": "Per local ruleset — verify exact scoring before entering",
+        "rig_category": "SPINNING/CASTING ONLY — telescopic + match BANNED",
+        "validated_rigs": [
+          "JigWinner 8'10\" SE + InspireCast 3000 SE (27.5\" retrieve) + Mono .008\" (4 Lb) + Casting Spoon 1/6 Oz #2 (NEW MVP — validated free-fishing 2026-06-10; ready for next comp run)"
+        ],
+        "best_finish": "Pending — first attempt 2026-06-09 was a setup-fail (brought telescopic, banned mid-comp)",
+        "open_variables": [
+          "Verify exact scoring math (1pt/fish vs weight vs both)",
+          "Test JigWinner + Spawn Sack alternate (would still be legal as spinning rig + bait)",
+          "Map structured-zone perimeters at Rocky Blue + Rubble of Old Times for trophy pulls",
+          "Test retrieve-speed sweep below 27.5\" (does even slower retrieve lift hit rate further?)"
+        ],
+        "skip_list": [
+          "Telescopic match rods (TeleValentine + any other) — BANNED rod-class",
+          "Heavy spinning (Loki 7'6\" SE) — overpowered for the panfish-density target; reserve for predator-targeting only"
+        ]
+      }
+    ],
+    "rod_class_verification_rule": "CRITICAL: Read the comp tile for allowed rod-classes BEFORE traveling. The 2026-06-09 setup-fail wasted an hour of pre-scouting because the user marked panfish positions with a telescopic match (banned). Pre-scout with a rod-class that's on the allowed list, OR scout with whatever and accept the time loss — but don't bring a banned rig to the comp. See [[feedback_competition_tactics]]."
+  },
   "slots": [
     {
       "slot_number": 1,
-      "screenshot": "IMG_1717.jpg",
-      "rod": "RIVERTEX Fenix 11'5\" (Match Rod, 6.5-17.5 Lb, Mod Fast)",
-      "reel": "MagFin EspiraMLR 3500",
-      "line": "Fluoro .009\"",
-      "leader": "Fluorocarbon Leader .009\"",
-      "terminal_tackle": "Chubby Float, Hook #4/0",
-      "bait": "Small Minnows",
-      "setup_type": "Float",
-      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Longnose Gar", "Flathead Catfish", "Black Crappie", "White Crappie"],
-      "effectiveness_rating": 8,
-      "leader_recommendation": {
-        "material": "Fluorocarbon (already equipped)",
-        "test_weight": "6-10 Lb",
-        "length": "12-18 in",
-        "why": "Fluoro leader is already equipped  -  great choice. Small Minnows are a live bait that attracts predators. The #4/0 hook is properly sized for Smallmouth Bass, Largemouth Bass, and even Longnose Gar. In river current, the fluoro leader helps the bait presentation look natural.",
-        "depth_setting": "Set float depth to 4-8 ft. Neherrin River has varying depth  -  start at 5-6 ft in the main channel. At Into the Rocky Blue, try 6-8 ft in deeper pools where bass hold. Adjust shallower (3-4 ft) near bank structure at Woody Enchantment."
+      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast, 2-piece, 10 guides)",
+      "reel": "InspireCast 3000 SE (27.5\" retrieve)",
+      "line": "Mono .008\" (~4 Lb)",
+      "leader": "None — direct mono (no leader needed at Neherrin panfish/shad class)",
+      "terminal_tackle": "Casting Spoon 1/6 Oz., #2",
+      "bait": null,
+      "setup_type": "Spinning (Casting Spoon) — NEW Neherrin MVP",
+      "target_fish": ["White Crappie (Unique + Trophy class)", "Black Crappie", "American Shad", "Smallmouth Bass (bycatch)", "Largemouth Bass (bycatch)"],
+      "effectiveness_rating": 10,
+      "mvp_tag": "NEHERRIN MVP — 43 fish + Unique White Crappie 2.635 lb + Trophy White Crappie 1.351 lb validated 2026-06-10",
+      "contest_validation": {
+        "event": "Neherrin River free fishing 2026-06-10 (post 6/9 minimal-comp setup-fail)",
+        "result": "43 fish, 46.174 lb keepnet at mid-session, $3,510 reward in net",
+        "hit_rate": "Hits on near-every cast along edge + structured zones",
+        "notable_catches": [
+          "Unique White Crappie 2.635 lb (16.7\") — Casting Spoon 1/6 Oz #2, Early morning",
+          "Trophy White Crappie 1.351 lb (13.6\") — Casting Spoon 1/6 Oz #2, Early morning",
+          "Multiple American Shad 1.9-2.7 lb on Casting Spoon 1/6 Oz #2",
+          "American Shad 1.94 + 1.99 lb on SPAWN SACK (alternate bait validated on same rig)"
+        ],
+        "retrieve_window": "27.5\" reel retrieve = near-every-cast hit. 31.5\" tested same session = slightly too fast for panfish commit."
       },
-      "issues": [
-        "Hook #4/0 is too large for crappie and panfish  -  limits species coverage to predators only",
-        "Small Minnows are excellent for bass but won't attract Redear Sunfish, Pumpkinseed, or Bluegill"
-      ],
-      "improvements": [
-        "Small Minnows + #4/0 is a solid predator float rig  -  well-matched for Neherrin River's bass and gar",
-        "Fluoro leader is a great addition  -  previous setups had no leader on float rigs",
-        "This setup can catch Longnose Gar (24.3 lb!) and even Flathead Catfish if they're cruising",
-        "For deeper river pools, increase float depth to 8-10 ft to reach Flathead Catfish near the bottom",
-        "Consider carrying Leeches as backup  -  covers Flathead Catfish (#1 bait) which isn't attracted to Small Minnows as strongly"
-      ]
+      "technique": {
+        "retrieve_speed": "Steady retrieve through panfish edge + structured zones; reel rate is the critical variable (sub-30\" retrieve reels are the working window)",
+        "rod_action": "Light power Fast action; absorbs bass/shad bycatch without breaking the 4 Lb mono (line stresses to ~97% on the larger pulls but holds)",
+        "key_principle": "The Casting Spoon 1/6 Oz #2 is the lure size that admits panfish strikes AT Neherrin. Slop #4 catches bass but skips panfish entirely. The 27.5\" retrieve gives panfish the inspection time to commit before the lure walks past.",
+        "wait_time": "Light/medium fish class — 15-30 sec target per [[feedback_competition_tactics]] stopwatch protocol"
+      },
+      "notes": "PRIMARY rig for both free fishing AND for the Neherrin minimal (spinning/casting-only) competition format. Targets edges, rocky structure, and weedy zones the TeleValentine match cannot reach. Pairs with Slot 2 (TeleValentine match) for the dual-rod two-pass coverage tactic in non-comp settings — see [[feedback_dual_rod_two_pass_coverage]]. The 4 Lb mono is the right tradeoff: 2 Lb would break on bass/shad bycatch; heavier line dampens panfish strike detection."
     },
     {
       "slot_number": 2,
-      "screenshot": "IMG_1718.jpg",
-      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light, 1/6-5/8 Oz, 3-13 Lb, Fast)",
-      "reel": "Breamer 4500 SE",
-      "line": "Fluoro .012\"",
-      "leader": "Titanium Leader .005\"",
-      "terminal_tackle": "Turtle Spoon 1/4 Oz. #1/0",
-      "bait": null,
-      "setup_type": "Spinning (Spoon)",
-      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "American Shad", "Redfin Pickerel", "Black Crappie", "White Crappie"],
+      "rod": "TeleValentine match (Telescopic — non-comp ONLY for Neherrin)",
+      "reel": "Heartspinner 2500",
+      "line": "Mono ~2 Lb",
+      "leader": "None",
+      "terminal_tackle": "Float + Hook #12",
+      "bait": "Pearl Barley",
+      "setup_type": "Telescopic Match — Two-Pass Coverage Pass 1 (NON-COMP ONLY)",
+      "target_fish": ["Black Crappie", "White Crappie", "Bluegill", "Panfish edge sweep"],
       "effectiveness_rating": 9,
-      "issues": [
-        "Minor: Light rod may struggle with large Longnose Gar if one strikes (up to 24.3 lb)"
-      ],
-      "improvements": [
-        "EXCELLENT setup  -  Titanium leader protects against Redfin Pickerel and Gar teeth",
-        "Turtle Spoon covers the most valuable fish: Smallmouth Bass ($73/lb) and Largemouth Bass ($69/lb)",
-        "Also catches American Shad, crappie species, and Redfin Pickerel ($68/lb)",
-        "Cast upstream and retrieve with the current for natural presentation in river flow",
-        "This is your best income-generating slot  -  actively cast near structure in the main channel"
-      ]
+      "mvp_tag": "EDGE-SWEEP rod for dual-rod two-pass coverage — non-comp only at Neherrin",
+      "contest_validation": {
+        "event": "Neherrin River pre-comp scouting 2026-06-09 + free fishing 2026-06-10 lap 1",
+        "result": "5-20 sec hits on near-every spot along river edge; estimated 20-30 panfish per 20-min lap around productive edge zones",
+        "depth": "16\" — single panfish band (Neherrin appears NOT to have the dual-layer stratification Rocky has; test deeper next session)"
+      },
+      "technique": {
+        "retrieve_speed": "N/A — telescopic set + yank + swing cadence",
+        "rod_action": "Match-rod arc filters bass/shad bycatch on 2 Lb line — keeps lap 1 fast on panfish without overloading the rig",
+        "key_principle": "Edge-sweep producer in non-comp. Pair with Slot 1 for two-pass coverage: TeleValentine lap 1 along the open edge → JigWinner lap 2 at the structured zones adjacent to the productive edge spots. Each lap produces ~20-30 fish; combined per-circuit yield projected 40-60 fish."
+      },
+      "competition_legality": {
+        "neherrin_minimal_comp": "BANNED — spinning/casting only format (validated 6/9 setup-fail)",
+        "free_fishing": "USE — pass 1 of two-pass coverage tactic",
+        "quantity_panfish_comp_if_exists": "VERIFY rod-class allowed before bringing this"
+      },
+      "notes": "RESERVE for non-comp days only. The 2026-06-09 setup-fail at the Neherrin minimal comp was using exactly this rig — banned by the format. Pre-scouting with this rod-class is wasted prep if the comp doesn't allow it. Verify ruleset BEFORE traveling per [[feedback_competition_tactics]] rod-class verification rule."
     },
     {
       "slot_number": 3,
-      "screenshot": "IMG_1719.jpg",
-      "rod": "Loki 7'6\" SE (Spinning Rod, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate)",
-      "reel": "Ghost Reel 3000",
-      "line": "Fluoro .011\"",
-      "leader": "Titanium Leader .004\"",
-      "terminal_tackle": "Jighead 1/2 Oz. #2/0 with Worm 3\" soft plastic",
-      "bait": "Worm 3\" (soft plastic)",
-      "setup_type": "Spinning (Jig)",
-      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Flathead Catfish"],
-      "effectiveness_rating": 8,
-      "issues": [
-        "Heavy rod is overpowered for most Neherrin fish but provides backbone for Longnose Gar (24.3 lb) and Flathead Catfish (36.4 lb) if hooked",
-        "1/2 Oz jig may get caught in rocky river bottom at Into the Rocky Blue"
-      ],
-      "improvements": [
-        "GREAT improvements  -  downsized from 3/4 Oz #3/0 to 1/2 Oz #2/0, much better for river bass",
-        "Titanium leader added  -  essential protection against gar teeth",
-        "Worm 3\" is specifically effective for Smallmouth and Largemouth Bass",
-        "The Heavy rod actually earns its place here  -  if a Longnose Gar or Flathead Catfish hits, you'll need the power",
-        "Work the jig in deeper pools  -  let it sink to bottom, hop 2-3 times, pause. Bass and catfish strike on the drop",
-        "At Into the Rocky Blue, cast into eddies behind rocks where bass ambush prey in current breaks"
-      ]
+      "rod": "JigWinner 8'10\" SE (Spinning Rod, Light — alternate bait swap on Slot 1 chassis)",
+      "reel": "InspireCast 3000 SE",
+      "line": "Mono .008\" (~4 Lb)",
+      "leader": "None",
+      "terminal_tackle": "Hook + Spawn Sack",
+      "bait": "Spawn Sack",
+      "setup_type": "Spinning + Still-Bait — Alternate Bait on MVP Chassis",
+      "target_fish": ["American Shad (1.9-2.0 lb validated)", "Crappie", "Sunfish (untested)"],
+      "effectiveness_rating": 7,
+      "mvp_tag": "Alternate bait for Slot 1 chassis — Spawn Sack on JigWinner produced shad alongside Casting Spoon 1/6 Oz #2 on 2026-06-10",
+      "contest_validation": {
+        "event": "Neherrin River free fishing 2026-06-10",
+        "result": "American Shad 1.94 + 1.99 lb on Spawn Sack (same rod/reel/line as Slot 1 — only the terminal tackle swapped)",
+        "use_case": "Backup bait if Casting Spoons run low; still-bait variant for the same rig when active-retrieve isn't producing"
+      },
+      "technique": {
+        "retrieve_speed": "Cast + drift in current; less active than Slot 1 lure presentation",
+        "rod_action": "Same JigWinner chassis as Slot 1",
+        "key_principle": "Validates that the JigWinner + InspireCast + 4 Lb mono chassis works with BOTH lure (Slot 1) and still-bait (this slot) — useful flexibility when comp bait restrictions or supply constraints force a switch."
+      },
+      "notes": "Same chassis as Slot 1; this slot only swaps the terminal tackle. Carry Spawn Sack as alternate bait. Untested for crappie/sunfish specifically — open variable."
     },
     {
       "slot_number": 4,
-      "screenshot": "IMG_1720.jpg",
-      "rod": "OmniFloat 11'5\" (Match Rod, 3-6.5 Lb, Moderate)",
-      "reel": "EspiraSlim 2500 Sport",
-      "line": "Fluoro .008\"",
-      "leader": "Fluorocarbon Leader .008\"",
-      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #6",
-      "bait": "Semolina Balls",
-      "setup_type": "Float",
-      "target_fish": ["Pumpkinseed", "Bluegill", "Golden Shiner", "Common Carp"],
-      "effectiveness_rating": 7,
-      "leader_recommendation": {
-        "material": "Fluorocarbon (already equipped)",
-        "test_weight": "2-4 Lb",
-        "length": "8-12 in",
-        "why": "Fluoro leader already equipped  -  good stealth in clear river water. Semolina Balls target panfish and carp. In river current, the leader helps the bait drift naturally.",
-        "depth_setting": "Set float depth to 3-5 ft. Panfish in rivers hold in slower water near bank structure and eddies. At Great Parking Job, try 3-4 ft near the bank. At Woody Enchantment, 4-5 ft in the slack water behind logs."
-      },
-      "issues": [
-        "Durability very low (15446/18000)  -  this rod is wearing out fast",
-        "Semolina Balls covers Pumpkinseed, Bluegill, Golden Shiner, and Common Carp but NOT crappie or Redear Sunfish",
-        "Hook #6 is slightly large for Golden Shiner (tiny fish, 0.7 lb max)"
-      ],
-      "improvements": [
-        "Fluoro leader is a great addition for river panfishing",
-        "Semolina Balls is a solid choice for Neherrin  -  covers 4 species including Common Carp (up to 4.8 lb bonus catches)",
-        "URGENT: Repair or replace this rod  -  durability at 85% and dropping. A break mid-fight loses both fish and rod",
-        "Consider carrying Maggots or Bloodworms as backup bait to cover Redear Sunfish (not attracted to Semolina Balls)",
-        "Deploy on RodPod Trio in slack water for passive panfish + carp catches"
-      ]
-    },
-    {
-      "slot_number": 5,
-      "screenshot": "IMG_1721.jpg",
-      "rod": "Aurora 8'2\" Sport (Spinning Rod, Light, 1/6-1/2 Oz, 3-10 Lb, Fast)",
-      "reel": "Callisto MG 3000 Sport",
-      "line": "Fluoro .009\"",
-      "leader": "Titanium Leader .005\"",
-      "terminal_tackle": "Narrow Spoon 1/4 Oz. #1/0",
-      "bait": null,
-      "setup_type": "Spinning (Spoon)",
-      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "American Shad", "Redfin Pickerel"],
+      "rod": "Loki 7'6\" SE (Spinning Rod, Heavy, 5/7-2 1/3 Oz, 6-24 Lb, Moderate)",
+      "reel": "Ghost Reel 3000",
+      "line": "Fluoro .011\"",
+      "leader": "Titanium Leader .004\" (gar/pickerel teeth protection)",
+      "terminal_tackle": "Jighead 1/2 Oz #2/0 + Worm 3\" soft plastic",
+      "bait": "Worm 3\" (soft plastic)",
+      "setup_type": "Heavy Spinning (Jig) — Predator backup",
+      "target_fish": ["Smallmouth Bass (Trophy class)", "Largemouth Bass (Trophy class)", "Longnose Gar (24.3 lb Trophy)", "Flathead Catfish (36.4 lb Trophy, night)"],
       "effectiveness_rating": 8,
-      "issues": [
-        "Overlaps with slot 2's coverage  -  both are light spinning spoon setups",
-        "Narrow Spoon may work slightly differently than Turtle Spoon in current"
-      ],
-      "improvements": [
-        "Titanium leader added  -  excellent protection for river predators",
-        "Narrow Spoon has a tighter wobble than Turtle Spoon  -  gives fish a different look if they refuse slot 2",
-        "Consider swapping to a different lure type (crankbait, spinnerbait) to diversify predator presentations",
-        "In river current, cast across and let the spoon swing downstream  -  triggers reactive strikes from bass",
-        "Good backup predator rod if slot 2 needs re-tying after a leader bite-off"
-      ]
-    },
-    {
-      "slot_number": 6,
-      "screenshot": "IMG_1722.jpg",
-      "rod": "ValueSpin 6'3\" (Spinning Rod, Light, 1/6-5/8 Oz, 3-6.5 Lb, Fast)",
-      "reel": "HeartSpinner 3500",
-      "line": "Fluoro .008\"",
-      "leader": "Titanium Leader .005\"",
-      "terminal_tackle": "Nano Spinner 1/5 Oz. #1/0",
-      "bait": null,
-      "setup_type": "Spinning (Spinner)",
-      "target_fish": ["Smallmouth Bass", "Largemouth Bass", "Redfin Pickerel", "Black Crappie", "White Crappie", "Bluegill", "Pumpkinseed"],
-      "effectiveness_rating": 8,
-      "issues": [
-        "3-6.5 Lb line weight is light for unexpected Longnose Gar or Flathead Catfish hookups",
-        "Short 6'3\" rod limits casting distance in a river  -  may need to wade closer"
-      ],
-      "improvements": [
-        "Titanium leader added  -  great protection even on this light setup",
-        "Nano Spinner is excellent in river current  -  the blade creates vibration that attracts bass and crappie",
-        "The spinner's flash and vibration works well in Neherrin's stained river water",
-        "Short rod is actually good for fishing tight spots under overhanging trees at Woody Enchantment",
-        "Steady retrieve across current  -  let the river do the work animating the spinner blade"
-      ]
-    },
-    {
-      "slot_number": 7,
-      "screenshot": "IMG_1723.jpg",
-      "rod": "MCT McCarp 13'2\" (Match Rod, 9-25.5 Lb, Mod Fast)",
-      "reel": "MCT CarpAxel 4000",
-      "line": "Fluoro .012\"",
-      "leader": "Fluorocarbon Leader .008\"",
-      "terminal_tackle": "Glowing Pear-Shaped Float, Hook #6",
-      "bait": "Red Worms",
-      "setup_type": "Float",
-      "target_fish": ["Redear Sunfish", "Bluegill", "Pumpkinseed", "Black Crappie", "White Crappie"],
-      "effectiveness_rating": 7,
-      "leader_recommendation": {
-        "material": "Fluorocarbon (already equipped)",
-        "test_weight": "4-6 Lb",
-        "length": "12-16 in",
-        "why": "Fluoro leader already equipped. Red Worms are versatile and attract multiple panfish species including Redear Sunfish which isn't covered by slot 4's Semolina Balls. The longer McCarp rod helps manage float rigs in river current.",
-        "depth_setting": "Set float depth to 4-7 ft. In the river, panfish hold in eddies and slack water. At Rubble of Old Times, try 5-6 ft near submerged rubble. Glowing float is good for dawn/dusk/night visibility."
+      "mvp_tag": "Predator backup — for when bass/gar/catfish hookups exceed the JigWinner's 4 Lb mono",
+      "technique": {
+        "retrieve_speed": "Drop-to-bottom + hop 2-3 + pause; predators strike on the drop",
+        "rod_action": "Heavy backbone for trophy-class predator landings",
+        "key_principle": "Reserve for explicit predator targeting (bass jigs in deeper pools, gar/catfish night sessions). Don't use as the primary panfish/shad rig — overpowered for the dominant catch class at Neherrin."
       },
-      "issues": [
-        "Red Worms cover Bluegill and Pumpkinseed but are not listed for Black Crappie, White Crappie, or Redear Sunfish at Neherrin",
-        "Hook #6 is good for panfish but too small if a bass or catfish takes the bait",
-        "13'2\" rod is very long but actually useful in a river for managing float drift at distance"
-      ],
-      "improvements": [
-        "Fluoro leader is a good addition for river float fishing",
-        "Red Worms cover Bluegill and Pumpkinseed well  -  for broader coverage, switch to Maggots (covers crappie + panfish) or Bloodworms (covers crappie + Redear Sunfish)",
-        "The long McCarp rod is actually an advantage on the river  -  controls float drift in current from shore",
-        "Deploy on RodPod Trio alongside slot 4 for double passive panfish/sunfish coverage",
-        "Glowing float is excellent for night sessions  -  Flathead Catfish become active after dark"
-      ]
+      "notes": "Maintained from prior visit's loadout. Titanium leader essential for gar/pickerel teeth. Night-session bait swap: Leeches or Large Minnows on this rig for Flathead Catfish (most active after dark)."
     }
   ],
-  "gear": {
-    "screenshot": "IMG_1716.jpg",
-    "hat": "Sport Cap",
-    "glasses": "Glasses Classic",
-    "vest": "Outlander Pro Vest",
-    "tackle_box": "Vault 7",
-    "keepnet": "FishStronghold M Plus Keepnet",
-    "keepnet2": "ChurnChest Lux",
-    "rod_stand": "RodPod Trio Rod Stand",
-    "boat": "Garry Scott Lupus Motor Boat (NOT USABLE  -  no boat fishing at Neherrin River)",
-    "headlamp": "Luminox Headlamp",
-    "notes": [
-      "Lupus Motor Boat is equipped but Neherrin River does NOT allow boat fishing  -  shore fishing only",
-      "Luminox Headlamp  -  essential for night fishing. Flathead Catfish and Longnose Gar are most active after dark",
-      "RodPod Trio  -  deploy in slack water areas for passive panfish while actively casting for bass",
-      "FishStronghold M Plus Keepnet  -  fill with bass and pickerel for maximum income per trip"
-    ]
-  },
-  "groundbait": {
-    "screenshot": "IMG_1724.jpg",
-    "status": "Empty recipes  -  not yet configured",
-    "notes": [
-      "Groundbait could help concentrate Common Carp in slower river sections",
-      "A corn/bread-based groundbait near Woody Enchantment would attract carp to your float rigs",
-      "Not essential for predator fishing  -  bass and catfish respond to lures and live bait"
-    ]
-  },
-  "passive_fishing": {
-    "best_stand_spot": "Great Parking Job or Woody Enchantment",
-    "stand_spot_why": "Both spots have slack water areas near the bank where panfish hold out of the main current. The RodPod Trio can be set up on stable ground with clear sightlines to floats. Woody Enchantment has log structure that concentrates panfish, while Great Parking Job has easier bank access.",
-    "active_fishing_zone": "Cast spinning rods into the main river channel and along current breaks near rocks/logs. Stay within 50 ft of your rod stand. Into the Rocky Blue has the best structure for active bass fishing while still being within range of a stand at the nearby bank.",
-    "strategy": [
-      "Set RodPod Trio at Woody Enchantment  -  slack water behind logs concentrates panfish",
-      "Slot 1 (Fenix + Small Minnows + #4/0): Cast to mid-channel at 5-7 ft for bass and gar  -  your heavy-hitter passive rod",
-      "Slot 4 (OmniFloat + Semolina Balls + #6): Cast to slack water at 3-4 ft for panfish and carp",
-      "Slot 7 (McCarp + Red Worms + #6): Cast to eddy at 4-6 ft for sunfish and panfish",
-      "Actively fish slots 2, 5, 6  -  cast upstream and retrieve with current along structure",
-      "RIVER TIP: Floats drift in current  -  cast upstream of your target zone so the bait drifts into it naturally",
-      "Re-check float positions every 2-3 minutes  -  current will move your float downstream requiring re-casts more often than in lakes",
-      "Night sessions: Switch slot 1 to Leeches/Large Minnows for Flathead Catfish. They feed actively after dark in deep pools.",
-      "Watch for Longnose Gar surfacing  -  they roll at the surface and can be sight-cast with slot 2 or 5"
+  "shopping_list": {
+    "competition_panfish_neherrin_minimal": [
+      "Casting Spoon 1/6 Oz #2 — primary lure (refill before each comp)",
+      "Mono .008\" (4 Lb) refill",
+      "Spawn Sack — alternate bait on same rig"
     ],
-    "income_estimate": [
-      "Passive float rods: Slot 1 catches bass ($152-160/lb), slots 4 & 7 catch panfish ($70-120/lb) + carp ($45/lb)",
-      "Active spinning: Smallmouth Bass ($73/lb, up to 8.2 lb = $592 per trophy!) is the money target",
-      "Largemouth Bass ($69/lb, up to 6.4 lb) is the second-best earner",
-      "Redfin Pickerel ($68/lb) adds solid income from spinning slots",
-      "Estimated passive income: $400-$800/hr from stand rods (bass on slot 1 drive the value)",
-      "Estimated active income: $600-$1,200/hr from spinning bass and pickerel",
-      "Combined: $1,000-$2,000 per in-game hour",
-      "Night bonus: Flathead Catfish (36.4 lb max!) are low $/lb but massive XP from trophy catches"
+    "non_comp_two_pass_coverage": [
+      "Pearl Barley — telescopic match pass-1 bait",
+      "Hooks #12 — for telescopic match pass-1",
+      "Maggots / Worms / Bloodworms — alternate panfish baits (untested at Neherrin 6/10)"
+    ],
+    "predator_backup": [
+      "Worm 3\" soft plastic refills (Slot 4)",
+      "Leeches / Large Minnows — night-session bait swap for Flathead Catfish",
+      "Titanium leader spares"
     ]
   },
-  "overall_analysis": {
-    "fish_coverage": {
-      "Smallmouth Bass": true,
-      "Largemouth Bass": true,
-      "Black Crappie": true,
-      "White Crappie": true,
-      "Bluegill": true,
-      "Pumpkinseed": true,
-      "Redear Sunfish": false,
-      "Redfin Pickerel": true,
-      "American Shad": true,
-      "Golden Shiner": true,
-      "Common Carp": true,
-      "Longnose Gar": true,
-      "Flathead Catfish": false
-    },
-    "missing_setups": [
-      "Redear Sunfish needs Blood, Maggots, Crickets, Wax Worms, or Bloodworms  -  none currently equipped on an appropriate hook. Switch slot 7 to Maggots or Bloodworms to cover this species.",
-      "Flathead Catfish needs Leeches, Large Cutbait, Shiners, Large Minnows, or Crawfish  -  slot 1's Small Minnows can attract them but dedicated heavy bait (Leeches/Crawfish) is better. Consider a night-fishing bait swap."
+  "strategy": {
+    "neherrin_minimal_competition_spinning_casting_only": [
+      "VERIFY ROD-CLASS RULES BEFORE TRAVELING — do not bring a telescopic match (the 6/9 setup-fail mistake)",
+      "Run Slot 1 (JigWinner + Casting Spoon 1/6 Oz #2) as the SOLE comp rig",
+      "Target structured zones FIRST (Into the Rocky Blue, Rubble of Old Times) for trophy/unique pulls",
+      "Then sweep the edge for panfish count",
+      "Stopwatch the recasts at 30 sec per [[feedback_competition_tactics]] light/medium fish target",
+      "Spawn Sack alternate is legal if scoring is fish-count or weight (not lure-only)"
     ],
-    "xp_optimization": [
-      "Catch ALL 13 species for first-catch XP bonuses  -  currently missing Redear Sunfish and Flathead Catfish coverage",
-      "Unique Smallmouth Bass (8.2 lb), Black Crappie, Redear Sunfish, Longnose Gar, and White Crappie give huge first-catch bonuses",
-      "Trophy Longnose Gar (24.3 lb!) and Flathead Catfish (36.4 lb!) give massive XP even at low $/lb",
-      "Fish all 4 spots for location discovery XP  -  Great Parking Job, Into the Rocky Blue, Rubble of Old Times, Woody Enchantment",
-      "Night fishing with headlamp unlocks Flathead Catfish activity  -  huge XP from trophy catches",
-      "Use light tackle (slots 5, 6) for challenge catch XP bonuses on bass"
+    "free_fishing_dual_rod_two_pass_coverage": [
+      "Lap 1: TeleValentine match (#12 / 16\" / pearl barley) along the open river edge — 20-30 panfish per 20-min lap",
+      "Lap 2: JigWinner + Casting Spoon 1/6 Oz #2 at structured zones adjacent to the productive edge spots — +20-30 fish (panfish + bass + shad mix)",
+      "Combined per-circuit yield projected 40-60 fish",
+      "Pearl barley on lap 1 filters bass/shad bycatch (keeps the 2 Lb telescopic line safe); the 4 Lb mono on lap 2 accepts the bycatch by design",
+      "See [[feedback_dual_rod_two_pass_coverage]] for the full tactic memory"
     ],
     "income_optimization": [
-      "Smallmouth Bass at $73/lb (max 8.2 lb) is the top earner  -  up to $592 per trophy! Target with slots 2, 3, 5, 6",
-      "Largemouth Bass at $69/lb (max 6.4 lb)  -  up to $441 per trophy. Same slots cover this.",
-      "Redfin Pickerel at $68/lb  -  solid bonus income from spinning slots",
-      "Black Crappie at $54/lb (max 3.5 lb, unique available)  -  can catch passively on float rigs",
-      "Redear Sunfish at $54/lb (max 4.9 lb, unique!)  -  fix bait coverage to unlock this income stream",
-      "Fill keepnet with bass before selling  -  they're the highest value per fish",
-      "Neherrin River costs $2,800 travel + $500/day  -  bass income easily covers this"
+      "Smallmouth Bass ($73/lb max 8.2 lb = $592 trophy)",
+      "Largemouth Bass ($69/lb max 6.4 lb = $441 trophy)",
+      "Redfin Pickerel ($68/lb)",
+      "White Crappie Unique class on JigWinner spoon — high single-fish value + species-completion bonuses",
+      "Estimated session yield at 6/10 pace: $1,000-$2,000 per in-game hour combined (panfish + bass + shad)"
     ],
-    "priority_changes": [
-      "Switch slot 7 bait from Red Worms to Maggots or Bloodworms  -  unlocks Redear Sunfish ($54/lb, unique available, max 4.9 lb)",
-      "Bring Leeches for night session bait swap on slot 1  -  Flathead Catfish are the biggest fish here (36.4 lb!) and most active at night",
-      "Repair OmniFloat (slot 4)  -  durability at 85% and dropping. Consider buying a backup rod.",
-      "Slots 2 and 5 overlap significantly (both light spoon setups)  -  consider swapping slot 5's Narrow Spoon to a crankbait for variety",
-      "All leaders properly equipped  -  huge improvement from earlier loadouts. No changes needed there."
-    ],
-    "spot_recommendations": {
-      "Into the Rocky Blue": [2, 3, 5],
-      "Woody Enchantment": [1, 4, 7, 6],
-      "Great Parking Job": [4, 7, 6],
-      "Rubble of Old Times": [1, 3, 2]
-    }
+    "missions_to_check": [
+      "Neherrin species-completion (panfish + bass + shad coverage already validated; Redear Sunfish + Flathead Catfish remain open from prior visit)",
+      "Trophy missions: Smallmouth Bass, Black Crappie, Redear Sunfish, Longnose Gar, White Crappie"
+    ]
+  },
+  "critical_warnings": [
+    "ROD-CLASS VERIFICATION — Neherrin minimal comp is SPINNING/CASTING ONLY. The 2026-06-09 setup-fail wasted an hour of pre-scouting because user brought a telescopic match (banned). Read the comp tile rules BEFORE traveling.",
+    "2 LB LINE WILL BREAK on bass/shad bycatch when running the #2 casting spoon. The 4 Lb mono is the right tradeoff — stresses to ~97% on larger pulls but holds with careful play.",
+    "27.5\" RETRIEVE WINDOW — sub-30\" reels are empirically the working band for panfish commit on the #2 spoon at Neherrin. 31.5\" tested same session = too fast.",
+    "REDEAR SUNFISH + GOLDEN SHINER DECLINED the #2 spoon on 2026-06-10. Don't expect these on the MVP rig — they need different bait coverage (Maggots / Bloodworms / smaller lure).",
+    "DRAGONCAST 7'3\" NE IS NOT THE RIG HERE — the panfish density is too small for DragonCast's 5-10 lb bass/trout class to register fast strikes consistently. JigWinner's Light power is correct."
+  ],
+  "overall_analysis": {
+    "loadout_progress": {
+      "current_average_rating": 8.5,
+      "improvement_summary": "Two strategy categories validated at Neherrin: (1) Slot 1 JigWinner + Casting Spoon 1/6 Oz #2 is the standalone MVP for the spinning/casting-only minimal comp format; (2) Slot 1 paired with Slot 2 TeleValentine match enables the dual-rod two-pass coverage tactic for non-comp free fishing. Slot 4 Loki preserved as predator/night backup."
+    },
+    "session_4_21c_journal_baseline": {
+      "headline": "First Neherrin visit — DragonCast + JigHead + Twin Tail Spider Grub universal mid-range rig validated",
+      "result": "Part of 4-location mission tour (Falcon / Neherrin / White Moose / Emerald) at level 51",
+      "mvp_rig_at_time": "DragonCast 7'3\" NE + Basilisk 3500 P + JigHead 1/2 Oz #3/0 + Twin Tail Spider Grub 2\" — bass/trout 5-10 lb class",
+      "key_findings_at_time": [
+        "DragonCast bridges mid-range bass/trout (between NileChasseur Congo monster and JigWinner trout-comp light)",
+        "Same rig worked across 4 locations + 5 species in a single day"
+      ]
+    },
+    "session_6_9_journal_setup_fail": {
+      "headline": "Neherrin minimal competition SETUP-FAIL — telescopic match was BANNED",
+      "result": "Pre-scouted panfish positions with TeleValentine match (telescopic). Comp ruleset was spinning/casting only — telescopic banned. Improvised during comp; couldn't dial in panfish lure setup before time ran out. No placing.",
+      "lesson": "VERIFY THE COMP ROD-CLASS BEFORE PRE-SCOUTING. Marking spots with a banned rod-class is wasted prep — knowledge of fish positions doesn't help if you can't legally fish them with what was scouted. See [[feedback_competition_tactics]] rod-class verification rule added 6/10."
+    },
+    "session_6_10_journal_mvp_discovery": {
+      "headline": "🏆 NEW NEHERRIN MVP + Unique White Crappie 2.635 lb + Trophy White Crappie 1.351 lb",
+      "result": "43 fish / 46.174 lb keepnet at mid-session ($3,510 reward in net). Level-up to 93.",
+      "mvp_rig": "JigWinner 8'10\" SE + InspireCast 3000 SE (27.5\" retrieve) + Mono .008\" (4 Lb, no leader) + Casting Spoon 1/6 Oz #2",
+      "key_findings": [
+        "Casting Spoon 1/6 Oz #2 is the lure size that admits panfish strikes (slop #4 catches bass but skips panfish entirely)",
+        "27.5\" reel retrieve beats 31.5\" — sub-30\" is the working window for panfish commit",
+        "4 Lb mono is the right line tradeoff — accepts bass/shad bycatch that 2 Lb would break on",
+        "Spawn Sack on the same JigWinner chassis produced American Shad — alternate bait validated",
+        "JigWinner reaches rocky/weedy structure the TeleValentine match cannot cover — that's where the Unique + Trophy White Crappie sat",
+        "Golden Shiner + Redear Sunfish DECLINED the #2 spoon — open variable for next session",
+        "Dual-rod two-pass coverage tactic: TeleValentine match lap 1 along edge → JigWinner lap 2 at structure = 40-60 fish per circuit"
+      ],
+      "user_verdict": "Neherrin is COMPETITION-RELEVANT for the spinning/casting-only minimal format. Slot 1 is the standalone comp rig. Free-fishing pace ~40-60 fish per circuit using the two-pass coverage tactic. Don't forget the 6/9 rod-class lesson."
+    },
+    "competition_meta_summary": {
+      "rule": "At Neherrin, the comp constraint determines the rig category — spinning/casting only means Slot 1 is the only legal rig. Pre-scouting with a banned rod-class is wasted prep.",
+      "format_mapping": [
+        "Neherrin minimal (spinning/casting only) → JigWinner + Casting Spoon 1/6 Oz #2 standalone",
+        "Hypothetical quantity-panfish comp (if it allows telescopic) → run dual-rod two-pass coverage tactic"
+      ]
+    },
+    "user_verdict": "Neherrin serves three niches now: (1) standalone spinning/casting-only minimal comp via Slot 1 MVP, (2) non-comp two-pass dual-rod coverage producing 40-60 fish per circuit, (3) trophy/unique White Crappie + bass/shad income from structured zones. The 6/9 setup-fail produced the 6/10 discovery — rod-class verification is now a standing rule."
   }
 }
